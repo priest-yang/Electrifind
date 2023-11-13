@@ -1,0 +1,63 @@
+﻿,Aspect,Definition ,Examples
+1,accessibility+availability,availability and the ease of reaching and utilizing the charging infrastructure for electric vehicles.,"1. Pulled in easily; 
+2. Not accessible to public
+3.Only available for guests staying at the location; Plenty of available charging stalls
+4. station says unavailable""; limited charging options (DC)"
+2,amenities+location,"additional facilities or services provided to enhance the charging experience, such as comfortable seating, restrooms, Wi-Fi access, and refreshments at a designated area ","1. lots of shops around
+2. Access to public bathrooms and snacks; shops, parking lots, restaurants, bathrooms; 1. easy to walk to nearby restaurants; ""1. Conveniently located in parking garage
+2. Inconvenient location, parking garage chaos"""
+3,Compatibility+Connectivity,"the ability of an electric vehicle charger to effectively communicate and deliver the required power to an electric vehicle's battery, taking into account factors such as plug type, charging standards, and communication protocols","1. Prius compatible, fast charge
+2. Tesla model 3 issue; 1. cable doesn't reach; "
+4,charging speed+effIciency,"the rate at which the charger replenishes the battery's energy, measured in kilowatts (kW) or miles of range added per hour effectively","1. Takes about 40 minutes to be fully charged
+2. disappointed with slow charging speed; ""1. Better charging rate than Electrify America
+2. Needs updated to V3 for faster charging"""
+5,reliability+maintenance ,"consistent performance in providing a dependable and uninterrupted charging experience for electric vehicles, enabling convenient and efficient replenishment of their battery energy through regular upkeep of the charging infrastructure ","1. All chargers were working; 
+2. chargers not functioning; 
+3. Operational and functional; 
+4. Malfunctioning charging stations
+5. Well-maintained and convenient charging station
+6. poor maintenance, chargers often down"""
+6,customer service,"the provision of timely and efficient assistance, support, and information to EV owners in order to ensure a seamless and satisfactory charging experience","1. Exceptional service and driver support
+2. Helpful customer support"
+7,ease of use,"the level of convenience, simplicity, and user-friendly experience provided to EV owners when accessing and utilizing the station for charging their vehicles","1. Difficult to initiate, but performed well
+2. Not user-friendly, Simple to use; Poorly designed charging stations; 
+"
+8,payment option,the method or system provided for users to pay for the electricity consumed during the charging process.,"1. Pay station on ground floor doesn't work; 
+2. Debit and credit cards accepted"
+9,price+cost,the monetary cost charged for the provision of electric power to charge an electric vehicle and (sometimes) other services provided (e.g parking fee).,"1. had to pay $20 for overnight charge
+2. charged to 100% in two hours for $20
+3. not worth the cost, inefficient charging
+4. $5/hour starting 30 minutes after charging finishes. "
+10,queue/waiting time,the period of time that a driver must wait in line before they can access an available charging spot for their electric vehicle.,"1. not have to wait
+2. longer waiting times on weekends
+3. long wait times, limited availability
+4. Able to charge without waiting
+5. Charge time increased by 20 minutes"
+11,safety,Safety at an electric vehicle charging station refers to the measures and precautions taken to prevent any potential risks or hazards associated with the charging process and ensure the well-being of individuals and property,"1. Unsafe behavior observed; 
+2. Peace of mind for my Tesla
+3. Secure with a guard and security gate"
+12,user interface of charger/ mobile app,"the graphical or physical means through which users interact and control the charging process, including features such as touch screens, buttons, indicator lights, and mobile applications","1. Easiest interface out of all stations; 
+2. eventually I was able to charge with the touchscreen instead of the app
+3. Confusing and not user-friendly"
+13,Functionality,"Functionality refers to comments
+describing whether particular features or services are working
+properly at a charging station","general functionality, charger, screen,
+power level, connector type, card, reader,
+connection, time, error message, station,
+mobile application, customer service"
+14,Range anxiety,Range anxiety refers to comments regarding EV drivers’ fear of running out of fuel mid-trip and comments concerning tactics to avoid running out of fuel,"trip, range, location accessibility"
+15,Availability,Availability refers to comments concerning whether charging stations are available for use at a given location.,"number of stations available, ICE, general
+congestion"
+16,Cost,Cost refers to comments about the amount of money required to park and/or charge at particular locations,"parking, charging, payment"
+17,User interactions,"User interaction refers to comments in which users are directly interacting with other EV drivers in the
+community","charger etiquette, anticipated time
+available, user tips"
+18,Location,"Location refers to comments about various features
+or amenities specific to a charging station location","general location, directions, staff,
+amenities, points of interest, user activity,
+signage"
+19,Service time,"The Service time topic refers to comments reporting charging rates (e.g., 10 miles of range per hour charged) experienced in a charging session",charging rate
+20,Dealership,"The Dealership topic refers to comments concerning specific
+dealerships and user’s associated charging experiences","dealership charging experience, competing
+brand quality, relationship with dealers"
+21,Other,Reviews that do not fall into the previous eight topics,general experiences
