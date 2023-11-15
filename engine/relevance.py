@@ -147,5 +147,5 @@ def run_relevance_tests(relevance_data_filename: str, ranker) -> dict[str, float
     # NOTE: NDCG can use any scoring range, so no conversion is needed.
   
     # TODO: Compute the average MAP and NDCG across all queries and return the scores
-    return {'map': map, 'ndcg': ndcg}
+    return {'map': map, 'ndcg': ndcg, 'MAP_list': MAP_list, 'NDCG_list': NDCG_list}
 
