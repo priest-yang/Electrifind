@@ -104,6 +104,9 @@ def run_relevance_tests(relevance_data_filename: str, ranker) -> dict[str, float
     """
     # TODO: Load the relevance dataset
     relevance_df = pd.read_csv(relevance_data_filename)
+    relevance_seg = relevance_df[['longitude', 'latitude', 'city', 'state', 'model', 'charging_protocol', 'EV_connector_types', 'cards_accepted']]
+    queries = relevance_seg.apply(lambda x: ','.join(x.dropna().astype(str)), axis=1)
+    relevance_df['query'] = queries
     queries = relevance_df['query'].unique()
     MAP_list = []
     NDCG_list = []
