@@ -3,7 +3,7 @@ import requests
 
 API_URL = "https://developer.nrel.gov/api/alt-fuel-stations/v1.csv"
 API_PARAMS = {'api_key': 'EUe0n9InavfhKtKtmscW1Emd5b3IhaJwOkcHu3MN', 'fuel_type': 'ELEC'}
-RAW_FILE = "./data/NREL_All_Stations_data.csv"
+RAW_FILE = "../data/NREL_All_Stations_data.csv"
 
 def get_data(url, params, save_path):
     r = requests.get(url, params=params)
