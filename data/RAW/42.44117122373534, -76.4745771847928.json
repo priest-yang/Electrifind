@@ -1,0 +1,844 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFgjboK2UngwxDJFl1mRB7EXgov5MgO8hnXNP3lUjr08rAAl9jIPWSdJX4uSmw1GEczErTHiT10XMISIlDNuMGtPhKF-uG83EvS3sfQWiLHHpGJOrH_HjgiWafdQ7NDCh5FRqwKSHR9Ah1lHMF23HUi1OwnSe9z2DtufXC9zvJjFqDj6tdPZvSI3Xf71iqyDleghBTOak-OsAep2nTRRpTzt94pshPCkEd15gw7EDvHRVOu6Rcsficv75ydrmbL-yAx9hTu4oeLG3ul5J3hl2gHhCEh7RD9DQchFQxTKoDHC7tAPV7rgMTGCOmcL42svH2eFY0oVUL6fESwnG5oyhJCRe7LjRcjtAKsxObkefRlWthgiiXi3wKgGUHyQju58tTCV3OWVru3DkNGhHL22JNm44zfCLpFUU-vL29I0XuN1K8fEMmBTTYJnta16rLkEi37s",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4286026,
+                    "lng": -76.509084
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.42995177989272,
+                        "lng": -76.50779362010728
+                    },
+                    "southwest": {
+                        "lat": 42.42725212010728,
+                        "lng": -76.51049327989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109854313784947924476\">Jeffrey Joseph</a>"
+                    ],
+                    "photo_reference": "AWU5eFh-lXKQBp1TqEN34luvCZSrZpGJi2gnpBFy6t5e198gERfUs717QlpX-XmGh1LlkYsBzJWWHMutWG5nZoaFzDAix13OGgZHMPL93ASipYBabYfq7PbMmpEdQUQNX_dMVHQkJL4uoZnGouX1JL_TdGsLWG6lbTmhi6Fm8d-2NnDxWHex",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJSaLbpw6B0IkRIY5oa10GPq0",
+            "plus_code": {
+                "compound_code": "CFHR+C9 Ithaca, New York",
+                "global_code": "87J5CFHR+C9"
+            },
+            "rating": 4.5,
+            "reference": "ChIJSaLbpw6B0IkRIY5oa10GPq0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 31,
+            "vicinity": "740 S Meadow St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4225355,
+                    "lng": -76.5188849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.42389507989272,
+                        "lng": -76.51752282010727
+                    },
+                    "southwest": {
+                        "lat": 42.42119542010727,
+                        "lng": -76.52022247989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Toyota Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJC0aXzBuB0IkR4Ssxsb1xciQ",
+            "plus_code": {
+                "compound_code": "CFFJ+2C Ithaca, New York",
+                "global_code": "87J5CFFJ+2C"
+            },
+            "rating": 0,
+            "reference": "ChIJC0aXzBuB0IkR4Ssxsb1xciQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "370 Elmira Rd, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4500204,
+                    "lng": -76.5074841
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.45151237989271,
+                        "lng": -76.50600897010727
+                    },
+                    "southwest": {
+                        "lat": 42.44881272010727,
+                        "lng": -76.50870862989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ4yo-YX6B0IkRK3ERl50Meak",
+            "plus_code": {
+                "compound_code": "FF2V+54 Ithaca, New York",
+                "global_code": "87J5FF2V+54"
+            },
+            "rating": 0,
+            "reference": "ChIJ4yo-YX6B0IkRK3ERl50Meak",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "525 3rd St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.44059,
+                    "lng": -76.4962094
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44192392989271,
+                        "lng": -76.49490392010726
+                    },
+                    "southwest": {
+                        "lat": 42.43922427010727,
+                        "lng": -76.49760357989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ7SKNXJuB0IkRraSzSuCdQMM",
+            "plus_code": {
+                "compound_code": "CGR3+7G Ithaca, New York",
+                "global_code": "87J5CGR3+7G"
+            },
+            "rating": 2.8,
+            "reference": "ChIJ7SKNXJuB0IkRraSzSuCdQMM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "202 NY-79, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.484493,
+                    "lng": -76.482096
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48591307989273,
+                        "lng": -76.48074937010728
+                    },
+                    "southwest": {
+                        "lat": 42.48321342010728,
+                        "lng": -76.48344902989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJwU7sYF6C0IkRIR0nF77VEN0",
+            "plus_code": {
+                "compound_code": "FGM9+Q5 Ithaca, New York",
+                "global_code": "87J5FGM9+Q5"
+            },
+            "rating": 0,
+            "reference": "ChIJwU7sYF6C0IkRIR0nF77VEN0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "100 Graham Rd, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.450504,
+                    "lng": -76.503204
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.45189027989272,
+                        "lng": -76.50189372010728
+                    },
+                    "southwest": {
+                        "lat": 42.44919062010728,
+                        "lng": -76.50459337989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJpyRIjn-B0IkRjCNDbVJW-xY",
+            "plus_code": {
+                "compound_code": "FF2W+6P Ithaca, New York",
+                "global_code": "87J5FF2W+6P"
+            },
+            "rating": 0,
+            "reference": "ChIJpyRIjn-B0IkRjCNDbVJW-xY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "615 Willow Ave, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4482071,
+                    "lng": -76.5035856
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44962572989272,
+                        "lng": -76.50223782010727
+                    },
+                    "southwest": {
+                        "lat": 42.44692607010728,
+                        "lng": -76.50493747989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJwf9EQ3-B0IkRIEEc8BjD0BQ",
+            "plus_code": {
+                "compound_code": "CFXW+7H Ithaca, New York",
+                "global_code": "87J5CFXW+7H"
+            },
+            "rating": 0,
+            "reference": "ChIJwf9EQ3-B0IkRIEEc8BjD0BQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "423 1st St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4390612,
+                    "lng": -76.5100879
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44038132989272,
+                        "lng": -76.50870952010729
+                    },
+                    "southwest": {
+                        "lat": 42.43768167010728,
+                        "lng": -76.51140917989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJKVIcZnGB0IkRSmAG-YVs-hE",
+            "plus_code": {
+                "compound_code": "CFQQ+JX Ithaca, New York",
+                "global_code": "87J5CFQQ+JX"
+            },
+            "rating": 0,
+            "reference": "ChIJKVIcZnGB0IkRSmAG-YVs-hE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "671-699 W State St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.43715419999999,
+                    "lng": -76.4987542
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.43851522989272,
+                        "lng": -76.49748332010728
+                    },
+                    "southwest": {
+                        "lat": 42.43581557010727,
+                        "lng": -76.50018297989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ37WNJpyB0IkR94l-t5Y-8LQ",
+            "plus_code": {
+                "compound_code": "CGP2+VF Ithaca, New York",
+                "global_code": "87J5CGP2+VF"
+            },
+            "rating": 1,
+            "reference": "ChIJ37WNJpyB0IkR94l-t5Y-8LQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "235 S Cayuga St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.411718,
+                    "lng": -76.5008374
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.41304812989272,
+                        "lng": -76.49947932010727
+                    },
+                    "southwest": {
+                        "lat": 42.41034847010727,
+                        "lng": -76.50217897989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJSfj1E1WA0IkRp4deu1I4jcE",
+            "plus_code": {
+                "compound_code": "CF6X+MM Ithaca, New York",
+                "global_code": "87J5CF6X+MM"
+            },
+            "rating": 4,
+            "reference": "ChIJSfj1E1WA0IkRp4deu1I4jcE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "College Cir, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.468963,
+                    "lng": -76.5384569
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47027932989273,
+                        "lng": -76.53709482010728
+                    },
+                    "southwest": {
+                        "lat": 42.46757967010728,
+                        "lng": -76.53979447989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJuTeXyPGD0IkRBO3873bwOVI",
+            "plus_code": {
+                "compound_code": "FF96+HJ Ithaca, New York",
+                "global_code": "87J5FF96+HJ"
+            },
+            "rating": 0,
+            "reference": "ChIJuTeXyPGD0IkRBO3873bwOVI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "101 Dates Dr, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4421338,
+                    "lng": -76.4861166
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44349747989272,
+                        "lng": -76.48476752010727
+                    },
+                    "southwest": {
+                        "lat": 42.44079782010727,
+                        "lng": -76.48746717989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJp46mb46B0IkR3h1Dnp_Czko",
+            "plus_code": {
+                "compound_code": "CGR7+VH Ithaca, New York",
+                "global_code": "87J5CGR7+VH"
+            },
+            "rating": 5,
+            "reference": "ChIJp46mb46B0IkR3h1Dnp_Czko",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "118 Dryden Rd, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5446487,
+                    "lng": -76.5964451
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.54603917989272,
+                        "lng": -76.59507592010728
+                    },
+                    "southwest": {
+                        "lat": 42.54333952010728,
+                        "lng": -76.59777557989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114007957951374174390\">Rita Straubhaar</a>"
+                    ],
+                    "photo_reference": "AWU5eFhxeMwTWvXTrvZugnS3C_s398mq3eyKgCL4wDZjtGV7-wo6tfLfsYGE7blAOMlgLj-8tB1rOQFpYMbb5n-pkyKQKHqMyOuGhmduoSJttGbn3wJxe2MuBc3_495PmHiBgxLjOm0jSu8X02BN5M2yzWTWSzxLa6l9siIdn0x7He0TAOy-",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJG3zl59Wa0IkReXR6QuUNOMY",
+            "plus_code": {
+                "compound_code": "GCV3+VC Trumansburg, New York",
+                "global_code": "87J5GCV3+VC"
+            },
+            "rating": 5,
+            "reference": "ChIJG3zl59Wa0IkReXR6QuUNOMY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Taughannock State Park Access Rd, Trumansburg"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4499685,
+                    "lng": -76.5040899
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.45132352989272,
+                        "lng": -76.50281322010727
+                    },
+                    "southwest": {
+                        "lat": 42.44862387010728,
+                        "lng": -76.50551287989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112252427418060054239\">Jeremy Voelker</a>"
+                    ],
+                    "photo_reference": "AWU5eFjbbJxYljJI7mPx-gxwBJ1yl_d1_CCQ02jNgZP0TFul7TR8MqQDX65wLXUxNjU8DOoZ-HoNw_gvLSRseMdRhwY4ORtxpq66SB3TVG9ws2l-YMDDfkjVenD5P-ry2RRN32NfewQM6vlmiFieVmeK85Lqe0l0cAc8IBQNhsOw6WeMs3Ei",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJPYAzoH-B0IkRe1_uNxa-BqA",
+            "plus_code": {
+                "compound_code": "CFXW+X9 Ithaca, New York",
+                "global_code": "87J5CFXW+X9"
+            },
+            "rating": 0,
+            "reference": "ChIJPYAzoH-B0IkRe1_uNxa-BqA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "601 1st St, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.486806,
+                    "lng": -76.470601
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48813337989273,
+                        "lng": -76.46926357010727
+                    },
+                    "southwest": {
+                        "lat": 42.48543372010728,
+                        "lng": -76.47196322989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJAZkrgGKC0IkRjoMF_yj8CxY",
+            "plus_code": {
+                "compound_code": "FGPH+PQ Ithaca, New York",
+                "global_code": "87J5FGPH+PQ"
+            },
+            "rating": 3,
+            "reference": "ChIJAZkrgGKC0IkRjoMF_yj8CxY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "700 Warren Rd, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3944097,
+                    "lng": -76.35052069999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.39575977989272,
+                        "lng": -76.34920682010727
+                    },
+                    "southwest": {
+                        "lat": 42.39306012010728,
+                        "lng": -76.35190647989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110731094150997788726\">Leo Macdonald</a>"
+                    ],
+                    "photo_reference": "AWU5eFjG9nDjRWUEsrsWbwyZ-Vg3spgY3oXn3s48XKjrcOV-CAr4ig0RG8L81Fhs8EtHwdI9XV7gGcnwJfPQ6zsV6N3tWRLwihXW_NahKKqvqgX_b2SuDPb64HDLwnuvh2vitGRljwOILUbQvrV28gR_pPQcn8VyQu1uXP0WriW7qA4uOWdV",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJfSrTPs192okR6PxM_82qDOw",
+            "plus_code": {
+                "compound_code": "9JVX+QQ Slaterville Springs, New York",
+                "global_code": "87J59JVX+QQ"
+            },
+            "rating": 5,
+            "reference": "ChIJfSrTPs192okR6PxM_82qDOw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "21-23 Midline Rd, Slaterville Springs"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.420935,
+                    "lng": -76.5000838
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.42232372989272,
+                        "lng": -76.49877652010727
+                    },
+                    "southwest": {
+                        "lat": 42.41962407010728,
+                        "lng": -76.50147617989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJT-2wUKiB0IkRZiAb2Cdoxpo",
+            "plus_code": {
+                "compound_code": "CFCX+9X Ithaca, New York",
+                "global_code": "87J5CFCX+9X"
+            },
+            "rating": 4,
+            "reference": "ChIJT-2wUKiB0IkRZiAb2Cdoxpo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Conservatory Dr, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.489488,
+                    "lng": -76.29818900000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.49079597989272,
+                        "lng": -76.29683792010728
+                    },
+                    "southwest": {
+                        "lat": 42.48809632010728,
+                        "lng": -76.29953757989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJBwB_0-p62okR2c7kTHnYTUw",
+            "plus_code": {
+                "compound_code": "FPQ2+QP Dryden, New York",
+                "global_code": "87J5FPQ2+QP"
+            },
+            "rating": 3,
+            "reference": "ChIJBwB_0-p62okR2c7kTHnYTUw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "16 South St, Dryden"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.47561049999999,
+                    "lng": -76.4642408
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47700102989272,
+                        "lng": -76.46290202010728
+                    },
+                    "southwest": {
+                        "lat": 42.47430137010728,
+                        "lng": -76.46560167989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVConnect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJqcoDkHCC0IkRKGjhwJekAIs",
+            "plus_code": {
+                "compound_code": "FGGP+87 Ithaca, New York",
+                "global_code": "87J5FGGP+87"
+            },
+            "rating": 0,
+            "reference": "ChIJqcoDkHCC0IkRKGjhwJekAIs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "555 Warren Rd, Ithaca"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.516215,
+                    "lng": -76.58711760000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51755272989272,
+                        "lng": -76.58570692010728
+                    },
+                    "southwest": {
+                        "lat": 42.51485307010727,
+                        "lng": -76.58840657989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Livingston Charge Port Charging Station",
+            "place_id": "ChIJ84SBkuaE0IkRiKmLVDCo5z0",
+            "plus_code": {
+                "compound_code": "GC87+F5 Ithaca, New York",
+                "global_code": "87J5GC87+F5"
+            },
+            "rating": 0,
+            "reference": "ChIJ84SBkuaE0IkRiKmLVDCo5z0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2271 Kraft Rd, Ithaca"
+        }
+    ],
+    "status": "OK"
+}

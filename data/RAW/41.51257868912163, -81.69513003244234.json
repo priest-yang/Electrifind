@@ -1,0 +1,917 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFijIigOb-i0Q-Z6w9qXeD7Udr-1Ntr0F_kft3y9ZKPlUUirUKUS_dIknmi3v-z6jBWY7KbJrMhteTCI7WuCL8cnZjyaurb0OQm2M8rhCGsYlRjxiytIYktalGZe-mzbN0LBchcS6bmpvENPIC0sCtAn5DoljyZ-UxzAP4AJR_Q-iQTK6-LWH74fs0SBRDIHhc5pxA8uepqxRjKVrCh8tvBL5XZgfvtzCnRW-CtQADDgmjiiAEzKfjQtlxdp91IR3Cfl9-M4ZidjkHM2jFXBG2GvRSC1QHrgF_LC0GppxZONX0bUhjQSNSllb4jrsCuTGk2gi8cyMIg5gcG5qZ-buhgvz3ZbxvePK3T7FWY3RKTLnfW3sGg3mMXlaMgq78uPDQ7w7Mw17VlqMexKSBdAxulrSNk4y6w2i6bRObi425kR5VlQ_TvCgv7NaEeMlnndxn47",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.5049953,
+                    "lng": -81.6334212
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50634457989272,
+                        "lng": -81.63200547010727
+                    },
+                    "southwest": {
+                        "lat": 41.50364492010728,
+                        "lng": -81.63470512989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106262819776068000952\">sabrina harvey</a>"
+                    ],
+                    "photo_reference": "AWU5eFiBEyrGfK99MT8gDdO-M99zcBPPlfYUmJMQ9Q3_sx7y_-Zo2aV9QhVjsBsfW3Xl1bPMXdwfX0nh0mqVswZrS5x3WlFJ3am-wiak4VxMR07BOQ56i69uhPc0kPE2N1bYNx7gFi0XzFzenNckaX01ecbr1pXHs0Mho329Q52mhTi4xm2i",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJ4bh42aT7MIgRShFM6rnG0kk",
+            "plus_code": {
+                "compound_code": "G938+XJ Cleveland, Ohio",
+                "global_code": "86HWG938+XJ"
+            },
+            "rating": 5,
+            "reference": "ChIJ4bh42aT7MIgRShFM6rnG0kk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "7949 Euclid Ave, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.470584,
+                    "lng": -81.7994792
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.47191092989272,
+                        "lng": -81.79820017010726
+                    },
+                    "southwest": {
+                        "lat": 41.46921127010728,
+                        "lng": -81.80089982989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100820242712719903421\">Ben Swanson</a>"
+                    ],
+                    "photo_reference": "AWU5eFhqC-9iHNt3PY5duJE0HlJPHWuOACvTQlkc2WREDRWyLmQeCBBW2D-uqWHzMfmn7VGs5i1snEKM4XWHVS84sPggYxHF-rlR376BOwFL4-ZcvRnGaGBrIhZb9J1aLWC_hnoOOxmgcbe6tnJir9tJ-bk2wXwPKdxzK_qxtfElTxdDXhrI",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJNYrP3Q7zMIgR0-0D717j1Cw",
+            "plus_code": {
+                "compound_code": "F6C2+66 Lakewood, Ohio",
+                "global_code": "86HWF6C2+66"
+            },
+            "rating": 3.6,
+            "reference": "ChIJNYrP3Q7zMIgR0-0D717j1Cw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11,
+            "vicinity": "14740 Lakewood Heights Blvd, Lakewood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4226747,
+                    "lng": -81.75834669999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.42400272989273,
+                        "lng": -81.75706302010727
+                    },
+                    "southwest": {
+                        "lat": 41.42130307010728,
+                        "lng": -81.75976267989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106368018585293900901\">Hope Marsh</a>"
+                    ],
+                    "photo_reference": "AWU5eFgo-8mtEMGVuoBTX71JDZJDiwKVzK7Z-_nGNpwfpiTn1cJl1_udxMOkcl5OSrhzIGEp3gCh63kj9xJEOuQPsJX6UeukVnZHqPz-tFf9tWABi1y4_uFPEYey809z4cSnopx0b3eOVwpnF9fR6DX26Bnb4MXqBzNejOY8HHD-ABBLRyib",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJe_KIDsbvMIgRhOjVxzHcEDc",
+            "plus_code": {
+                "compound_code": "C6FR+3M Brooklyn, Ohio",
+                "global_code": "86HWC6FR+3M"
+            },
+            "rating": 4.1,
+            "reference": "ChIJe_KIDsbvMIgRhOjVxzHcEDc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 43,
+            "vicinity": "10315 Cascade Crossing, Brooklyn"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4659316,
+                    "lng": -81.5386946
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.46731502989272,
+                        "lng": -81.53730032010728
+                    },
+                    "southwest": {
+                        "lat": 41.46461537010728,
+                        "lng": -81.53999997989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJWaFjbj_9MIgRxHS2u8567Hg",
+            "plus_code": {
+                "compound_code": "FF86+9G Shaker Heights, Ohio",
+                "global_code": "86HWFF86+9G"
+            },
+            "rating": 0,
+            "reference": "ChIJWaFjbj_9MIgRxHS2u8567Hg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "20040-20200 Van Aken Blvd, Shaker Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.488919,
+                    "lng": -81.710955
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.49030442989272,
+                        "lng": -81.70962657010728
+                    },
+                    "southwest": {
+                        "lat": 41.48760477010728,
+                        "lng": -81.71232622989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 768,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110277448393548806130\">EVgo Car Charging Station</a>"
+                    ],
+                    "photo_reference": "AWU5eFhAeG-jqyhGrn1HyuMF7F-O4a5PQcp8JmzPCEUwMhjHvHUIfufKYmhxfmY-Zh1pWq7X0gWvJSaOOprBXsgYp9K5ulJoTVqO2BPhljdJs_Frx08ECv-GZGQnMnl9JCiP_w8PAeCK2384vHSflz0A7H7YgVAgQpGvFi8ryPWGc-Aqt-BU",
+                    "width": 1024
+                }
+            ],
+            "place_id": "ChIJjzsfrGnwMIgRZtlPu1jLnpE",
+            "plus_code": {
+                "compound_code": "F7QQ+HJ Cleveland, Ohio",
+                "global_code": "86HWF7QQ+HJ"
+            },
+            "rating": 1.9,
+            "reference": "ChIJjzsfrGnwMIgRZtlPu1jLnpE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "Contemporary Art Space, 1460 W 29th St, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.5043415,
+                    "lng": -81.63246869999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50569072989272,
+                        "lng": -81.63110132010728
+                    },
+                    "southwest": {
+                        "lat": 41.50299107010728,
+                        "lng": -81.63380097989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107485367846135990036\">Alex Bennett</a>"
+                    ],
+                    "photo_reference": "AWU5eFhtQ7uUtbKoAcF1rlcoUZm4U3MXwnkpWzr9p7rvdHsWovaQ9F66i-5DiS18_2hw0-y1ZXZjF1GwM_K8Q329dzAcdqOg2UaGENOuzMmFcts_czPWRxee1VCJBmYABMYKS1V8aHm0DMVQrn8TfmTejTO9k7Az8LBqTEjQI6mHm7z95Q0o",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJAZw00S_7MIgR8Jh3jLiMpkY",
+            "plus_code": {
+                "compound_code": "G939+P2 Cleveland, Ohio",
+                "global_code": "86HWG939+P2"
+            },
+            "rating": 2.5,
+            "reference": "ChIJAZw00S_7MIgR8Jh3jLiMpkY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 31,
+            "vicinity": "Euclid Ave #8037, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.418728,
+                    "lng": -81.51523
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.42007702989272,
+                        "lng": -81.51395802010728
+                    },
+                    "southwest": {
+                        "lat": 41.41737737010727,
+                        "lng": -81.51665767989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110154888162609977063\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjwCXUEDN4fv6tJAO4QHmr7gY64Nz5p9QOEbXgx6FrhtVYnso9TWFFmqvisNCAIKl_lPSbMYFKwzg7aZ7LpP7E5JpSZKUiJlJcH14m0G24dlqGwcHA-5C_4K8HwL2-l0ZTkIb53zpXPGVpgdQSRtOcPF9arSscDl7jPtyymYH1a6Gef",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJwTF4o2IdMYgR4_AQWhRpHnA",
+            "plus_code": {
+                "compound_code": "CF9M+FW Bedford Heights, Ohio",
+                "global_code": "86HWCF9M+FW"
+            },
+            "rating": 3.7,
+            "reference": "ChIJwTF4o2IdMYgR4_AQWhRpHnA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "23105 Aurora Rd, Bedford Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.5074842,
+                    "lng": -81.6926932
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50880382989273,
+                        "lng": -81.69143297010727
+                    },
+                    "southwest": {
+                        "lat": 41.50610417010728,
+                        "lng": -81.69413262989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJI4vuXoLwMIgRKC-OvOWHBXk",
+            "plus_code": {
+                "compound_code": "G854+2W Cleveland, Ohio",
+                "global_code": "86HWG854+2W"
+            },
+            "rating": 0,
+            "reference": "ChIJI4vuXoLwMIgRKC-OvOWHBXk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1111 E 9th St, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4607709,
+                    "lng": -81.69626
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.46209032989272,
+                        "lng": -81.69492172010727
+                    },
+                    "southwest": {
+                        "lat": 41.45939067010728,
+                        "lng": -81.69762137989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1816,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103052881748479549767\">Malik Flowers</a>"
+                    ],
+                    "photo_reference": "AWU5eFiSxMMtZ710ocwPfGkAzDUX0t9BXT5ZtyAk7QLtuDRcjuKl15I3wT6VwE_ov59ggCAUYziTdizvijHdlZLRZ1VjcvkJXUFPlskaCEtMIOHdMESOhuNPY5-d7mcqLDKrfmrKmSKwOdWlWnqp-nDvo1Ft7HFcUbBE1KE8_NlMdGhfDqrB",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJueMYAv7vMIgRMTjNnE-Y3p0",
+            "plus_code": {
+                "compound_code": "F863+8F Cleveland, Ohio",
+                "global_code": "86HWF863+8F"
+            },
+            "rating": 3.5,
+            "reference": "ChIJueMYAv7vMIgRMTjNnE-Y3p0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "1700 Southpoint Dr, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.489883,
+                    "lng": -81.71026499999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.49123827989272,
+                        "lng": -81.70889142010728
+                    },
+                    "southwest": {
+                        "lat": 41.48853862010728,
+                        "lng": -81.71159107989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJFZLC92jwMIgRKy30LiD-4qU",
+            "plus_code": {
+                "compound_code": "F7QQ+XV Cleveland, Ohio",
+                "global_code": "86HWF7QQ+XV"
+            },
+            "rating": 0,
+            "reference": "ChIJFZLC92jwMIgRKy30LiD-4qU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1436 church and stateway, Cleveland, , 44113 US, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.391737,
+                    "lng": -81.5349619
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.39305407989273,
+                        "lng": -81.53364487010727
+                    },
+                    "southwest": {
+                        "lat": 41.39035442010728,
+                        "lng": -81.53634452989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJmTPW_2riMIgRl3-e5fLzLJw",
+            "plus_code": {
+                "compound_code": "9FR8+M2 Bedford, Ohio",
+                "global_code": "86HW9FR8+M2"
+            },
+            "rating": 0,
+            "reference": "ChIJmTPW_2riMIgRl3-e5fLzLJw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "695 Broadway Ave, Bedford"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.5046663,
+                    "lng": -81.64862719999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50601982989272,
+                        "lng": -81.64724222010727
+                    },
+                    "southwest": {
+                        "lat": 41.50332017010728,
+                        "lng": -81.64994187989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110804207999771024734\">David Brown</a>"
+                    ],
+                    "photo_reference": "AWU5eFiEnXQ2kZaSYd4ayQ1N54GqVDGkuvuxebXRkWG-oF9HrK-xgw-KntH8OhbDslNKqyUHiczG0x4Mxd6BQ-t1AdutZUgcLAga_c_fon8KniaXtzQteL3IJLsiEDLoWCkKqMJK-oBprwlqBc4SU0fA3L8VJ9oCjqt3ih_rSabzE5wDYebG",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJj_7F3lL6MIgRbkJMsoZlOPg",
+            "plus_code": {
+                "compound_code": "G932+WG Cleveland, Ohio",
+                "global_code": "86HWG932+WG"
+            },
+            "rating": 0,
+            "reference": "ChIJj_7F3lL6MIgRbkJMsoZlOPg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "6001 Euclid Ave, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.502477,
+                    "lng": -81.6898449
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50378922989272,
+                        "lng": -81.68846122010727
+                    },
+                    "southwest": {
+                        "lat": 41.50108957010728,
+                        "lng": -81.69116087989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109718612507492475929\">Rachel Baird</a>"
+                    ],
+                    "photo_reference": "AWU5eFjL6CYdQs3bVWXzrE3wbNs7u6EN1dUWeLL3_rGOZ6GpzEz9hzQjIaLNa2dWXLgLQ9KrTv_vJPFMdqnHbQ0AYMjwIUZHOGzK6wgO018YroKZQ_cOFnnvyYGHzfd0vIuVw_Loqw5aYWqzEkcz6dKZYBHNySuoTDJL5ALVHqIr0Me-9wXl",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ3Q3toX_6MIgRbb35Z7Z263Y",
+            "plus_code": {
+                "compound_code": "G826+W4 Cleveland, Ohio",
+                "global_code": "86HWG826+W4"
+            },
+            "rating": 1,
+            "reference": "ChIJ3Q3toX_6MIgRbb35Z7Z263Y",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "3 Rockwell Ave, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.458055,
+                    "lng": -81.69945299999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.45933822989272,
+                        "lng": -81.69810632010729
+                    },
+                    "southwest": {
+                        "lat": 41.45663857010728,
+                        "lng": -81.70080597989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJNXZq-PzvMIgRJLrC6f3zxp4",
+            "plus_code": {
+                "compound_code": "F852+66 Cleveland, Ohio",
+                "global_code": "86HWF852+66"
+            },
+            "rating": 0,
+            "reference": "ChIJNXZq-PzvMIgRJLrC6f3zxp4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3525 Scranton Rd, Cleveland"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.403107,
+                    "lng": -81.55094
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.40446667989272,
+                        "lng": -81.54959562010728
+                    },
+                    "southwest": {
+                        "lat": 41.40176702010728,
+                        "lng": -81.55229527989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJgQnw-FDiMIgRh1QQBLWqbhk",
+            "plus_code": {
+                "compound_code": "CC3X+6J Bedford, Ohio",
+                "global_code": "86HWCC3X+6J"
+            },
+            "rating": 0,
+            "reference": "ChIJgQnw-FDiMIgRh1QQBLWqbhk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "18123 Rockside Rd, Bedford"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.476678,
+                    "lng": -81.780047
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.47802692989273,
+                        "lng": -81.77862802010728
+                    },
+                    "southwest": {
+                        "lat": 41.47532727010728,
+                        "lng": -81.78132767989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104973859480095673233\">Neal Lehman</a>"
+                    ],
+                    "photo_reference": "AWU5eFha1VdLD_GYtpeEB2zFYtRaCxg-OdRkXOBVD-3FXUM34xLfIWBLQUF1M1FaQ1k8V7yRUtjP6WrYMiLwS7vrYcP6Xbq30I9XRmzgqFyRekDr25dZAi0jB2VK8Uci51xecULTrJ_aqr7uDY7-KCveVdoVQ_v0O_pUEAW0yXmmzs7faw_v",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJpVN5tQLyMIgR7eq8oOq9ycU",
+            "plus_code": {
+                "compound_code": "F6G9+MX Lakewood, Ohio",
+                "global_code": "86HWF6G9+MX"
+            },
+            "rating": 0,
+            "reference": "ChIJpVN5tQLyMIgR7eq8oOq9ycU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "13028 Madison Ave, Lakewood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.493694,
+                    "lng": -81.79863999999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.49500477989272,
+                        "lng": -81.79735282010728
+                    },
+                    "southwest": {
+                        "lat": 41.49230512010728,
+                        "lng": -81.80005247989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJQ4dkxTjyMIgRnRufHP6tgZk",
+            "plus_code": {
+                "compound_code": "F6V2+FG Lakewood, Ohio",
+                "global_code": "86HWF6V2+FG"
+            },
+            "rating": 0,
+            "reference": "ChIJQ4dkxTjyMIgRnRufHP6tgZk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "14710 Lake Ave, Lakewood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.480732,
+                    "lng": -81.82844
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.48205707989272,
+                        "lng": -81.82704557010727
+                    },
+                    "southwest": {
+                        "lat": 41.47935742010728,
+                        "lng": -81.82974522989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJhd34UI_yMIgRYKLB440hQrY",
+            "plus_code": {
+                "compound_code": "F5JC+7J Lakewood, Ohio",
+                "global_code": "86HWF5JC+7J"
+            },
+            "rating": 0,
+            "reference": "ChIJhd34UI_yMIgRYKLB440hQrY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "18875 Detroit Extension, Lakewood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.440444,
+                    "lng": -81.525671
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.44179152989272,
+                        "lng": -81.52425457010727
+                    },
+                    "southwest": {
+                        "lat": 41.43909187010728,
+                        "lng": -81.52695422989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJvaQpya_iMIgREDCAaNgupAQ",
+            "plus_code": {
+                "compound_code": "CFRF+5P Warrensville Heights, Ohio",
+                "global_code": "86HWCFRF+5P"
+            },
+            "rating": 0,
+            "reference": "ChIJvaQpya_iMIgREDCAaNgupAQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4415 Northfield Rd, Warrensville Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4794553,
+                    "lng": -81.69467089999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.48080077989272,
+                        "lng": -81.69328072010727
+                    },
+                    "southwest": {
+                        "lat": 41.47810112010728,
+                        "lng": -81.69598037989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107958439356207601322\">Alex Salimian</a>"
+                    ],
+                    "photo_reference": "AWU5eFh3yBBJmIS8jQFlD9JPsSaYfR4E2DmEwE2fNIdBhB8uKZx3DiorfUw8TC5MHP-c9byVZsyR3nwb66oCI-eGjY3xuyxEQacpAlDJwxCAmfmGBclkpvTa73hcrADzPPxUdKn1_h430pCFnfsIJbIXpT_F817iFO8wIgOKZZXCF1zjz0fB",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJnwQMPQvwMIgRkQxDUb7ZRoc",
+            "plus_code": {
+                "compound_code": "F8H4+Q4 Cleveland, Ohio",
+                "global_code": "86HWF8H4+Q4"
+            },
+            "rating": 5,
+            "reference": "ChIJnwQMPQvwMIgRkQxDUb7ZRoc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "2410 Scranton Rd, Cleveland"
+        }
+    ],
+    "status": "OK"
+}

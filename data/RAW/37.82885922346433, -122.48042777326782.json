@@ -1,0 +1,901 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFhl_saNPMuWgJ-5emIMLKjquXGQjTnsO7lEoGzzn2YLKBOGfhMDFGNxif_pZBT3SRJhlXrGXFbhIOslKcvGRNViC-EoLE_VhDLdnS9SK31UAlxAuACB2TaDoFKOHonrIFaikS4kVasOFOYNwpo2MiD4ghHB1j8E5Bw_lvGlyjBomCO_1Fw96CE_mZtnKUSmqprlg2cciyNLCoDu0FKIM_XjHTZVMYIEvjhMZGp1JXYQIt8j3bLuT5RHyQi9j4TEhnXx7Fv-uOFiUm9Y_8CVBXLrQ6Q7WYp3qMESL9Crf4LPclo1mZfdF7dmCsw9uVaiumQOrsjz9EMfzJYlslCD-r5r9p9O2NXmwjAbcSl5iLLgo5FmIjBSO90VOEdRxDFFfoe2G_iph6udHFvVqDra6cWxDd_blCclzwyChMlUmBc14_w-4JOHvyddOJ12f3Yaud3X",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7978001,
+                    "lng": -122.4017356
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79915377989273,
+                        "lng": -122.4003480201073
+                    },
+                    "southwest": {
+                        "lat": 37.79645412010728,
+                        "lng": -122.4030476798928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113444719773951077599\">sunnylca</a>"
+                    ],
+                    "photo_reference": "AWU5eFjWlytHUAzlSnRTwPQo6ayFKaWzBGpOOa76pyKAqej6GYjQ53JfTmjpqWpVKdhSifG3uGo_6bjpzBJwnQBIx29cBxssdUJAYUcsbqtKN4cPxARJLGGYfEbaPxRCMkDYtuBhS0sz30Z6JkUg_7xCtBmNRQ1TzDxdmf7Azfor5LDWEeHp",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJcXspXvWAhYARTv9DnS5BkUQ",
+            "plus_code": {
+                "compound_code": "QHXX+48 North Beach, San Francisco, CA",
+                "global_code": "849VQHXX+48"
+            },
+            "rating": 3.8,
+            "reference": "ChIJcXspXvWAhYARTv9DnS5BkUQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "350 Pacific Ave, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7837268,
+                    "lng": -122.431273
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78506957989271,
+                        "lng": -122.4299697201073
+                    },
+                    "southwest": {
+                        "lat": 37.78236992010727,
+                        "lng": -122.4326693798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 7789,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115090276411936715629\">Luke Haruki</a>"
+                    ],
+                    "photo_reference": "AWU5eFiR3XI6FDLsk-qrTecejegnVIz6e9u4dtmDs4O9E9m0CZR_3Gj3dWQVw5-I7cdDxw3uKTLcBbSOPDxisu6nVqkDnvecSYWGQwuxjOFP67LFaKipRZmgV6u6mwknt2tOow73DcZJ3huFNUu9yAIdbDVcroAh_k7mOx1LPs9pYIi0NYZD",
+                    "width": 11684
+                }
+            ],
+            "place_id": "ChIJjzsparmAhYAR-FS92QoPf3k",
+            "plus_code": {
+                "compound_code": "QHM9+FF Japantown, San Francisco, CA",
+                "global_code": "849VQHM9+FF"
+            },
+            "rating": 1.9,
+            "reference": "ChIJjzsparmAhYAR-FS92QoPf3k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 22,
+            "vicinity": "1335 Webster St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7819972,
+                    "lng": -122.447183
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78309287989272,
+                        "lng": -122.4443528
+                    },
+                    "southwest": {
+                        "lat": 37.78039322010728,
+                        "lng": -122.4481264
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116580165808340893978\">boby gurung</a>"
+                    ],
+                    "photo_reference": "AWU5eFjoxFolx7sBeeRYsL1uMNFEzGulI2nZtCGfSpDR7ZSER3DSsYARDhXYiL9bNt2dbE8YCXW2VKowH5IcSfUomUkfJXRNfiOow9JErICFvKkPV7ug8YYNEK6tI4OdsZDCk3nOnokFXpZ7VSuhuGo9PcCJo6dv7W3fxYSEnmjQgROZkkQK",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJB6_qcfaHhYARQOC18ryiA1E",
+            "plus_code": {
+                "compound_code": "QHJ3+Q4 Anza Vista, San Francisco, CA",
+                "global_code": "849VQHJ3+Q4"
+            },
+            "rating": 3.5,
+            "reference": "ChIJB6_qcfaHhYARQOC18ryiA1E",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 40,
+            "vicinity": "2675 Geary Blvd, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.80499200000001,
+                    "lng": -122.4172515
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.80629807989272,
+                        "lng": -122.4158841201073
+                    },
+                    "southwest": {
+                        "lat": 37.80359842010728,
+                        "lng": -122.4185837798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 902,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114693174121659537646\">Mary Rrose</a>"
+                    ],
+                    "photo_reference": "AWU5eFgr-W24ZLPT9aEMFV6I-GessVqZXUBfXzj4y0C7F0QjzY_d1CfiKFGJvJ0yLf1CFoyePyrpD0GUMiEwHwHtIfwHXV7ppdDdPa47QnBKJ9PWeKzazvpuuxRouRijhkgk9w0_fnP5YSOkQzaJcIsPkTRRZFfug6QpayIdnpoY0Jvq6OEU",
+                    "width": 1202
+                }
+            ],
+            "place_id": "ChIJ0e29FeSAhYAR8-7QdQ3UmaQ",
+            "plus_code": {
+                "compound_code": "RH3M+X3 Russian Hill, San Francisco, CA",
+                "global_code": "849VRH3M+X3"
+            },
+            "rating": 3.7,
+            "reference": "ChIJ0e29FeSAhYAR8-7QdQ3UmaQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 14,
+            "vicinity": "1175 Columbus Ave, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.872884,
+                    "lng": -122.510535
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.87422177989272,
+                        "lng": -122.5092120201073
+                    },
+                    "southwest": {
+                        "lat": 37.87152212010728,
+                        "lng": -122.5119116798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102436394057574082830\">Nate</a>"
+                    ],
+                    "photo_reference": "AWU5eFh07XQqeUE4QTGbjw3sN0WbDZE9KaSjYqAvomayV9ydmm3z-wENi-sE11MxO4SJzwY8wC61qy1-dy5nDbQgOnMxXExs1NE_hXSnKZ021tPMggfx5Egt9AaBM4LKj50TXVgnS04NwPyZqeJhWckViEw-cZ0SUsx6_K-BqEUfv_oZuD1M",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJb5DL0mSFhYARw4jbZzBeFfw",
+            "plus_code": {
+                "compound_code": "VFFQ+5Q Sausalito, California",
+                "global_code": "849VVFFQ+5Q"
+            },
+            "rating": 4.8,
+            "reference": "ChIJb5DL0mSFhYARw4jbZzBeFfw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 18,
+            "vicinity": "190 Donahue St, Sausalito"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7899225,
+                    "lng": -122.4238097
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79127682989272,
+                        "lng": -122.4224241701073
+                    },
+                    "southwest": {
+                        "lat": 37.78857717010727,
+                        "lng": -122.4251238298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104525330439116517164\">\u5fb3\u6c38\u9686\u53f8</a>"
+                    ],
+                    "photo_reference": "AWU5eFjR7plo0VG4YyaNPa_UAHj9HTQeogW4h7wxrj_fFueAw2b1i-3vlmgfY51Kp7_MGFwjdVk7jT5-pVlsDEqQnNQGh0y5koW9agiLgwtfR-CQkuQarOvY3kavujusiEq3QUx4e6BjlFovFLo2GBzBYdJcmtDBql0Yk0SseDFPxXITkutR",
+                    "width": 2250
+                }
+            ],
+            "place_id": "ChIJGRRrs-qAhYAROyT7mhV1ECk",
+            "plus_code": {
+                "compound_code": "QHQG+XF Pacific Heights, San Francisco, CA",
+                "global_code": "849VQHQG+XF"
+            },
+            "rating": 3.4,
+            "reference": "ChIJGRRrs-qAhYAROyT7mhV1ECk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "1765 California St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.781445,
+                    "lng": -122.421319
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78301512989272,
+                        "lng": -122.4199617701073
+                    },
+                    "southwest": {
+                        "lat": 37.78031547010728,
+                        "lng": -122.4226614298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100410819760366879844\">Danny Chan</a>"
+                    ],
+                    "photo_reference": "AWU5eFgMmxbXte17Q4MejLlJzkQPyXnpqj7IuY6qMXTImpq0Gezgf0FfutfStJQ-X-66mXfe1N8qkqNER3xL7KO28fHr_cznKCoGPl0oPjLv4R1Woz9hbCouNHYezQ3h14ivjkd0822LAa-d9YallTOta6_myevdvC9_GugATlVNiy2cnQwz",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJedIPp22BhYARSCCgO4xbxXQ",
+            "plus_code": {
+                "compound_code": "QHJH+HF Cathedral Hill, San Francisco, CA",
+                "global_code": "849VQHJH+HF"
+            },
+            "rating": 1.9,
+            "reference": "ChIJedIPp22BhYARSCCgO4xbxXQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 40,
+            "vicinity": "601 Van Ness Ave, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.776028,
+                    "lng": -122.4456216
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.77739712989272,
+                        "lng": -122.4442754201073
+                    },
+                    "southwest": {
+                        "lat": 37.77469747010728,
+                        "lng": -122.4469750798928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJj17MILOAhYARWmabBoUQCDc",
+            "plus_code": {
+                "compound_code": "QHG3+CQ Western Addition, San Francisco, CA",
+                "global_code": "849VQHG3+CQ"
+            },
+            "rating": 2.4,
+            "reference": "ChIJj17MILOAhYARWmabBoUQCDc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "1750 Fulton St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7810948,
+                    "lng": -122.4169896
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78245617989272,
+                        "lng": -122.4156624701073
+                    },
+                    "southwest": {
+                        "lat": 37.77975652010728,
+                        "lng": -122.4183621298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103433903829836593887\">Kristi Swensson Burdsall</a>"
+                    ],
+                    "photo_reference": "AWU5eFgdGgYSNegy6o40mL5b80NgAl2jdQfxXTEDmu7RcQiIWK5jHa3rk-m7h5NdfrzdtJWFNhATIxjl7yLeQDKPVy2YbLLDUdhof3aOz2wlbjFWpQSSuRIHvbazyMO078Rbf1CSfNblrjNPrOH1FWTzgcibnXNrPVXWC1SlQPLFP37ls6jH",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJWRaDQZqAhYAR_hohyY8Kz24",
+            "plus_code": {
+                "compound_code": "QHJM+C6 Civic Center, San Francisco, CA",
+                "global_code": "849VQHJM+C6"
+            },
+            "rating": 4,
+            "reference": "ChIJWRaDQZqAhYAR_hohyY8Kz24",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "376 Larkin St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.775101,
+                    "lng": -122.465106
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.77644387989272,
+                        "lng": -122.4637929701073
+                    },
+                    "southwest": {
+                        "lat": 37.77374422010728,
+                        "lng": -122.4664926298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110234549831783413698\">ramtin teymouri</a>"
+                    ],
+                    "photo_reference": "AWU5eFjr7zrvmJgMRr7ZdxSdfFf4zDG4xKFkcyXoU7f2zjcTSXGWT-XrA-7poyZVPTvKQFaTrjoTYolys4f9_Eo_pIxv52H0ezmisNdOCBYR1_YVcB4p-yKZvUc6xsToRf4tQ6dOwwu2KjjT1W05Y-F6FoB2td33M0RfEZOYakGSqjUvHqv-",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJNeqL3UCHhYARdrAMYB2VvZE",
+            "plus_code": {
+                "compound_code": "QGGM+2X Inner Richmond, San Francisco, CA",
+                "global_code": "849VQGGM+2X"
+            },
+            "rating": 2.3,
+            "reference": "ChIJNeqL3UCHhYARdrAMYB2VvZE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "735 7th Ave, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7904951,
+                    "lng": -122.4322017
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79193677989272,
+                        "lng": -122.4309930701073
+                    },
+                    "southwest": {
+                        "lat": 37.78923712010728,
+                        "lng": -122.4336927298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "place_id": "ChIJw6NV8caAhYARmmk11NqOFxQ",
+            "plus_code": {
+                "compound_code": "QHR9+54 Pacific Heights, San Francisco, CA",
+                "global_code": "849VQHR9+54"
+            },
+            "rating": 0,
+            "reference": "ChIJw6NV8caAhYARmmk11NqOFxQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7851106,
+                    "lng": -122.420446
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78633947989272,
+                        "lng": -122.4190733201073
+                    },
+                    "southwest": {
+                        "lat": 37.78363982010728,
+                        "lng": -122.4217729798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "place_id": "ChIJAQBAkpaAhYARrFVz4tlzDzQ",
+            "plus_code": {
+                "compound_code": "QHPH+2R Tenderloin, San Francisco, CA",
+                "global_code": "849VQHPH+2R"
+            },
+            "rating": 5,
+            "reference": "ChIJAQBAkpaAhYARrFVz4tlzDzQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "1000 Van Ness Ave 3rd Fl, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7848322,
+                    "lng": -122.4328649
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78621892989272,
+                        "lng": -122.4315977201073
+                    },
+                    "southwest": {
+                        "lat": 37.78351927010728,
+                        "lng": -122.4342973798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101733122763287520835\">Quinn Que</a>"
+                    ],
+                    "photo_reference": "AWU5eFiG9R0iEbMOgANWCbuRuYjr07XGhXhcVa7hb14n5n4GjHvNYujakbVhw28PsUf2ZcSttQRMuef0seQkRzFXF0q9oI414R6D6_lVP-8UDCnrODjMTk7EMgbQg4IyiVmG7ZW7k9WgkwG-il8XE9hsfyB5cSrwRSDTm1Mdm8r1rUnvGC6e",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ1_Z9_7iAhYAR2BP7JRFV8Pw",
+            "plus_code": {
+                "compound_code": "QHM8+WV Japantown, San Francisco, CA",
+                "global_code": "849VQHM8+WV"
+            },
+            "rating": 5,
+            "reference": "ChIJ1_Z9_7iAhYAR2BP7JRFV8Pw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "1650 Fillmore St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.778017,
+                    "lng": -122.4225687
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.77933882989272,
+                        "lng": -122.4212165701073
+                    },
+                    "southwest": {
+                        "lat": 37.77663917010728,
+                        "lng": -122.4239162298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJeTN9JiAhYARumWQVC8Qp_A",
+            "plus_code": {
+                "compound_code": "QHHG+6W Fillmore District, San Francisco, CA",
+                "global_code": "849VQHHG+6W"
+            },
+            "rating": 2.3,
+            "reference": "ChIJJeTN9JiAhYARumWQVC8Qp_A",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "360 Grove St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.806653,
+                    "lng": -122.419839
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.80802372989272,
+                        "lng": -122.4184941701073
+                    },
+                    "southwest": {
+                        "lat": 37.80532407010728,
+                        "lng": -122.4211938298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ_asdQOGAhYARswy64INRqd0",
+            "plus_code": {
+                "compound_code": "RH4J+J3 Fisherman's Wharf, San Francisco, CA",
+                "global_code": "849VRH4J+J3"
+            },
+            "rating": 0,
+            "reference": "ChIJ_asdQOGAhYARswy64INRqd0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "655 Beach St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7917501,
+                    "lng": -122.4143989
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79316467989272,
+                        "lng": -122.4129831701073
+                    },
+                    "southwest": {
+                        "lat": 37.79046502010727,
+                        "lng": -122.4156828298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJLzdEwZKAhYAR32DwaW-wUQA",
+            "plus_code": {
+                "compound_code": "QHRP+M6 Nob Hill, San Francisco, CA",
+                "global_code": "849VQHRP+M6"
+            },
+            "rating": 0,
+            "reference": "ChIJLzdEwZKAhYAR32DwaW-wUQA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1200 California St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7914029,
+                    "lng": -122.4128572
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79274052989272,
+                        "lng": -122.4115048201073
+                    },
+                    "southwest": {
+                        "lat": 37.79004087010727,
+                        "lng": -122.4142044798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJy_5rgpKAhYARJ12Es89Bre8",
+            "plus_code": {
+                "compound_code": "QHRP+FV Nob Hill, San Francisco, CA",
+                "global_code": "849VQHRP+FV"
+            },
+            "rating": 5,
+            "reference": "ChIJy_5rgpKAhYARJ12Es89Bre8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7864352,
+                    "lng": -122.4098525
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78783522989271,
+                        "lng": -122.4086827701073
+                    },
+                    "southwest": {
+                        "lat": 37.78513557010727,
+                        "lng": -122.4113824298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJn162B4-AhYARy_nKPe3fRH0",
+            "plus_code": {
+                "compound_code": "QHPQ+HV Tenderloin, San Francisco, CA",
+                "global_code": "849VQHPQ+HV"
+            },
+            "rating": 3.5,
+            "reference": "ChIJn162B4-AhYARy_nKPe3fRH0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "325 Mason St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7894514,
+                    "lng": -122.4060646
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.79078357989272,
+                        "lng": -122.4047111701073
+                    },
+                    "southwest": {
+                        "lat": 37.78808392010728,
+                        "lng": -122.4074108298928
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJNe1VR4mAhYAREAKikk3w_dM",
+            "plus_code": {
+                "compound_code": "QHQV+PH Union Square, San Francisco, CA",
+                "global_code": "849VQHQV+PH"
+            },
+            "rating": 1,
+            "reference": "ChIJNe1VR4mAhYAREAKikk3w_dM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "345 Sutter St, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.799694,
+                    "lng": -122.4605484
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.80106462989271,
+                        "lng": -122.4592407201073
+                    },
+                    "southwest": {
+                        "lat": 37.79836497010727,
+                        "lng": -122.4619403798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJD3IMVNiGhYARcojtOUlKTjA",
+            "plus_code": {
+                "compound_code": "QGXQ+VQ Main Post, San Francisco, CA",
+                "global_code": "849VQGXQ+VQ"
+            },
+            "rating": 5,
+            "reference": "ChIJD3IMVNiGhYARcojtOUlKTjA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Building 118 Taylor Rd, San Francisco"
+        }
+    ],
+    "status": "OK"
+}

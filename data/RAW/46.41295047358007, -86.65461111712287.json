@@ -1,0 +1,56 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 46.4097681,
+                    "lng": -86.65161490000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 46.41108022989273,
+                        "lng": -86.65029432010728
+                    },
+                    "southwest": {
+                        "lat": 46.40838057010728,
+                        "lng": -86.65299397989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 601,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101678214004447946030\">101678214004447946030</a>"
+                    ],
+                    "photo_reference": "AWU5eFjoLArda76WeZxmBCdKFPtl2293fGKx-BGViRsT3SWh39-PNrSbHvj1cIrK2rKDBImHs4SwfqioruX_Ml1ehGQmzVjHVuhsydi-nO34SefDNtdskgx9DF8F1K5vcm-vsUqLxehs26pn2jN4WWUBrEYGyq9RiVQtUUr01XuxIHl9rb8U",
+                    "width": 828
+                }
+            ],
+            "place_id": "ChIJJ8od9T6NTk0R6IUEObuyhMM",
+            "plus_code": {
+                "compound_code": "C85X+W9 Munising, Michigan",
+                "global_code": "86RMC85X+W9"
+            },
+            "rating": 4,
+            "reference": "ChIJJ8od9T6NTk0R6IUEObuyhMM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "110 Birch St, Munising"
+        }
+    ],
+    "status": "OK"
+}

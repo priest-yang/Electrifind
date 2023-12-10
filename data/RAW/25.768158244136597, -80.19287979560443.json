@@ -1,0 +1,837 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFg9TG6xBpSX1OJuGdfBcDd8tgpy4Y9AookLy9UkCscXHrUKO_pZr841CRSIvmFN_b1rICvX3VEmge5BjeNmiMEcD3q689hWPHR1l7Eq-dAdJwN0PBsuYPMyD2ick_HgfiskQPxA8-5FwfzeXBV07WojBYMPzEs_TGpl0AbO8oEAOnykKa_FXgCCziZp9AtXQwCHAsGQvgsxjDyarf2OGbJUZI9fGXO-x8wBKbn7DxHl7E56rLLrPV7LaGQ0NnFjrHr3zcMj30oPr3On1fOnP25KqkjqjqwVPRSwhFFcpGngLfWcBAOqplUPGWz6UIo9Uju-7OUNW8Wll2M_TVeehUVZyTI4fj1onpjoKHS-PuhOyNKEmkSR74u61A6u-3G1_5EswVEAlfD30bBsTklpf-juwpzWU_97K2AUP0Dfw2Z7e4xa4hUl8g4lByaXORFqR8kk",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7668318,
+                    "lng": -80.1943764
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76821867989272,
+                        "lng": -80.19306707010728
+                    },
+                    "southwest": {
+                        "lat": 25.76551902010728,
+                        "lng": -80.19576672989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106241078122741933958\">Chad Calcagno</a>"
+                    ],
+                    "photo_reference": "AWU5eFirq6BlxxMyLd8NhYziYHpbWhMstvi_7Ienvb-iFA5-EpPo3M83dv0JA5hMrRgoFp7jlRymoLGf9jOsg7KOzNAIqQRZN02TWOuefyI9tQqX9uh-cvYc6s_1rX3OyWVoCC2370cQEroMAlGiaDsNOKEqhu-vDnSdaIN3CD1FRM0niB-d",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ62HX7IS22YgRxrW_m8qAjZg",
+            "plus_code": {
+                "compound_code": "QR84+P6 Miami, Florida",
+                "global_code": "76QXQR84+P6"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ62HX7IS22YgRxrW_m8qAjZg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 42,
+            "vicinity": "701 S Miami Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7695125,
+                    "lng": -80.1918026
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77084152989272,
+                        "lng": -80.19051167010728
+                    },
+                    "southwest": {
+                        "lat": 25.76814187010728,
+                        "lng": -80.19321132989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ1wJxx5y22YgR26WcM1wsFMc",
+            "plus_code": {
+                "compound_code": "QR95+R8 Miami, Florida",
+                "global_code": "76QXQR95+R8"
+            },
+            "rating": 0,
+            "reference": "ChIJ1wJxx5y22YgR26WcM1wsFMc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "31 SE 5th St, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.780863,
+                    "lng": -80.19659999999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.78199712989273,
+                        "lng": -80.19538757010729
+                    },
+                    "southwest": {
+                        "lat": 25.77929747010728,
+                        "lng": -80.19808722989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJuQ3vnaK22YgRpB4JB0CJDys",
+            "plus_code": {
+                "compound_code": "QRJ3+89 Miami, Florida",
+                "global_code": "76QXQRJ3+89"
+            },
+            "rating": 5,
+            "reference": "ChIJuQ3vnaK22YgRpB4JB0CJDys",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "701 NW 1st Ct, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.764698,
+                    "lng": -80.194289
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76594792989272,
+                        "lng": -80.19308892010727
+                    },
+                    "southwest": {
+                        "lat": 25.76324827010728,
+                        "lng": -80.19578857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4624,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107769590795996057362\">Magdalena Mu\u00f1oz Saenz De Miera</a>"
+                    ],
+                    "photo_reference": "AWU5eFiAFWrPUcvRMDIUnsZh3Gc7pviOKeUYL6qHeY1EcHcCyklC42YKabIlxKfdBx0bo_Xq3-CTZn2aGDRvoH3-we8uo8kMj9itV2l3iyB1kzyJGness8YpZZc4y5ECdvTTt21rp54re8VdNoko4mW0LBiHLn0RZcvCJ06yMHy-jtcu-_hm",
+                    "width": 3468
+                }
+            ],
+            "place_id": "ChIJuRWya4S22YgRV5Dwf09PUGc",
+            "plus_code": {
+                "compound_code": "QR74+V7 Miami, Florida",
+                "global_code": "76QXQR74+V7"
+            },
+            "rating": 3.6,
+            "reference": "ChIJuRWya4S22YgRV5Dwf09PUGc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11,
+            "vicinity": "900 S Miami Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.785666,
+                    "lng": -80.21125099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.78689477989272,
+                        "lng": -80.20992202010729
+                    },
+                    "southwest": {
+                        "lat": 25.78419512010728,
+                        "lng": -80.21262167989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJjxi37MC22YgR7NW1YYS914k",
+            "plus_code": {
+                "compound_code": "QQPQ+7F Miami, Florida",
+                "global_code": "76QXQQPQ+7F"
+            },
+            "rating": 0,
+            "reference": "ChIJjxi37MC22YgR7NW1YYS914k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1005 Spring Garden Rd, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.76448,
+                    "lng": -80.19255
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76582107989272,
+                        "lng": -80.19120077010729
+                    },
+                    "southwest": {
+                        "lat": 25.76312142010728,
+                        "lng": -80.19390042989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJrdscjYO22YgR521utW75QoY",
+            "plus_code": {
+                "compound_code": "QR74+QX Miami, Florida",
+                "global_code": "76QXQR74+QX"
+            },
+            "rating": 0,
+            "reference": "ChIJrdscjYO22YgR521utW75QoY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1010 Brickell Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.795709,
+                    "lng": -80.1884199
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.79731012989272,
+                        "lng": -80.18707627010727
+                    },
+                    "southwest": {
+                        "lat": 25.79461047010728,
+                        "lng": -80.18977592989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJC4-txam22YgRNdvpB_QYGr8",
+            "plus_code": {
+                "compound_code": "QRW6+7J Miami, Florida",
+                "global_code": "76QXQRW6+7J"
+            },
+            "rating": 0,
+            "reference": "ChIJC4-txam22YgRNdvpB_QYGr8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2000 N Bayshore Dr, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.752644,
+                    "lng": -80.19919999999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.75395692989272,
+                        "lng": -80.19790527010727
+                    },
+                    "southwest": {
+                        "lat": 25.75125727010728,
+                        "lng": -80.2006049298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJkSEhT2O22YgRUqFqB87Un2o",
+            "plus_code": {
+                "compound_code": "QR32+38 Miami, Florida",
+                "global_code": "76QXQR32+38"
+            },
+            "rating": 0,
+            "reference": "ChIJkSEhT2O22YgRUqFqB87Un2o",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2101 Brickell Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7647087,
+                    "lng": -80.1949989
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76592962989272,
+                        "lng": -80.19364562010729
+                    },
+                    "southwest": {
+                        "lat": 25.76322997010728,
+                        "lng": -80.19634527989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ_3L_RoS22YgR-GCYUjta_Lc",
+            "plus_code": {
+                "compound_code": "QR74+V2 Miami, Florida",
+                "global_code": "76QXQR74+V2"
+            },
+            "rating": 0,
+            "reference": "ChIJ_3L_RoS22YgR-GCYUjta_Lc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "999 S Miami Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.779364,
+                    "lng": -80.2199399
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.78071627989272,
+                        "lng": -80.21854322010726
+                    },
+                    "southwest": {
+                        "lat": 25.77801662010728,
+                        "lng": -80.22124287989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111117160629936959983\">Brian Kramer</a>"
+                    ],
+                    "photo_reference": "AWU5eFhGVt0xpFpA8t-gL6M_dYvPemOxc7OUSXwfkmHCeLQtTurcOjyG6TtkKZ77RowbMgTzUHyrL3T4VoqCXdXeJ_rTQv9XjxMEnMoe7E0LzWwZ_Aw3k_2gAjrFodFJFdHFTsgr6R-aa20WWwQ9HNj3hfFQiHFlY612mZrQgkXSQsaWEXca",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZa__iei22YgRzDn1ko1VlSs",
+            "plus_code": {
+                "compound_code": "QQHJ+P2 Miami, Florida",
+                "global_code": "76QXQQHJ+P2"
+            },
+            "rating": 0,
+            "reference": "ChIJZa__iei22YgRzDn1ko1VlSs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1497 NW 7th St, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7769273,
+                    "lng": -80.19428289999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77830007989272,
+                        "lng": -80.19308267010727
+                    },
+                    "southwest": {
+                        "lat": 25.77560042010728,
+                        "lng": -80.19578232989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJDUfRPJm22YgRWZF_6Kiyxao",
+            "plus_code": {
+                "compound_code": "QRG4+Q7 Miami, Florida",
+                "global_code": "76QXQRG4+Q7"
+            },
+            "rating": 0,
+            "reference": "ChIJDUfRPJm22YgRWZF_6Kiyxao",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "40 NW 3rd St, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7768189,
+                    "lng": -80.21991129999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77818152989272,
+                        "lng": -80.21889407010728
+                    },
+                    "southwest": {
+                        "lat": 25.77548187010728,
+                        "lng": -80.22159372989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJOcDgq-i22YgR9Wp5syqbIME",
+            "plus_code": {
+                "compound_code": "QQGH+PP Miami, Florida",
+                "global_code": "76QXQQGH+PP"
+            },
+            "rating": 0,
+            "reference": "ChIJOcDgq-i22YgR9Wp5syqbIME",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1502 NW 4th St, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.772393,
+                    "lng": -80.1904845
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77384767989272,
+                        "lng": -80.18920957010728
+                    },
+                    "southwest": {
+                        "lat": 25.77114802010728,
+                        "lng": -80.19190922989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJjebYU5y22YgRzAFmtwrOWao",
+            "plus_code": {
+                "compound_code": "QRC5+XR Miami, Florida",
+                "global_code": "76QXQRC5+XR"
+            },
+            "rating": 0,
+            "reference": "ChIJjebYU5y22YgRzAFmtwrOWao",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "200 SE 2nd Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7587986,
+                    "lng": -80.19244379999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76036717989272,
+                        "lng": -80.19086182010727
+                    },
+                    "southwest": {
+                        "lat": 25.75766752010728,
+                        "lng": -80.19356147989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJD2G6yIC22YgRxN8Z2gXSdVs",
+            "plus_code": {
+                "compound_code": "QR55+G2 Miami, Florida",
+                "global_code": "76QXQR55+G2"
+            },
+            "rating": 4,
+            "reference": "ChIJD2G6yIC22YgRxN8Z2gXSdVs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "1435 Brickell Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7626714,
+                    "lng": -80.19022939999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76402017989271,
+                        "lng": -80.18887987010726
+                    },
+                    "southwest": {
+                        "lat": 25.76132052010727,
+                        "lng": -80.1915795298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Semaconnect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ3SUSgIG22YgRlfpn-9InGmU",
+            "plus_code": {
+                "compound_code": "QR75+3W Miami, Florida",
+                "global_code": "76QXQR75+3W"
+            },
+            "rating": 0,
+            "reference": "ChIJ3SUSgIG22YgRlfpn-9InGmU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1100 Brickell Bay Dr, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7980877,
+                    "lng": -80.1944156
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.79941282989272,
+                        "lng": -80.19303652010727
+                    },
+                    "southwest": {
+                        "lat": 25.79671317010727,
+                        "lng": -80.19573617989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ3frjH6y22YgRaOE5PAHO7pw",
+            "plus_code": {
+                "compound_code": "QRX4+76 Miami, Florida",
+                "global_code": "76QXQRX4+76"
+            },
+            "rating": 0,
+            "reference": "ChIJ3frjH6y22YgRaOE5PAHO7pw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "21 NE 22nd St, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.779198,
+                    "lng": -80.21896
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.78079697989272,
+                        "lng": -80.21727672010728
+                    },
+                    "southwest": {
+                        "lat": 25.77809732010727,
+                        "lng": -80.21997637989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ_zaU9-i22YgRiSSzzZXT8VA",
+            "plus_code": {
+                "compound_code": "QQHJ+MC Miami, Florida",
+                "global_code": "76QXQQHJ+MC"
+            },
+            "rating": 0,
+            "reference": "ChIJ_zaU9-i22YgRiSSzzZXT8VA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "658 NW 14th Ave, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.772173,
+                    "lng": -80.188143
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77375522989272,
+                        "lng": -80.18697732010729
+                    },
+                    "southwest": {
+                        "lat": 25.77105557010728,
+                        "lng": -80.18967697989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJR0Hpj5222YgRMWwRCUKRJFE",
+            "plus_code": {
+                "compound_code": "QRC6+VP Miami, Florida",
+                "global_code": "76QXQRC6+VP"
+            },
+            "rating": 0,
+            "reference": "ChIJR0Hpj5222YgRMWwRCUKRJFE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "200 S Biscayne Blvd, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.7765993,
+                    "lng": -80.1791064
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.77805502989272,
+                        "lng": -80.17790772010727
+                    },
+                    "southwest": {
+                        "lat": 25.77535537010727,
+                        "lng": -80.1806073798927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJDa0DACO02YgR_VXfCiQ1n70",
+            "plus_code": {
+                "compound_code": "QRGC+J9 Miami, Florida",
+                "global_code": "76QXQRGC+J9"
+            },
+            "rating": 0,
+            "reference": "ChIJDa0DACO02YgR_VXfCiQ1n70",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1040 Caribbean Way, Miami"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 25.763679,
+                    "lng": -80.18956899999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 25.76506587989272,
+                        "lng": -80.18846247010728
+                    },
+                    "southwest": {
+                        "lat": 25.76236622010728,
+                        "lng": -80.19116212989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJcRBzOoK22YgR6qeyPt7LLn8",
+            "plus_code": {
+                "compound_code": "QR76+F5 Miami, Florida",
+                "global_code": "76QXQR76+F5"
+            },
+            "rating": 1,
+            "reference": "ChIJcRBzOoK22YgR6qeyPt7LLn8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "1001 Brickell Bay Dr, Miami"
+        }
+    ],
+    "status": "OK"
+}

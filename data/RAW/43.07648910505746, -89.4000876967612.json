@@ -1,0 +1,917 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFj_J2BUNDUFMYRLfEQpQx5N09Y_n1vzGlC5giE5M5doWz77l3ekMh0iugXMzNbcmRWl8VKS_n3KKFd_XajM9TILjvJvn2esqFcZTt57OYlcrVSXJR4O2u0v3hRGr7lHELap-gXNHkcmvls8UqhV4PIfmwaVKLN82trsuWLchkh8jlva8BGM-0G-XsBjedwLhr5iRibAHKBoLd37UF_KDIea5HB2qumhP0FeIpMKQGc6X1AT8iCehAFzxsjycUvicRtBNTYFabu8m9SS0Akxeec-6aMx7LAFRMyWXU1FU8XyuKfQ5E3bITQhLW3g8Wdex69-ZXnmRa3ALZgtPH7ML16ryqmthIQHPulShbWmVCFWUxsj0n5nVpvkKc4ZoyReD8smlT9AAEDG8Br1RZwuMpZnOUH4sWywJa-pv6AlAu8EM0wBgiMHTPIDaThQ_fxMaQKZ",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0807374,
+                    "lng": -89.37518779999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.08206087989272,
+                        "lng": -89.37379792010728
+                    },
+                    "southwest": {
+                        "lat": 43.07936122010727,
+                        "lng": -89.37649757989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "MGE Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 533,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117183113522628100239\">Kevin Ryan</a>"
+                    ],
+                    "photo_reference": "AWU5eFglrAp4XuwJyx9U_gtmtgqjUiLvFpzhuofv-1ynxni57r2VShjOlsEKc87-VsSdBoosqtPxAphtFUh5sgR89_UG2wFKlN1m3QWOSK1DRu7D4byYcy-e58xDP3Wcci67i8-IbL2XIUC-PrFXfsayAFoHhOX4FFmFyXMwivZC2boQTNGk",
+                    "width": 800
+                }
+            ],
+            "place_id": "ChIJMSI__2tTBogRUYDho4x3Rxc",
+            "plus_code": {
+                "compound_code": "3JJF+7W Madison, Wisconsin",
+                "global_code": "86MG3JJF+7W"
+            },
+            "rating": 4,
+            "reference": "ChIJMSI__2tTBogRUYDho4x3Rxc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "20 S Livingston St, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1101407,
+                    "lng": -89.31161080000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.11145847989272,
+                        "lng": -89.31022557010728
+                    },
+                    "southwest": {
+                        "lat": 43.10875882010728,
+                        "lng": -89.31292522989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1205,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114678125320871977225\">Ken Dollhopf</a>"
+                    ],
+                    "photo_reference": "AWU5eFhHVXUGZxtdOhTHHzFWzAZgqvOvpL40m4imlcvbAZf0C97ulhmbsiExBEt6R_Dl53yzNjUuKm8jfit3isFCeNJ8v0XVHnHECfWuzMvPr7Zc_sv3oJXOcw48vKSsLHdql_vyTOzPNS1xbyrh2nW-FuTw-IsSTZS2lYzDaPHRp_fqSCAD",
+                    "width": 1600
+                }
+            ],
+            "place_id": "ChIJlfWamrxWBogRkiHiP_GfZ_U",
+            "plus_code": {
+                "compound_code": "4M6Q+39 Madison, Wisconsin",
+                "global_code": "86MG4M6Q+39"
+            },
+            "rating": 3.8,
+            "reference": "ChIJlfWamrxWBogRkiHiP_GfZ_U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 27,
+            "vicinity": "4198 Nakoosa Trail, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1191615,
+                    "lng": -89.31913929999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.12049722989272,
+                        "lng": -89.31779217010727
+                    },
+                    "southwest": {
+                        "lat": 43.11779757010728,
+                        "lng": -89.32049182989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105885914893557949827\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjZm8oDSsjzpULXSCD3d4_ClhP196aqhzWziyJ1CVO0vNZD7fTVk34VdoFvJZLWTVVX2S221bOlFUewVJpahaHjFyjKnNXC1HeSve2-whrQ_ralov1mfaARrvAgkDpjsAT6QqdfIKyV-W1S2fU4zpWhFFELEzHqK_ZmiqEQNrIhVqjL",
+                    "width": 1536
+                }
+            ],
+            "place_id": "ChIJZZfwoZ5WBogR72dS7iRVIbI",
+            "plus_code": {
+                "compound_code": "4M9J+M8 Madison, Wisconsin",
+                "global_code": "86MG4M9J+M8"
+            },
+            "rating": 4.6,
+            "reference": "ChIJZZfwoZ5WBogR72dS7iRVIbI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 53,
+            "vicinity": "3801 E Washington Ave, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0502078,
+                    "lng": -89.4724035
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05165947989272,
+                        "lng": -89.47108632010729
+                    },
+                    "southwest": {
+                        "lat": 43.04895982010728,
+                        "lng": -89.47378597989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115636145811262522248\">Adam Clements</a>"
+                    ],
+                    "photo_reference": "AWU5eFiF2ppBpmZZLTpXClY0z5gjjDZU0z2DLpqiSfMPE8LhiDF-hgQF0hBZ1LXXkp3vYiJDxtshB71mN8ljNd5COMTUt_2HMJHcn-o7R_6GaTz5AxLrR2BXzXb674bkIAH_b2kRwt8nhznVu_EEDeInSgIUDsAV-QZvJmil42Hhk9POnBXr",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJ48jmHOetB4gR4UPW3PX2Vd4",
+            "plus_code": {
+                "compound_code": "3G2H+32 Madison, Wisconsin",
+                "global_code": "86MG3G2H+32"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ48jmHOetB4gR4UPW3PX2Vd4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 23,
+            "vicinity": "675 S Whitney Way, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1354297,
+                    "lng": -89.34724770000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.13675017989272,
+                        "lng": -89.34592082010728
+                    },
+                    "southwest": {
+                        "lat": 43.13405052010727,
+                        "lng": -89.34862047989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJf0GaabNVBogRXizvpqoALjI",
+            "plus_code": {
+                "compound_code": "4MP3+54 Madison, Wisconsin",
+                "global_code": "86MG4MP3+54"
+            },
+            "rating": 5,
+            "reference": "ChIJf0GaabNVBogRXizvpqoALjI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "International Ln, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0364744,
+                    "lng": -89.4212354
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.03770727989272,
+                        "lng": -89.41987817010727
+                    },
+                    "southwest": {
+                        "lat": 43.03500762010728,
+                        "lng": -89.42257782989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103682888006140745119\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhWV9yjiAZlAHJt0q4sox9jOpPM7teeAX3ToIOqiU5JWd1jPnuNDFHT_-lvEuJ9s4CQOLPhjSOFhK4-HDJoJ72YmsgOnTRcJnbu_-VDK4h-DQHo1J6YikUwCCrYf9n6VsHvmn1JwkafZ-kcI8_BeGQ2x2aXlgUCddHFW6LnzTAOWzJn",
+                    "width": 1200
+                }
+            ],
+            "place_id": "ChIJJepkjOytB4gRu-oM8B-H6f4",
+            "plus_code": {
+                "compound_code": "2HPH+HG Madison, Wisconsin",
+                "global_code": "86MG2HPH+HG"
+            },
+            "rating": 4,
+            "reference": "ChIJJepkjOytB4gRu-oM8B-H6f4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "2510 W Beltline Hwy, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0805467,
+                    "lng": -89.3751941
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.08194062989272,
+                        "lng": -89.37379722010728
+                    },
+                    "southwest": {
+                        "lat": 43.07924097010728,
+                        "lng": -89.37649687989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103020896824581754269\">Kenny Li</a>"
+                    ],
+                    "photo_reference": "AWU5eFhBveaZ_dMofupJLuO8sxh1bYlqeb27rLU2w605fp70hUza7kxJo7_XMR50fIu0ckNCqhjFk7KGcMqO6ySwjzRcD-O-g6fTA-HzUoHAYDhfePEh89ZOzlTpaNtqhGXFfaatpZx1mlqneV6olLu9mHoePdpsp3v2CQiILOGeJr7QFoQE",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJB3HO3KRTBogR0dfRBjSxytw",
+            "plus_code": {
+                "compound_code": "3JJF+6W Madison, Wisconsin",
+                "global_code": "86MG3JJF+6W"
+            },
+            "rating": 4.8,
+            "reference": "ChIJB3HO3KRTBogR0dfRBjSxytw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 12,
+            "vicinity": "755 E Washington Ave, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.12055669999999,
+                    "lng": -89.318039
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.12194977989272,
+                        "lng": -89.31666127010728
+                    },
+                    "southwest": {
+                        "lat": 43.11925012010728,
+                        "lng": -89.31936092989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110711302415954144580\">Matt Lynch</a>"
+                    ],
+                    "photo_reference": "AWU5eFjm4-PPnOzIPz8SK1WRiAsOvrZzzAFjfTA7pf1TWyHHRzQFS0qO71a0pTulj5PpNihfASStdn-DLCFZJPFve2G42ZVHaIoacF1IMpH-ZjhDJXKgcvzHKf2CCtOxxNNBodwazyS4b4tUV1DrovBu2W_QV98jAl1OR_su6GGGk5SS1pY3",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJvxHSdJxWBogRQ_pyQ0vn0KU",
+            "plus_code": {
+                "compound_code": "4MCJ+6P Madison, Wisconsin",
+                "global_code": "86MG4MCJ+6P"
+            },
+            "rating": 4.8,
+            "reference": "ChIJvxHSdJxWBogRQ_pyQ0vn0KU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "3859 US-151, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1267168,
+                    "lng": -89.306848
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.12804117989272,
+                        "lng": -89.30544597010727
+                    },
+                    "southwest": {
+                        "lat": 43.12534152010727,
+                        "lng": -89.30814562989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105885914893557949827\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFiccoxUUV0wMV0RNYjM3UItxmkzWL_m-GS1Hr7XMr5X1Iuuk7vrRcTdcUOVeJhGS7O9Vat7XVyI9WTQTvbcpLcvwwiART8THVc-xCahFyVYGAAtTsA6xdqcWXBJjaVXr2V4qp07jMAhPKywgDO_--vG2pam-oIMZvJCrequz-kpX5DQ",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJVxeq20FXBogR03P6lRH1f-s",
+            "plus_code": {
+                "compound_code": "4MGV+M7 Madison, Wisconsin",
+                "global_code": "86MG4MGV+M7"
+            },
+            "rating": 4.2,
+            "reference": "ChIJVxeq20FXBogR03P6lRH1f-s",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 70,
+            "vicinity": "89 E Towne Way, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.036247,
+                    "lng": -89.457031
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.03744952989272,
+                        "lng": -89.45554712010728
+                    },
+                    "southwest": {
+                        "lat": 43.03474987010727,
+                        "lng": -89.45824677989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJSeub7eqtB4gRSb_i6xnWsec",
+            "plus_code": {
+                "compound_code": "2GPV+F5 Madison, Wisconsin",
+                "global_code": "86MG2GPV+F5"
+            },
+            "rating": 5,
+            "reference": "ChIJSeub7eqtB4gRSb_i6xnWsec",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "4550 Verona Rd Flooring, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0144943,
+                    "lng": -89.4795461
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.01580357989272,
+                        "lng": -89.47819432010728
+                    },
+                    "southwest": {
+                        "lat": 43.01310392010728,
+                        "lng": -89.48089397989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108860777161538055718\">Jon Tanke</a>"
+                    ],
+                    "photo_reference": "AWU5eFhYLL5bfZrn8fg0k_TeXFvwtL017OShEuXbMG68ORoKhjCjYqKmZ1Zql7L5Oyzoc0lBoVSi3q_5lDl30hfrk61sW-GBBksXZ_ilMluEOoCd9Q60XOFlVGbOtq9fgR_cCoWNIndCe1PmqskUNoRkigMkGlAY-5qd2Kars94BxJuT-rZj",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJc3B-F_yxB4gRo-WH2jFvWBc",
+            "plus_code": {
+                "compound_code": "2G7C+Q5 Fitchburg, Wisconsin",
+                "global_code": "86MG2G7C+Q5"
+            },
+            "rating": 5,
+            "reference": "ChIJc3B-F_yxB4gRo-WH2jFvWBc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Hy-Vee Grocery Store, 2920 Fitchrona Rd, Fitchburg"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1397982,
+                    "lng": -89.5209379
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.14115617989272,
+                        "lng": -89.51969542010727
+                    },
+                    "southwest": {
+                        "lat": 43.13845652010728,
+                        "lng": -89.52239507989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJt77KUleoB4gRMtNnmHrXYYk",
+            "plus_code": {
+                "compound_code": "4FQH+WJ Middleton, Wisconsin",
+                "global_code": "86MG4FQH+WJ"
+            },
+            "rating": 5,
+            "reference": "ChIJt77KUleoB4gRMtNnmHrXYYk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "6829 Co Rd K, Middleton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0525592,
+                    "lng": -89.4827244
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05393682989272,
+                        "lng": -89.48153067010728
+                    },
+                    "southwest": {
+                        "lat": 43.05123717010728,
+                        "lng": -89.48423032989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ__-_vHyuB4gRtM-SSle1Rcs",
+            "plus_code": {
+                "compound_code": "3G38+6W Madison, Wisconsin",
+                "global_code": "86MG3G38+6W"
+            },
+            "rating": 0,
+            "reference": "ChIJ__-_vHyuB4gRtM-SSle1Rcs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "5822 Odana Rd, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.15438169999999,
+                    "lng": -89.2718141
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.15593222989272,
+                        "lng": -89.27047107010729
+                    },
+                    "southwest": {
+                        "lat": 43.15323257010728,
+                        "lng": -89.27317072989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJNSn-FMdXBogRTVh1Sohqpf4",
+            "plus_code": {
+                "compound_code": "5P3H+Q7 Sun Prairie, Wisconsin",
+                "global_code": "86MG5P3H+Q7"
+            },
+            "rating": 0,
+            "reference": "ChIJNSn-FMdXBogRTVh1Sohqpf4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2955 Innovation Way, Sun Prairie"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0570509,
+                    "lng": -89.5105368
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05835057989272,
+                        "lng": -89.50919012010726
+                    },
+                    "southwest": {
+                        "lat": 43.05565092010728,
+                        "lng": -89.51188977989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115041281391902314339\">PHYSICO900</a>"
+                    ],
+                    "photo_reference": "AWU5eFgLK2NXWmgrM0RrgzVavyprg2qa_W8sJvF2DdKCZT-XrThwW1lz1mAEw9CDs7rmbDB_NqVfZbWfQe8y0CyJXSwKnOue7YWFTkPbD6Z_jLc_3BkGQsXc3XRT2vJ2Rstxf4LzQUK44JAElvHEBzvFlpwKLcxV8H0XrngsrGz0uSXbBido",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ26SrZlWuB4gRaZ_di6sJOdo",
+            "plus_code": {
+                "compound_code": "3F4Q+RQ Madison, Wisconsin",
+                "global_code": "86MG3F4Q+RQ"
+            },
+            "rating": 4,
+            "reference": "ChIJ26SrZlWuB4gRaZ_di6sJOdo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "7401 W Towne Way, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0741362,
+                    "lng": -89.4085793
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.07539247989272,
+                        "lng": -89.40724832010727
+                    },
+                    "southwest": {
+                        "lat": 43.07269282010728,
+                        "lng": -89.40994797989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJeQIPzsesB4gRtrl3WCsxOS4",
+            "plus_code": {
+                "compound_code": "3HFR+MG Madison, Wisconsin",
+                "global_code": "86MG3HFR+MG"
+            },
+            "rating": 0,
+            "reference": "ChIJeQIPzsesB4gRtrl3WCsxOS4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1390 University Ave, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0766779,
+                    "lng": -89.4301978
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.07814642989273,
+                        "lng": -89.42873827010729
+                    },
+                    "southwest": {
+                        "lat": 43.07544677010728,
+                        "lng": -89.43143792989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3586,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114959857865494333898\">SomeCallMeMrGrandview</a>"
+                    ],
+                    "photo_reference": "AWU5eFiR0i-QtrBoYnBkXoYrkOqyIjiC0tt4JpH1X1IMo9wwR950eUAaCf6YtDi8jKRZ91vZI7YW5Qoafj8c96AHtrlC8Y92G61UOBGfSVPApjgC7MgV1qbzyuG3xQ-YVFtr1hk3Q-1l7Cuj6P22w71XZsqyWYD7uIpu5AyNTBKS5wAERO67",
+                    "width": 2523
+                }
+            ],
+            "place_id": "ChIJ1SJSyYysB4gRvjQdM8_WHrc",
+            "plus_code": {
+                "compound_code": "3HG9+MW Madison, Wisconsin",
+                "global_code": "86MG3HG9+MW"
+            },
+            "rating": 0,
+            "reference": "ChIJ1SJSyYysB4gRvjQdM8_WHrc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "610 Highland Ave, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0725477,
+                    "lng": -89.3976022
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.07389567989273,
+                        "lng": -89.39617452010728
+                    },
+                    "southwest": {
+                        "lat": 43.07119602010729,
+                        "lng": -89.39887417989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJkRd-wDRTBogRCIfXStaVso4",
+            "plus_code": {
+                "compound_code": "3JF2+2X Madison, Wisconsin",
+                "global_code": "86MG3JF2+2X"
+            },
+            "rating": 0,
+            "reference": "ChIJkRd-wDRTBogRCIfXStaVso4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "324 N Lake St, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0761143,
+                    "lng": -89.4144572
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.07734222989271,
+                        "lng": -89.41298442010728
+                    },
+                    "southwest": {
+                        "lat": 43.07464257010727,
+                        "lng": -89.41568407989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJZSNgnsCsB4gRtuQUiWGP3uA",
+            "plus_code": {
+                "compound_code": "3HGP+C8 Madison, Wisconsin",
+                "global_code": "86MG3HGP+C8"
+            },
+            "rating": 0,
+            "reference": "ChIJZSNgnsCsB4gRtuQUiWGP3uA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1645 Observatory Dr, Madison"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0827728,
+                    "lng": -89.3723166
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.08412107989272,
+                        "lng": -89.37096482010728
+                    },
+                    "southwest": {
+                        "lat": 43.08142142010728,
+                        "lng": -89.37366447989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJZ2z4WW5TBogR62UIhj5Bqj8",
+            "plus_code": {
+                "compound_code": "3JMH+34 Madison, Wisconsin",
+                "global_code": "86MG3JMH+34"
+            },
+            "rating": 0,
+            "reference": "ChIJZ2z4WW5TBogR62UIhj5Bqj8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "939 E Washington Ave, Madison"
+        }
+    ],
+    "status": "OK"
+}
