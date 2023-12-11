@@ -60,6 +60,7 @@ def merge_lat_lng(df1 : pd.DataFrame, df2 : pd.DataFrame, on : str = None) -> pd
     filtered_second = filtered_second.reset_index(drop=True)
     assert len(filtered_second) == len(first_df)
 
+    filtered_second = filtered_second.drop(['lat', 'lng'], axis=1)
     merged_df = pd.concat([first_df, filtered_second], axis=1)
     return merged_df
 

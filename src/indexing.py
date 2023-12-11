@@ -5,7 +5,7 @@ import os
 import pickle
 import shelve
 from collections import Counter, defaultdict
-from document_preprocessor import Tokenizer
+from document_preprocessor import Tokenizer, RegexTokenizer
 from enum import Enum
 from tqdm import tqdm
 from utils.py import merge_lat_lng
@@ -384,4 +384,25 @@ class Indexer:
 
 
 if __name__ == '__main__':
+
+    # read stop words
+    stopwords_file_path = 'data/stopwords.txt'
+    stopwords = set()
+    with open(stopwords_file_path, 'r') as file:
+        for line in file:
+            cleaned_line = line.strip()
+            stopwords.add(cleaned_line)
+
+    index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+                                 dataset_path='data/google_map_charging_station_all.jsonl.gz', 
+                                 document_preprocessor=RegexTokenizer("\\w+"),
+                                 stopwords=stopwords, 
+                                minimum_word_frequency=2,
+                                text_key='comment', 
+                                max_docs=-1, 
+                                doc_augment_dict=None, 
+                                rel_ids=None)
+    
+    index
+
     pass
