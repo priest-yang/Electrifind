@@ -66,46 +66,6 @@ class SearchEngine(BaseSearchEngine):
         if not l2r:
             self.pipeline = self.ranker
         else:
-            print('Loading categories...')
-            if not os.path.exists(CACHE_PATH + 'docid_to_categories.pkl'):
-                docid_to_categories = defaultdict()
-                with gzip.open(DATASET_PATH, 'rt') as f:
-                    for line in tqdm(f):
-                        data = json.loads(line)
-                        docid_to_categories[data['docid']] = data['categories']
-                pickle.dump(
-                    docid_to_categories,
-                    open(CACHE_PATH + 'docid_to_categories.pkl', 'wb')
-                )
-            else:
-                docid_to_categories = pickle.load(
-                    open(CACHE_PATH + 'docid_to_categories.pkl', 'rb')
-                )
-
-            print('Loading recognized categories...')
-            category_counts = Counter()
-            for categories in tqdm(docid_to_categories.values()):
-                category_counts.update(categories)
-            self.recognized_categories = set(
-                [category for category, count in category_counts.items()
-                 if count > 1000]
-            )
-            if not os.path.exists(CACHE_PATH + 'doc_category_info.pkl'):
-                self.doc_category_info = defaultdict()
-                for docid, categories in tqdm(docid_to_categories.items()):
-                    self.doc_category_info[docid] = [
-                        category for category in categories if category in self.recognized_categories
-                    ]
-                pickle.dump(
-                    self.doc_category_info,
-                    open(CACHE_PATH + 'doc_category_info.pkl', 'wb')
-                )
-            else:
-                self.doc_category_info = pickle.load(
-                    open(CACHE_PATH + 'doc_category_info.pkl', 'rb')
-                )
-            del docid_to_categories, category_counts
-
             self.fe = L2RFeatureExtractor(
                 self.main_index, self.title_index, self.doc_category_info,
                 self.preprocessor, self.stopwords, self.recognized_categories,

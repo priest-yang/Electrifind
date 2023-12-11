@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 
 cache/
+data/RAW_train/
+data/RAW_test/

@@ -12,8 +12,7 @@ import pickle
 
 
 class L2RRanker:
-    def __init__(self, document_index, title_index,
-                 document_preprocessor, stopwords: set[str], ranker: Ranker,
+    def __init__(self, document_index, title_index, ranker: Ranker,
                  feature_extractor: 'L2RFeatureExtractor') -> None:
         """
         Initializes a L2RRanker system.
@@ -29,8 +28,6 @@ class L2RRanker:
         # TODO: Save any new arguments that are needed as fields of this class
         self.document_index = document_index
         self.title_index = title_index
-        self.document_preprocessor = document_preprocessor
-        self.stopwords = stopwords
         self.ranker = ranker
         self.feature_extractor = feature_extractor
 
@@ -117,7 +114,7 @@ class L2RRanker:
 
         return doc_term_count
 
-    def train(self, training_data_filename: str, model_name: str='') -> None:
+    def train(self, training_data_filename: str, model_name: str = '') -> None:
         """
         Trains a LambdaMART pair-wise learning to rank model using the documents and relevance scores provided 
         in the training data file.
@@ -223,7 +220,7 @@ class L2RRanker:
         #       4. Repeat 2 & 3 until there are no more remaining elements in R to be processed
 
         S = []
-        
+
         while len(thresholded_search_results) > 0:
             MR_list = []
             max_id = 0
@@ -231,7 +228,8 @@ class L2RRanker:
             for i in range(len(thresholded_search_results)):
                 MR = mmr_lambda * thresholded_search_results[i][1]
                 if S != []:
-                    max_sim = max(similarity_matrix[list_docs.index(thresholded_search_results[i][0])][list_docs.index(doc[0])] for doc in S) 
+                    max_sim = max(similarity_matrix[list_docs.index(
+                        thresholded_search_results[i][0])][list_docs.index(doc[0])] for doc in S)
                     MR -= (1 - mmr_lambda) * max_sim
                 MR_list.append((thresholded_search_results[i][0], MR))
             max_id = MR_list.index(max(MR_list, key=lambda x: x[1]))
@@ -344,11 +342,7 @@ class L2RRanker:
 
 
 class L2RFeatureExtractor:
-    def __init__(self, document_index, title_index,
-                 doc_category_info: dict[int, list[str]],
-                 document_preprocessor, stopwords: set[str],
-                 recognized_categories: set[str], docid_to_network_features: dict[int, dict[str, float]],
-                 ce_scorer = None) -> None:
+    def __init__(self, document_index) -> None:
         """
         Initializes a L2RFeatureExtractor object.
 
@@ -367,212 +361,15 @@ class L2RFeatureExtractor:
         """
         # TODO: Set the initial state using the arguments
         self.document_index = document_index
-        self.title_index = title_index
-        self.doc_category_info = doc_category_info
-        self.document_preprocessor = document_preprocessor
-        self.stopwords = stopwords
-        self.recognized_categories = recognized_categories
-        self.docid_to_network_features = docid_to_network_features
+        self.DistScorer = DistScorer(self.document_index)
 
-        # TODO: For the recognized categories (i.e,. those that are going to be features), consider
-        #       how you want to store them here for faster featurizing
 
-        # TODO: Initialize any RelevanceScorer objects needed to support the methods below.
-        #             Be sure to use the right InvertedIndex object when scoring
-        self.tf_idf_scorer = TF_IDF(self.document_index)
-        self.bm25_scorer = BM25(self.document_index)
-        self.pivoted_norm_scorer = PivotedNormalization(self.document_index)
-        self.ce_scorer = ce_scorer
+    def get_dist(self, doc, query_parts: list[float]) -> float:
+        return self.DistScorer.score(doc, query_parts)
 
-    # TODO: Article Length
-    def get_article_length(self, docid: int) -> int:
-        """
-        Gets the length of a document (including stopwords).
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            The length of a document
-        """
-        return self.document_index.get_doc_metadata(docid)['length']
-
-    # TODO: Title Length
-    def get_title_length(self, docid: int) -> int:
-        """
-        Gets the length of a document's title (including stopwords).
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            The length of a document's title
-        """
-        return self.title_index.get_doc_metadata(docid)['length']
-
-    # TODO: TF
-    def get_tf(self, index, docid: int, word_counts: dict[str, int], query_parts: list[str]) -> float:
-        """
-        Calculates the TF score.
-
-        Args:
-            index: An inverted index to use for calculating the statistics
-            docid: The id of the document
-            word_counts: The words in some part of a document mapped to their frequencies
-            query_parts: A list of tokenized query tokens
-
-        Returns:
-            The TF score
-        """
-        score = 0
-        query_index = Counter(query_parts)
-        for item in query_index:
-            if item not in word_counts:
-                continue
-            score += math.log(word_counts[item] + 1)
-        return score
-
-    # TODO: TF-IDF
-    def get_tf_idf(self, index, docid: int,
-                   word_counts: dict[str, int], query_parts: list[str]) -> float:
-        """
-        Calculates the TF-IDF score.
-
-        Args:
-            index: An inverted index to use for calculating the statistics
-            docid: The id of the document
-            word_counts: The words in some part of a document mapped to their frequencies
-            query_parts: A list of tokenized query tokens
-
-        Returns:
-            The TF-IDF score
-        """
-        query_word_count = Counter(query_parts)
-        return self.tf_idf_scorer.score(docid, word_counts, query_word_count)
-
-    # TODO: BM25
-    def get_BM25_score(self, docid: int, doc_word_counts: dict[str, int],
-                       query_parts: list[str]) -> float:
-        """
-        Calculates the BM25 score.
-
-        Args:
-            docid: The id of the document
-            doc_word_counts: The words in the document's main text mapped to their frequencies
-            query_parts: A list of tokenized query tokens
-
-        Returns:
-            The BM25 score
-        """
-        # TODO: Calculate the BM25 score and return it
-        query_word_count = Counter(query_parts)
-        return self.bm25_scorer.score(docid, doc_word_counts, query_word_count)
-
-    # TODO: Pivoted Normalization
-    def get_pivoted_normalization_score(self, docid: int, doc_word_counts: dict[str, int],
-                                        query_parts: list[str]) -> float:
-        """
-        Calculates the pivoted normalization score.
-
-        Args:
-            docid: The id of the document
-            doc_word_counts: The words in the document's main text mapped to their frequencies
-            query_parts: A list of tokenized query tokens
-
-        Returns:
-            The pivoted normalization score
-        """
-        # TODO: Calculate the pivoted normalization score and return it
-        query_word_count = Counter(query_parts)
-        return self.pivoted_norm_scorer.score(docid, doc_word_counts, query_word_count)
-
-    # TODO: Document Categories
-    def get_document_categories(self, docid: int) -> list:
-        """
-        Generates a list of binary features indicating which of the recognized categories that the document has.
-        Category features should be deterministically ordered so list[0] should always correspond to the same
-        category. For example, if a document has one of the three categories, and that category is mapped to
-        index 1, then the binary feature vector would look like [0, 1, 0].
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            A list containing binary list of which recognized categories that the given document has
-        """
-        cat_list = [0] * len(self.recognized_categories)
-        if docid in self.doc_category_info:
-            for id, category in enumerate(self.recognized_categories):
-                if category in self.doc_category_info[docid]:
-                    cat_list[id] = 1
-        return cat_list
-
-    # TODO: PageRank
-    def get_pagerank_score(self, docid: int) -> float:
-        """
-        Gets the PageRank score for the given document.
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            The PageRank score
-        """
-        score = 0
-        if docid in self.docid_to_network_features:
-            score = self.docid_to_network_features[docid]['pagerank']
-        return score
-
-    # TODO: HITS Hub
-    def get_hits_hub_score(self, docid: int) -> float:
-        """
-        Gets the HITS hub score for the given document.
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            The HITS hub score
-        """
-        score = 0
-        if docid in self.docid_to_network_features:
-            score = self.docid_to_network_features[docid]['hub_score']
-        return score
-
-    # TODO: HITS Authority
-    def get_hits_authority_score(self, docid: int) -> float:
-        """
-        Gets the HITS authority score for the given document.
-
-        Args:
-            docid: The id of the document
-
-        Returns:
-            The HITS authority score
-        """
-        score = 0
-        if docid in self.docid_to_network_features:
-            score = self.docid_to_network_features[docid]['authority_score']
-        return score
-
-    # TODO: Cross-Encoder Score
-    def get_cross_encoder_score(self, docid: int, query: str) -> float:
-        """
-        Gets the cross-encoder score for the given document.
-
-        Args:
-            docid: The id of the document
-            query: The query in its original form (no stopword filtering/tokenization)
-
-        Returns:
-            The Cross-Encoder score
-        """
-        return self.ce_scorer.score(docid, query)
 
     # TODO: Add at least one new feature to be used with your L2R model
-    def generate_features(self, docid: int, doc_word_counts: dict[str, int],
-                          title_word_counts: dict[str, int], query_parts: list[str],
-                          query: str) -> list:
+    def generate_features(self, doc, query_parts: list[float]) -> list:
         """
         Generates a dictionary of features for a given document and query.
 
@@ -591,58 +388,9 @@ class L2RFeatureExtractor:
         # NOTE: We can use this to get a stable ordering of features based on consistent insertion
         #       but it's probably faster to use a list to start
 
-        feature_vector = []
+        feature_vector = doc
 
-        # TODO: Document Length
-        feature_vector.append(self.get_article_length(docid))
-
-        # TODO: Title Length
-        feature_vector.append(self.get_title_length(docid))
-
-        # TODO: Query Length
-        feature_vector.append(len(query_parts))
-
-        # TODO: TF (document)
-        feature_vector.append(self.get_tf(
-            self.document_index, docid, doc_word_counts, query_parts))
-
-        # TODO: TF-IDF (document)
-        feature_vector.append(self.get_tf_idf(
-            self.document_index, docid, doc_word_counts, query_parts))
-
-        # TODO: TF (title)
-        feature_vector.append(self.get_tf(
-            self.title_index, docid, title_word_counts, query_parts))
-
-        # TODO: TF-IDF (title)
-        feature_vector.append(self.get_tf_idf(
-            self.title_index, docid, title_word_counts, query_parts))
-
-        # TODO: BM25
-        feature_vector.append(self.get_BM25_score(
-            docid, doc_word_counts, query_parts))
-
-        # TODO: Pivoted Normalization
-        feature_vector.append(self.get_pivoted_normalization_score(
-            docid, doc_word_counts, query_parts))
-
-        # TODO: PageRank
-        feature_vector.append(self.get_pagerank_score(docid))
-
-        # TODO: HITS Hub
-        feature_vector.append(self.get_hits_hub_score(docid))
-
-        # TODO: HITS Authority
-        feature_vector.append(self.get_hits_authority_score(docid))
-
-        # TODO: Cross-Encoder Score
-        feature_vector.append(self.get_cross_encoder_score(docid, query))
-
-        # TODO: Add at least one new feature to be used with your L2R model
-
-        # TODO: Document Categories
-        #       This should be a list of binary values indicating which categories are present
-        feature_vector.extend(self.get_document_categories(docid))
+        feature_vector.append(self.get_dist(doc, query_parts))
 
         return feature_vector
 
