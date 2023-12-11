@@ -192,7 +192,7 @@ class L2RRanker:
             raise ValueError("Model has not been trained yet.")
         return self.model.predict(X)
 
-    # TODO (HW5): Implement MMR diversification for a given list of documents and their cosine similarity scores
+
     @staticmethod
     def maximize_mmr(thresholded_search_results: list[tuple[int, float]], similarity_matrix: np.ndarray,
                      list_docs: list[int], mmr_lambda: int) -> list[tuple[int, float]]:
