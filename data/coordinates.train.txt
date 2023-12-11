@@ -1,120 +1,298 @@
-34.052235, -118.243683, Los Angeles City Hall, Los Angeles, CA
-37.77493, -122.41942, San Francisco City Hall, San Francisco, CA
-40.712776, -74.005974, Statue of Liberty, New York, NY
-47.606209, -122.332069, Space Needle, Seattle, WA
-41.878113, -87.629799, The Art Institute of Chicago, IL
-29.760427, -95.369804, Johnson Space Center, Houston, TX
-25.761681, -80.191788, Vizcaya Museum and Gardens, Miami, FL
-39.952583, -75.165222, The Philadelphia Museum of Art, Philadelphia, PA
-36.155681, -86.782288, The Parthenon, Nashville, TN
-32.776664, -96.796988, Dallas Museum Of Art, Dallas, TX
-40.749308, -73.897048, Jackson Heights, Queens, NY 
-37.759972, -122.427063, Mission District, San Francisco, CA
-41.967215, -87.658634, Andersonville, Chicago, IL
-38.912868, -77.041687, Georgetown, Washington, D.C
-44.977303, -93.265469, Warehouse District, Minneapolis, MN
-34.076232, -118.330882, Beverly Grove, Los Angeles, CA
-39.755543, -104.994418, Five Points, Denver, CO
-45.521631, -122.667524, Pearl District, Portland, OR
-44.948306, -93.348239, Uptown, Minneapolis, MN
-32.749788, -117.167650, North Park, San Diego, CA
-42.2808256, -83.7430378, Ann Arbor, MI  
-42.331427, -83.0457538, Detroit, MI  
-42.9633599, -85.6680863, Grand Rapids, MI  
-42.2917069, -85.5872286, Kalamazoo, MI  
-43.5978075, -84.7675139, Midland, MI  
-43.0125274, -83.6874562, Flint, MI  
-46.5435402, -87.395417, Marquette, MI  
-42.7875235, -86.1089301, Holland, MI
-42.701848, -84.4821719, East Lansing, MI  
-42.3222599, -83.1763145, Dearborn, MI  
-42.3369816, -83.2732627, Westland, MI
-42.4439143, -76.5018807, Ypsilanti, MI
-42.6389216, -83.2910468, Ferndale, MI
-42.3928159, -82.9119781, Grosse Pointe, MI
-42.6064095, -83.1497751, Troy, MI
-42.5168158, -83.311, Southfield, MI
-42.4904273, -83.0137725, Royal Oak, MI
-42.4894801, -83.1446485, Birmingham, MI
-42.546701, -83.211319, Bloomfield Hills, MI
-44.3148443, -85.6023643, Cadillac, MI
-41.49932, -81.694361, Cleveland State University, Cleveland, OH
-42.360082, -71.058880, Quincy Market, Boston, MA
-39.290385, -76.612189, Inner Harbor, Baltimore, MD
-30.267153, -97.743061, Lady Bird Lake, Austin, TX
-33.448377, -112.074037, Phoenix Sky Harbor International Airport, Phoenix, AZ
-46.877186, -96.789803, Fargo Theatre, Fargo, ND
-43.965389, -70.822654, Bates College, Lewiston, ME
-34.528186, -82.494435, Anderson University, Anderson, SC
-32.500704, -94.740489, Marshall, TX  
-33.518589, -86.810357, Birmingham, AL  
-43.546861, -96.731438, Sioux Falls, South Dakota
-40.273191, -76.886701, Harrisburg, Pennsylvania
-43.596806, -84.774647, Midland, Michigan
-46.786672, -92.100485, Duluth, Minnesota
-33.836081, -81.163724, Aiken, South Carolina
-32.222607, -110.974709, Tucson, AZ
-44.883113, -68.672167, Bangor, ME
-41.823989, -71.412834, Providence, RI
-44.475882, -73.212072, Burlington, VT
-43.038902, -87.906474, Milwaukee, WI
-32.7765, -79.9311, Charleston, SC
-30.3322, -81.6556, Jacksonville, FL
-38.0293, -78.4767, Charlottesville, VA
-33.4484, -112.074, Phoenix, AZ
-31.5493, -97.1467, Waco, TX
-31.8457, -102.3676, Odessa, TX
-33.5779, -101.8552, Lubbock, TX
-33.1507, -96.8236, Frisco, TX
-32.5252, -93.7502, Shreveport, LA
-36.070826, -79.792092, Greensboro, NC
-30.3321838, -81.655651, Jacksonville, FL
-33.4734978, -82.0105148, Augusta, GA
-38.6270025, -90.1994042, Louisville, KY
-38.3498195, -81.6326234, Charleston, WV
-34.0522, -118.2437, Los Angeles, CA
-34.744811, -92.289595, Little Rock, AR
-39.0997, -94.5786, Kansas City, MO
-35.4676, -97.5164, Oklahoma City, OK
-35.7796, -78.6382, Raleigh, NC
-38.9072, -77.0369, Washington, D.C.
-42.334252, -85.663840, Bronson Park, Kalamazoo, MI
-43.621195, -84.682434, Chippewa Nature Center, Midland, MI
-42.262557, -85.660370, Kalamazoo Institute of Arts, Kalamazoo, MI
-42.573973, -83.544579, Oakland University, Rochester, MI
-46.543519, -87.395382, Northern Michigan University, Marquette, MI
-42.336816, -83.049285, Detroit Metropolitan Wayne County Airport, Detroit, MI
-42.268862, -83.731890, Ypsilanti Amtrak Station, Ypsilanti, MI
-42.507159, -82.936878, Lake Saint Clair Metropark, Harrison Township, MI
-42.722619, -84.481354, Michigan State Capitol, Lansing, MI
-42.782965, -86.109225, Holland State Park Beach, Holland, MI
-42.958033, -85.668605, Frederick Meijer Gardens & Sculpture Park, Grand Rapids, MI
-42.787523, -86.108930, Hope College, Holland, MI
-44.314829, -85.602021, Kirtland Community College, Cadillac, MI
-42.216172, -83.355292, Belleville Lake, Belleville, MI
-42.5558, -84.8292, Albion, MI
-42.7392, -84.4838, Mason, MI
-43.4195, -83.9508, Saginaw, MI
-42.7875, -86.1089, Macatawa, MI
-42.5329, -83.7802, South Lyon, MI
-44.3148, -84.7640, Houghton Lake, MI
-41.9164, -83.3977, Monroe, MI
-42.5973, -82.8770, New Baltimore, MI
-42.5869, -82.9195, St. Clair Shores, MI
-42.5612, -83.1646, Eastpointe, MI
-42.6406, -83.2916, Berkley, MI
-42.6097, -82.9943, Mt. Clemens, MI
-42.4895, -83.1446, Birmingham, MI
-42.5803, -83.0302, Grosse Pointe Woods, MI
-42.5823, -83.0302, Harper Woods, MI
-42.4973, -82.9371, Roseville, MI
-42.4818, -83.1052, Hazel Park, MI
-42.4645, -83.3763, Oak Park, MI
-42.3314, -83.0458, Detroit, MI
-42.6064, -83.1498, Troy, MI
-42.4895, -83.0138, Royal Oak, MI
-42.6965, -83.0492, Clawson, MI
-42.6862, -83.1199, Warren, MI
-42.4816, -83.1616, Wolverine Lake, MI
-42.2506, -83.1785, Wayne, MI
-42.3368, -83.2733, Inkster, MI
+42.278522, -83.734395, Ann Arbor District Library, Ann Arbor, MI
+
+42.275755, -83.731909, University of Michigan Museum of Art, Ann Arbor, MI
+
+42.283152, -83.831588, Buhr Park, Ann Arbor, MI
+
+42.298867, -83.710858, The George, Ann Arbor, MI
+
+42.302144, -83.704921, County Farm Park, Ann Arbor, MI
+
+42.326071, -83.048459, Detroit Opera House, Detroit, MI
+
+42.331608, -83.042002, Detroit Riverfront, Detroit, MI
+
+42.335765, -83.049767, Little Caesars Arena, Detroit, MI
+
+42.359315, -82.998275, Belle Isle Aquarium, Detroit, MI
+
+42.328667, -83.040460, Detroit Historical Museum, Detroit, MI
+
+42.281057, -83.745933, Nickels Arcade, Ann Arbor, MI
+
+42.277310, -83.738286, Ann Arbor Art Center, Ann Arbor, MI
+
+42.283295, -83.781623, Cobblestone Farm Association, Ann Arbor, MI
+
+42.475504, -83.633788, Detroit Pistons Performance Center, Detroit, MI
+
+42.283152, -83.831588, Domino's Petting Farm, Ann Arbor, MI
+
+42.278862, -83.760652, Gallup Park, Ann Arbor, MI
+
+42.331741, -83.044872, Comerica Park, Detroit, MI
+
+42.340186, -83.472426, Detroit Race Course, Detroit, MI
+
+42.337154, -83.051540, Fox Theatre, Detroit, MI
+
+42.399469, -83.148658, The Detroit Museum of Contemporary Art, Detroit, MI
+
+42.253517, -83.179183, Ford Lake, Ypsilanti, MI
+
+42.294649, -83.717973, Briarwood Mall, Ann Arbor, MI
+
+42.286067, -83.714627, Michigan Theater, Ann Arbor, MI
+
+42.441266, -82.986456, Detroit Golf Club, Detroit, MI
+
+42.280936, -83.739187, The Ark, Ann Arbor, MI
+
+42.328067, -83.046867, Sightseeing Pass Detroit, Detroit, MI
+
+42.360003, -82.989288, Riverfront-Lakewood East Park, Detroit, MI
+
+42.307597, -83.695349, Yost Ice Arena, Ann Arbor, MI
+
+42.326016, -83.220421, Detroit Observatory, Ann Arbor, MI
+
+42.331457, -83.042997, Detroit Princess Riverboat, Detroit, MI
+
+42.328725, -83.039837, Michigan Soldiers' and Sailors' Monument, Detroit, MI
+
+42.303967, -83.697376, Redbud Nature Area, Ann Arbor, MI
+
+42.426578, -83.222875, Detroit Popcorn Company, Detroit, MI
+
+42.316784, -83.997439, New Center Stamping, Detroit, MI
+
+42.272087, -83.739965, Argus Farm Stop, Ann Arbor, MI
+
+42.279495, -83.738657, Nickels Arcade, Ann Arbor, MI
+
+42.266264, -83.765508, Sheraton Ann Arbor Hotel, Ann Arbor, MI
+
+42.506361, -82.992252, Detroit Belle Isle Grand Prix, Detroit, MI
+
+42.275333, -83.732904, Taste Kitchen, Ann Arbor, MI
+
+42.2801, -83.7475, Kerrytown, Ann Arbor, MI
+
+42.330727, -83.046270, Detroit Opera House, Detroit, MI
+
+42.487820, -83.147162, Ferndale Public Library, Ferndale, MI
+
+42.3736, -83.4646, Greenfield Village, Dearborn, MI
+
+42.335488, -83.053426, Motown Museum, Detroit, MI
+
+42.3102, -83.2017, Detroit Industrial Projects, Detroit, MI
+
+42.3314, -83.0697, Greektown Historic District, Detroit, MI 
+
+42.3314, -83.0370, Madison Building, Detroit, MI 
+
+42.3314, -83.0484, Detroit Athletic Club, Detroit, MI
+
+42.3314, -83.1815, The Rooster Tail, Detroit, MI
+
+42.3314, -83.0366, Hart Plaza, Detroit, MI
+
+42.3297, -83.0412, Music Hall Center for the Performing Arts, Detroit, MI
+
+42.3299, -83.0395, Gem Theatre, Detroit, MI
+
+42.3330, -82.9947, The Heidelberg Project, Detroit, MI
+
+42.3189, -83.0395, Detroit Children’s Museum, Detroit, MI
+
+42.3120, -83.0855, Detroit City Distillery, Detroit, MI
+
+42.3329, -83.0790, Saint Andrews Hall, Detroit, MI
+
+42.3960, -82.9193, Detroit Yacht Club, Detroit, MI
+
+42.3593, -83.0670, Detroit Artists' Market, Detroit, MI
+
+42.3599, -83.0667, Detroit School of Burlesque, Detroit, MI
+
+42.3834, -83.1024, Majestic Theatre, Detroit, MI
+
+42.3728, -83.0627, Detroit Amtrak Station, Detroit, MI
+
+42.3989, -83.1174, The Detroit Curling Club, Detroit, MI
+
+42.4733, -83.2218, Detroit Golf Club, Detroit, MI
+
+42.3688, -83.0797, Detroit Music Hall, Detroit, MI
+
+42.2326, -83.3331, Matthaei Botanical Gardens, Ann Arbor, MI
+
+42.2796, -83.7437, Kerrytown Concert House, Ann Arbor, MI
+
+42.2616, -83.7466, Ann Arbor Municipal Airport, Ann Arbor, MI
+
+42.303201, -83.706507, Cobblestone Farm, Ann Arbor, MI
+
+42.3228, -83.7407, Scarlett Mitchell Nature Area, Ann Arbor, MI
+
+42.2853, -83.7178, Pioneer High School, Ann Arbor, MI
+
+42.3128, -83.7476, Lawton Elementary School, Ann Arbor, MI
+
+42.2930, -83.7172, Buhr Park Pool, Ann Arbor, MI
+
+42.2283, -83.7777, Ford Lake, Ann Arbor, MI
+
+42.2644, -83.7663, Briarwood Mall, Ann Arbor, MI
+
+42.2319, -83.7219, Veterans Memorial Park Pool, Ann Arbor, MI
+
+42.2682, -83.7318, Vets Park Skatepark, Ann Arbor, MI
+
+42.2712, -83.7411, The Maryland Club of Ann Arbor, Ann Arbor, MI
+
+42.2949, -83.7230, Ann Arbor Ice Cube, Ann Arbor, MI
+
+42.3102, -83.7162, Donuts Factory, Ann Arbor, MI
+
+42.2948, -83.7078, Sierra Trading Post, Ann Arbor, MI
+
+42.3085, -83.6767, Overture Audio, Ann Arbor, MI
+
+42.2924, -83.6947, Kirtland Hills Nature Area, Ann Arbor, MI
+
+42.2868, -83.7418, Eberbach Mansion, Ann Arbor, MI
+
+42.3068, -83.7069, Tappan Middle School Tennis Courts, Ann Arbor, MI
+35, 42.3085, -83.6940, Traverwood, Ann Arbor, MI
+
+42.3205, -83.7153, Savoir Faire, Ann Arbor, MI
+
+42.3104, -83.7570, Ann Arbor Comedy Showcase, Ann Arbor, MI
+
+42.3092, -83.7017, Flycatcher Spring, Ann Arbor, MI
+
+42.2281, -83.7629, Boulder Ridge, Ann Arbor, MI
+
+42.3071, -83.6904, Spruce Knob Park, Ann Arbor, MI
+
+42.3162, -83.7260, Ann Arbor Dog Park, Ann Arbor, MI
+
+42.2940, -83.7279, Buttonbush Trail, Ann Arbor, MI
+
+42.3003, -83.7155, Sagebrush Park, Ann Arbor, MI
+
+42.2751, -83.7563, Woodford Park, Ann Arbor, MI
+
+42.2877, -83.7232, Forest Stickleback, Ann Arbor, MI
+
+42.2808, -83.7258, Erie Park, Ann Arbor, MI
+
+42.2602, -83.6912, Leigh Greden Dog Park, Ann Arbor, MI
+
+42.3090, -83.6877, Black Pond Woods, Ann Arbor, MI
+
+42.2765, -83.7270, Olson Park Disc Golf Course, Ann Arbor, MI
+
+42.3336, -83.6891, Stapp Nature Area, Ann Arbor, MI
+
+42.310378, -83.214397, Matthaei Botanical Gardens, Ann Arbor, MI
+
+42.279498, -83.782889, Leslie Science & Nature Center, Ann Arbor, MI
+
+42.269989, -83.730289, Ann Arbor-Saline Rd, Ann Arbor, MI
+
+42.317198, -83.228229, Gerald E. Eddy Discovery Center, Chelsea, MI
+
+42.316090, -83.216872, Michigan Medicine, Ypsilanti, MI
+
+42.337478, -83.048167, Detroit Water and Sewerage Dept, Detroit, MI
+
+42.376938, -83.079829, Motown Historical Museum, Detroit, MI
+
+42.339295, -83.049266, Woodward Avenue, Detroit, MI
+
+42.312537, -83.215984, Willow Run Airport, Ypsilanti, MI
+
+42.356398, -83.066374, Detroit Children's Museum, Detroit, MI
+
+42.322298, -83.176382, MotorCity Casino Hotel, Detroit, MI
+
+42.239389, -83.613289, Willow Metropark, New Boston, MI
+
+42.376938, -83.079829, New Center Stamping, Detroit, MI
+
+42.302610, -83.237278, Gross Ile Municipal Airport, Gross Ile, MI
+
+42.302864, -83.215423, Detroit Metro Airport – DTW, Romulus, MI
+
+42.481398, -83.161883, Southeast Michigan Council of Govt, Detroit, MI
+
+42.249923, -83.178586, Lower Huron Metropark, Belleville, MI
+
+42.620398, -83.287047, General Motors Orion Assembly, Lake Orion, MI
+
+42.317210, -83.166169, Detroit Golf Club, Detroit, MI
+
+42.409301, -82.911830, Detroit City Airport, Detroit, MI
+
+42.491769, -83.025134, Fisher Building, Detroit, MI
+
+39.443167, -77.963419, John Hopkins, Detroit, MI
+
+42.331680, -83.047920, Grand Circus Park, Detroit, MI
+
+42.227838, -83.149942, Willow Run Airport, Ypsilanti, MI
+
+42.333038, -83.046775, Greektown Casino-Hotel, Detroit, MI
+
+42.331552, -83.036411, Detroit-Windsor Tunnel, Detroit, MI
+
+42.414650, -82.995288, Belle Isle Beach, Detroit, MI
+
+42.235988, -83.225421, PACE Inc, Ypsilanti, MI
+
+42.320232, -83.107561, Roush Industries Inc, Livonia, MI
+
+42.331698, -83.070267, Renaissance Center, Detroit, MI
+
+42.283752, -83.220393, Fuller Park, Ann Arbor, MI
+
+42.307242, -83.224451, Domino's Farms, Ann Arbor, MI
+
+42.337765, -83.051368, Ford Field, Detroit, MI
+
+42.476578, -83.280942, Ferndale, MI
+
+42.609036, -83.929156, Waterford, MI
+
+42.331375, -83.045277, Detroit, MI
+
+42.633619, -83.152015, Auburn Hills, MI
+
+42.431648, -83.550570, Pontiac, MI
+
+42.331504, -83.035411, The Westin Book Cadillac Detroit, Detroit, MI
+
+42.473348, -83.221171, Northville, MI
+
+42.331407, -83.034894, Detroit Riverwalk, Detroit, MI
+
+42.609051, -82.994878, Saint Clair Shores, MI
+
+42.317299, -83.032375, Corktown, Detroit, MI
+
+42.729669, -83.223969, Orion Charter Township, MI
+
+42.671042, -82.820340, Clinton Township, MI
+
+42.331393, -83.045898, Detroit Princess, Detroit, MI
+
+42.331517, -83.033029, The Siren Hotel, Detroit, MI
+
+42.489938, -83.144594, Township of Bloomfield, MI
+
+42.331397, -83.034338, Detroit Club, Detroit, MI
+
+42.331420, -83.045562, Detroit Public Library, Detroit, MI
