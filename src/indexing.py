@@ -326,8 +326,6 @@ class Indexer:
             index = BasicInvertedIndex()
         elif index_type == IndexType.PositionalIndex:
             index = PositionalInvertedIndex()
-        elif index_type == IndexType.OnDiskInvertedIndex:
-            index = OnDiskInvertedIndex('shelve')
 
         # TODO: If minimum word frequencies are specified, process the collection to get the
         #       word frequencies
