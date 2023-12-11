@@ -12,28 +12,62 @@ import pickle
 
 
 class L2RRanker:
-    def __init__(self, document_index, title_index, ranker: Ranker,
+    def __init__(self, score_index, ranker: Ranker,
                  feature_extractor: 'L2RFeatureExtractor') -> None:
         """
         Initializes a L2RRanker system.
 
         Args:
-            document_index: The inverted index for the contents of the document's main text body
-            title_index: The inverted index for the contents of the document's title
+            score_index: The index with colums as users, rows as charging stations, and values as scores
             document_preprocessor: The DocumentPreprocessor to use for turning strings into tokens
             stopwords: The set of stopwords to use or None if no stopword filtering is to be done
             ranker: The Ranker object
             feature_extractor: The L2RFeatureExtractor object
         """
         # TODO: Save any new arguments that are needed as fields of this class
-        self.document_index = document_index
-        self.title_index = title_index
+        self.score_index = score_index
+        self.sim_index = None
         self.ranker = ranker
         self.feature_extractor = feature_extractor
 
         # TODO: Initialize the LambdaMART model (but don't train it yet)
         self.model = LambdaMART()
         self.trained = False
+
+    def get_similarities(self):
+        """
+        Computes the similarity matrix for the documents in the index.
+        """
+
+        self.sim_index = np.zeros(
+            (len(self.document_index), len(self.document_index)))
+        for i in tqdm(range(len(self.document_index))):
+            for j in range(len(self.document_index)):
+                if i == j:
+                    self.sim_index[i][j] = 1
+                    continue
+                self.sim_index[i][j] = self.cosine_similarity(i, j)
+
+    def cosine_similarity(self, doc1, doc2):
+        '''
+        Computes the cosine similarity between two arrays. 
+        '''
+        vector_1 = self.document_index[doc1].keys()
+        vector_2 = self.document_index[doc2].keys()
+        return np.dot(vector_1, vector_2) / (np.linalg.norm(vector_1) * np.linalg.norm(vector_2))
+
+    def get_prediction(self, x, i):
+        '''
+        Computes the prediction for a pair of documents. 
+        '''
+        sum = 0
+        normalizer = 0
+        for j in range(len(self.document_index)):
+            sum += self.sim_index[i][j] * self.score_index[x][j]
+            normalizer += self.sim_index[i][j]  
+        if normalizer == 0:
+            return 0
+        return sum / normalizer   
 
     def prepare_training_data(self, query_to_document_relevance_scores: dict[str, list[tuple[int, int]]]):
         """
@@ -191,7 +225,6 @@ class L2RRanker:
         if self.trained == False:
             raise ValueError("Model has not been trained yet.")
         return self.model.predict(X)
-
 
     @staticmethod
     def maximize_mmr(thresholded_search_results: list[tuple[int, float]], similarity_matrix: np.ndarray,
@@ -363,12 +396,11 @@ class L2RFeatureExtractor:
         self.document_index = document_index
         self.DistScorer = DistScorer(self.document_index)
 
-
     def get_dist(self, doc, query_parts: list[float]) -> float:
         return self.DistScorer.score(doc, query_parts)
 
-
     # TODO: Add at least one new feature to be used with your L2R model
+
     def generate_features(self, doc, query_parts: list[float]) -> list:
         """
         Generates a dictionary of features for a given document and query.
