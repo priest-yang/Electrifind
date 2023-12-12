@@ -2,22 +2,15 @@
 Author: Zim Gong
 This file is a template code file for the Search Engine. 
 '''
-import csv
-import gzip
-import json
-import jsonlines
-import os
-import pickle
 import numpy as np
 import pandas as pd
-from collections import Counter, defaultdict
 from tqdm import tqdm
 
 from models import BaseSearchEngine, SearchResponse
 
 # your library imports go here
 from ranker import *
-from l2r import L2RRanker, L2RFeatureExtractor
+from cf import CFRanker
 
 DATA_PATH = '../data/'
 CACHE_PATH = '../cache/'
@@ -35,17 +28,17 @@ class SearchEngine(BaseSearchEngine):
     def __init__(self,
                  max_docs: int = -1,
                  ranker: str = 'dist',
-                 l2r: bool = True
+                 cf: bool = True
                  ) -> None:
 
-        self.l2r = False
+        self.cf = False
 
         print('Loading indexes...')
         self.main_index = pd.read_csv(DATASET_PATH, delimiter='\t')
 
         print('Loading ranker...')
         self.set_ranker(ranker)
-        self.set_l2r(l2r)
+        self.set_cf(cf)
 
         print('Search Engine initialized!')
 
@@ -55,32 +48,21 @@ class SearchEngine(BaseSearchEngine):
         else:
             raise ValueError("Invalid ranker type")
         self.ranker = Ranker(self.main_index, self.scorer)
-        if self.l2r:
+        if self.cf:
             self.pipeline.ranker = self.ranker
         else:
             self.pipeline = self.ranker
 
-    def set_l2r(self, l2r: bool = True) -> None:
-        if self.l2r == l2r:
+    def set_cf(self, cf: bool = True) -> None:
+        if self.cf == cf:
             return
-        if not l2r:
+        if not cf:
             self.pipeline = self.ranker
         else:
-            self.fe = L2RFeatureExtractor(
-                self.main_index, self.title_index, self.doc_category_info,
-                self.preprocessor, self.stopwords, self.recognized_categories,
-                self.network_features, self.cescorer
-            )
+            print('Loading cf ranker...')
+            self.pipeline = cfRanker()
 
-            print('Loading L2R ranker...')
-            self.pipeline = L2RRanker(
-                self.main_index, self.title_index, self.preprocessor,
-                self.stopwords, self.ranker, self.fe
-            )
-
-            print('Training L2R ranker...')
-            self.pipeline.train(RELEVANCE_TRAIN_PATH)
-            self.l2r = True
+            self.cf = True
 
     def search(self, query: str) -> list[SearchResponse]:
         # 1. Use the ranker object to query the search pipeline
@@ -95,4 +77,4 @@ def initialize():
 
 
 if __name__ == "__main__":
-    search_obj = SearchEngine(l2r=False)
+    search_obj = SearchEngine(cf=False)
