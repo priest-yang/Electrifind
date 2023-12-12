@@ -165,7 +165,8 @@
 42.2868, -83.7418, Eberbach Mansion, Ann Arbor, MI
 
 42.3068, -83.7069, Tappan Middle School Tennis Courts, Ann Arbor, MI
-35, 42.3085, -83.6940, Traverwood, Ann Arbor, MI
+
+42.3085, -83.6940, Traverwood, Ann Arbor, MI
 
 42.3205, -83.7153, Savoir Faire, Ann Arbor, MI
 

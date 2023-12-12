@@ -5,7 +5,7 @@ from ranker import *
 
 
 class CFRanker:
-    def __init__(self) -> None:
+    def __init__(self, index, ranker: Ranker) -> None:
         """
         Initializes a L2RRanker system.
 
@@ -17,10 +17,12 @@ class CFRanker:
             feature_extractor: The L2RFeatureExtractor object
         """
         # TODO: Save any new arguments that are needed as fields of this class
+        self.index = index
         self.score_index = []
         self.sim_index = []
         self.row_means = []
         self.id_map = []
+        self.ranker = ranker
         self.get_scores()
         self.get_similarities()
 
@@ -101,6 +103,48 @@ class CFRanker:
             return self.row_means[x]
         return sum / normalizer + self.row_means[x]
 
+    def predict(self, X_pred, user_id):
+        scores = []
+        for x in X_pred:
+            scores.append(self.get_prediction(x, user_id))
+
+    def query(self, query: str, user_id: int):
+        query_parts = [float(x) for x in query.split(',')]
+        if len(query_parts) == 0:
+            return []
+        mask = (abs(query_parts[0] - self.index.Latitude) <
+                0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+        relevant_docs = self.index[mask]
+        if len(relevant_docs) == 0:
+            return []
+
+        relevant_docs['score'] = relevant_docs.apply(
+            lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
+        relevant_docs = relevant_docs.sort_values(
+            by=['score'], ascending=False)
+        relevant_docs['id'] = relevant_docs.index
+        results = relevant_docs[['id', 'score']].values.tolist()
+
+        results_top_100 = results[:100]
+        results_tails = results[100:]
+
+        X_pred = []
+        for item in results_top_100:
+            docid = int(item[0])
+            X_pred.append(self.id_map.index(docid))
+
+        scores = self.predict(X_pred, user_id)
+
+        # TODO: Sort posting_lists based on scores
+        for i in range(len(results_top_100)):
+            results_top_100[i] = (results_top_100[i][0], scores[i])
+        results_top_100.sort(key=lambda x: x[1], reverse=True)
+
+        # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
+        results = results_top_100 + results_tails
+
+        # TODO: Return the ranked documents
+        return results
 
 if __name__ == '__main__':
     pass
