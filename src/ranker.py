@@ -15,8 +15,8 @@ class Ranker:
     """
     # TODO: Return a list of sorted relevant documents.
 
-    def __init__(self, index: InvertedIndex, document_preprocessor, stopwords: set[str],
-                 scorer: 'RelevanceScorer', raw_text_dict: dict[int, str]) -> None:
+    def __init__(self, index: InvertedIndex=None, document_preprocessor=None, stopwords: set[str]=None,
+                 scorer: 'RelevanceScorer'=None, raw_text_dict: dict[int, str]=None) -> None:
         """
         Initializes the state of the Ranker object.
 
@@ -28,7 +28,8 @@ class Ranker:
             raw_text_dict: A dictionary mapping a document ID to the raw string of the document
         """
         self.index = index
-        self.tokenize = document_preprocessor.tokenize
+        if document_preprocessor is not None:
+            self.tokenize = document_preprocessor.tokenize
         self.scorer = scorer
         self.stopwords = stopwords
         self.raw_text_dict = raw_text_dict
@@ -56,40 +57,58 @@ class Ranker:
         and the second element as the score of the document after the ranking process.
         """
         # TODO: Tokenize the query and remove stopwords, if needed
-        query_parts = self.tokenize(query)
-        if len(query_parts) == 0:
-            return []
-        query_word_count = Counter(query_parts)
+        if self.scorer.__class__.__name__ == 'DistScorer':
+            query_parts = [float(x) for x in query.split(',')]
+            if len(query_parts) == 0:
+                return []
+            mask = (abs(query_parts[0] - self.index.Latitude) <
+                    0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+            relevant_docs = self.index[mask]
+            if len(relevant_docs) == 0:
+                return []
 
-        results = self.rank_docs(query_parts, query, query_word_count)
+            relevant_docs['score'] = relevant_docs.apply(
+                lambda x: self.scorer.score(x, query_parts), axis=1)
+            relevant_docs = relevant_docs.sort_values(
+                by=['score'], ascending=False)
+            relevant_docs['id'] = relevant_docs.index
+            results = relevant_docs[['id', 'score']].values.tolist()
+            return results
+        else:
+            query_parts = self.tokenize(query)
+            if len(query_parts) == 0:
+                return []
+            query_word_count = Counter(query_parts)
 
-        # TODO: If the user has indicated we should use feedback,
-        #  create the pseudo-document from the specified number of pseudo-relevant results.
-        #  This document is the cumulative count of how many times all non-filtered words show up
-        #  in the pseudo-relevant documents. See the equation in the write-up. Be sure to apply the same
-        #  token filtering and normalization here to the pseudo-relevant documents.
-        if pseudofeedback_num_docs > 0:
-            pseudo_docs_word_count = Counter()
-            for docid, score in results[:pseudofeedback_num_docs]:
-                if docid not in self.raw_text_dict:
-                    continue
-                pseudo_doc = self.tokenize(self.raw_text_dict[docid])
-                pseudo_docs_word_count.update(pseudo_doc)
+            results = self.rank_docs(query_parts, query, query_word_count)
 
-        # TODO: Combine the document word count for the pseudo-feedback with the query to create a new query
-        # NOTE: When using alpha and beta to weight the query and pseudofeedback doc, the counts
-        #  will likely be *fractional* counts (not integers).
-            new_query_word_count = Counter()
-            for word, count in query_word_count.items():
-                new_query_word_count[word] += pseudofeedback_alpha * count
-            for word, count in pseudo_docs_word_count.items():
-                new_query_word_count[word] += pseudofeedback_beta * \
-                    count / pseudofeedback_num_docs
-            new_query_parts = list(new_query_word_count.keys())
-            results = self.rank_docs(
-                new_query_parts, None, new_query_word_count)
+            # TODO: If the user has indicated we should use feedback,
+            #  create the pseudo-document from the specified number of pseudo-relevant results.
+            #  This document is the cumulative count of how many times all non-filtered words show up
+            #  in the pseudo-relevant documents. See the equation in the write-up. Be sure to apply the same
+            #  token filtering and normalization here to the pseudo-relevant documents.
+            if pseudofeedback_num_docs > 0:
+                pseudo_docs_word_count = Counter()
+                for docid, score in results[:pseudofeedback_num_docs]:
+                    if docid not in self.raw_text_dict:
+                        continue
+                    pseudo_doc = self.tokenize(self.raw_text_dict[docid])
+                    pseudo_docs_word_count.update(pseudo_doc)
 
-        return results
+            # TODO: Combine the document word count for the pseudo-feedback with the query to create a new query
+            # NOTE: When using alpha and beta to weight the query and pseudofeedback doc, the counts
+            #  will likely be *fractional* counts (not integers).
+                new_query_word_count = Counter()
+                for word, count in query_word_count.items():
+                    new_query_word_count[word] += pseudofeedback_alpha * count
+                for word, count in pseudo_docs_word_count.items():
+                    new_query_word_count[word] += pseudofeedback_beta * \
+                        count / pseudofeedback_num_docs
+                new_query_parts = list(new_query_word_count.keys())
+                results = self.rank_docs(
+                    new_query_parts, None, new_query_word_count)
+
+            return results
 
     def rank_docs(self, query_parts: list[str], query: str,
                   query_word_count: dict[str, int]) -> list[tuple[int, float]]:
@@ -170,7 +189,11 @@ class DistScorer(RelevanceScorer):
         super().__init__(index, parameters)
 
     def score(self, doc, query_parts) -> float:
-        return 1 / (1 + distance.distance((query_parts[0], query_parts[1]), (doc.Latitude, doc.Longitude)).km)
+        try:
+            score = 1 / (1 + distance.distance((query_parts[0], query_parts[1]), (doc.Latitude, doc.Longitude)).km)
+        except:
+            score = 1 / (1 + distance.distance((query_parts[0], query_parts[1]), (doc[0], doc[1])).km)
+        return score
 
 
 # TODO: Implement unnormalized cosine similarity on word count vectors

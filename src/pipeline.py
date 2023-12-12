@@ -11,6 +11,7 @@ from models import BaseSearchEngine, SearchResponse
 # your library imports go here
 from ranker import *
 from cf import CFRanker
+from l2r import L2RRanker, L2RFeatureExtractor
 
 DATA_PATH = '../data/'
 CACHE_PATH = '../cache/'
@@ -25,13 +26,11 @@ DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 
 
 class SearchEngine(BaseSearchEngine):
-    def __init__(self,
-                 max_docs: int = -1,
-                 ranker: str = 'dist',
-                 cf: bool = True
-                 ) -> None:
+    def __init__(self, ranker: str = 'dist',
+                 cf: bool = True, l2r: bool = False) -> None:
 
         self.cf = False
+        self.l2r = False
 
         print('Loading indexes...')
         self.main_index = pd.read_csv(DATASET_PATH, delimiter='\t')
@@ -39,6 +38,7 @@ class SearchEngine(BaseSearchEngine):
         print('Loading ranker...')
         self.set_ranker(ranker)
         self.set_cf(cf)
+        self.set_l2r(l2r)
 
         print('Search Engine initialized!')
 
@@ -47,7 +47,7 @@ class SearchEngine(BaseSearchEngine):
             self.scorer = DistScorer(self.main_index)
         else:
             raise ValueError("Invalid ranker type")
-        self.ranker = Ranker(self.main_index, self.scorer)
+        self.ranker = Ranker(self.main_index, scorer=self.scorer)
         if self.cf:
             self.pipeline.ranker = self.ranker
         else:
@@ -61,8 +61,22 @@ class SearchEngine(BaseSearchEngine):
         else:
             print('Loading cf ranker...')
             self.pipeline = CFRanker()
-
             self.cf = True
+
+    def set_l2r(self, l2r: bool = False) -> None:
+        if self.l2r == l2r:
+            return
+        if not l2r:
+            self.pipeline = self.ranker
+        else:
+            print('Loading l2r ranker...')
+            features_df = pd.read_csv('../data/processed_nrel.csv')
+            self.feature_extractor = L2RFeatureExtractor(
+                features_df, self.ranker)
+            self.pipeline = L2RRanker(
+                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+            self.pipeline.train('../data/relevance.train.csv')
+            self.l2r = True
 
     def search(self, query: str) -> list[SearchResponse]:
         # 1. Use the ranker object to query the search pipeline
