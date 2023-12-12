@@ -130,7 +130,8 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
                         pseudofeedback_alpha: float = 0.8,
                         pseudofeedback_beta: float = 0.2,
                         mmr_lambda: int = 1,
-                        mmr_threshold: int = 100
+                        mmr_threshold: int = 100,
+                        user_id: int = 0
                         ) -> dict[str, float]:
     # TODO: Implement running relevance test for the search system for multiple queries.
     """
@@ -164,6 +165,8 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
                 mmr_lambda=mmr_lambda,
                 mmr_threshold=mmr_threshold
             )
+        elif ranker.__class__.__name__ == 'CFRanker':
+            response = ranker.query(query, user_id)
         else:
             response = ranker.query(query)
 

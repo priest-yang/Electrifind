@@ -15,7 +15,7 @@ from l2r import L2RRanker, L2RFeatureExtractor
 
 DATA_PATH = '../data/'
 CACHE_PATH = '../cache/'
-DATASET_PATH = DATA_PATH + 'NREL_All_Stations_data_si618.csv'
+DATASET_PATH = DATA_PATH + 'processed_nrel.csv'
 DOC2QUERY_PATH = DATA_PATH + 'doc2query.csv'
 ENCODED_DOCUMENT_EMBEDDINGS_NPY_PATH = DATA_PATH + \
     'wiki-200k-vecs.msmarco-MiniLM-L12-cos-v5.npy'
@@ -33,7 +33,7 @@ class SearchEngine(BaseSearchEngine):
         self.l2r = False
 
         print('Loading indexes...')
-        self.main_index = pd.read_csv(DATASET_PATH, delimiter='\t')
+        self.main_index = pd.read_csv(DATASET_PATH)
 
         print('Loading ranker...')
         self.set_ranker(ranker)
@@ -60,7 +60,7 @@ class SearchEngine(BaseSearchEngine):
             self.pipeline = self.ranker
         else:
             print('Loading cf ranker...')
-            self.pipeline = CFRanker()
+            self.pipeline = CFRanker(self.main_index, self.ranker)
             self.cf = True
 
     def set_l2r(self, l2r: bool = False) -> None:
@@ -70,9 +70,8 @@ class SearchEngine(BaseSearchEngine):
             self.pipeline = self.ranker
         else:
             print('Loading l2r ranker...')
-            features_df = pd.read_csv('../data/processed_nrel.csv')
             self.feature_extractor = L2RFeatureExtractor(
-                features_df, self.ranker)
+                self.main_index, self.ranker)
             self.pipeline = L2RRanker(
                 index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
             self.pipeline.train('../data/relevance.train.csv')

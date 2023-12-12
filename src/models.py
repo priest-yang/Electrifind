@@ -1,5 +1,6 @@
 '''
 Author: Prithvijit Dasgupta
+Editor: Zim Gong
 
 This file contains the base models required by the service to function
 '''
