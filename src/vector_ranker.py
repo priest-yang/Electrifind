@@ -9,10 +9,9 @@ import pickle
 from tqdm import tqdm
 from collections import Counter
 
-
 class VectorRanker(Ranker):
-    def __init__(self, bi_encoder_model_name: str, encoded_docs: ndarray,
-                 row_to_docid: list[int]) -> None:
+    def __init__(self, bi_encoder_model_name: str = None, encoded_docs: ndarray = None,
+                 row_to_docid: list[int] = None, user_profile : ndarray = None, profile_row_to_userid : list[int] = None) -> None:
         """
         Initializes a VectorRanker object.
 
@@ -22,15 +21,52 @@ class VectorRanker(Ranker):
                 as specified with bi_encoded_model_name
             row_to_docid: A list that is a mapping from the row number to the document id that row corresponds to
                 the embedding
+            user_profile: A matrix where each row is an vector of user profile
+            profile_row_to_userid: A list that is a mapping from the user id to the row number that row corresponds to
+                the user profile
 
         Using zip(encoded_docs, row_to_docid) should give you the mapping between the docid and the embedding.
         """
         # TODO: Instantiate the bi-encoder model here
+        if bi_encoder_model_name is not None:
+            self.bi_encoder_model_name = bi_encoder_model_name
+            self.model = SentenceTransformer(bi_encoder_model_name)
 
-        self.bi_encoder_model_name = bi_encoder_model_name
-        self.model = SentenceTransformer(bi_encoder_model_name)
         self.encoded_docs = encoded_docs
         self.row_to_docid = row_to_docid
+        self.user_profile = user_profile
+        self.profile_row_to_userid = profile_row_to_userid
+
+    def personalized_re_rank(self, result: list[int] | list[tuple[int, float]], user_id: int = None) -> list[int] | list[tuple[int, float]]:
+        '''
+        Re-ranks the results based on the user's profile
+
+        Args:
+            result: A list of document ids or result to be re-ranked, mostly, from the previous ranker
+            user_id: The user's id
+        
+        Returns:
+            A list of document ids or result re-ranked based on the user's profile
+        '''
+
+        if user_id is None:
+            return result
+        
+        if result[0] is tuple:
+            pre_ranker_result = [res[0] for res in result]
+        else:
+            pre_ranker_result = result.copy()
+
+        user_vec = self.user_profile[self.profile_row_to_userid.index(user_id)]
+        doc_vecs = self.encoded_docs[[self.row_to_docid.index(docid) for docid in pre_ranker_result]]
+        scores = np.dot(doc_vecs, user_vec)
+        sorted_idx = np.argsort(scores)[::-1]
+        
+        return_list = result.copy()
+        for i in range(len(sorted_idx)):
+            return_list[i] = pre_ranker_result[sorted_idx[i]]
+        return return_list
+         
 
     def query(self, query: str, pseudofeedback_num_docs=0,
               pseudofeedback_alpha=0.8, pseudofeedback_beta=0.2, user_id=None) -> list[tuple[int, float]]:
