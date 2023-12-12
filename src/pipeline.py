@@ -86,7 +86,7 @@ class SearchEngine(BaseSearchEngine):
 
 
 def initialize():
-    search_obj = SearchEngine()
+    search_obj = SearchEngine(cf=False, l2r=False)
     return search_obj
 
 
