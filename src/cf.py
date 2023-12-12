@@ -20,19 +20,28 @@ class CFRanker:
         self.score_index = []
         self.sim_index = []
         self.row_means = []
+        self.id_map = []
         self.get_scores()
         self.get_similarities()
 
     def get_scores(self):
         dataset_df = pd.read_csv(
             '../data/Google_Map_review_data_AA_DTW.csv', sep=',', header=0)
+        sample_df = pd.read_csv(
+            '../data/processed_nrel.csv', sep=',', header=0)
+        sample_df['index'] = sample_df.index
         authors_list = dataset_df.author_name.unique()
         stations_list = []
         coor_list = set()
         for row in dataset_df.itertuples():
             if (float(row.lat), float(row.lng)) not in coor_list:
                 coor_list.add((float(row.lat), float(row.lng)))
-                stations_list.append(row.name)
+                mask = (abs(sample_df.Latitude - row.lat) < 0.001) & (
+                    abs(sample_df.Longitude - row.lng) < 0.001)
+                masked_nrel = sample_df[mask]
+                if len(masked_nrel) > 0:
+                    self.id_map.append(masked_nrel.iloc[0]['index'])
+                    stations_list.append(row.name)
         self.score_index = pd.DataFrame(
             index=stations_list, columns=authors_list)
         for row in dataset_df.itertuples():
@@ -89,7 +98,7 @@ class CFRanker:
             sum += self.sim_index[i][j] * self.score_index.iloc[j][x]
             normalizer += self.sim_index[i][j]
         if normalizer == 0:
-            return 0
+            return self.row_means[x]
         return sum / normalizer + self.row_means[x]
 
 
