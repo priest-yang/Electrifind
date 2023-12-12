@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 from document_preprocessor import Tokenizer, RegexTokenizer
 from enum import Enum
 from tqdm import tqdm
-from utils.py import merge_lat_lng
+from utils import merge_lat_lng
 
 class IndexType(Enum):
     # The three types of index currently supported are InvertedIndex, PositionalIndex and OnDiskInvertedIndex
@@ -398,7 +398,7 @@ if __name__ == '__main__':
                                  document_preprocessor=RegexTokenizer("\\w+"),
                                  stopwords=stopwords, 
                                 minimum_word_frequency=2,
-                                text_key='comment', 
+                                text_key='comments', 
                                 max_docs=-1, 
                                 doc_augment_dict=None, 
                                 rel_ids=None)
