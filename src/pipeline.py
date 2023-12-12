@@ -60,7 +60,7 @@ class SearchEngine(BaseSearchEngine):
             self.pipeline = self.ranker
         else:
             print('Loading cf ranker...')
-            self.pipeline = cfRanker()
+            self.pipeline = CFRanker()
 
             self.cf = True
 
