@@ -12,36 +12,21 @@ params = {
     "user-id": 1, 
 }
 
-def get_results_all(ranker, query, top_n, args=None):
-    DATASET_CSV_PATH = "data/data.csv.zip"
-    results = ranker.query(query)
-    docids = [result[0] for result in results]
-    df = pd.read_csv(DATASET_CSV_PATH)
-    if args is None:
-        df_results = df.iloc[docids]
-    else:
-        df_results = df.iloc[docids]
-        for arg in args:
-            if arg:
-                arg = arg.split(",")
-                prompt_filter = ""
-                for tag in arg:
-                    prompt_filter += (
-                        r'df_results["prompt"].str.contains(fr"\b'
-                        + tag
-                        + r'\b", regex=True, case=False) | '
-                    )
-                df_results = df_results[eval(prompt_filter[:-3])]
-    prompts = df_results["prompt"].tolist()[:top_n]
-    urls = df_results["pic_url"].tolist()[:top_n]
-    return prompts, urls
+default_prompt = "fast"
+default_lng = "-73.985"
+default_lat = "40.758"
+
+
+
+def get_results_all(lat = default_lat, lng = default_lng, prompt = default_prompt, top_n = 10, userid = None):
+    query = str(lat) + ", " + str(lng) + ", " + str(prompt)
+    results = engine.search(query, userid = userid)
+    results = results[:top_n]
+    return results
 
 @app.route("/")
 def home():
-    query = "A mountain in spring"
-    print(query)
-    prompts, urls = get_results_all(engine, query, 200)
-    result = list(zip(prompts, urls))
+    result = get_results_all()
     return render_template("index.html", result=result)
 
 
