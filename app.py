@@ -1,8 +1,9 @@
 from flask import Flask, redirect, render_template, request, url_for
-from pipeline import SearchEngine
+
 import pandas as pd
 import sys
 sys.path.append("src")
+from pipeline import SearchEngine
 
 app = Flask(__name__)
 
@@ -15,7 +16,6 @@ params = {
 default_prompt = "fast"
 default_lng = "-73.985"
 default_lat = "40.758"
-
 
 
 def get_results_all(lat = default_lat, lng = default_lng, prompt = default_prompt, top_n = 10, userid = None):
@@ -33,9 +33,12 @@ def home():
 @app.route("/search", methods=["POST", "GET"])
 def search():
     if request.method == "POST":
+        lat = request.form.get("lat")
+        lng = request.form.get("lng")
         query = request.form.get("query")
-        if not query:
-            query = "A mountain in spring"
+        query = request.form.get("query")
+        # if not query:
+        #     query = "A mountain in spring"
         style = request.form.get("style")
         scene = request.form.get("scene")
         medium = request.form.get("medium")

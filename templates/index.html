@@ -64,18 +64,35 @@
                                 />
                                 <input
                                     type="text"
-                                    name="query"
-                                    placeholder="A mountain in spring"
-                                    value="{{query}}"
+                                    name="lat"
+                                    placeholder="lat"
+                                    value="{{lat}}"
                                 />
                             </div>
+
+                            <div id="input-wrapper">
+                                <img
+                                    src="static/src/magnifying-glass-solid.svg"
+                                    alt="search icon"
+                                    width="15"
+                                    height="15"
+                                    id="icon-magnifying-glass"
+                                />
+                                <input
+                                    type="text"
+                                    name="lng"
+                                    placeholder="lng"
+                                    value="{{lng}}"
+                                />
+                            </div>
+
                         </div>
                         <!-- <input type="submit" value="submit" /> -->
                     </form>
                 </div>
             </div>
 
-            <div class="results-wrapper">
+            <!-- <div class="results-wrapper">
                 {% for value in result %}
                 <div class="single-result-card">
                     <img src="{{ value[1] }}" alt="Image" />
@@ -88,8 +105,6 @@
                             name="query"
                             value="{{ value[0] }}"
                         />
-                        <!-- <input type="hidden" name="query" value="{{ value[2] }}" /> -->
-                        <!-- <input type="hidden" name="title" value="{{ value[0] }}" /> -->
                         <input type="submit" value="Find Similar" />
                         <div class="pick-this">
                             <span>Copy</span>
@@ -109,7 +124,8 @@
                     </form>
                 </div>
                 {% endfor %}
-            </div>
+            </div> -->
+            
         </main>
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
