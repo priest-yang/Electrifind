@@ -7,13 +7,13 @@ from pipeline import SearchEngine
 
 app = Flask(__name__)
 
-engine = SearchEngine(reranker="l2r+cf")
+engine = SearchEngine(reranker="vector")
 
 
 DEFAULT_USER = 1
 DEFAULT_PROMPT = "fast"
-DEFAULT_LNG = "-73.985"
-DEFAULT_LAT = "40.758"
+DEFAULT_LNG = "-83.0703"
+DEFAULT_LAT = "42.3317"
 
 
 def get_results_all(lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):

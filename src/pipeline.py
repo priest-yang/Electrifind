@@ -99,7 +99,13 @@ class SearchEngine(BaseSearchEngine):
         # 1. Use the ranker object to query the search pipeline
         # 2. This is example code and may not be correct.
         results = self.pipeline.query(query, **kwargs)
-        return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
+        if results is None or results == []:
+            print('No results found')
+            return []
+        try:
+            return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
+        except:
+            return [SearchResponse(id=idx+1, docid=result, score=0) for idx, result in enumerate(results)]
 
     def get_station_info(self, docid_list):
         detailed_data = pd.read_csv(DATA_PATH + 'NREL_All_Stations_data_si618.csv', delimiter='\t')
