@@ -13,9 +13,9 @@ from ranker import *
 from cf import CFRanker
 from l2r import L2RRanker, L2RFeatureExtractor
 from vector_ranker import VectorRanker
-
-DATA_PATH = '../data/'
-CACHE_PATH = '../cache/'
+from utils import DATA_PATH, CACHE_PATH
+# DATA_PATH = 'data/'
+# CACHE_PATH = 'cache/'
 DATASET_PATH = DATA_PATH + 'processed_nrel.csv'
 DOC2QUERY_PATH = DATA_PATH + 'doc2query.csv'
 ENCODED_DOCUMENT_EMBEDDINGS_NPY_PATH = DATA_PATH + \
@@ -60,7 +60,7 @@ class SearchEngine(BaseSearchEngine):
                 self.main_index, self.ranker)
             self.pipeline = L2RRanker(
                 index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
-            self.pipeline.train('../data/relevance.train.csv')
+            self.pipeline.train(DATA_PATH + 'relevance.train.csv')
             self.reranker = 'l2r'
         elif reranker == 'l2r+cf':
             print('Loading l2r ranker...')
@@ -68,14 +68,14 @@ class SearchEngine(BaseSearchEngine):
                 self.main_index, self.ranker)
             self.l2r = L2RRanker(
                 index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
-            self.l2r.train('../data/relevance.train.csv')
+            self.l2r.train(DATA_PATH + 'relevance.train.csv')
             self.reranker = 'l2r+cf'
             self.pipeline = CFRanker(self.main_index, self.l2r)
         elif reranker == 'vector':
-            encoded_docs = np.load('../data/encoded_station.npy')
-            user_profile = np.load('../data/encoded_user_profile.npy')
+            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
+            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
 
-            file_path = '../data/row_to_docid.txt'
+            file_path = DATA_PATH + 'row_to_docid.txt'
             with open(file_path, 'r') as file:
                 row_to_docid = file.read().splitlines()
 
@@ -102,7 +102,7 @@ class SearchEngine(BaseSearchEngine):
         return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
 
     def get_station_info(self, docid_list):
-        detailed_data = pd.read_csv('../data/NREL_All_Stations_data_si618.csv', delimiter='\t')
+        detailed_data = pd.read_csv(DATA_PATH + 'NREL_All_Stations_data_si618.csv', delimiter='\t')
         return detailed_data.iloc[docid_list]
 
 def initialize():

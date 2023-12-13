@@ -2,6 +2,7 @@ from tqdm import tqdm
 import pandas as pd
 import numpy as np
 from ranker import *
+from utils import DATA_PATH, CACHE_PATH
 
 
 class CFRanker:
@@ -29,9 +30,9 @@ class CFRanker:
 
     def get_scores(self):
         dataset_df = pd.read_csv(
-            '../data/Google_Map_review_data_AA_DTW.csv', sep=',', header=0)
+            DATA_PATH + 'Google_Map_review_data_AA_DTW.csv', sep=',', header=0)
         sample_df = pd.read_csv(
-            '../data/processed_nrel.csv', sep=',', header=0)
+            DATA_PATH + 'processed_nrel.csv', sep=',', header=0)
         sample_df['index'] = sample_df.index
         authors_list = dataset_df.author_name.unique()
         stations_list = []

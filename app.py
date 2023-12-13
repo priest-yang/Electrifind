@@ -7,7 +7,7 @@ from pipeline import SearchEngine
 
 app = Flask(__name__)
 
-engine = SearchEngine(cf=False, l2r=False)
+engine = SearchEngine(reranker="l2r+cf")
 
 params = {
     "user-id": 1, 

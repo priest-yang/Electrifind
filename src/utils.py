@@ -1,6 +1,10 @@
 import pandas as pd
 from tqdm import tqdm
 
+DATA_PATH = 'data/'
+CACHE_PATH = 'cache/'
+
+
 def merge_lat_lng(df1 : pd.DataFrame, df2 : pd.DataFrame, on : str = None) -> pd.DataFrame :
     '''
     merge dataframes based on lat/lng, in order to align with the 'docid' column
