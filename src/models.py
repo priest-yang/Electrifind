@@ -12,7 +12,7 @@ class QueryModel(BaseModel):
 class SearchResponse(BaseModel):
     id: int
     docid: int
-    score: float
+    score: float | None
 
 class PaginationModel(BaseModel):
     prev: str
