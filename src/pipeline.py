@@ -12,6 +12,7 @@ from models import BaseSearchEngine, SearchResponse
 from ranker import *
 from cf import CFRanker
 from l2r import L2RRanker, L2RFeatureExtractor
+from vector_ranker import VectorRanker
 
 DATA_PATH = '../data/'
 CACHE_PATH = '../cache/'
@@ -27,18 +28,16 @@ DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 
 class SearchEngine(BaseSearchEngine):
     def __init__(self, ranker: str = 'dist',
-                 cf: bool = True, l2r: bool = False) -> None:
+                 reranker: str = None) -> None:
 
-        self.cf = False
-        self.l2r = False
+        self.reranker = None
 
         print('Loading indexes...')
         self.main_index = pd.read_csv(DATASET_PATH)
 
         print('Loading ranker...')
         self.set_ranker(ranker)
-        self.set_cf(cf)
-        self.set_l2r(l2r)
+        self.set_reranker(reranker)
 
         print('Search Engine initialized!')
 
@@ -48,34 +47,53 @@ class SearchEngine(BaseSearchEngine):
         else:
             raise ValueError("Invalid ranker type")
         self.ranker = Ranker(self.main_index, scorer=self.scorer)
-        if self.cf:
-            self.pipeline.ranker = self.ranker
-        else:
-            self.pipeline = self.ranker
+        self.pipeline = self.ranker
 
-    def set_cf(self, cf: bool = True) -> None:
-        if self.cf == cf:
-            return
-        if not cf:
-            self.pipeline = self.ranker
-        else:
+    def set_reranker(self, reranker: str = None) -> None:
+        if reranker == 'cf':
             print('Loading cf ranker...')
             self.pipeline = CFRanker(self.main_index, self.ranker)
-            self.cf = True
-
-    def set_l2r(self, l2r: bool = False) -> None:
-        if self.l2r == l2r:
-            return
-        if not l2r:
-            self.pipeline = self.ranker
-        else:
+            self.reranker = 'cf'
+        elif reranker == 'l2r':
             print('Loading l2r ranker...')
             self.feature_extractor = L2RFeatureExtractor(
                 self.main_index, self.ranker)
             self.pipeline = L2RRanker(
                 index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
             self.pipeline.train('../data/relevance.train.csv')
-            self.l2r = True
+            self.reranker = 'l2r'
+        elif reranker == 'l2r+cf':
+            print('Loading l2r ranker...')
+            self.feature_extractor = L2RFeatureExtractor(
+                self.main_index, self.ranker)
+            self.l2r = L2RRanker(
+                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+            self.l2r.train('../data/relevance.train.csv')
+            self.reranker = 'l2r+cf'
+            self.pipeline = CFRanker(self.main_index, self.l2r)
+        elif reranker == 'vector':
+            encoded_docs = np.load('../data/encoded_station.npy')
+            user_profile = np.load('../data/encoded_user_profile.npy')
+
+            file_path = '../data/row_to_docid.txt'
+            with open(file_path, 'r') as file:
+                row_to_docid = file.read().splitlines()
+
+            row_to_docid = [int(i) for i in row_to_docid]
+
+            profile_row_to_userid = [1, 2]
+            self.pipeline = VectorRanker(
+                index=self.main_index,
+                ranker=self.ranker,
+                bi_encoder_model_name=None,
+                encoded_docs=encoded_docs,
+                row_to_docid=row_to_docid,
+                user_profile=user_profile,
+                profile_row_to_userid=profile_row_to_userid)
+            self.reranker = 'vector'
+        else:
+            self.reranker = None
+            self.pipeline = self.ranker
 
     def search(self, query: str) -> list[SearchResponse]:
         # 1. Use the ranker object to query the search pipeline
@@ -83,6 +101,9 @@ class SearchEngine(BaseSearchEngine):
         results = self.pipeline.query(query)
         return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
 
+    def get_station_info(self, docid_list):
+        detailed_data = pd.read_csv('../data/NREL_All_Stations_data_si618.csv', delimiter='\t')
+        return detailed_data.iloc[docid_list]
 
 def initialize():
     search_obj = SearchEngine(cf=False, l2r=False)

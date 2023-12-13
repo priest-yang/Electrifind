@@ -33,6 +33,7 @@ class Ranker:
         self.scorer = scorer
         self.stopwords = stopwords
         self.raw_text_dict = raw_text_dict
+        self.name = 'Ranker'
 
     def query(self, query: str, pseudofeedback_num_docs=0, pseudofeedback_alpha=0.8,
               pseudofeedback_beta=0.2) -> list[tuple[int, float]]:
@@ -62,7 +63,7 @@ class Ranker:
             if len(query_parts) == 0:
                 return []
             mask = (abs(query_parts[0] - self.index.Latitude) <
-                    0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+                    0.02) & (abs(query_parts[1] - self.index.Longitude) < 0.02)
             relevant_docs = self.index[mask]
             if len(relevant_docs) == 0:
                 return []

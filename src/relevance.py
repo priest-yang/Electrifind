@@ -131,7 +131,8 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
                         pseudofeedback_beta: float = 0.2,
                         mmr_lambda: int = 1,
                         mmr_threshold: int = 100,
-                        user_id: int = 0
+                        user_id: int = 0,
+                        threshold: int = 100
                         ) -> dict[str, float]:
     # TODO: Implement running relevance test for the search system for multiple queries.
     """
@@ -156,7 +157,7 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
         query = queries[i]
         ideal = relevance_df[relevance_df['query'] == query]
         ideal = ideal.sort_values(by=['rel'], ascending=False)
-        if ranker.__class__.__name__ == 'L2RRanker':
+        if ranker.name == 'L2RRanker':
             response = ranker.query(
                 query,
                 pseudofeedback_num_docs,
@@ -165,8 +166,8 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
                 mmr_lambda=mmr_lambda,
                 mmr_threshold=mmr_threshold
             )
-        elif ranker.__class__.__name__ == 'CFRanker':
-            response = ranker.query(query, user_id)
+        elif ranker.name == 'CFRanker':
+            response = ranker.query(query, user_id, threshold)
         else:
             response = ranker.query(query)
 
@@ -195,8 +196,8 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
     # TODO: Compute the average MAP and NDCG across all queries and return the scores
     map = np.mean(MAP_list)
     ndcg = np.mean(NDCG_list)
-    print("MAP: ", MAP_list)
-    print("NDCG: ", NDCG_list)
+    # print("MAP: ", MAP_list)
+    # print("NDCG: ", NDCG_list)
 
     return {'map': map, 'ndcg': ndcg, 'map_list': MAP_list, 'ndcg_list': NDCG_list}
 

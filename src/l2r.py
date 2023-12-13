@@ -30,6 +30,7 @@ class L2RRanker:
         self.index = index
         self.ranker = ranker
         self.feature_extractor = feature_extractor
+        self.name = 'L2RRanker'
 
         # TODO: Initialize the LambdaMART model (but don't train it yet)
         self.model = LambdaMART()
