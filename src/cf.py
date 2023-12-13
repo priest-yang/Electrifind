@@ -23,6 +23,7 @@ class CFRanker:
         self.row_means = []
         self.id_map = []
         self.ranker = ranker
+        self.name = 'CFRanker'
         self.get_scores()
         self.get_similarities()
 
@@ -97,18 +98,20 @@ class CFRanker:
         for j in range(len(self.score_index)):
             if np.isnan(self.score_index.iloc[j][x]):
                 continue
-            sum += self.sim_index[i][j] * self.score_index.iloc[j][x]
+            if self.sim_index[i][j] < 0:
+                continue
+            sum += self.sim_index[i][j] * self.score_index.iloc[j, x]
             normalizer += self.sim_index[i][j]
         if normalizer == 0:
-            return self.row_means[x]
-        return sum / normalizer + self.row_means[x]
+            return self.row_means[i]
+        return sum / normalizer + self.row_means[i]
 
     def predict(self, X_pred, user_id):
         scores = []
         for x in X_pred:
-            scores.append(self.get_prediction(x, user_id))
+            scores.append(self.get_prediction(user_id, x))
 
-    def query(self, query: str, user_id: int):
+    def query(self, query: str, user_id: int, threshold: int = 100):
         query_parts = [float(x) for x in query.split(',')]
         if len(query_parts) == 0:
             return []
@@ -117,34 +120,42 @@ class CFRanker:
         relevant_docs = self.index[mask]
         if len(relevant_docs) == 0:
             return []
-
-        relevant_docs['score'] = relevant_docs.apply(
-            lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
+        try:
+            relevant_docs['score'] = relevant_docs.apply(
+                lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
+        except:
+            relevant_docs['score'] = relevant_docs.apply(
+                lambda x: self.ranker.ranker.scorer.score(x, query_parts), axis=1)
         relevant_docs = relevant_docs.sort_values(
             by=['score'], ascending=False)
         relevant_docs['id'] = relevant_docs.index
         results = relevant_docs[['id', 'score']].values.tolist()
 
-        results_top_100 = results[:100]
-        results_tails = results[100:]
+        results_top_100 = results[:threshold]
+        results_tails = results[threshold:]
 
         X_pred = []
         for item in results_top_100:
             docid = int(item[0])
-            X_pred.append(self.id_map.index(docid))
+            try:
+                X_pred.append(self.id_map.index(docid))
+            except:
+                X_pred.append(0)
 
         scores = self.predict(X_pred, user_id)
 
         # TODO: Sort posting_lists based on scores
-        for i in range(len(results_top_100)):
-            results_top_100[i] = (results_top_100[i][0], scores[i])
-        results_top_100.sort(key=lambda x: x[1], reverse=True)
+        if scores is not None:
+            for i in range(len(results_top_100)):
+                results_top_100[i] = (results_top_100[i][0], scores[i])
+            results_top_100.sort(key=lambda x: x[1], reverse=True)
 
         # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
         results = results_top_100 + results_tails
 
         # TODO: Return the ranked documents
         return results
+
 
 if __name__ == '__main__':
     pass

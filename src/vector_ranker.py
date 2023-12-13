@@ -9,9 +9,11 @@ import pickle
 from tqdm import tqdm
 from collections import Counter
 
+
 class VectorRanker(Ranker):
-    def __init__(self, bi_encoder_model_name: str = None, encoded_docs: ndarray = None,
-                 row_to_docid: list[int] = None, user_profile : ndarray = None, profile_row_to_userid : list[int] = None) -> None:
+    def __init__(self, index, ranker, bi_encoder_model_name: str = None, encoded_docs: ndarray = None,
+                 row_to_docid: list[int] = None, user_profile: ndarray = None,
+                 profile_row_to_userid: list[int] = None) -> None:
         """
         Initializes a VectorRanker object.
 
@@ -36,6 +38,9 @@ class VectorRanker(Ranker):
         self.row_to_docid = row_to_docid
         self.user_profile = user_profile
         self.profile_row_to_userid = profile_row_to_userid
+        self.ranker = ranker
+        self.name = 'VectorRanker'
+        self.index = index
 
     def personalized_re_rank(self, result: list[int] | list[tuple[int, float]], user_id: int = None) -> list[int] | list[tuple[int, float]]:
         '''
@@ -44,29 +49,38 @@ class VectorRanker(Ranker):
         Args:
             result: A list of document ids or result to be re-ranked, mostly, from the previous ranker
             user_id: The user's id
-        
+
         Returns:
             A list of document ids or result re-ranked based on the user's profile
         '''
 
         if user_id is None:
             return result
-        
-        if result[0] is tuple:
+
+        if type(result[0]) is tuple or type(result[0]) is list:
             pre_ranker_result = [res[0] for res in result]
         else:
             pre_ranker_result = result.copy()
 
         user_vec = self.user_profile[self.profile_row_to_userid.index(user_id)]
-        doc_vecs = self.encoded_docs[[self.row_to_docid.index(docid) for docid in pre_ranker_result]]
+        encoded_len = len(self.encoded_docs[0])
+
+        doc_vecs = []
+        for docid in pre_ranker_result:
+            if docid in self.row_to_docid:
+                doc_vecs.append(self.encoded_docs[self.row_to_docid.index(docid)])
+            else:
+                doc_vecs.append(np.zeros(encoded_len))
+
+        # doc_vecs = self.encoded_docs[[self.row_to_docid.index(
+        #     docid) if docid in self.row_to_docid.index else np.zeros(encoded_len) for docid in pre_ranker_result]]
         scores = np.dot(doc_vecs, user_vec)
         sorted_idx = np.argsort(scores)[::-1]
-        
+
         return_list = result.copy()
         for i in range(len(sorted_idx)):
             return_list[i] = pre_ranker_result[sorted_idx[i]]
         return return_list
-         
 
     def query(self, query: str, pseudofeedback_num_docs=0,
               pseudofeedback_alpha=0.8, pseudofeedback_beta=0.2, user_id=None) -> list[tuple[int, float]]:
@@ -89,19 +103,26 @@ class VectorRanker(Ranker):
             A sorted list of tuples containing the document id and its relevance to the query,
             with most relevant documents first
         """
-        # TODO: Encode the query using the bi-encoder
-        embedding = self.model.encode(query)
-        scores_list = self.rank_docs(embedding)
+        if self.ranker.scorer.__class__.__name__ == 'DistScorer':
+            query_parts = [float(x) for x in query.split(',')]
+            if len(query_parts) == 0:
+                return []
+            mask = (abs(query_parts[0] - self.index.Latitude) <
+                    0.02) & (abs(query_parts[1] - self.index.Longitude) < 0.02)
+            relevant_docs = self.index[mask]
+            if len(relevant_docs) == 0:
+                return []
 
-        if pseudofeedback_num_docs > 0:
-            pseudo_docs_embedding = pseudofeedback_alpha * embedding
-            for row, score in scores_list[:pseudofeedback_num_docs]:
-                pseudo_doc = self.encoded_docs[row]
-                pseudo_docs_embedding += pseudofeedback_beta * \
-                    pseudo_doc / pseudofeedback_num_docs
-            scores_list = self.rank_docs(pseudo_docs_embedding)
+            relevant_docs['score'] = relevant_docs.apply(
+                lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
+            relevant_docs = relevant_docs.sort_values(
+                by=['score'], ascending=False)
+            relevant_docs['id'] = relevant_docs.index
+            results = relevant_docs[['id', 'score']].values.tolist()
 
-        return [(self.row_to_docid[row], score) for row, score in scores_list]
+            results = self.personalized_re_rank(results, user_id)
+
+        return results
 
     def rank_docs(self, embedding: ndarray) -> list[tuple[int, float]]:
         # TODO: If the user has indicated we should use feedback, then update the
@@ -175,7 +196,7 @@ class VectorRanker(Ranker):
                     self.encoded_docs[self.row_to_docid.index(list_docs[i])],
                     self.encoded_docs[self.row_to_docid.index(list_docs[j])])
                 sim_mat[j][i] = sim_mat[i][j]
-        return sim_mat    
+        return sim_mat
 
 
 if __name__ == '__main__':
