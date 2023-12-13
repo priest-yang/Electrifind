@@ -54,7 +54,7 @@ class VectorRanker(Ranker):
             A list of document ids or result re-ranked based on the user's profile
         '''
 
-        if user_id is None:
+        if user_id is None or user_id not in self.profile_row_to_userid:
             return result
 
         if type(result[0]) is tuple or type(result[0]) is list:

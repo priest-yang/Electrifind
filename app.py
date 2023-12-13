@@ -9,25 +9,34 @@ app = Flask(__name__)
 
 engine = SearchEngine(reranker="l2r+cf")
 
-params = {
-    "user-id": 1, 
-}
 
-default_prompt = "fast"
-default_lng = "-73.985"
-default_lat = "40.758"
+DEFAULT_USER = 1
+DEFAULT_PROMPT = "fast"
+DEFAULT_LNG = "-73.985"
+DEFAULT_LAT = "40.758"
 
 
-def get_results_all(lat = default_lat, lng = default_lng, prompt = default_prompt, top_n = 10, userid = None):
-    query = str(lat) + ", " + str(lng) + ", " + str(prompt)
-    results = engine.search(query, userid = userid)
+def get_results_all(lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
+    query = str(lat) + ", " + str(lng)
+    # + str(prompt)
+    param = {
+        "user_id": user_id,
+    }
+    results = engine.search(query, **param)
     results = results[:top_n]
     return results
 
 @app.route("/")
 def home():
-    result = get_results_all()
-    return render_template("index.html", result=result)
+    result = get_results_all(user_id=1)
+
+    if type(result[0]) is list:
+        result = [rel[0] for rel in result]
+    
+    result_df = engine.get_station_info([i.docid for i in result])
+    table_html = result_df.to_html(classes="table table-striped", index=False)
+    
+    return render_template("index.html", result=result, table_html=table_html)
 
 
 @app.route("/search", methods=["POST", "GET"])
@@ -35,36 +44,25 @@ def search():
     if request.method == "POST":
         lat = request.form.get("lat")
         lng = request.form.get("lng")
-        query = request.form.get("query")
-        query = request.form.get("query")
-        # if not query:
-        #     query = "A mountain in spring"
-        style = request.form.get("style")
-        scene = request.form.get("scene")
-        medium = request.form.get("medium")
-        light = request.form.get("light")
-        quality = request.form.get("quality")
-        print(query)
-        print(style)
-        print(scene)
-        print(medium)
-        print(light)
-        print(quality)
-        args = [style, scene, medium, light, quality]
-        prompts, urls = get_results_all(engine, query, 200, args)
-        result = list(zip(prompts, urls))
+        prompt = request.form.get("prompt")
+        user_id = request.form.get("user_id")
+
+        print(lat)
+        print(lng)
+        print(prompt)
+        print(user_id)
+
+        result = get_results_all(lat, lng, prompt, user_id=user_id)
+
         return render_template(
             "search.html",
             result=result,
-            query=query,
-            style=style,
-            scene=scene,
-            medium=medium,
-            light=light,
-            quality=quality,
+            lat=lat,
+            lng=lng,
+            prompt=prompt,
+            user_id=user_id, 
         )
     return redirect(url_for("home"))
-
 
 if __name__ == "__main__":
     # engine = initialize_all()

@@ -95,15 +95,15 @@ class SearchEngine(BaseSearchEngine):
             self.reranker = None
             self.pipeline = self.ranker
 
-    def search(self, query: str) -> list[SearchResponse]:
+    def search(self, query: str, **kwargs) -> list[SearchResponse]:
         # 1. Use the ranker object to query the search pipeline
         # 2. This is example code and may not be correct.
-        results = self.pipeline.query(query)
+        results = self.pipeline.query(query, **kwargs)
         return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
 
     def get_station_info(self, docid_list):
         detailed_data = pd.read_csv(DATA_PATH + 'NREL_All_Stations_data_si618.csv', delimiter='\t')
-        return detailed_data.iloc[docid_list]
+        return detailed_data.iloc[docid_list][['Station Name', 'Street Address', 'Latitude', 'Longitude']]
 
 def initialize():
     search_obj = SearchEngine(cf=False, l2r=False)
@@ -111,4 +111,4 @@ def initialize():
 
 
 if __name__ == "__main__":
-    search_obj = SearchEngine(cf=False)
+    search_obj = SearchEngine(reranker="l2r+cf")

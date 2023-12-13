@@ -14,7 +14,7 @@
             integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim"
             crossorigin="anonymous"
         ></script>
-        <!-- <link
+        <link
             rel="stylesheet"
             href="static/css/style_search.css"
             type="text/css"
@@ -36,7 +36,7 @@
             rel="icon"
             href="static/src/wand-magic-sparkles-solid.svg"
             type="image/x-icon"
-        /> -->
+        />
         <title>EV Charging Station Recommendation System</title>
     </head>
     <body>
@@ -47,8 +47,7 @@
         <main>
             <div id="search-header">
                 <div id="introduce-header">
-                    <h1>Explore the world's best prompts.</h1>
-                    <p>Prefer. Search again. No end.</p>
+                    <h1>Search for the charging station</h1>
                 </div>
 
                 <div id="search-bar">
@@ -86,10 +85,52 @@
                                 />
                             </div>
 
+                            <div id="input-wrapper">
+                                <img
+                                    src="static/src/magnifying-glass-solid.svg"
+                                    alt="search icon"
+                                    width="15"
+                                    height="15"
+                                    id="icon-magnifying-glass"
+                                />
+                                <input
+                                    type="text"
+                                    name="prompt"
+                                    placeholder="prompt"
+                                    value="{{prompt}}"
+                                />
+                            </div>
+
+                            <div id="input-wrapper">
+                                <img
+                                    src="static/src/magnifying-glass-solid.svg"
+                                    alt="search icon"
+                                    width="15"
+                                    height="15"
+                                    id="icon-magnifying-glass"
+                                />
+                                <input
+                                    type="text"
+                                    name="user_id"
+                                    placeholder="user id"
+                                    value="{{user_id}}"
+                                />
+                            </div>
+
+
                         </div>
-                        <!-- <input type="submit" value="submit" /> -->
+                        <input type="submit" value="Search!" />
                     </form>
                 </div>
+            </div>
+
+            <div class="container mt-4">
+                <h2>Results:</h2>
+                {% if table_html %}
+                    {{ table_html | safe }}
+                {% else %}
+                    <p>No DataFrame to display.</p>
+                {% endif %}
             </div>
 
             <!-- <div class="results-wrapper">
