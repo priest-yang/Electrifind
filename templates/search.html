@@ -36,399 +36,106 @@
             href="static/src/wand-magic-sparkles-solid.svg"
             type="image/x-icon"
         />
-        <title>Magic Prompt</title>
+        <title>EV Charging Station Search Engine</title>
     </head>
 
     <body>
         <nav>
-            <div id="nav-title"><a href="/">Magic Prompt</a></div>
+            <div id="nav-title"><a href="/">EV Charging Station Search Engine</a></div>
         </nav>
 
         <main>
             <div id="search-header">
-            {% if style or scene or medium or light or quality %}
+            {% if lat or lng or prompt or user_id %}
                 <div id="search-bar" class="open">
             {% else %}
                 <div id="search-bar">
             {% endif %}
-                    <form action="/search" method="POST" id="myForm">
-                        <div id="input-wrapper-filter">
-                            <div id="input-wrapper">
-                                <img
-                                    src="static/src/magnifying-glass-solid.svg"
-                                    alt="search icon"
-                                    width="15"
-                                    height="15"
-                                    id="icon-magnifying-glass"
-                                />
-                                <input
-                                    type="text"
-                                    name="query"
-                                    placeholder="A mountain in spring"
-                                    value="{{query}}"
-                                />
-                            </div>
-                            <img
-                                src="static/src/filter.svg"
-                                alt="search icon"
-                                width="15"
-                                height="15"
-                                id="icon-filter"
-                            />
-                        </div>
-                        <!-- <input type="submit" value="submit" /> -->
-
-                        <div id="multiselect-wrapper">
-                            <!-- multiselect for style-->
-                            <div class="multiselect-single-wrapper">
-                                <label for="style">Style</label>
-                                <div id="multiselect-style">
-                                    <div
-                                        class="ui multiple selection dropdown"
-                                        id="style-select"
-                                    >
-                                        {% if style %}
-                                        <input
-                                            name="style"
-                                            type="hidden"
-                                            value="{{ style }}"
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% for s in style.split(',') %}
-                                        <div
-                                            class="ui label transition visible"
-                                            data-value="{{ s }}"
-                                            style="
-                                                display: inline-block !important;
-                                            "
-                                        >
-                                            {{ s }}<i class="delete icon"></i>
-                                        </div>
-                                        {% endfor %} {% else %}
-                                        <input
-                                            name="style"
-                                            type="hidden"
-                                            value=""
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% endif %}
-                                        <div class="default text">
-                                            Choose a style.
-                                        </div>
-                                    
-                                    </div>
+                        <form action="/search" method="POST" id="myForm">
+                            <div id="input-wrapper-filter">
+                                <div id="input-wrapper">
+                                    <img
+                                        src="static/src/magnifying-glass-solid.svg"
+                                        alt="search icon"
+                                        width="15"
+                                        height="15"
+                                        id="icon-magnifying-glass"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="lat"
+                                        placeholder="lat"
+                                        value="{{lat}}"
+                                    />
                                 </div>
-                            </div>
-
-                            <!-- multiselect for medium-->
-                            <div class="multiselect-single-wrapper">
-                                <label for="medium">Medium</label>
-                                <div id="multiselect-medium">
-                                    <div
-                                        class="ui multiple selection dropdown"
-                                        id="medium-select"
-                                    >
-                                        {% if medium %}
-                                        <input
-                                            name="medium"
-                                            type="hidden"
-                                            value="{{ medium }}"
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% for m in medium.split(',') %}
-                                        <div
-                                            class="ui label transition visible"
-                                            data-value="{{ m }}"
-                                            style="
-                                                display: inline-block !important;
-                                            "
-                                        >
-                                            {{ m }}<i class="delete icon"></i>
-                                        </div>
-                                        {% endfor %} {% else %}
-                                        <input
-                                            name="medium"
-                                            type="hidden"
-                                            value=""
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% endif %}
-                                        <div class="default text">
-                                            Choose a medium.
-                                        </div>
-                                        <div class="menu">
-                                            <div
-                                                class="item"
-                                                data-value="illustrations"
-                                            >
-                                                Illustrations
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="vector"
-                                            >
-                                                Vector
-                                            </div>
-                                            <div class="item" data-value="oil">
-                                                Oil
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="photography"
-                                            >
-                                                Photography
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="watercolor"
-                                            >
-                                                Watercolor
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="sketch"
-                                            >
-                                                Sketch
-                                            </div>
-                                            <div class="item" data-value="ink">
-                                                Ink
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="sculpture"
-                                            >
-                                                Sculpture
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="manuscript"
-                                            >
-                                                Manuscript
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="painting"
-                                            >
-                                                Painting
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="drawing"
-                                            >
-                                                Drawing
-                                            </div>
-                                        </div>
-                                    </div>
+                            
+                                <div id="input-wrapper">
+                                    <img
+                                        src="static/src/magnifying-glass-solid.svg"
+                                        alt="search icon"
+                                        width="15"
+                                        height="15"
+                                        id="icon-magnifying-glass"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="lng"
+                                        placeholder="lng"
+                                        value="{{lng}}"
+                                    />
                                 </div>
-                            </div>
-
-                            <!-- multiselect for light-->
-                            <div class="multiselect-single-wrapper">
-                                <label for="light">Light</label>
-                                <div id="multiselect-light">
-                                    <div
-                                        class="ui multiple selection dropdown"
-                                        id="light-select"
-                                    >
-                                        {% if light %}
-                                        <input
-                                            name="light"
-                                            type="hidden"
-                                            value="{{ light }}"
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% for l in light.split(',') %}
-                                        <div
-                                            class="ui label transition visible"
-                                            data-value="{{ l }}"
-                                            style="
-                                                display: inline-block !important;
-                                            "
-                                        >
-                                            {{ l }}<i class="delete icon"></i>
-                                        </div>
-                                        {% endfor %} {% else %}
-                                        <input
-                                            name="light"
-                                            type="hidden"
-                                            value=""
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% endif %}
-                                        <div class="default text">
-                                            Choose a light.
-                                        </div>
-                                        <div class="menu">
-                                            <div
-                                                class="item"
-                                                data-value="moody"
-                                            >
-                                                Moody
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="studio"
-                                            >
-                                                Studio
-                                            </div>
-                                            <div class="item" data-value="cove">
-                                                Cove
-                                            </div>
-                                            <div class="item" data-value="soft">
-                                                Soft
-                                            </div>
-                                            <div class="item" data-value="hard">
-                                                Hard
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="volumetric"
-                                            >
-                                                Volumetric
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="low-key"
-                                            >
-                                                Low-key
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="high-key"
-                                            >
-                                                High-key
-                                            </div>
-                                            <div class="item" data-value="epic">
-                                                Epic
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="rembrandt"
-                                            >
-                                                Rembrandt
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="contre-jour"
-                                            >
-                                                Contre-jour
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="veiling-flare"
-                                            >
-                                                Veiling Flare
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="crepuscular"
-                                            >
-                                                Crepuscular
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="rays-of-shimmering"
-                                            >
-                                                Rays of Shimmering
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="godrays"
-                                            >
-                                                Godrays
-                                            </div>
-                                        </div>
-                                    </div>
+                            
+                                <div id="input-wrapper">
+                                    <img
+                                        src="static/src/magnifying-glass-solid.svg"
+                                        alt="search icon"
+                                        width="15"
+                                        height="15"
+                                        id="icon-magnifying-glass"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="prompt"
+                                        placeholder="prompt"
+                                        value="{{prompt}}"
+                                    />
                                 </div>
-                            </div>
-
-                            <!-- multiselect for quality-->
-                            <div class="multiselect-single-wrapper">
-                                <label for="quality">Quality</label>
-                                <div id="multiselect-quality">
-                                    <div
-                                        class="ui multiple selection dropdown"
-                                        id="quality-select"
-                                    >
-                                        {% if quality %}
-                                        <input
-                                            name="quality"
-                                            type="hidden"
-                                            value="{{ quality }}"
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% for q in quality.split(',') %}
-                                        <div
-                                            class="ui label transition visible"
-                                            data-value="{{ q }}"
-                                            style="
-                                                display: inline-block !important;
-                                            "
-                                        >
-                                            {{ q }}<i class="delete icon"></i>
-                                        </div>
-                                        {% endfor %} {% else %}
-                                        <input
-                                            name="quality"
-                                            type="hidden"
-                                            value=""
-                                        />
-                                        <i class="dropdown icon"></i>
-                                        {% endif %}
-                                        <div class="default text">
-                                            Choose a quality.
-                                        </div>
-                                        <div class="menu">
-                                            <div class="item" data-value="16k">
-                                                16K
-                                            </div>
-                                            <div class="item" data-value="8k">
-                                                8K
-                                            </div>
-                                            <div class="item" data-value="4k">
-                                                4K
-                                            </div>
-                                            <div class="item" data-value="2k">
-                                                2K
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="high-resolution"
-                                            >
-                                                High Resolution
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="low-resolution"
-                                            >
-                                                Low Resolution
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="high-quality"
-                                            >
-                                                High Quality
-                                            </div>
-                                            <div
-                                                class="item"
-                                                data-value="low-quality"
-                                            >
-                                                Low Quality
-                                            </div>
-                                        </div>
-                                    </div>
+                            
+                                <div id="input-wrapper">
+                                    <img
+                                        src="static/src/magnifying-glass-solid.svg"
+                                        alt="search icon"
+                                        width="15"
+                                        height="15"
+                                        id="icon-magnifying-glass"
+                                    />
+                                    <input
+                                        type="text"
+                                        name="user_id"
+                                        placeholder="user id"
+                                        value="{{user_id}}"
+                                    />
                                 </div>
+                            
+                            
                             </div>
+                            <input type="submit" value="Search!" />
+                        </form>
 
-                           
-                        </div>
-                    </form>
                 </div>
 
                 <!-- <h1>Discover better prompts about "{{query}}"</h1> -->
             </div>
 
-            <div class="results-wrapper">
+            <div class="container mt-4">
+                <h2>Results:</h2>
+                {% if table_html %}
+                    {{ table_html | safe }}
+                {% else %}
+                    <p>No DataFrame to display.</p>
+                {% endif %}
+
+            <!-- <div class="results-wrapper">
                 {% if not result %}
                 <p id="no-results">
                     Sorry, no results. Try adjusting your selected filters to
@@ -446,8 +153,6 @@
                             name="query"
                             value="{{ value[0] }}"
                         />
-                        <!-- <input type="hidden" name="query" value="{{ value[2] }}" /> -->
-                        <!-- <input type="hidden" name="title" value="{{ value[0] }}" /> -->
                         <input type="submit" value="Find Similar" />
                         <div class="pick-this">
                             <span>Copy</span>
@@ -467,7 +172,7 @@
                     </form>
                 </div>
                 {% endfor %}
-            </div>
+            </div> -->
         </main>
         <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>

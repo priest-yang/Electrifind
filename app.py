@@ -34,7 +34,7 @@ def home():
         result = [rel[0] for rel in result]
     
     result_df = engine.get_station_info([i.docid for i in result])
-    table_html = result_df.to_html(classes="table table-striped", index=False)
+    table_html = result_df.to_html(classes="table table-striped", index=False, justify="left")
     
     return render_template("index.html", result=result, table_html=table_html)
 
@@ -52,7 +52,11 @@ def search():
         print(prompt)
         print(user_id)
 
-        result = get_results_all(lat, lng, prompt, user_id=user_id)
+        result = get_results_all(lat=lat, lng=lng, prompt=prompt, user_id=int(user_id))
+        if type(result[0]) is list:
+            result = [rel[0] for rel in result]
+        result_df = engine.get_station_info([i.docid for i in result])
+        table_html = result_df.to_html(classes="table table-striped", index=False, justify="left")
 
         return render_template(
             "search.html",
@@ -61,6 +65,7 @@ def search():
             lng=lng,
             prompt=prompt,
             user_id=user_id, 
+            table_html=table_html, 
         )
     return redirect(url_for("home"))
 
