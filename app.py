@@ -1,32 +1,16 @@
 from flask import Flask, redirect, render_template, request, url_for
-from document_preprocessor import *
-from indexing import *
-from ranker import *
+from pipeline import SearchEngine
 import pandas as pd
+import sys
+sys.path.append("src")
 
 app = Flask(__name__)
 
-def initialize_all():
-    MAIN_INDEX_STEMMED = "Index_stemmed"
-    STOPWORD_PATH = "data/stopwords.txt"
+engine = SearchEngine(cf=False, l2r=False)
 
-    # stopwords
-    stopwords = set()
-    with open(STOPWORD_PATH, "r", encoding="utf-8") as file:
-        for stopword in file:
-            stopwords.add(stopword.strip())
-
-    # index
-    main_index = BasicInvertedIndex()
-    main_index.load(MAIN_INDEX_STEMMED)
-
-    # processor
-    preprocessor = RegexTokenizer(token_regex=r"[\w\.-]+", stemming=True)
-
-    bm25 = BM25(main_index)
-    pipeline = Ranker(main_index, preprocessor, stopwords, bm25)
-    return pipeline
-
+params = {
+    "user-id": 1, 
+}
 
 def get_results_all(ranker, query, top_n, args=None):
     DATASET_CSV_PATH = "data/data.csv.zip"
@@ -51,8 +35,6 @@ def get_results_all(ranker, query, top_n, args=None):
     prompts = df_results["prompt"].tolist()[:top_n]
     urls = df_results["pic_url"].tolist()[:top_n]
     return prompts, urls
-
-engine = initialize_all()
 
 @app.route("/")
 def home():
