@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 engine = SearchEngine(reranker="vector")
 
-
 DEFAULT_USER = 1
 DEFAULT_PROMPT = "fast"
 DEFAULT_LNG = "-83.0703"
