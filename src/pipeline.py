@@ -135,6 +135,32 @@ class SearchEngine(BaseSearchEngine):
                 user_profile=user_profile,
                 profile_row_to_userid=profile_row_to_userid)
             self.reranker = 'vector'
+        elif reranker == 'l2r+vector':
+            print('Loading l2r ranker...')
+            self.feature_extractor = L2RFeatureExtractor(
+                self.main_index, self.ranker)
+            self.l2r = L2RRanker(
+                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+            self.l2r.train(DATA_PATH + 'relevance.train.csv')
+            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
+            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
+
+            file_path = DATA_PATH + 'row_to_docid.txt'
+            with open(file_path, 'r') as file:
+                row_to_docid = file.read().splitlines()
+
+            row_to_docid = [int(i) for i in row_to_docid]
+
+            profile_row_to_userid = [1, 2]
+            self.pipeline = VectorRanker(
+                index=self.main_index,
+                ranker=self.l2r,
+                bi_encoder_model_name=None,
+                encoded_docs=encoded_docs,
+                row_to_docid=row_to_docid,
+                user_profile=user_profile,
+                profile_row_to_userid=profile_row_to_userid)
+            self.reranker = 'l2r+vector'         
         else:
             self.reranker = None
             self.pipeline = self.ranker

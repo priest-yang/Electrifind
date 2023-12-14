@@ -63,7 +63,7 @@ class Ranker:
             if len(query_parts) == 0:
                 return []
             mask = (abs(query_parts[0] - self.index.Latitude) <
-                    0.02) & (abs(query_parts[1] - self.index.Longitude) < 0.02)
+                    0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
             relevant_docs = self.index[mask]
             if len(relevant_docs) == 0:
                 return []

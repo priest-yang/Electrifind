@@ -103,24 +103,51 @@ class VectorRanker(Ranker):
             A sorted list of tuples containing the document id and its relevance to the query,
             with most relevant documents first
         """
-        if self.ranker.scorer.__class__.__name__ == 'DistScorer':
-            query_parts = [float(x) for x in query.split(',')]
-            if len(query_parts) == 0:
-                return []
-            mask = (abs(query_parts[0] - self.index.Latitude) <
-                    0.02) & (abs(query_parts[1] - self.index.Longitude) < 0.02)
-            relevant_docs = self.index[mask]
-            if len(relevant_docs) == 0:
-                return []
-
+        query_parts = [float(x) for x in query.split(',')]
+        if len(query_parts) == 0:
+            return []
+        mask = (abs(query_parts[0] - self.index.Latitude) <
+                0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+        relevant_docs = self.index[mask]
+        if len(relevant_docs) == 0:
+            return []
+        try:
             relevant_docs['score'] = relevant_docs.apply(
                 lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
-            relevant_docs = relevant_docs.sort_values(
-                by=['score'], ascending=False)
-            relevant_docs['id'] = relevant_docs.index
-            results = relevant_docs[['id', 'score']].values.tolist()
+        except:
+            relevant_docs['score'] = relevant_docs.apply(
+                lambda x: self.ranker.ranker.scorer.score(x, query_parts), axis=1)
+        relevant_docs = relevant_docs.sort_values(
+            by=['score'], ascending=False)
+        relevant_docs['id'] = relevant_docs.index
+        results = relevant_docs[['id', 'score']].values.tolist()
+        try:
+            results_top_100 = results[:100]
+            results_tails = results[100:]
 
-            results = self.personalized_re_rank(results, user_id)
+            X_pred = []
+            for item in results_top_100:
+                docid = int(item[0])
+                if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
+                    X_pred.append(self.ranker.feature_extractor.generate_features(
+                        docid, query_parts))
+                else:
+                    return None
+
+            # TODO: Use your L2R model to rank these top 100 documents
+            scores = self.ranker.predict(X_pred)
+
+            # TODO: Sort posting_lists based on scores
+            for i in range(len(results_top_100)):
+                results_top_100[i] = (results_top_100[i][0], scores[i])
+            results_top_100.sort(key=lambda x: x[1], reverse=True)
+
+            # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
+            results = results_top_100 + results_tails
+        except:
+            pass
+
+        results = self.personalized_re_rank(results, user_id)
 
         return results
 

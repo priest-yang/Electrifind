@@ -132,6 +132,32 @@ class CFRanker:
         relevant_docs['id'] = relevant_docs.index
         results = relevant_docs[['id', 'score']].values.tolist()
 
+        try:
+            results_top_100 = results[:100]
+            results_tails = results[100:]
+
+            X_pred = []
+            for item in results_top_100:
+                docid = int(item[0])
+                if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
+                    X_pred.append(self.ranker.feature_extractor.generate_features(
+                        docid, query_parts))
+                else:
+                    return None
+
+            # TODO: Use your L2R model to rank these top 100 documents
+            scores = self.ranker.predict(X_pred)
+
+            # TODO: Sort posting_lists based on scores
+            for i in range(len(results_top_100)):
+                results_top_100[i] = (results_top_100[i][0], scores[i])
+            results_top_100.sort(key=lambda x: x[1], reverse=True)
+
+            # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
+            results = results_top_100 + results_tails
+        except:
+            pass
+
         results_top_100 = results[:threshold]
         results_tails = results[threshold:]
 
