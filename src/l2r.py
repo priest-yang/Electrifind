@@ -302,9 +302,9 @@ class L2RRanker:
         # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
         results = results_top_100 + results_tails
 
-        # further rank prompt using BM25, cut-off = 5
+        # further rank prompt using BM25, cut-off = 100
         if prompt is not None:
-            CUT_OFF = 5
+            CUT_OFF = 100
 
             query_parts = self.document_preprocessor.tokenize(prompt)
             

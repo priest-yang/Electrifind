@@ -162,27 +162,26 @@ def initialize():
 
 
 
+# DATA_PATH = 'data/'
+# DEFAULT_PROMPT = "1401"
+# DEFAULT_LNG = "-83.0703"
+# DEFAULT_LAT = "42.3317"
+# DEFAULT_USER = 1
 
-DATA_PATH = 'data/'
-DEFAULT_PROMPT = "1401"
-DEFAULT_LNG = "-83.0703"
-DEFAULT_LAT = "42.3317"
-DEFAULT_USER = 1
+# def get_results_all(engine: SearchEngine, lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
+#     query = str(lat) + ", " + str(lng) + ", " + str(prompt)
+#     # + str(prompt)
+#     param = {
+#         "user_id": user_id,
+#     }
+#     print(query)
+#     results = engine.search(query, **param)
+#     results = results[:top_n]
+#     return results
 
-def get_results_all(engine: SearchEngine, lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
-    query = str(lat) + ", " + str(lng) + ", " + str(prompt)
-    # + str(prompt)
-    param = {
-        "user_id": user_id,
-    }
-    print(query)
-    results = engine.search(query, **param)
-    results = results[:top_n]
-    return results
-
-from IPython.display import display as Display
-if __name__ == "__main__":
-    search_obj = SearchEngine(reranker="l2r")
-    res = get_results_all(search_obj, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, user_id=1)
-    result_df = search_obj.get_station_info([i.docid for i in res])
-    Display(result_df)
+# from IPython.display import display as Display
+# if __name__ == "__main__":
+#     search_obj = SearchEngine(reranker="l2r")
+#     res = get_results_all(search_obj, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, user_id=1)
+#     result_df = search_obj.get_station_info([i.docid for i in res])
+#     Display(result_df)
