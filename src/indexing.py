@@ -399,7 +399,7 @@ if __name__ == '__main__':
                                  stopwords=stopwords, 
                                 minimum_word_frequency=2,
                                 text_key='comments', 
-                                max_docs=6075, 
+                                max_docs=-1, 
                                 doc_augment_dict=None, 
                                 rel_ids=None)
     
@@ -413,7 +413,19 @@ if __name__ == '__main__':
                                         stopwords=stopwords, 
                                         minimum_word_frequency=1, 
                                         text_key='address_name', 
-                                        max_docs=6075, 
+                                        max_docs=-1, 
                                         doc_augment_dict=None, 
                                         rel_ids=None)
     pickle.dump(title_index, open('cache/title_index.pkl', 'wb'))
+
+
+    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+                                       dataset_path='data/google_map_charging_station_all.jsonl.gz', 
+                                        document_preprocessor=RegexTokenizer("\\w+"), 
+                                        stopwords=stopwords, 
+                                        minimum_word_frequency=1, 
+                                        text_key='text', 
+                                        max_docs=-1, 
+                                        doc_augment_dict=None, 
+                                        rel_ids=None)
+    pickle.dump(title_index, open('cache/index.pkl', 'wb'))

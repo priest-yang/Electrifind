@@ -5,9 +5,10 @@ This file is a template code file for the Search Engine.
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-
+import pickle
 from models import BaseSearchEngine, SearchResponse
-
+from document_preprocessor import Tokenizer, RegexTokenizer
+from indexing import InvertedIndex, BasicInvertedIndex, IndexType, Indexer
 # your library imports go here
 from ranker import *
 from cf import CFRanker
@@ -17,6 +18,10 @@ from utils import DATA_PATH, CACHE_PATH
 # DATA_PATH = 'data/'
 # CACHE_PATH = 'cache/'
 DATASET_PATH = DATA_PATH + 'processed_nrel.csv'
+INDEX_PATH = DATA_PATH + 'google_map_charging_station_all.jsonl.gz'
+
+STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
+
 DOC2QUERY_PATH = DATA_PATH + 'doc2query.csv'
 ENCODED_DOCUMENT_EMBEDDINGS_NPY_PATH = DATA_PATH + \
     'wiki-200k-vecs.msmarco-MiniLM-L12-cos-v5.npy'
@@ -31,9 +36,36 @@ class SearchEngine(BaseSearchEngine):
                  reranker: str = None) -> None:
 
         self.reranker = None
+        
+        self.document_preprocessor = RegexTokenizer("\\w+")
+        print('Loading stopwords...')
+        self.stopwords = set()
+        with open(STOPWORDS_PATH, 'r') as file:
+            for line in file:
+                cleaned_line = line.strip()
+                self.stopwords.add(cleaned_line)
 
         print('Loading indexes...')
-        self.main_index = pd.read_csv(DATASET_PATH)
+        self.frame = pd.read_csv(DATASET_PATH)
+        self.document_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+                                       dataset_path=INDEX_PATH, 
+                                        document_preprocessor=RegexTokenizer("\\w+"), 
+                                        stopwords=self.stopwords, 
+                                        minimum_word_frequency=1, 
+                                        text_key='text', 
+                                        max_docs=-1, 
+                                        doc_augment_dict=None, 
+                                        rel_ids=None)
+        
+        self.title_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+                                       dataset_path=INDEX_PATH, 
+                                        document_preprocessor=RegexTokenizer("\\w+"), 
+                                        stopwords=self.stopwords, 
+                                        minimum_word_frequency=1, 
+                                        text_key='address_name', 
+                                        max_docs=-1, 
+                                        doc_augment_dict=None, 
+                                        rel_ids=None)
 
         print('Loading ranker...')
         self.set_ranker(ranker)
@@ -43,34 +75,46 @@ class SearchEngine(BaseSearchEngine):
 
     def set_ranker(self, ranker: str = 'dist') -> None:
         if ranker == 'dist':
-            self.scorer = DistScorer(self.main_index)
+            self.scorer = DistScorer(self.frame)
         else:
             raise ValueError("Invalid ranker type")
-        self.ranker = Ranker(self.main_index, scorer=self.scorer)
+        self.ranker = Ranker(self.frame, scorer=self.scorer)
         self.pipeline = self.ranker
 
     def set_reranker(self, reranker: str = None) -> None:
         if reranker == 'cf':
             print('Loading cf ranker...')
-            self.pipeline = CFRanker(self.main_index, self.ranker)
+            self.pipeline = CFRanker(self.frame, self.ranker)
             self.reranker = 'cf'
         elif reranker == 'l2r':
             print('Loading l2r ranker...')
             self.feature_extractor = L2RFeatureExtractor(
-                self.main_index, self.ranker)
+                self.frame, self.ranker)
             self.pipeline = L2RRanker(
-                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+                frame=self.frame, 
+                document_index=self.document_index,
+                title_index=self.title_index, 
+                document_preprocessor=self.document_preprocessor, 
+                stopwords=self.stopwords, 
+                ranker=self.ranker, 
+                feature_extractor=self.feature_extractor)
             self.pipeline.train(DATA_PATH + 'relevance.train.csv')
             self.reranker = 'l2r'
         elif reranker == 'l2r+cf':
             print('Loading l2r ranker...')
             self.feature_extractor = L2RFeatureExtractor(
-                self.main_index, self.ranker)
+                self.frame, self.ranker)
             self.l2r = L2RRanker(
-                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+                frame=self.frame, 
+                document_index=self.document_index,
+                title_index=self.title_index, 
+                document_preprocessor=self.document_preprocessor, 
+                stopwords=self.stopwords, 
+                ranker=self.ranker, 
+                feature_extractor=self.feature_extractor)
             self.l2r.train(DATA_PATH + 'relevance.train.csv')
             self.reranker = 'l2r+cf'
-            self.pipeline = CFRanker(self.main_index, self.l2r)
+            self.pipeline = CFRanker(self.frame, self.l2r)
         elif reranker == 'vector':
             encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
             user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
@@ -83,7 +127,7 @@ class SearchEngine(BaseSearchEngine):
 
             profile_row_to_userid = [1, 2]
             self.pipeline = VectorRanker(
-                index=self.main_index,
+                index=self.frame,
                 ranker=self.ranker,
                 bi_encoder_model_name=None,
                 encoded_docs=encoded_docs,

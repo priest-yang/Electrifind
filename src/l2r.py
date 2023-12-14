@@ -14,11 +14,14 @@ import pickle
 
 
 class L2RRanker:
-    def __init__(self, index, ranker: Ranker, feature_extractor) -> None:
+    def __init__(self, frame: pd.DataFrame, document_index: InvertedIndex, title_index: InvertedIndex,
+                 document_preprocessor: Tokenizer, stopwords: set[str], 
+                 ranker: Ranker, feature_extractor: 'L2RFeatureExtractor') -> None:
         """
         Initializes a L2RRanker system.
 
         Args:
+            frame: The dataframe containing the numeric only data of charging stations
             document_index: The inverted index for the contents of the document's main text body
             title_index: The inverted index for the contents of the document's title
             document_preprocessor: The DocumentPreprocessor to use for turning strings into tokens
@@ -27,7 +30,12 @@ class L2RRanker:
             feature_extractor: The L2RFeatureExtractor object
         """
         # TODO: Save any new arguments that are needed as fields of this class
-        self.index = index
+        self.frame = frame
+        self.document_index = document_index
+        self.title_index = title_index
+        self.document_preprocessor = document_preprocessor
+        self.stopwords = stopwords
+        self.bm25_scorer = BM25(self.document_index)
         self.ranker = ranker
         self.feature_extractor = feature_extractor
         self.name = 'L2RRanker'
@@ -76,6 +84,38 @@ class L2RRanker:
             qgroups.append(len(doc_scores))
 
         return X, y, qgroups
+    
+    @staticmethod
+    def accumulate_doc_term_counts(index: InvertedIndex, query_parts: list[str]) -> dict[int, dict[str, int]]:
+        """
+        A helper function that for a given query, retrieves all documents that have any
+        of these words in the provided index and returns a dictionary mapping each document id to
+        the counts of how many times each of the query words occurred in the document
+
+        Args:
+            index: An inverted index to search
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            A dictionary mapping each document containing at least one of the query tokens to
+            a dictionary with how many times each of the query words appears in that document
+        """
+        # TODO: Retrieve the set of documents that have each query word (i.e., the postings) and
+        #       create a dictionary that keeps track of their counts for the query word
+        doc_term_count = defaultdict(Counter)
+
+        relevant_docs = set()
+        for word in query_parts:
+            if word in index.index:
+                relevant_docs.update([x[0] for x in index.index[word]])
+
+        for word in query_parts:
+            if word in index.index:
+                for index_doc in index.index[word]:
+                    if index_doc[0] in relevant_docs:
+                        doc_term_count[index_doc[0]][word] = index_doc[1]
+
+        return doc_term_count
 
     def train(self, training_data_filename: str, model_name: str = '') -> None:
         """
@@ -162,7 +202,9 @@ class L2RRanker:
         uses the L2R model to rank these documents, and returns the ranked documents.
 
         Args:
-            query: A string representing the query to be used for ranking
+            query: A string seperated by ", " containing the latitude, longitude, and prompt, in format
+                "lat, lng, prompt, ..."
+
             pseudofeedback_num_docs: If pseudo-feedback is requested, the number of top-ranked documents
                 to be used in the query
             pseudofeedback_alpha: If pseudo-feedback is used, the alpha parameter for weighting
@@ -178,49 +220,60 @@ class L2RRanker:
                 The list has the following structure: [(doc_id_1, score_1), (doc_id_2, score_2), ...]
         """
         # TODO: Retrieve potentially-relevant documents
+        
+
         if self.ranker.scorer.__class__.__name__ == 'DistScorer':
-            query_parts = [float(x) for x in query.split(',')]
+            query_parts = [x for x in query.split(',')]
+            lat = float(query_parts[0])
+            lng = float(query_parts[1])
+            try:
+                prompt = query_parts[2]
+            except:
+                prompt = None
+
+            print('prompt:', prompt)
+
             if len(query_parts) == 0:
                 return []
-            mask = (abs(query_parts[0] - self.index.Latitude) <
-                    0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
-            relevant_docs = self.index[mask]
+            mask = (abs(lat - self.frame.Latitude) <
+                    0.01) & (abs(lng - self.frame.Longitude) < 0.01)
+            relevant_docs = self.frame[mask]
             if len(relevant_docs) == 0:
                 return []
-
             relevant_docs['score'] = relevant_docs.apply(
                 lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
             relevant_docs = relevant_docs.sort_values(
                 by=['score'], ascending=False)
             relevant_docs['id'] = relevant_docs.index
             results = relevant_docs[['id', 'score']].values.tolist()
-        else:
-            query_parts = self.document_preprocessor.tokenize(query)
-            if len(query_parts) == 0:
-                return []
 
-            # TODO: Fetch a list of possible documents from the index and create a mapping from
-            #       a document ID to a dictionary of the counts of the query terms in that document.
-            #       You will pass the dictionary to the RelevanceScorer as input
-            #
-            # NOTE: we collect these here (rather than calling a Ranker instance) because we'll
-            #       pass these doc-term-counts to functions later, so we need the accumulated representations
-            relevant_docs = set()
-            for word in query_parts:
-                if word in self.document_index.index:
-                    relevant_docs.update(
-                        [x[0] for x in self.document_index.index[word]])
+        # else:
+        #     query_parts = self.document_preprocessor.tokenize(query)
+        #     if len(query_parts) == 0:
+        #         return []
 
-            # TODO: Accumulate the documents word frequencies for the title and the main body
-            doc_term_counts = self.accumulate_doc_term_counts(
-                self.document_index, query_parts)
-            title_term_counts = self.accumulate_doc_term_counts(
-                self.title_index, query_parts)
+        #     # TODO: Fetch a list of possible documents from the index and create a mapping from
+        #     #       a document ID to a dictionary of the counts of the query terms in that document.
+        #     #       You will pass the dictionary to the RelevanceScorer as input
+        #     #
+        #     # NOTE: we collect these here (rather than calling a Ranker instance) because we'll
+        #     #       pass these doc-term-counts to functions later, so we need the accumulated representations
+        #     relevant_docs = set()
+        #     for word in query_parts:
+        #         if word in self.document_index.index:
+        #             relevant_docs.update(
+        #                 [x[0] for x in self.document_index.index[word]])
 
-            # TODO: Score and sort the documents by the provided scorer for just the document's main text (not the title).
-            #       This ordering determines which documents we will try to *re-rank* using our L2R model
-            results = self.ranker.query(
-                query, pseudofeedback_num_docs, pseudofeedback_alpha, pseudofeedback_beta)
+        #     # TODO: Accumulate the documents word frequencies for the title and the main body
+        #     doc_term_counts = self.accumulate_doc_term_counts(
+        #         self.document_index, query_parts)
+        #     title_term_counts = self.accumulate_doc_term_counts(
+        #         self.title_index, query_parts)
+
+        #     # TODO: Score and sort the documents by the provided scorer for just the document's main text (not the title).
+        #     #       This ordering determines which documents we will try to *re-rank* using our L2R model
+        #     results = self.ranker.query(
+        #         query, pseudofeedback_num_docs, pseudofeedback_alpha, pseudofeedback_beta)
 
         # TODO: Filter to just the top 100 documents for the L2R part for re-ranking
         results_top_100 = results[:100]
@@ -233,9 +286,9 @@ class L2RRanker:
             if self.ranker.scorer.__class__.__name__ == 'DistScorer':
                 X_pred.append(self.feature_extractor.generate_features(
                     docid, query_parts))
-            else:
-                X_pred.append(self.feature_extractor.generate_features(
-                    docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
+            # else:
+            #     X_pred.append(self.feature_extractor.generate_features(
+            #         docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
             
 
         # TODO: Use your L2R model to rank these top 100 documents
@@ -249,8 +302,47 @@ class L2RRanker:
         # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
         results = results_top_100 + results_tails
 
+        # further rank prompt using BM25, cut-off = 5
+        if prompt is not None:
+            CUT_OFF = 5
+
+            query_parts = self.document_preprocessor.tokenize(prompt)
+            
+            doc_term_counts = self.accumulate_doc_term_counts(
+                self.document_index, query_parts)
+            
+            prompt_results = results[:CUT_OFF]
+            prompt_results = [[res[0], res[1]] for res in prompt_results]
+            for res in prompt_results:
+                docid = int(res[0])
+                res[1] = self.get_BM25_score(docid, doc_term_counts[docid], query_parts)
+
+            prompt_results.sort(key=lambda x: x[1], reverse=True)
+            prompt_results = [(res[0], res[1]) for res in prompt_results]
+            results = prompt_results + results[CUT_OFF:]
+            # title_term_counts = self.accumulate_doc_term_counts(
+            #     self.title_index, query_parts)
+
         # TODO: Return the ranked documents
         return results
+    
+    # TODO: BM25
+    def get_BM25_score(self, docid: int, doc_word_counts: dict[str, int],
+                       query_parts: list[str]) -> float:
+        """
+        Calculates the BM25 score.
+
+        Args:
+            docid: The id of the document
+            doc_word_counts: The words in the document's main text mapped to their frequencies
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            The BM25 score
+        """
+        # TODO: Calculate the BM25 score and return it
+        query_word_count = Counter(query_parts)
+        return self.bm25_scorer.score(docid, doc_word_counts, query_word_count)
 
     def save_model(self) -> None:
         pickle.dump(self.model.ranker, open('../cache/l2r_model_' +

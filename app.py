@@ -7,7 +7,7 @@ from pipeline import SearchEngine
 
 app = Flask(__name__)
 
-engine = SearchEngine(reranker="vector")
+engine = SearchEngine(reranker="l2r")
 
 DEFAULT_USER = 1
 DEFAULT_PROMPT = "fast"
@@ -16,11 +16,12 @@ DEFAULT_LAT = "42.3317"
 
 
 def get_results_all(lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
-    query = str(lat) + ", " + str(lng)
+    query = str(lat) + ", " + str(lng) + ", " + str(prompt)
     # + str(prompt)
     param = {
         "user_id": user_id,
     }
+    print(query)
     results = engine.search(query, **param)
     results = results[:top_n]
     return results
