@@ -382,9 +382,9 @@ class Indexer:
 
         return index
 
+# %%
 
 if __name__ == '__main__':
-
     # read stop words
     stopwords_file_path = 'data/stopwords.txt'
     stopwords = set()
@@ -393,16 +393,27 @@ if __name__ == '__main__':
             cleaned_line = line.strip()
             stopwords.add(cleaned_line)
 
-    index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+    main_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
                                  dataset_path='data/google_map_charging_station_all.jsonl.gz', 
                                  document_preprocessor=RegexTokenizer("\\w+"),
                                  stopwords=stopwords, 
                                 minimum_word_frequency=2,
                                 text_key='comments', 
-                                max_docs=-1, 
+                                max_docs=6075, 
                                 doc_augment_dict=None, 
                                 rel_ids=None)
     
-    index
+    
+    
+    pickle.dump(main_index, open('cache/main_index.pkl', 'wb'))
 
-    pass
+    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
+                                       dataset_path='data/google_map_charging_station_all.jsonl.gz', 
+                                        document_preprocessor=RegexTokenizer("\\w+"), 
+                                        stopwords=stopwords, 
+                                        minimum_word_frequency=1, 
+                                        text_key='address_name', 
+                                        max_docs=6075, 
+                                        doc_augment_dict=None, 
+                                        rel_ids=None)
+    pickle.dump(title_index, open('cache/title_index.pkl', 'wb'))
