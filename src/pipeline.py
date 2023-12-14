@@ -138,9 +138,16 @@ class SearchEngine(BaseSearchEngine):
         elif reranker == 'l2r+vector':
             print('Loading l2r ranker...')
             self.feature_extractor = L2RFeatureExtractor(
-                self.main_index, self.ranker)
+                self.frame, self.ranker)
             self.l2r = L2RRanker(
-                index=self.main_index, ranker=self.ranker, feature_extractor=self.feature_extractor)
+                frame=self.frame, 
+                document_index=self.document_index,
+                title_index=self.title_index, 
+                document_preprocessor=self.document_preprocessor, 
+                stopwords=self.stopwords, 
+                ranker=self.ranker, 
+                feature_extractor=self.feature_extractor)
+            
             self.l2r.train(DATA_PATH + 'relevance.train.csv')
             encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
             user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
@@ -153,7 +160,7 @@ class SearchEngine(BaseSearchEngine):
 
             profile_row_to_userid = [1, 2]
             self.pipeline = VectorRanker(
-                index=self.main_index,
+                index=self.frame,
                 ranker=self.l2r,
                 bi_encoder_model_name=None,
                 encoded_docs=encoded_docs,
@@ -188,26 +195,26 @@ def initialize():
 
 
 
-# DATA_PATH = 'data/'
-# DEFAULT_PROMPT = "1401"
-# DEFAULT_LNG = "-83.0703"
-# DEFAULT_LAT = "42.3317"
-# DEFAULT_USER = 1
+DATA_PATH = 'data/'
+DEFAULT_PROMPT = "1401"
+DEFAULT_LNG = "-83.0703"
+DEFAULT_LAT = "42.3317"
+DEFAULT_USER = 1
 
-# def get_results_all(engine: SearchEngine, lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
-#     query = str(lat) + ", " + str(lng) + ", " + str(prompt)
-#     # + str(prompt)
-#     param = {
-#         "user_id": user_id,
-#     }
-#     print(query)
-#     results = engine.search(query, **param)
-#     results = results[:top_n]
-#     return results
+def get_results_all(engine: SearchEngine, lat = DEFAULT_LAT, lng = DEFAULT_LNG, prompt = DEFAULT_PROMPT, top_n = 10, user_id = DEFAULT_USER):
+    query = str(lat) + ", " + str(lng) + ", " + str(prompt)
+    # + str(prompt)
+    param = {
+        "user_id": user_id,
+    }
+    print(query)
+    results = engine.search(query, **param)
+    results = results[:top_n]
+    return results
 
-# from IPython.display import display as Display
-# if __name__ == "__main__":
-#     search_obj = SearchEngine(reranker="l2r")
-#     res = get_results_all(search_obj, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, user_id=1)
-#     result_df = search_obj.get_station_info([i.docid for i in res])
-#     Display(result_df)
+from IPython.display import display as Display
+if __name__ == "__main__":
+    search_obj = SearchEngine(reranker="l2r")
+    res = get_results_all(search_obj, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, user_id=1)
+    result_df = search_obj.get_station_info([i.docid for i in res])
+    Display(result_df)

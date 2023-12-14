@@ -103,11 +103,19 @@ class VectorRanker(Ranker):
             A sorted list of tuples containing the document id and its relevance to the query,
             with most relevant documents first
         """
-        query_parts = [float(x) for x in query.split(',')]
+        # query_parts = [float(x) for x in query.split(',')]
+        query_parts = [x for x in query.split(',')]
+        lat = float(query_parts[0])
+        lng = float(query_parts[1])
+        try:
+            prompt = query_parts[2]
+        except:
+            prompt = None
+
         if len(query_parts) == 0:
             return []
-        mask = (abs(query_parts[0] - self.index.Latitude) <
-                0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+        mask = (abs(lat - self.index.Latitude) <
+                0.01) & (abs(lng - self.index.Longitude) < 0.01)
         relevant_docs = self.index[mask]
         if len(relevant_docs) == 0:
             return []
@@ -121,11 +129,14 @@ class VectorRanker(Ranker):
             by=['score'], ascending=False)
         relevant_docs['id'] = relevant_docs.index
         results = relevant_docs[['id', 'score']].values.tolist()
-        try:
+        
+        # Filter to just the top 100 documents for the L2R part for re-ranking
+        # This is only able to run if we use l2r as the ranker, so use try except here
+        if self.ranker.__class__.__name__ == 'L2RRanker':
             results_top_100 = results[:100]
             results_tails = results[100:]
-
             X_pred = []
+
             for item in results_top_100:
                 docid = int(item[0])
                 if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
@@ -144,11 +155,12 @@ class VectorRanker(Ranker):
 
             # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
             results = results_top_100 + results_tails
-        except:
+        else:
             pass
 
+        # re-rank based on user-id
         results = self.personalized_re_rank(results, user_id)
-
+        
         return results
 
     def rank_docs(self, embedding: ndarray) -> list[tuple[int, float]]:
