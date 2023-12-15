@@ -14,6 +14,33 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 - **MEM-efficient** data structure based on inverted index
 - **User Interface** based on Flask, GoogleMAP API
 
+## Repository Structure
+```
+├── README.md
+├── data
+│   ├── RAW_test: Folder for raw test data in json format
+│   ├── RAW_train: Folder for raw train data in json format
+│   ├── coordinates.test.txt: Coordinates of test data
+│   ├── coordinates.train.txt: Coordinates of train data
+│   ├── docid_NREL_map.csv: Map between docid and NREL id
+│   ├── NREL_All_Stations_data.csv: NREL data
+│   ├── processed_nrel.csv: Processed NREL data
+├── src
+│   ├── document_preprocessor.py: Preprocess the documents
+│   ├── indexing.py: Indexing the documents
+│   ├── ranker.py: Rank the documents
+│   ├── relevance.py: Relevance testing
+│   ├── l2r.py: Learning to rank
+│   ├── utils.py: Utility functions
+│   ├── cf.py: Collaborative filtering
+│   ├── vector_ranker.py: Vector ranker
+│   ├── pipeline.py: Pipeline for the whole system
+│   ├── NREL_All_Stations_API.ipynb: NREL API and data processing
+│   ├── evaluation.ipynb: The notebook for evaluation and query
+│   ├── Google_Map_Find_API.ipynb: Google Map API for relevance data retrieval
+│   ├── GPT_sentiment_analysis.ipynb: GPT sentiment analysis
+```
+
 ## Methodology
 
 ### Data Collection
