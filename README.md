@@ -3,6 +3,16 @@
 ## Introduction
 Our project aims to build a **search engine** for electric vehicle charging stations with personalized recommendations. The system consists of a naive ranker by distance, an ``DL-based l2r ranker``, a ``collaborative filtering`` recommender system, and a ``LLM-based personalization`` system. The performance of each ranker combination is evaluated with query results from Google Maps API processed with a customized relevance function. 
 
+## Key features
+
+- **Data scraping** using GoogleMap/SerpAPI/NREL API
+- **NLP** comments using ChatGPT API & **prompt engineering**
+- LLM-based embedded vector space **personalization**.
+- Item-item **reasoning** based on Collaborative Filtering & Relevance Matrix
+- **“Learn to Rank”** using LightGBM, automatic pesudo-label generation using ChatGPT & GoogleMap API.
+- Integrate mainstream rankers such as **BM25**(core feature of Google/Bing), TF-IDF, Pivoted Normalization, DirichletLM.
+- **MEM-efficient** data structure based on inverted index
+- **User Interface** based on Flask, GoogleMAP API
 
 ## Methodology
 
