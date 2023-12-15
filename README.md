@@ -5,12 +5,12 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 
 ## Key features
 
-- **Data scraping** using GoogleMap/SerpAPI/NREL API
+- **Data scraping** using GoogleMap/Serp/NREL API
 - **NLP** comments using ChatGPT API & **prompt engineering**
 - LLM-based embedded vector space **personalization**.
 - Item-item **reasoning** based on Collaborative Filtering & Relevance Matrix
 - **“Learn to Rank”** using LightGBM, automatic pesudo-label generation using ChatGPT & GoogleMap API.
-- Integrate mainstream rankers such as **BM25**(core feature of Google/Bing), TF-IDF, Pivoted Normalization, DirichletLM.
+- Integrated mainstream rankers such as **BM25**(core feature of Bing), TF-IDF, Pivoted Normalization, DirichletLM.
 - **MEM-efficient** data structure based on inverted index
 - **User Interface** based on Flask, GoogleMAP API
 
