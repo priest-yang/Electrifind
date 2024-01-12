@@ -45,6 +45,17 @@
         </nav>
 
         <main>
+            <iframe
+            width="2000"
+            height="850"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH3a6dX6KWYfFeDYDSVDPsuFEHFkwkrdw
+              &q=Space+Needle,Seattle+WA">
+          </iframe>
+          
             <div id="search-header">
             {% if lat or lng or prompt or user_id %}
                 <div id="search-bar" class="open">
@@ -178,5 +189,6 @@
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
         <script src="static/js/script.js"></script>
+        
     </body>
 </html>
