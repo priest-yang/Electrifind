@@ -17,7 +17,7 @@ class Tokenizer:
             multiword_expressions: A list of strings that should be recognized as single tokens
                 If set to 'None' no multi-word expression matching is performed.
         """
-        # TODO: Save arguments that are needed as fields of this class
+        # Save arguments that are needed as fields of this class
         self.lowercase = lowercase
         self.max_mwe_len = 0
         self.multiword_expressions = defaultdict(set)
@@ -51,7 +51,7 @@ class Tokenizer:
         Returns:
             A list of tokens processed by lower-casing depending on the given condition
         """
-        # TODO: Add support for lower-casing
+        # Add support for lower-casing
         return [token.lower() for token in input_tokens]
 
     def tokenize(self, text: str) -> list[str]:
@@ -116,8 +116,8 @@ class RegexTokenizer(Tokenizer):
                 If set to 'None' no multi-word expression matching is performed.
         """
         super().__init__(lowercase, multiword_expressions)
-        # TODO: Save a new argument that is needed as a field of this class
-        # TODO: Initialize the NLTK's RegexpTokenizer
+        # Save a new argument that is needed as a field of this class
+        # Initialize the NLTK's RegexpTokenizer
         self.tokenizer = RegexpTokenizer(token_regex)
 
     def tokenize(self, text: str) -> list[str]:
@@ -129,8 +129,8 @@ class RegexTokenizer(Tokenizer):
         Returns:
             A list of tokens
         """
-        # TODO: Tokenize the given text and perform postprocessing on the list of tokens
-        #       using the postprocess function
+        # Tokenize the given text and perform postprocessing on the list of tokens
+        # using the postprocess function
         return self.postprocess(self.tokenizer.tokenize(text))
 
 
@@ -185,7 +185,7 @@ class SpaCyTokenizer(Tokenizer):
         return self.postprocess(results)
 
 
-# TODO: Take in a doc2query model and generate queries from a piece of text
+# Take in a doc2query model and generate queries from a piece of text
 # Note: For downstream tasks such as index augmentation with the queries, use doc2query.csv
 class Doc2QueryAugmenter:
     """
@@ -208,7 +208,7 @@ class Doc2QueryAugmenter:
         self.device = torch.device(
             'cuda' if torch.cuda.is_available() else 'cpu')
 
-        # TODO: Create the dense tokenizer and query generation model using HuggingFace transformers
+        # Create the dense tokenizer and query generation model using HuggingFace transformers
         self.tokenizer = T5Tokenizer.from_pretrained(doc2query_model_name)
         self.model = T5ForConditionalGeneration.from_pretrained(
             doc2query_model_name).to(self.device)
@@ -221,7 +221,6 @@ class Doc2QueryAugmenter:
             3. Decode the query vector using the tokenizer/decode to get the appropriate queries.
             4. Return the queries.
 
-        TODO:
             Neural models are best performing when batched to the GPU.
             Try writing a separate function which can deal with batches of documents.
 
@@ -244,9 +243,8 @@ class Doc2QueryAugmenter:
 
         # NOTE: See https://huggingface.co/doc2query/msmarco-t5-base-v1 for details
 
-        # TODO: For the given model, generate a list of queries that might reasonably be issued to search
-        #       for that document
-        # NOTE: Do not forget edge cases
+        # For the given model, generate a list of queries that might reasonably be issued to search
+        # for that document
         input_ids = self.tokenizer.encode(
             prefix_prompt + document,
             max_length=document_max_token_length,
