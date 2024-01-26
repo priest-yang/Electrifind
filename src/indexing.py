@@ -39,7 +39,7 @@ class InvertedIndex:
         Args:
             docid: The id of the document
         """
-        # TODO: Remove a document from the entire index and statistics
+        # Remove a document from the entire index and statistics
         for idx, token in enumerate(self.index):
             for posting in token:
                 if posting[0] == docid:
@@ -62,7 +62,7 @@ class InvertedIndex:
                 Tokens that should not be indexed will have been replaced with None in this list.
                 The length of the list should be equal to the number of tokens prior to any token removal.
         """
-        # TODO: Add documents to the index
+        # Add documents to the index
         doc_index = Counter(tokens)
         for token in doc_index:
             if token in self.stop_words:
@@ -97,7 +97,7 @@ class InvertedIndex:
             that had that search term and an int value indicating the term's frequency in 
             the document
         """
-        # TODO: Fetch a term's postings from the index
+        # Fetch a term's postings from the index
         return self.index[term]
 
     def get_doc_metadata(self, doc_id: int) -> dict[str, int]:
@@ -113,7 +113,7 @@ class InvertedIndex:
         Returns:
             A dictionary with metadata about the document
         """
-        # TODO: Fetch a particular document stored in metadata
+        # Fetch a particular document stored in metadata
         unique_tokens = 0
         length = 0
         if doc_id in self.document_metadata:
@@ -133,7 +133,7 @@ class InvertedIndex:
         Returns:
             A dictionary with metadata about the term in the index
         """
-        # TODO: Fetch a particular term stored in metadata
+        # Fetch a particular term stored in metadata
         count = 0
         num_docs = 0
         if term in self.statistics:
@@ -156,8 +156,8 @@ class InvertedIndex:
         Returns:
               A dictionary mapping statistical properties (named as strings) about the index to their values
         """
-        # TODO: Calculate statistics like 'unique_token_count', 'total_token_count',
-        #       'number_of_documents', 'mean_document_length' and any other relevant central statistic
+        # Calculate statistics like 'unique_token_count', 'total_token_count',
+        # 'number_of_documents', 'mean_document_length' and any other relevant central statistic
         unique_token_count = len(self.vocabulary)
         total_token_count = self.total_token_count
         number_of_documents = len(self.document_metadata)
@@ -199,7 +199,7 @@ class InvertedIndex:
         Args:
             index_directory_name: The name of the directory where the index will be saved
         """
-        # TODO: Save the index files to disk
+        # Save the index files to disk
         if not os.path.exists(index_directory_name):
             os.makedirs(index_directory_name)
         pickle.dump(self.index, open(index_directory_name + '/index', 'wb'))
@@ -221,7 +221,7 @@ class InvertedIndex:
         Args:
             index_directory_name: The name of the directory that contains the index
         """
-        # TODO: Load the index files from disk to a Python object
+        # Load the index files from disk to a Python object
         self.index = pickle.load(open(index_directory_name + '/index', 'rb'))
         self.document_metadata = pickle.load(
             open(index_directory_name + '/document_metadata.pkl', 'rb'))
@@ -264,7 +264,7 @@ class PositionalInvertedIndex(BasicInvertedIndex):
                 Tokens that should not be indexed will have been replaced with None in this list.
                 The length of the list should be equal to the number of tokens prior to any token removal.
         """
-        # TODO: Add documents to the index
+        # Add documents to the index
         doc_index = {}
         for idx, token in enumerate(tokens):
             if token.lower() not in doc_index:
