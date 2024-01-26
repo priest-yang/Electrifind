@@ -1,57 +1,7 @@
 {
     "html_attributions": [],
-    "next_page_token": "AWU5eFi0o61olkjjRK3B4LV0Nx4Hu5dJqgXgISaRzDhpGaxIlH_MpMbr_s3gAwBDyP-9lt1k3knRcHoCVf3BlsBTrM3fTYSxdcSSTyvDppupwXop6b5Ye1IaRYB14omxt12etdK8DH5EyGPOn1_1oicZaT1umUZWP3_o4VJwyrIDUSar_YCCDQC3Bt7pEQdZOEiIVV9OMGsXcbaYYRb2q_lwDNo_efJFOH5CMak-8eyIkG4SmyZhgJBaVBEGXuU4aLRyse6l2QO1nHsmORJjhggX3CWMyjsJbZAoxAoohfvV0PuEm4X0_dIU72uXSXGp1wsJZ7kfVWSkdT_SQNfyivzU26l6E_rxKKhcwUo5gqugSicwOI4BbuIj7QFD4mmCfS7CCaboCkejw-DwX7S1ow-3X4MJ9SgB2lOqHMQtgBtQq4KDeHgBNcX-JKZLZyEhRLtGHdLb",
+    "next_page_token": "AWU5eFiXvgHAIZpRk6hfHsp1bti6OykJxbxE9onpjbFfvSj4q32gSuNTJmz9088A6D9nBjzTWY8QvudhVWtpsBPRIHIFBAFql1lGhJYGqM-xIgVTAPTJp8Ddtm_B3GJ0DKbhVFhJ2kBJsaqo7gODn3MqXg9KNtew0drY2wU9ydU68Ygvv9-RwS3_u4ww3UdDAgDM-Dy1z73ftEKUspnAJ6zNMLYoqoSGziotxG9Za7Hwq1Df5T_HS4lgivbG76zIgpTGDjLxbe0VHPJ8hP-iraUBPJKYbfiC8ljOtS2dStvmDpAzNhjPz1Un1upcuy4L-FbcZbnj_D_FXEWPM2rppgbC7pT08I_bzODGTKhqRAWNZXneyhfTLfTiDTeWrrrJpMe2GYd9Gla7_foLxzSz_eSOr9u9yQYL11AXZhtykG9vQEBIx9X_XGTpBq6_qGLVrgh_ACJJ",
     "results": [
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.229493,
-                    "lng": -83.6492643
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.23084127989272,
-                        "lng": -83.64786482010727
-                    },
-                    "southwest": {
-                        "lat": 42.22814162010728,
-                        "lng": -83.65056447989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Electrify America Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109346785337871686045\">ehsan</a>"
-                    ],
-                    "photo_reference": "AWU5eFh1sG7xjKp40ogfSMEvSfCaXf-26Iv0ZOmeUTgRyg5VOsCR_IcKKzwZ1u3LTJGNOVK3XGuW0DdbYnRB_tvLh3A2xkS3pEHt_LIe6dB_6SVyAjxG6O44-ZoCOdxnf84UlSKGFYRmjwUf9WtI9boMMxkNreTGJRKjNcGxvHB1p7MFJ5ts",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
-            "plus_code": {
-                "compound_code": "69H2+Q7 Ypsilanti, Michigan",
-                "global_code": "86JR69H2+Q7"
-            },
-            "rating": 3.9,
-            "reference": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 35,
-            "vicinity": "2539 Ellsworth Rd, Ypsilanti"
-        },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
@@ -83,7 +33,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111637626006401130646\">Alex Aquino</a>"
                     ],
-                    "photo_reference": "AWU5eFhIDRPcCMLe6TIdzTEuQS84dI7_xMVQgECcN2Q_MVvWOrOcT7a5eVZOMlJjKpDvfSKkPMlfGIKSU49VLf-lhZ6Si7vykO8b-_cJjU7anDb6Gss4Kji1qjK3kqw8B9UqMqw5wmD9lQ0LV4D8qXQ7zG4JNag4Xbmo4yLWjGYIBGy_zMOK",
+                    "photo_reference": "AWU5eFhKw9pDICNftyR1ytMu6s3xNJa8xU5VJNk7PcjK1N7UMFPCOw_Ge4WAKU-Lo5ntq2Mj_PnATYj9mce50_P-VrLPpMKi14zb-GWk2dygTbaqYMkhosv63_A75noANwcFHS5HdhXOZSJy1WsppusfDncthtjx-Re5cxYiSTk6W13AGJFu",
                     "width": 3060
                 }
             ],
@@ -92,15 +42,65 @@
                 "compound_code": "77J3+RW Ann Arbor, Michigan",
                 "global_code": "86JR77J3+RW"
             },
-            "rating": 3.7,
+            "rating": 3.8,
             "reference": "ChIJq14KOz6uPIgR6iEzXqHR6M0",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 9,
+            "user_ratings_total": 10,
             "vicinity": "301 E Huron St, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.229493,
+                    "lng": -83.6492643
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.23084127989272,
+                        "lng": -83.64786482010727
+                    },
+                    "southwest": {
+                        "lat": 42.22814162010728,
+                        "lng": -83.65056447989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109346785337871686045\">ehsan</a>"
+                    ],
+                    "photo_reference": "AWU5eFiG_1kR_GsqUWO48_GfUd9nAOdQA9wOeJ7iblRrvSbmcEnMZKFVGuAU6SXNYISIbM37pRXgCg7z3R-Nd8pdLWmcwbRMryMpDOcwoBZ1LmzK12jvTfGBiMRgVGMu5sKEPh8ek5q__Llz2HDFRnsGG0XiDKHiTdhP8dvMYWB2HFE4x7Rx",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
+            "plus_code": {
+                "compound_code": "69H2+Q7 Ypsilanti, Michigan",
+                "global_code": "86JR69H2+Q7"
+            },
+            "rating": 3.7,
+            "reference": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 38,
+            "vicinity": "2539 Ellsworth Rd, Ypsilanti"
         },
         {
             "business_status": "OPERATIONAL",
@@ -133,7 +133,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111637626006401130646\">Alex Aquino</a>"
                     ],
-                    "photo_reference": "AWU5eFjMWZFJRqIuIjlfiFayFYqH2_3MKhaDU5B7LC7M0EiSYvsltoFFBLc8SDC9zT1ZlGCLLVFRYGySygC7ndvQqvw-O13EnKGuP-qN80-kTF7a88hOFvNNEb_2_HWF5quX2WMG9XfRu6-f2yijk5sHmHQWYqrNiO5Dvm_kaYbgH6ZfeGtT",
+                    "photo_reference": "AWU5eFinBzgwqsrmePIEaPNf7ylLt_Cdc-5NQvTRDPcGnjA12JNik6fcBWtcSThtKzbOxqX7pVV1GZT8_vTrrbV_M21-XPsosYh5hIPNgQjHy2GXDVwD0QT8lrG6XBP-jd6Msgq6sXBGWKCW6YtNJFGi8GQVdMEdmECMzgqM1dCYln_QC4PN",
                     "width": 3060
                 }
             ],
@@ -142,65 +142,15 @@
                 "compound_code": "67V6+VC Ann Arbor, Michigan",
                 "global_code": "86JR67V6+VC"
             },
-            "rating": 4.1,
+            "rating": 4.2,
             "reference": "ChIJ94zis7-vPIgRt5PBPVivWww",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 8,
+            "user_ratings_total": 9,
             "vicinity": "Shell, 2991 S State St, Ann Arbor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.23278930000001,
-                    "lng": -83.6785266
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.23406442989272,
-                        "lng": -83.67717637010729
-                    },
-                    "southwest": {
-                        "lat": 42.23136477010728,
-                        "lng": -83.67987602989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Tesla Supercharger",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3000,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107485367846135990036\">Alex Bennett</a>"
-                    ],
-                    "photo_reference": "AWU5eFjxvWfC5oMJjHFlrbDEVmRRSC59jX7HGR9pjmm3ohW38qo4cVlgRxC2dg6QUsWvO4hayuF4ux1dEBr654MKM5wc1jS7xFmKyfZ83jD1uUDTdGQbR5OTLNQy3J8Fo7gHP-0Vm80V5ojU074I6YQqWAeDmNCSgXNX6pVyl-47rQP0VOy0",
-                    "width": 4000
-                }
-            ],
-            "place_id": "ChIJwWYuDSipPIgRLN6Mo7lsc78",
-            "plus_code": {
-                "compound_code": "68MC+4H Ypsilanti, Michigan",
-                "global_code": "86JR68MC+4H"
-            },
-            "rating": 4.3,
-            "reference": "ChIJwWYuDSipPIgRLN6Mo7lsc78",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 14,
-            "vicinity": "Carpenter Rd #3825, Ypsilanti"
         },
         {
             "business_status": "OPERATIONAL",
@@ -233,7 +183,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111093187725212374443\">Naval Shah</a>"
                     ],
-                    "photo_reference": "AWU5eFjdqRq02KhtM97I60RR4RUp3Gdx_2AVuzq4OnRFSn8c6qPlGdUivLn3okTgz_sSB2frYhOLFz8VQiP4ho89t6VWnYlxGwkhH8qNyAbiuWlznFZsTaXOMlPz6VLbcbguA-higHayOXZSjvRap_AHeHpzV9Pj6HknoT6nHQrZAFI1xBzD",
+                    "photo_reference": "AWU5eFjFyoeynQzMCD4Kjml9izdTOHeZVjnO6mS2mUqRXxwI4GLMy9fXj6gubCGX-NF7XLYECRCvArWmk7fPZvq1FB1Upp_qH4R3WbJWM12G7r9GaRECa7SpRv0L_9hqoI1nxYCM4Q4H9kN7bDl6aTVEMH6LTM1QaKnnW9wMn0DmHUNuht5r",
                     "width": 4032
                 }
             ],
@@ -249,8 +199,98 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 91,
+            "user_ratings_total": 93,
             "vicinity": "3145 Ann Arbor-Saline Rd, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.23278930000001,
+                    "lng": -83.6785266
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.23406442989272,
+                        "lng": -83.67717637010729
+                    },
+                    "southwest": {
+                        "lat": 42.23136477010728,
+                        "lng": -83.67987602989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107485367846135990036\">Alex Bennett</a>"
+                    ],
+                    "photo_reference": "AWU5eFhedSftz_FnqBP-GDjdpajPgy3CKdIqw67ySx_PhgUv5Q6cmNVEBZZGlmWMz78YCxxT0Zct2GpsrG8pFqMSlihcTmMjQYd86YBFp63QMkAtQJPvX-Pe2azDgfha7xGX9vElIWGjnP73XuJFkXRCb-d8Rn25b1WUycvXTS6kdXAcabzJ",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJwWYuDSipPIgRLN6Mo7lsc78",
+            "plus_code": {
+                "compound_code": "68MC+4H Ypsilanti, Michigan",
+                "global_code": "86JR68MC+4H"
+            },
+            "rating": 4.3,
+            "reference": "ChIJwWYuDSipPIgRLN6Mo7lsc78",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 14,
+            "vicinity": "Carpenter Rd #3825, Ypsilanti"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2863464,
+                    "lng": -83.842995
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.28760547989272,
+                        "lng": -83.84114692010728
+                    },
+                    "southwest": {
+                        "lat": 42.28490582010728,
+                        "lng": -83.84384657989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shell Recharge Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "plus_code": {
+                "compound_code": "75P4+GR Ann Arbor, Michigan",
+                "global_code": "86JR75P4+GR"
+            },
+            "rating": 2,
+            "reference": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "5645 Jackson Rd, Ann Arbor"
         },
         {
             "business_status": "OPERATIONAL",
@@ -283,7 +323,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/106553336201931873362\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFipVrrYSSSVhadGF-ZoB-XNotqLGCgT_DOfBsqKakO8J3p6WgF-mAMjKG0YknMEhMID0INkJjvLsjWjLhtk6h7F3NGUxbdt6xy4-PtJVw9YO2eNIDqtJuFrdOs3PH3Hh3aldV-5t0GMvUrunj5Vr0_vZqCqdmwENMGZXaxD82R8G-So",
+                    "photo_reference": "AWU5eFgY5pSnx7QCoxgI4IO2yMoj1PYV_tc-3uwnIh-SVUjAZYosoJcuDDn81uRkhPcrG7mi6bR34WXyc1T1spjvuNz8iyDC_SDWZl1OvDtFuP0shci3oy7qNcXOuPTKC1Q-GxQvQSxmslXkvTPF3Ls-A8M_kNMtqjhm6JvtX1ueOIFjUHLc",
                     "width": 1080
                 }
             ],
@@ -333,7 +373,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/107200165087017851894\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFgnEDX8zSDg4V8WUO-PrFcB4KXwRJF7j5IxhKZ0xcPkdAJ0scjNsG9tBkyBHKFn89k3Qg3yVVRFSlCsqlXAZPagsk73VfW9ZgnpOLWcYjUpEvYC0YSU5NsXJRRmjeDb-eOQ_jZ7gy1XrCb-uDD2WzZDwtwirtgbHbyXDUSS4FgbvmQO",
+                    "photo_reference": "AWU5eFgKXvR4JIiDMykEw8JNqznyXHPS88F7PQKabE8qDwgRmtgXR0yE5vcigJpQlDk8COSx1R9UnPHiEnwbvAckCkLXhLN-m-1euB6owHsNukMZYYKqE_nQbJ4CbjHOhchNDRHyGLpveFmmFk4pFNoCy8OiCqIqi8sF8jTv7kDVecFaMTrE",
                     "width": 4032
                 }
             ],
@@ -383,7 +423,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/106332594550192066083\">Ryan Ma</a>"
                     ],
-                    "photo_reference": "AWU5eFjxOycH7-t7p_A8cCddJuPQfVzD1eOOzR_2dkd99dxMKx7L3kgc6mZbTwPO2J6xxTU9qpKiGzrWZbb4Yd7Hi0hwLcgEwutYvoyinSOMnpQFyEvLmZbmdXeaXqqHYIL_lOanPeUKhG9XQVXPskv5lnZ6PvEy1vsnIjdbd2Fiuk8f1q5c",
+                    "photo_reference": "AWU5eFj7sK1Bs-bPHuLIe2M7vRLiINcNKOsJacxbMOAtWnwK84_Zt1b6oubFpXEntRophsifM4e4iHW3AvCW8VZsR8gfwRfRHhb7mkW6VjuoY9HO2lipLdPhAzGDt3xJzMDviQkC-SOCMSGHUWlF-H2aTcvtPQF6KigUzfiO3HYgzShfQ_p_",
                     "width": 1960
                 }
             ],
@@ -401,46 +441,6 @@
             ],
             "user_ratings_total": 4,
             "vicinity": "50 N Territorial Rd W, Whitmore Lake"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.32176,
-                    "lng": -83.70742299999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.32310652989273,
-                        "lng": -83.70611672010727
-                    },
-                    "southwest": {
-                        "lat": 42.32040687010728,
-                        "lng": -83.70881637989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJA0iYsUesPIgRdgwonzG2-oI",
-            "plus_code": {
-                "compound_code": "87CV+P2 Ann Arbor, Michigan",
-                "global_code": "86JR87CV+P2"
-            },
-            "rating": 0,
-            "reference": "ChIJA0iYsUesPIgRdgwonzG2-oI",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "3400 Nixon Rd, Ann Arbor"
         },
         {
             "business_status": "OPERATIONAL",
@@ -473,7 +473,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/100107224825605610681\">Vitaliy Ivanov</a>"
                     ],
-                    "photo_reference": "AWU5eFhDh1K9AApFyDn3ViTyRNChimXE3t0Q0NeuLANYblBHiidvEXfKKfW4fqC-0TdZ2J797iZvDWMaOJ5VAqPZQLdUVgVztaS7q9pMQbWVtaDBfUTAVnDsSxtDcQzg8Ro9g4MxykhGz6GWf29jKHsdTseG9FjLn5PrNznVOLulCWAQrpom",
+                    "photo_reference": "AWU5eFgc98FEZpKcLh0yCRzcWh6Ts6PWkYvDtQOG1dYYcfQuJkaIq02LHvFjERO11J_nKhkl0vaSVhMKlO_jG3bEPKX7MyvWE7OkuEb8NcDewy-e69E-ELnKBi05Thrt4SYfeXpOqhQKOwy0qh7gWBazLK2jxJZNPpeUG2IBvWuz356LYNug",
                     "width": 4032
                 }
             ],
@@ -496,41 +496,41 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.2863464,
-                    "lng": -83.842995
+                    "lat": 42.32176,
+                    "lng": -83.70742299999999
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.28760547989272,
-                        "lng": -83.84114692010728
+                        "lat": 42.32310652989273,
+                        "lng": -83.70611672010727
                     },
                     "southwest": {
-                        "lat": 42.28490582010728,
-                        "lng": -83.84384657989271
+                        "lat": 42.32040687010728,
+                        "lng": -83.70881637989271
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Shell Recharge Charging Station",
+            "name": "ChargePoint Charging Station",
             "opening_hours": {
                 "open_now": true
             },
-            "place_id": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "place_id": "ChIJA0iYsUesPIgRdgwonzG2-oI",
             "plus_code": {
-                "compound_code": "75P4+GR Ann Arbor, Michigan",
-                "global_code": "86JR75P4+GR"
+                "compound_code": "87CV+P2 Ann Arbor, Michigan",
+                "global_code": "86JR87CV+P2"
             },
-            "rating": 2,
-            "reference": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "rating": 4,
+            "reference": "ChIJA0iYsUesPIgRdgwonzG2-oI",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
             "user_ratings_total": 1,
-            "vicinity": "5645 Jackson Rd, Ann Arbor"
+            "vicinity": "3400 Nixon Rd, Ann Arbor"
         },
         {
             "business_status": "OPERATIONAL",
@@ -563,7 +563,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/108437303671521194831\">Dan Schroeder</a>"
                     ],
-                    "photo_reference": "AWU5eFi34OaKup0TfVYijWJdKxsace_Iz2M03yemQMCjd0ugCkkMQ4w3ijj8jN0BLrAVtMZCq-SGkOtGDXlfOK-HBF2X34f95KrDON6rQlGJaWF9bdyJ4GAWxccMVDy9nnLdS7ODDw33r8culceXpQGKHhOJ_pRYc8pY9bpDp0bVHcBmBZgh",
+                    "photo_reference": "AWU5eFigP8Q3Yw6ZK6LhLo0GTRdrhjX1I-FK3byQAT8O63rOw2jHqsrU-1NtJaIQ2aVh0LEygGRDWsmUK-62_MkU9nwon0G4pRMgkN4YgZ_EHIoX2fCXFeuoUifyT4toi9FBvep_09PhqJJlWgJxsvno55etQ50b0tfeuKHldcvywo-rLzIE",
                     "width": 1528
                 }
             ],
@@ -604,19 +604,29 @@
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "EV Connect Charging Station",
+            "photos": [
+                {
+                    "height": 4080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115169039742595624263\">Andrew Sweeney</a>"
+                    ],
+                    "photo_reference": "AWU5eFgDain6GJ61BKYC0vUNqb1LZy-tDY2tdLqrHt3UlNmUKS1C0tNZ7oZixDSQDGhINtHaewuLcAX-aKYyNVlA9j20x-GHf1SAj2g0gYvZ_bQa5te1v8w8XQNQHfqiE2I6HvIxqQXJHnfm9x3fjcoUumE47FhM1iVgPOXXPJlBCRVUw0q0",
+                    "width": 3072
+                }
+            ],
             "place_id": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
             "plus_code": {
                 "compound_code": "84HH+6P Dexter, Michigan",
                 "global_code": "86JR84HH+6P"
             },
-            "rating": 0,
+            "rating": 5,
             "reference": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 0,
+            "user_ratings_total": 1,
             "vicinity": "7120 Dexter Ann Arbor Rd, Dexter"
         },
         {
@@ -663,6 +673,86 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.273908,
+                    "lng": -83.7912147
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.27525727989272,
+                        "lng": -83.78989282010728
+                    },
+                    "southwest": {
+                        "lat": 42.27255762010728,
+                        "lng": -83.79259247989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJg2NP87CxPIgRdypKKCvpsJQ",
+            "plus_code": {
+                "compound_code": "76F5+HG Ann Arbor, Michigan",
+                "global_code": "86JR76F5+HG"
+            },
+            "rating": 0,
+            "reference": "ChIJg2NP87CxPIgRdypKKCvpsJQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3100 W Liberty Rd, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2612403,
+                    "lng": -83.7376507
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.26259737989272,
+                        "lng": -83.73648382010728
+                    },
+                    "southwest": {
+                        "lat": 42.25989772010727,
+                        "lng": -83.73918347989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shell Recharge Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJqQt7wrSvPIgRmtuX4n1vkAQ",
+            "plus_code": {
+                "compound_code": "7766+FW Ann Arbor, Michigan",
+                "global_code": "86JR7766+FW"
+            },
+            "rating": 0,
+            "reference": "ChIJqQt7wrSvPIgRmtuX4n1vkAQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "830 Henry St, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.2782194,
                     "lng": -83.7479889
                 },
@@ -698,6 +788,56 @@
             ],
             "user_ratings_total": 0,
             "vicinity": "115E W William St, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2805837,
+                    "lng": -83.74776299999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.28193802989272,
+                        "lng": -83.74639547010727
+                    },
+                    "southwest": {
+                        "lat": 42.27923837010727,
+                        "lng": -83.74909512989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106995311791013579728\">106995311791013579728</a>"
+                    ],
+                    "photo_reference": "AWU5eFiIlqNouRBJYY8XBqL9LB1w_2NIuVrmvLA-8YNtqRUf10xI-Qu0gVK7_jvYZeCfiq3Sb2LiU9Z_F3U8d0cvFvpRBgSEbGi2IfrzvlN_LN0LB55PuAJ_bd-sutax2CnEtzFEXPx5UpwoVyOgIrMcDTyiL8eKtHpBnKSQRri0sxh3drDZ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJqaBDyD2uPIgRyHZGcOkTPFs",
+            "plus_code": {
+                "compound_code": "77J2+7W Ann Arbor, Michigan",
+                "global_code": "86JR77J2+7W"
+            },
+            "rating": 0,
+            "reference": "ChIJqaBDyD2uPIgRyHZGcOkTPFs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "123 E Washington St, Ann Arbor"
         },
         {
             "business_status": "OPERATIONAL",
@@ -743,17 +883,17 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.2880204,
-                    "lng": -83.7347388
+                    "lat": 42.197633,
+                    "lng": -83.700681
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.28944047989273,
-                        "lng": -83.73330707010727
+                        "lat": 42.19901997989272,
+                        "lng": -83.69936422010727
                     },
                     "southwest": {
-                        "lat": 42.28674082010728,
-                        "lng": -83.73600672989271
+                        "lat": 42.19632032010728,
+                        "lng": -83.70206387989272
                     }
                 }
             },
@@ -764,150 +904,20 @@
             "opening_hours": {
                 "open_now": true
             },
-            "place_id": "ChIJUSUlvm6uPIgRW9f-ZznOpDU",
+            "place_id": "ChIJgR3RIr-lPIgR8GaOcGbQ3t8",
             "plus_code": {
-                "compound_code": "77Q8+64 Ann Arbor, Michigan",
-                "global_code": "86JR77Q8+64"
+                "compound_code": "57XX+3P Saline, Michigan",
+                "global_code": "86JR57XX+3P"
             },
             "rating": 0,
-            "reference": "ChIJUSUlvm6uPIgRW9f-ZznOpDU",
+            "reference": "ChIJgR3RIr-lPIgR8GaOcGbQ3t8",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "1041 Wall St, Ann Arbor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.2805837,
-                    "lng": -83.74776299999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.28193802989272,
-                        "lng": -83.74639547010727
-                    },
-                    "southwest": {
-                        "lat": 42.27923837010727,
-                        "lng": -83.74909512989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2268,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106995311791013579728\">106995311791013579728</a>"
-                    ],
-                    "photo_reference": "AWU5eFirnpYPVUFS6v_1MW7sTVi05JAUDm-KqQ-SsRZlhIMeouPFGlBuJsja64alb7BlBakXoSnwCNTNp33SWUhuCi-ChdSgw8KCPwMkLdfQwrBRzKyohPyrl256XyNJ_sKxrb-SONFMTaPiQ_2Bfc-GeImzH5EgFHCglPJRVpto9kNja_xg",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJqaBDyD2uPIgRyHZGcOkTPFs",
-            "plus_code": {
-                "compound_code": "77J2+7W Ann Arbor, Michigan",
-                "global_code": "86JR77J2+7W"
-            },
-            "rating": 0,
-            "reference": "ChIJqaBDyD2uPIgRyHZGcOkTPFs",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "123 E Washington St, Ann Arbor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.27852000000001,
-                    "lng": -83.74574799999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.27990667989273,
-                        "lng": -83.74439762010726
-                    },
-                    "southwest": {
-                        "lat": 42.27720702010728,
-                        "lng": -83.74709727989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJR81euz6uPIgRnspq9eB4BWM",
-            "plus_code": {
-                "compound_code": "77H3+CP Ann Arbor, Michigan",
-                "global_code": "86JR77H3+CP"
-            },
-            "rating": 0,
-            "reference": "ChIJR81euz6uPIgRnspq9eB4BWM",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "319 S 5th Ave, Ann Arbor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.2612403,
-                    "lng": -83.7376507
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.26259737989272,
-                        "lng": -83.73648382010728
-                    },
-                    "southwest": {
-                        "lat": 42.25989772010727,
-                        "lng": -83.73918347989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Shell Recharge Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJqQt7wrSvPIgRmtuX4n1vkAQ",
-            "plus_code": {
-                "compound_code": "7766+FW Ann Arbor, Michigan",
-                "global_code": "86JR7766+FW"
-            },
-            "rating": 0,
-            "reference": "ChIJqQt7wrSvPIgRmtuX4n1vkAQ",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "830 Henry St, Ann Arbor"
+            "vicinity": "6201 US-12, Saline"
         }
     ],
     "status": "OK"

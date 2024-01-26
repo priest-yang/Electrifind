@@ -1,0 +1,273 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.4855009,
+                    "lng": -77.9569719
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.48686982989272,
+                        "lng": -77.95561942010728
+                    },
+                    "southwest": {
+                        "lat": 39.48417017010727,
+                        "lng": -77.95831907989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109833510333368734465\">Sameer Shikalgar</a>"
+                    ],
+                    "photo_reference": "AWU5eFg1J-TV2iHCKhVi6uWNKkd_qezmzRna16CZiPjhsDbfz1-MDW0N8xY-rB7OE5fvzkKJXHDjZgctuqJqqDIqUTgBFV277-DWJpi9a3gxqDNVCCujz6pj6oK7WU35caPG4iBGDOLoGyNBV1HFyLgN9LwB1JWaNm7qkAxaN6ojGliJXfSj",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ4SQOhvECyokRqL1HjQN4C3k",
+            "plus_code": {
+                "compound_code": "F2PV+66 Martinsburg, West Virginia",
+                "global_code": "87F4F2PV+66"
+            },
+            "rating": 4.2,
+            "reference": "ChIJ4SQOhvECyokRqL1HjQN4C3k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 69,
+            "vicinity": "1465 Edwin Miller Blvd, Martinsburg"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.44279,
+                    "lng": -77.9864599
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.44410827989272,
+                        "lng": -77.98508387010727
+                    },
+                    "southwest": {
+                        "lat": 39.44140862010727,
+                        "lng": -77.98778352989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106944728964742068335\">Andy Nilssen</a>"
+                    ],
+                    "photo_reference": "AWU5eFg-TXsYpdTCNdZGm6YHnzkCR-CXjM5dajzm2kBHLN5WLfYp8sIBXz0aIc01EGieYMfhSX6AcSzkzw7gKwIW280w34xETuJr7FCW6iISWv3fr69bNkWHXQeTsI_9mMjhrJfCxm9MQD7p6c-Lf3tnshCtsGoCkNJ3tYnOQoqlKdRRibm4",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJM5M-xtkDyokRY4OAXgKUf0k",
+            "rating": 5,
+            "reference": "ChIJM5M-xtkDyokRY4OAXgKUf0k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Sheetz, 14686 Apple Harvest Dr, Martinsburg"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.4482388,
+                    "lng": -77.9875105
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.44955127989272,
+                        "lng": -77.98616232010728
+                    },
+                    "southwest": {
+                        "lat": 39.44685162010728,
+                        "lng": -77.98886197989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1499,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107472799586710317204\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFgtmMM0ARATSLXcso-NqvaQXVsgdE4_TNvfGbuR4rnjG9ozdVgNq26azOwWkmjEys0qijGx7lc3Q01P1Z5pEYLdKuywTIrJH6RDeUXuT6D6xFXk2g10oGNGZ4JAP7e_CHgC2v_g_i9Gs4jx30T9F8nmSj9kjUVZG6WyISvDlMWfwjiX",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJRZaV5doDyokRQqbEl7Qpk80",
+            "plus_code": {
+                "compound_code": "C2X6+7X Martinsburg, West Virginia",
+                "global_code": "87F4C2X6+7X"
+            },
+            "rating": 4,
+            "reference": "ChIJRZaV5doDyokRQqbEl7Qpk80",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Martinsburg"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.43669,
+                    "lng": -77.804762
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.43767772989272,
+                        "lng": -77.80391287010728
+                    },
+                    "southwest": {
+                        "lat": 39.43497807010727,
+                        "lng": -77.80661252989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "place_id": "ChIJh62AI5f7yYkRxCtsH7GirA0",
+            "plus_code": {
+                "compound_code": "C5PW+M3 Shepherdstown, West Virginia",
+                "global_code": "87F4C5PW+M3"
+            },
+            "rating": 0,
+            "reference": "ChIJh62AI5f7yYkRxCtsH7GirA0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "164 Shepherd Grade Rd, Shepherdstown"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.42842,
+                    "lng": -77.817633
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.42975842989272,
+                        "lng": -77.81607567010727
+                    },
+                    "southwest": {
+                        "lat": 39.42705877010728,
+                        "lng": -77.81877532989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108053667880477869519\">H Wood</a>"
+                    ],
+                    "photo_reference": "AWU5eFixmE-c9prE5wIXkqK1Ll6YMZd4yZaw31j9maMtvAr-xbyKPZKtpOdgac4CK_Ixb9xeSzW5xx1Vw8qdytr38aFjh4M9A6VhhbAYjdsw7FHPBVcNKgOh4Kmgqk3cbutnMyfYNmn7X84q5tYb9Ygwmos4uu0JEN84BbkRyRZ1z_4I5AvM",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJba9mvPP7yYkRQMNBiDzkFOA",
+            "plus_code": {
+                "compound_code": "C5HJ+9W Shepherdstown, West Virginia",
+                "global_code": "87F4C5HJ+9W"
+            },
+            "rating": 5,
+            "reference": "ChIJba9mvPP7yYkRQMNBiDzkFOA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "233 Lowe Dr, Shepherdstown"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.417566,
+                    "lng": -77.91120099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.41879077989272,
+                        "lng": -77.90987602010728
+                    },
+                    "southwest": {
+                        "lat": 39.41609112010728,
+                        "lng": -77.91257567989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "place_id": "ChIJ-zCjH0T_yYkRCuaq8yKfejs",
+            "plus_code": {
+                "compound_code": "C39Q+2G Martinsburg, West Virginia",
+                "global_code": "87F4C39Q+2G"
+            },
+            "rating": 0,
+            "reference": "ChIJ-zCjH0T_yYkRCuaq8yKfejs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "510 Butler Ave, Martinsburg"
+        }
+    ],
+    "status": "OK"
+}

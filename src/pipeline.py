@@ -18,18 +18,14 @@ from utils import DATA_PATH, CACHE_PATH
 
 NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
 NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
-
 STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
-
 STATIONS_INFO_PATH = DATA_PATH + 'NREL_All_Stations_data_s.csv'
-NETWORK_STATS_PATH = DATA_PATH + 'network_stats.csv'
 RELEVANCE_TRAIN_PATH = DATA_PATH + 'relevance.train.csv'
 DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 
 
 class SearchEngine(BaseSearchEngine):
     def __init__(self, ranker: str = 'dist', reranker: str = None) -> None:
-
         self.document_preprocessor = RegexTokenizer("\\w+")
         print('Loading stopwords...')
         self.stopwords = set()
@@ -189,7 +185,7 @@ def initialize():
     return search_obj
 
 
-DATA_PATH = 'data/'
+# DATA_PATH = 'data/'
 DEFAULT_PROMPT = "1401"
 DEFAULT_LNG = "-83.0703"
 DEFAULT_LAT = "42.3317"

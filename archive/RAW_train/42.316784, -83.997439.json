@@ -63,60 +63,30 @@
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "EV Connect Charging Station",
+            "photos": [
+                {
+                    "height": 4080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115169039742595624263\">Andrew Sweeney</a>"
+                    ],
+                    "photo_reference": "AWU5eFhVZ0UOePBsQCxN1CHf8IrIuacOtmGMqlVrUjhYO62aukJh4dBvCLyohSnzFKZ4nnAoW-ogNwV21jHFL1ab14gyyo5KyEEt05sRIhubtZnvm7SN6GQfxVApGBaQLs8E7qSpZlwUXQdyDwK0flmGT8T_UjPNzGjrDlN5r3N0cT-qs-2q",
+                    "width": 3072
+                }
+            ],
             "place_id": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
             "plus_code": {
                 "compound_code": "84HH+6P Dexter, Michigan",
                 "global_code": "86JR84HH+6P"
             },
-            "rating": 0,
+            "rating": 5,
             "reference": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 0,
+            "user_ratings_total": 1,
             "vicinity": "7120 Dexter Ann Arbor Rd, Dexter"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.315864,
-                    "lng": -84.02152799999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.31721242989271,
-                        "lng": -84.02011577010727
-                    },
-                    "southwest": {
-                        "lat": 42.31451277010727,
-                        "lng": -84.02281542989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJaz-gGarOPIgRMqUZkf5gen4",
-            "plus_code": {
-                "compound_code": "8X8H+89 Chelsea, Michigan",
-                "global_code": "86JQ8X8H+89"
-            },
-            "rating": 0,
-            "reference": "ChIJaz-gGarOPIgRMqUZkf5gen4",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "308 S Main St, Chelsea"
         },
         {
             "business_status": "OPERATIONAL",
@@ -149,7 +119,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/109760098803864601080\">John Evert</a>"
                     ],
-                    "photo_reference": "AWU5eFiL1P9_gq-ksZjf5u1uqbcKd8_RA658X-JU2BkYf6YWKhj_PFlFMf3Aq2V1XyP8VHaSyDCo2yQsWIrKsAQBzTB0rFYj_NSARvsiF5GrKnnQSKhpXWiOT4gbk0lcoKECvNcCVm57sIpFhqNxEvptMUF2_FuU-FI-CYuDviFVB7Mgrssi",
+                    "photo_reference": "AWU5eFh80NC8GnfmyuBY--gJef4C2aBEw1zF7kBS0D6w8vvvZGrkc_jeBa0VEs_q_lZXf4Px9lHhxCxVyM-AN1DjmD1_RnRBXgylDUQlrcJpXxWZuljT7CSQ3D9ZOh170I5AtP7GK30h9wl2damnqYCsSrY4bwP_JsKmSTBGyy5l-oNu-mHJ",
                     "width": 1920
                 }
             ],
@@ -212,6 +182,96 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.3177617,
+                    "lng": -84.01927099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31908767989272,
+                        "lng": -84.01800242010727
+                    },
+                    "southwest": {
+                        "lat": 42.31638802010728,
+                        "lng": -84.02070207989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109760098803864601080\">John Evert</a>"
+                    ],
+                    "photo_reference": "AWU5eFjOQKWhVQ0tES4_KQTqD1hhkUZB29hY596dmJVmmi6PavcNvmoSmcb2arEm45gNVPBF3XE5XblHJarK7mEWNBaTQ86BzDAoPi1AS3RMrkhApdBsnzrgTSFwCWhV0Cdu8ud-D_HI0Md5hkv0Bse7InIp9twJKvtmThyNW4x6kSrj3QWg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
+            "plus_code": {
+                "compound_code": "8X9J+47 Chelsea, Michigan",
+                "global_code": "86JQ8X9J+47"
+            },
+            "rating": 2,
+            "reference": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "115 Park St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.315864,
+                    "lng": -84.02152799999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31721242989271,
+                        "lng": -84.02011577010727
+                    },
+                    "southwest": {
+                        "lat": 42.31451277010727,
+                        "lng": -84.02281542989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJaz-gGarOPIgRMqUZkf5gen4",
+            "plus_code": {
+                "compound_code": "8X8H+89 Chelsea, Michigan",
+                "global_code": "86JQ8X8H+89"
+            },
+            "rating": 0,
+            "reference": "ChIJaz-gGarOPIgRMqUZkf5gen4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "308 S Main St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.3309816,
                     "lng": -83.88588490000001
                 },
@@ -252,96 +312,6 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.3177617,
-                    "lng": -84.01927099999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.31908767989272,
-                        "lng": -84.01800242010727
-                    },
-                    "southwest": {
-                        "lat": 42.31638802010728,
-                        "lng": -84.02070207989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109760098803864601080\">John Evert</a>"
-                    ],
-                    "photo_reference": "AWU5eFjBt0aPXe_TC9uOFQmtpxg5FFVS2xLpHweaawbXT-7CT6TgbciWMeT5HNsLIAT6F1r4fr0yK6erlwHyY8CzwcYyeOIsAOFhXw6Hl0EV0sr5dVpudDnjy8xLj4TsbieusgS_3v7YQF-4IEyoD7X_mFFb5HwSEDQeWeoAHYdbyI2Ok5yF",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
-            "plus_code": {
-                "compound_code": "8X9J+47 Chelsea, Michigan",
-                "global_code": "86JQ8X9J+47"
-            },
-            "rating": 2,
-            "reference": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1,
-            "vicinity": "115 Park St, Chelsea"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.28634599999999,
-                    "lng": -83.842995
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.28769412989272,
-                        "lng": -83.84160777010726
-                    },
-                    "southwest": {
-                        "lat": 42.28499447010728,
-                        "lng": -83.84430742989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Electric Circuit Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
-            "plus_code": {
-                "compound_code": "75P4+GR Ann Arbor, Michigan",
-                "global_code": "86JR75P4+GR"
-            },
-            "rating": 0,
-            "reference": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "5645 Jackson Rd, Ann Arbor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
                     "lat": 42.3146638,
                     "lng": -84.03611000000001
                 },
@@ -374,6 +344,43 @@
             ],
             "user_ratings_total": 0,
             "vicinity": "805 W Middle St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.28634599999999,
+                    "lng": -83.842995
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.28769412989272,
+                        "lng": -83.84160777010726
+                    },
+                    "southwest": {
+                        "lat": 42.28499447010728,
+                        "lng": -83.84430742989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Circuit Charging Station",
+            "place_id": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
+            "plus_code": {
+                "compound_code": "75P4+GR Ann Arbor, Michigan",
+                "global_code": "86JR75P4+GR"
+            },
+            "rating": 0,
+            "reference": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "5645 Jackson Rd, Ann Arbor"
         },
         {
             "business_status": "OPERATIONAL",

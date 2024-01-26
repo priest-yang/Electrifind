@@ -32,7 +32,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/113692456203559195779\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFhMHT1PORlC40Nk_yzNxDrPaxRfeMD4nAUM9bwHoU8-UQohPP8rA8Z4oJvwFsCuW-kGDaThHg6kB4SYVpBJ8U2tJl2peDcOO18GHsiVDxZMHA7sVnoi13oFyniOtqtkj-7tYAmEbwqbLDH7hLBFblpKRmlbJ1AURBDBQRE3hYu62TeP",
+                    "photo_reference": "AWU5eFh0xJ0C9JikCgQvuVGpK51KrR3b9dClx1-dxu7tFBBwnVtWdqFleRvdSbslGWs2fpy-ue9j4KaxfqLTudKiGS1kjULgXqSTEHF8qqCfzzyAEwFFfyNiIGlKFS2WBGglDrq414quSVnGglTOjg_GVphmrzWNyKCsE8i-n-k-pNpz_DO0",
                     "width": 3024
                 }
             ],
@@ -73,6 +73,9 @@
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "Volta Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
             "place_id": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
             "plus_code": {
                 "compound_code": "J3G4+VG Clinton Twp, Michigan",
@@ -166,7 +169,7 @@
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "14255 23 Mile Rd, Shelby Twp"
+            "vicinity": "14255 23 Mile Rd, Shelby Township"
         },
         {
             "business_status": "OPERATIONAL",
@@ -292,6 +295,56 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.66991429999999,
+                    "lng": -82.8344187
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.67138577989272,
+                        "lng": -82.83329892010727
+                    },
+                    "southwest": {
+                        "lat": 42.66868612010728,
+                        "lng": -82.83599857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107318845486255136686\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjptADXXXMi0Wn7PbxbDXiRYf37cl2HZNtE1ttzbc2R_fgdu_a70NDnvTFUvFakKyJn8YRICdPGJjgWox3osH41-dVs9RAF5E2LW6eccE3WE7sWF_5BVXh8K_Y7DV8j2Tk4-KwBSXTuc7pGBusMbK0uskFz4il9x6zEQoEWpsp7SnjW",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
+            "plus_code": {
+                "compound_code": "M598+X6 New Baltimore, Michigan",
+                "global_code": "86JVM598+X6"
+            },
+            "rating": 0,
+            "reference": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "50500 Gratiot Ave, New Baltimore"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.6140852,
                     "lng": -82.99070139999999
                 },
@@ -393,7 +446,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/109896671493767190100\">Russell DuRoss</a>"
                     ],
-                    "photo_reference": "AWU5eFjSJBxPUz623LuaPqEIDqyBm5K-bUx7wZeQaLJsl8OJYCJW-5QNkl-rc5IpNbcEBd67vpjS7iPLVjdZWSBzhWrcPDgaYxZkSBch3YKoiey7MpqfGIFPgRpiyCukYGmR0sCYqhVToQ4PdztJLANeO4gx9tLzFWkxI0O2Sqj15GZJza8n",
+                    "photo_reference": "AWU5eFgNCIQklJnWbVspXQUxHKQWXAMRA1wKMzAa6qw_vg4synoy3WaEfROg9qabPGzruNOioij0_vLLaxe7uKwdy-Zl4lm1HLTQTE2ThqAfjYFVFgB8hu4CLhsJnfoMJml6Az_rqNmWRye5gR3rtBxeyvB6lsEqNhq5y0XuVPb-cNdDY8Vz",
                     "width": 4032
                 }
             ],
@@ -411,56 +464,6 @@
             ],
             "user_ratings_total": 2,
             "vicinity": "Mall at Partridge Creek 17420, Hall Rd, Clinton Twp"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.66991429999999,
-                    "lng": -82.8344187
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.67138577989272,
-                        "lng": -82.83329892010727
-                    },
-                    "southwest": {
-                        "lat": 42.66868612010728,
-                        "lng": -82.83599857989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": false
-            },
-            "photos": [
-                {
-                    "height": 2448,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107318845486255136686\">A Google User</a>"
-                    ],
-                    "photo_reference": "AWU5eFjMUlCpHyteV47R2buR4OfdxOTn2rDmMuEMw61WCNVpIy_fpa6wkfji-oD_lI2OimYblerXpXrcy1ShOGreVf0UKvVllJJVbtxoczkyXicU86iCW-IzJ3qipsZ9u8zBs3PtQy7M01zb0SBruvjM60FFx5IOVPwpJrIzZt_frVAoeJr4",
-                    "width": 3264
-                }
-            ],
-            "place_id": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
-            "plus_code": {
-                "compound_code": "M598+X6 New Baltimore, Michigan",
-                "global_code": "86JVM598+X6"
-            },
-            "rating": 0,
-            "reference": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "50500 Gratiot Ave, New Baltimore"
         }
     ],
     "status": "OK"

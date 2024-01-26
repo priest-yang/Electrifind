@@ -1,6 +1,6 @@
 {
     "html_attributions": [],
-    "next_page_token": "AWU5eFgWxMVH4UiYaArXmA2An4wwm4LUeBBLY9xbNsRTW9AxjX_TvZX3IvWUJ9X44bGGJ3e8lDT1gvP79lqe7qTEGv_Ij7NYcPvRt44V4FwTrJUm4B3BjEoT7YlO7zM5e7t8MsVgs6s6A0WuoWGOhSkAw_EPewO3o0tLZ1sMkKMUc4b7DKRRKxButrK-iypZfb3urLaeZk46KNzviNaOsOi9fvJX0xaQVOI2ewwGGCCKhUWMwZFuf0t8TYQueBlC2pLnm_J-Kd2vpklWhyisfF9evrQ7G2MOsIXmKomDa6zwALZZuzx_rdFJMQC-s1Xc6rjSCWxTv67R4mZJs0qoJuFznPMggnosLgxlz3D-Gu01nVqh6H_eCWGnJN1KU2mfGASHA52Dj8is-Pg4KK8yRTiU12L7UCLg7Ghg3e_zKya4D3FRioOyEXIJXLSrAvuasO1yywIY",
+    "next_page_token": "AWU5eFhasPmq6PI3-xtBvd-Ht7Y--Q3pynxXBo0JeyxVEukSIAESHELExPhMESdNjsnXWpO6zGrOTUpWcyXom4_geADLvblldSF7WWxn43bdWj9OCYxdA7IhSIp8s7IPOjUlIKramcQG0KHwIPI9JeFxdZdCVQZsZwtLVcEqyjaaWDke6CtNQJ4q1A14GqLZFUTZmruI9PCTnEgIFBAf4zYlzOh3QHd0befC42yTKCzoAKTpsQuw0WN0xX4kf15BoQCVbHpVOkE5XtnuFGU-CrWSvN00cZIlmi7c2DrHUqC83UA8FZsQZ-pIl3pLQeVgZTHmWImCFHplqCKtKHvK1dOGFtGrkiB5DNg2EC-zr89oXUsgjDX3t02o19FocWIMvCszJX4ag7T9dPmbmB_6FfDLsdLN6YDDFwGvvhiB16cSsm3HTGrkkaXwu2l34mL6BpCWUB1g",
     "results": [
         {
             "business_status": "OPERATIONAL",
@@ -33,7 +33,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/101109729902569758195\">anurag kamal</a>"
                     ],
-                    "photo_reference": "AWU5eFhms2etDXsMkIZrdxkEuceRXmBTHoRKi1cNX0dx0Xb9jU2INvNjQQI1sL3ZitJHE1DSYvijoyKqLd9HuPPcpQ9FlnUamZogHzn5_oXUpEdHbN-XkUjf3VWY4RVIeb_Xcq1MKzIpcNHsbMwkLtFNK1NSojnBSV-NM2nQsD0bSVO-5IvA",
+                    "photo_reference": "AWU5eFg2t-UQEdsKFMZhsP8Ih_Zem1_fz6csgDTFwdiiflv9sDHi2sbyxtJuTAHBnT-ML9Bw4HaoiiPRH7zNWmZW8BkVCa_TyGgTPp-KhrjK52iQxrvHCSwaR_tBv9v17RoYBJT4Ria70kAY1xpOo20MQGjLqvKeJSYmkAPihE4-NDB_Z5bg",
                     "width": 4032
                 }
             ],
@@ -82,14 +82,14 @@
                 "compound_code": "CVWJ+5R Detroit, Michigan",
                 "global_code": "86JRCVWJ+5R"
             },
-            "rating": 2,
+            "rating": 1.5,
             "reference": "ChIJnUoejV7OJIgRh4KRbsMAP1o",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 1,
+            "user_ratings_total": 2,
             "vicinity": "1205 Eight Mile Rd, Detroit"
         },
         {
@@ -123,7 +123,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/108767070157005947360\">jeremyforr</a>"
                     ],
-                    "photo_reference": "AWU5eFjz3341f74W1TIF9RYkQPL1WIEu53SI2wqCOKA8DLrr1xoTodRJvZxqLjqWfMoTPfE-l6v29tuL0CQOSFAbU-bsOSeE40lMHOsRu_l21XamAxYtvQHFYFpgg4hweiDhibq7nFO2F0v3dhyQXOGe3v-50XfDiwBh1pvM0-mo2nXLBjOF",
+                    "photo_reference": "AWU5eFgxxX7sSsrHGSpYbXM9IdpxOsCZXsqsQGDAjzto5nCYvUnugaDZP0qyYxJ9AkyGOzTvKELOFw3tbWey_TUdmudI66RXUENP-w8gPJo1quKzXBou4Wit2C6Ud8LhXT_8KRaK-cGoeLuxkbh4EYI-WsZy3pWPpxsohPKEi_6026iSZwaW",
                     "width": 4032
                 }
             ],
@@ -132,31 +132,31 @@
                 "compound_code": "CVWJ+4R Detroit, Michigan",
                 "global_code": "86JRCVWJ+4R"
             },
-            "rating": 4.6,
+            "rating": 4.5,
             "reference": "ChIJry_0DZDPJIgR3TbOJatR3hg",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 15,
+            "user_ratings_total": 18,
             "vicinity": "1301 Eight Mile Rd, Detroit"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.2602019,
-                    "lng": -83.0848256
+                    "lat": 42.260049,
+                    "lng": -83.085008
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.26152682989272,
-                        "lng": -83.08347262010729
+                        "lat": 42.26129257989272,
+                        "lng": -83.08354812010728
                     },
                     "southwest": {
-                        "lat": 42.25882717010727,
-                        "lng": -83.08617227989274
+                        "lat": 42.25859292010728,
+                        "lng": -83.08624777989273
                     }
                 }
             },
@@ -169,8 +169,8 @@
             },
             "place_id": "ChIJh_9LTvkxO4gR91AGYcUIBb0",
             "plus_code": {
-                "compound_code": "7W68+33 Windsor, Ontario, Canada",
-                "global_code": "86JR7W68+33"
+                "compound_code": "7W67+2X Windsor, Ontario, Canada",
+                "global_code": "86JR7W67+2X"
             },
             "rating": 4,
             "reference": "ChIJh_9LTvkxO4gR91AGYcUIBb0",
@@ -181,56 +181,6 @@
             ],
             "user_ratings_total": 1,
             "vicinity": "5501 Ojibway Pkwy, Windsor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.2590308,
-                    "lng": -82.9651505
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.26034907989273,
-                        "lng": -82.96388962010727
-                    },
-                    "southwest": {
-                        "lat": 42.25764942010728,
-                        "lng": -82.9665892798927
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Tesla Supercharger",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1816,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106447811598760102774\">Matt Harris</a>"
-                    ],
-                    "photo_reference": "AWU5eFgw1GgZFKFH2CLWdlmLnvASFfkQ4K6lqO2LGSZ-z2F_qsfnLAdelwhFLVIu7seg3aqmDkmiLksDDevMBYVvZugEsU87UOcRb6f5rPtHKnhubwJCG7PU3TcYNmOyvnM8c3dONVDHrPbh5HdBNR8YAECMJSswzC0xCPjmEkVfeRZxWQJC",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJBf1G0HorO4gRnsZcAkobkIU",
-            "plus_code": {
-                "compound_code": "725M+JW Windsor, Ontario, Canada",
-                "global_code": "86JV725M+JW"
-            },
-            "rating": 4.6,
-            "reference": "ChIJBf1G0HorO4gRnsZcAkobkIU",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 8,
-            "vicinity": "4150 Walker Rd, Windsor"
         },
         {
             "business_status": "OPERATIONAL",
@@ -273,17 +223,17 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.2741114,
-                    "lng": -83.0073657
+                    "lat": 42.2753738,
+                    "lng": -83.0075243
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.27606137989272,
-                        "lng": -83.00610602010727
+                        "lat": 42.27668067989272,
+                        "lng": -83.00618532010728
                     },
                     "southwest": {
-                        "lat": 42.27336172010727,
-                        "lng": -83.00880567989272
+                        "lat": 42.27398102010728,
+                        "lng": -83.00888497989271
                     }
                 }
             },
@@ -300,14 +250,14 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/110690189787035459462\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFgtHyt3ZM-_BblUwzrXQJN0IBgI5rj9jlRSZPuq5RUQZNepvJcVZI6_hXTsVGWHv5vXmvdNREzeFWdJM1L_pTqqOpwZ6YvsoPO0orb9x6q94LRDKRffJvMh94xg3_Z8GqPhJcymdgNhX8XZdff0soFg0POZCnFBekzyOVGX49I1Z945",
+                    "photo_reference": "AWU5eFiO9rWYXo61I3ElLlhMq7KRjWRaFFpqwD5jER1Rc7BuPVMtQgs4l3zPdHHqIMDFDFyfsMVglIoie9Pa7f1uuQ8jlYnYEC7Gkojv8AeQn9LWcmC2hX23RyffljJhqDoqBEBi_5a9E_s1lSJ6EXhYffVnLmsIxXMJrdbWUiiYHSv9lGt2",
                     "width": 1500
                 }
             ],
             "place_id": "ChIJL43TnL0tO4gR4N7W6aVyRLM",
             "plus_code": {
-                "compound_code": "7XFV+J3 Windsor, Ontario, Canada",
-                "global_code": "86JR7XFV+J3"
+                "compound_code": "7XGR+4X Windsor, Ontario, Canada",
+                "global_code": "86JR7XGR+4X"
             },
             "rating": 3,
             "reference": "ChIJL43TnL0tO4gR4N7W6aVyRLM",
@@ -363,6 +313,56 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.36316,
+                    "lng": -83.09436
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36447342989272,
+                        "lng": -83.09308067010727
+                    },
+                    "southwest": {
+                        "lat": 42.36177377010728,
+                        "lng": -83.09578032989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Red E Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115995938573147005674\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFgJTqXilQA4OT3pD8ePaxNNBPy8WhhAXIKJ8zviZOD7hCzkWDAY9jdqoFq0UdS6H4-Lrixx1HWWqjl0eviyo3HMDHb5DczqJgB2RUyQHx1Y9o9itAZBZwMqc3Q4nYJgivYmyNaZkvvFVE1JH_6T-GTuK2r4ChC1b6Uc7O4DcGeZImDs",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJL26J5GnNJIgRJjf7Tx-45Mc",
+            "plus_code": {
+                "compound_code": "9W74+77 Detroit, Michigan",
+                "global_code": "86JR9W74+77"
+            },
+            "rating": 5,
+            "reference": "ChIJL26J5GnNJIgRJjf7Tx-45Mc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "2475 W Grand Blvd, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.334755,
                     "lng": -83.056015
                 },
@@ -390,7 +390,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/117069077085311303632\">Bladimir Cuello La O</a>"
                     ],
-                    "photo_reference": "AWU5eFiUvZ36gh0ycC44UwmAkaBNjeMfi93D8I2UcNC-A9Nky89ARXON351w5kj8UGCWnxNMkHEm1fKB9TcL28nMobbp0kOMG-8sev6hP7uCorqHeahI4GhoZ2jcCZoRs45R2-QOUjWeuKSx9qzPGXyFbEKpvkVajcPCXz9cNPiUs4yPrb-L",
+                    "photo_reference": "AWU5eFhNU9m8r_b0WFnB0TxWTW6gsVxFW8jJid9aGcnHu2XLATgJ-t49wih_NoKqUAEzK-U62IYmh29_zaLi-oXq4fb-_LWVgOubuJT5rC-YpwyAo9e1JKy1J9kdCyfV1cmaFHKcAZk28dhCTvg4mfrScaRqHI0DSXmlQEQVVdGXBTUd8OaO",
                     "width": 1080
                 }
             ],
@@ -453,46 +453,6 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.2591087,
-                    "lng": -82.96535159999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.26045242989272,
-                        "lng": -82.96401882010727
-                    },
-                    "southwest": {
-                        "lat": 42.25775277010727,
-                        "lng": -82.96671847989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Flo Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJ_f5F1dotO4gRfWaOIB683JI",
-            "plus_code": {
-                "compound_code": "725M+JV Windsor, Ontario, Canada",
-                "global_code": "86JV725M+JV"
-            },
-            "rating": 0,
-            "reference": "ChIJ_f5F1dotO4gRfWaOIB683JI",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "4150 Walker Rd, Windsor"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
                     "lat": 42.3456649,
                     "lng": -83.039748
                 },
@@ -526,7 +486,7 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 3,
+            "user_ratings_total": 4,
             "vicinity": "2458 Russell St, Detroit"
         },
         {
@@ -560,7 +520,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/109471891041291315527\">Germ\u00e1n Humberto Rinc\u00f3n Perfetti</a>"
                     ],
-                    "photo_reference": "AWU5eFgW74VrHNrPBpeDeHx-vrDAZ7CgSi0IW_M2ir0jZBAYzSPJOHAaJfF9cWrHInM8VFR9VGczaL_EXa3NlhkzHlXWrFao4vBOqIGpBrRf3vf5K6PxR9CNuHy1wec0Ccn_z_Z7qvNbC1qS4GnaBvAothvU99NIxi9tFLB9E42JNRUeLAw",
+                    "photo_reference": "AWU5eFiUun8b12qtixsJHZoTZTnPzjxeWjbiwN1CKWO9uK50uzxIJOMOo1n0WNEiO3seG47wFDfwrLatwvJnFG9LszrLlh4O_Z3x7dRoGly1ef-xm5l0u4ynDcEGMdGRqjrk2MINv77yh3bfxV6iSun4epZyqK9wbuzCyA2juVgn88boNm8",
                     "width": 1816
                 }
             ],
@@ -604,6 +564,16 @@
             "opening_hours": {
                 "open_now": true
             },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100568707342290638361\">samudrala shiva</a>"
+                    ],
+                    "photo_reference": "AWU5eFhOZrtw-oFgzXBwBvtvkUkkLfIixKBOOjwSnsUv-f_FZ5kugCX7nv8CJKbEU9jsSw0G_QDIpfEpTc_pnBPhREzqNKuP8eUNDgSLenjasUhJuUYnPT1lhHevOZTGXZnzZrIweab0bCSeipynhXuLnXqetftW6mVrD5C9qtQ7kk86uu7U",
+                    "width": 3024
+                }
+            ],
             "place_id": "ChIJKzeEkb3SJIgRxLPMj6ODFMU",
             "plus_code": {
                 "compound_code": "9W5P+WQ Detroit, Michigan",
@@ -616,88 +586,8 @@
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 1,
+            "user_ratings_total": 2,
             "vicinity": "John R St, Detroit"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.3648931,
-                    "lng": -83.084758
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.36615157989272,
-                        "lng": -83.08344582010727
-                    },
-                    "southwest": {
-                        "lat": 42.36345192010727,
-                        "lng": -83.08614547989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJ7YOp1mbNJIgR9zAq-epF4ew",
-            "plus_code": {
-                "compound_code": "9W78+X3 Detroit, Michigan",
-                "global_code": "86JR9W78+X3"
-            },
-            "rating": 0,
-            "reference": "ChIJ7YOp1mbNJIgR9zAq-epF4ew",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "6526 Sterling St, Detroit"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.339967,
-                    "lng": -83.045592
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.34154204999999,
-                        "lng": -83.04435154999999
-                    },
-                    "southwest": {
-                        "lat": 42.33867265000001,
-                        "lng": -83.04755975
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJh3UcSi0tO4gRp-8_iO0wTlY",
-            "plus_code": {
-                "compound_code": "8XQ3+XQ Detroit, Michigan",
-                "global_code": "86JR8XQ3+XQ"
-            },
-            "rating": 0,
-            "reference": "ChIJh3UcSi0tO4gRp-8_iO0wTlY",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "2000 Brush St, Detroit"
         },
         {
             "business_status": "OPERATIONAL",
@@ -743,6 +633,226 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.3648931,
+                    "lng": -83.084758
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36615157989272,
+                        "lng": -83.08344582010727
+                    },
+                    "southwest": {
+                        "lat": 42.36345192010727,
+                        "lng": -83.08614547989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ7YOp1mbNJIgR9zAq-epF4ew",
+            "plus_code": {
+                "compound_code": "9W78+X3 Detroit, Michigan",
+                "global_code": "86JR9W78+X3"
+            },
+            "rating": 0,
+            "reference": "ChIJ7YOp1mbNJIgR9zAq-epF4ew",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "6526 Sterling St, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.261308,
+                    "lng": -82.98445400000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.26292967989272,
+                        "lng": -82.98295562010728
+                    },
+                    "southwest": {
+                        "lat": 42.26023002010727,
+                        "lng": -82.98565527989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJMy3G8fwrO4gR-SvIFEEbOdk",
+            "plus_code": {
+                "compound_code": "7268+G5 Windsor, Ontario, Canada",
+                "global_code": "86JV7268+G5"
+            },
+            "rating": 0,
+            "reference": "ChIJMy3G8fwrO4gR-SvIFEEbOdk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1155 Provincial Rd, Windsor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3311838,
+                    "lng": -83.0486875
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.33246172989272,
+                        "lng": -83.04728062010729
+                    },
+                    "southwest": {
+                        "lat": 42.32976207010728,
+                        "lng": -83.04998027989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJaREKdDAtO4gRkDad-GDh8O0",
+            "plus_code": {
+                "compound_code": "8XJ2+9J Detroit, Michigan",
+                "global_code": "86JR8XJ2+9J"
+            },
+            "rating": 0,
+            "reference": "ChIJaREKdDAtO4gRkDad-GDh8O0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "730 Shelby St, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3347871,
+                    "lng": -83.06064250000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.33617337989272,
+                        "lng": -83.0587366701073
+                    },
+                    "southwest": {
+                        "lat": 42.33347372010728,
+                        "lng": -83.06143632989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113047443198727565554\">Tim Burgess</a>"
+                    ],
+                    "photo_reference": "AWU5eFieaPo2XMGep2UHusZ_AujIouUBGqT4aaTFICIvFuyZxvVNJdDFPyWwDPDg7vTdg96pKSO2xt08cipUCLkRdMETPuSAhY0IrezUKdV4bgvYWRUVBECOAnNnGmXnRlai6UzGVHFkpNu73eYCQ5qomLmP6-iJWkaDeU6gR_OPosm8YtY",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJlwi5TkgtO4gRweh9UNcPYtU",
+            "plus_code": {
+                "compound_code": "8WMQ+WP Detroit, Michigan",
+                "global_code": "86JR8WMQ+WP"
+            },
+            "rating": 4.4,
+            "reference": "ChIJlwi5TkgtO4gRweh9UNcPYtU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 10,
+            "vicinity": "1777 3rd Ave, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.337812,
+                    "lng": -83.06840419999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.33915627989272,
+                        "lng": -83.06705122010727
+                    },
+                    "southwest": {
+                        "lat": 42.33645662010728,
+                        "lng": -83.06975087989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2336,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112431829819520914419\">Michael Steidemann</a>"
+                    ],
+                    "photo_reference": "AWU5eFhmUrnx6z24wKV_TOZXPsfY94BLVqMRqzohTainCNzcaahSTTV1n37llA-fu_GUtcfGdjFohDdfE4F1Wcs5svUigNNq-ByWLvo7A5hDL8fFu0q3cFtHH08PP3gs05MSaFlU3iIqkwwEiun_Fo5ajF7kgGoQfT618t9UhOF81JnDL3SL",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJA07HdlItO4gR8oxzlVyDNV4",
+            "plus_code": {
+                "compound_code": "8WQJ+4J Detroit, Michigan",
+                "global_code": "86JR8WQJ+4J"
+            },
+            "rating": 3.5,
+            "reference": "ChIJA07HdlItO4gR8oxzlVyDNV4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "2901 Grand River Ave, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.3692773,
                     "lng": -83.07385939999999
                 },
@@ -778,96 +888,6 @@
             ],
             "user_ratings_total": 0,
             "vicinity": "6522 Cass Ave, Detroit"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.3333397,
-                    "lng": -83.0416758
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.33466207989272,
-                        "lng": -83.04040537010728
-                    },
-                    "southwest": {
-                        "lat": 42.33196242010727,
-                        "lng": -83.04310502989273
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3461,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109471891041291315527\">Germ\u00e1n Humberto Rinc\u00f3n Perfetti</a>"
-                    ],
-                    "photo_reference": "AWU5eFgnOUl8G0DSgaH3evVeGrMs5RpDLMgTSFiPhINWhd5oGKHksaY9f0nxWZ5AisQAFEuyCfWDqDENQG96vO9Tk7nAgogFICIYpBs2A57LL25Nde5smxxuiItQZrHVt3N8EAkt-Pyq9JRRDVAPvYd4HG6P29SigHZvq5Gp-XcKK_8bwzU",
-                    "width": 1816
-                }
-            ],
-            "place_id": "ChIJAwHG0S4tO4gRIl4vaLRMXWw",
-            "plus_code": {
-                "compound_code": "8XM5+76 Detroit, Michigan",
-                "global_code": "86JR8XM5+76"
-            },
-            "rating": 0,
-            "reference": "ChIJAwHG0S4tO4gRIl4vaLRMXWw",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "711 Beaubien Blvd, Detroit"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.3575257,
-                    "lng": -83.0631741
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.35887502989272,
-                        "lng": -83.06182402010727
-                    },
-                    "southwest": {
-                        "lat": 42.35617537010727,
-                        "lng": -83.06452367989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJNfuPJrzSJIgR773T5RIAS08",
-            "plus_code": {
-                "compound_code": "9W5P+3M Detroit, Michigan",
-                "global_code": "86JR9W5P+3M"
-            },
-            "rating": 0,
-            "reference": "ChIJNfuPJrzSJIgR773T5RIAS08",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "45 E Warren Ave, Detroit"
         }
     ],
     "status": "OK"

@@ -1,6 +1,6 @@
 {
     "html_attributions": [],
-    "next_page_token": "AWU5eFhQZGSg7NGZ0tRWE1cB54akKnYjp4rCtu-mf4ti3sh-rjm1cxQu9dyFYGbAoFn96q7BfwwEUW3fn_aKTy6-Bg_7GJtedPyMA7niAMUzO31RXPPvfkL8zTBTeMjgTUH4FcVEH1lP9PdZE5c4AKdFtK1oTkPPTEo9Qw8vs9tXReo-6bTx2u8VOEZaDCBK6unAkCobiXnge0Gy2s7SpJOzyABz-XeCi_ncEu7v32hLM8wVIMxGt1rPS__fDgoMpPdJW3iMtAfJNcyXH3iZcwn3crItiF3JUblPOG13ypizGPw4bKx1L4kuL3UnMIe41WcfCCFJ6jIMmCuOziuSJwqHv6T7RIqfASvfhiYlhSmckJNKDPwnu4fYpr42svoeRt7Q-PvSzJr0rMyIMT_rNTbBfo2i48Ex46bbwrJc0QALn2EdB33jCKCR9YTEhRQ3qQoGcd6N",
+    "next_page_token": "AWU5eFhGb0BlR8yf94xwARCflSR_pfFEFcP7tPvgaJ9eb_5Tp5ZxYL4u5DvAXpVRa9GHJLBL8HgcPpvpwiQ6i9L53RSeFyxox2zboM3h_SzjRhIx3T7Uj7mNazvfHQP0UtwzAt7a0k0SE9KyLIInscGkAjqh_7iqiUKmGvKDGN0WRJYd-4fuBiBOu8Gi5NoWhFcfdZIm6J0k7jQaaI7OCQdgsVPHqBYDte0DFHsq1a_x5WFjl-ZDqGGo9grFTre5Gy8_hIf9CJ7ksmbEMp5tKOvvkkehNRByWlDhXU7nD3sJ7azqTQ62IRTrVnhG52P0sDoSy9DJGxXDgr6L81MIpOk4vWRAsmow9_x2GE8PUYfOEK60CDCRR9AYhWXfjUkc0nJbtxMBDGKehy4-ThhDvDG7hFMjy6Ln0hcpynOniv8mpmByt-s0WgSZ4ic9awyMpJMrU-D0",
     "results": [
         {
             "business_status": "OPERATIONAL",
@@ -33,7 +33,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
                     ],
-                    "photo_reference": "AWU5eFgZFnJHs5yVpt8MpMhrttLXQBE7pTKjVvUUrf8pt8C-FdmYKIENadY7yhzzTAylVuzBSPwGxADgOzz4sfZAeOhJ1JBU6ajEl5NwrdCxn2IVNIxjRu1Mj1iC9-exSRAWKgDD34PqK4Fu6bZg7dBZH56Djt03XuospFgXPYMqvsp8zUuu",
+                    "photo_reference": "AWU5eFibdWflQ2CWlVM-pU_GdFNn5coFpygPeWKHYqH1Dga-d9ZFB8vs1sSJvZZmP4VM4te5NaEi-cqghqFjz0MHmuOXIdEiAqDkX9RfVTlBqLOJgcyfknerzoH1DfU9ysWj2uIyIUJCyoPvDlOb7B11AHtSNbFig1r0slkaDCXMTiCQinzo",
                     "width": 4032
                 }
             ],
@@ -42,14 +42,14 @@
                 "compound_code": "6GF7+6Q Belleville, Michigan",
                 "global_code": "86JR6GF7+6Q"
             },
-            "rating": 4.5,
+            "rating": 3.8,
             "reference": "ChIJpzMkHpZQO4gRgnJuDxYNxZU",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 4,
+            "user_ratings_total": 5,
             "vicinity": "10950 Belleville Rd, Belleville"
         },
         {
@@ -83,7 +83,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/117004852117317628628\">Rowan Hawkins</a>"
                     ],
-                    "photo_reference": "AWU5eFjLdnmHn3NuEfDXPdbmp6cr5rlMY1RoaJSMmYQhcltKYN_HF02qWo1U0ejeLfEkIwBhas-CenzHETZtNvVjDLZQuxwi3xbMbg_wLvvK9uzml8pPKDsIt20h3OmYyhAZjYk5yEDMKLSKMoSoPIei1O-HIhBFPMCczmRDeYA3U7yS5aAQ",
+                    "photo_reference": "AWU5eFidjXL0G9UlHZKwQ5oTC5jrg-n9aJUGkP7DZz3sfz_fePYt1_yQMIef_iPbAyCX3ZbV8_5Gwxkvb0JZJfX10R4eObSdB_p580V4VUgoNRmXFJ3aGY42i8jSyB2JCBIambx0o-H9-osY5p9ecFfJ3Bqfy9bhuOFKvW7USYWvsMGcMZAy",
                     "width": 2226
                 }
             ],
@@ -127,16 +127,6 @@
             "opening_hours": {
                 "open_now": true
             },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114324817209154949831\">Angela Smith</a>"
-                    ],
-                    "photo_reference": "AWU5eFiP3i9J3g5S3Ok-qiSPeIGhYb_3Tte_5EfCg-u1vR9HryDdsYSfkrT-mttLA8MekuGskoWEsVXSl4ooc9ou-PX1rE6ofbcXcIRhT0_WrBI6uTBb5P-Tr4V0K7aS83gLrKC526q3tVDXsZ2KA2NXDk6uGPxFgdNF5dNPsRRJIshNm_fw",
-                    "width": 3024
-                }
-            ],
             "place_id": "ChIJV1VVsS00O4gRmG5AqfmCw-A",
             "plus_code": {
                 "compound_code": "7QHW+WC Allen Park, Michigan",
@@ -183,7 +173,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/112888308938691563264\">Ayush</a>"
                     ],
-                    "photo_reference": "AWU5eFgX7Ls0S6pMPPAE_ATs0Rn8NGzgIzDTL27By7XW4T-pxKY3hW4EbHMdRw45gdM-12CpZl7G1vaxZcCeFZsRnVF-HAiqw0_TjmHPWqncYlEYxmL3sCmN4ISRynAvv7xw37BKdyRqsbvUQADcz7H0g7ibd_pageFxFDUw52Yr3IOtFqL_",
+                    "photo_reference": "AWU5eFhHQHO8O7jiosS8Vzs_9j2dVNlXxnrXbCEAQ7B1Iu7-W4JTZ9D49snzOkTa0Ghicw5rXcmvqaXSyJe0Pqt_lTAZMbKRel4VuqYW-5pgv-2Le4-I7By2pl_Srj_fpwD_5JbOYvphgh8_mg9Z1I5p7Zo-lqnYWqN90fDq55kQRC6m0c6N",
                     "width": 4032
                 }
             ],
@@ -229,7 +219,7 @@
             },
             "place_id": "ChIJP-DiJw5FO4gRlRGYg22W8MQ",
             "plus_code": {
-                "compound_code": "5JG6+V5 Huron Charter Twp, Michigan",
+                "compound_code": "5JG6+V5 New Boston, Huron Charter Twp, MI",
                 "global_code": "86JR5JG6+V5"
             },
             "rating": 0,
@@ -240,7 +230,197 @@
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "17607 Commerce Dr, Huron Charter Twp"
+            "vicinity": "17607 Commerce Dr, New Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.141065,
+                    "lng": -83.2335341
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.14241237989272,
+                        "lng": -83.23217362010728
+                    },
+                    "southwest": {
+                        "lat": 42.13971272010728,
+                        "lng": -83.23487327989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113217526221100357234\">cheryl b</a>"
+                    ],
+                    "photo_reference": "AWU5eFiKdPT5MQQEi1MqsguIqvIYMU8of8kOM43l-ucmBj4VpEXu8nnI5Uvj0hDyMgMjK7lBz10k6sNVJ4gxjXRcBtruqMu7R8Nv8T4q0rqKaD2T8VlUrM1j92y9q43JpDIpItCJ2e6BdLFD-ahczd7uiyIBNThHc7Te7bOSBIv2GRN8h4_T",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ4fZl3ZY4O4gRqt2_wGVCPK4",
+            "plus_code": {
+                "compound_code": "4QR8+CH Woodhaven, Michigan",
+                "global_code": "86JR4QR8+CH"
+            },
+            "rating": 2.5,
+            "reference": "ChIJ4fZl3ZY4O4gRqt2_wGVCPK4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "20840 West Rd, Woodhaven"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.325022,
+                    "lng": -83.450859
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.32631742989271,
+                        "lng": -83.44950332010728
+                    },
+                    "southwest": {
+                        "lat": 42.32361777010727,
+                        "lng": -83.45220297989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
+                    ],
+                    "photo_reference": "AWU5eFgANXWL7xeg48rwMiLceg_B4bnQNNF8Affao_g_YNHNGIz9QSy9dYRnXnVsL5vzVAZmzDH0utNfWL0HzPIe-9wA8qX25PoszrdzQcGAdGBoyZ2Rl3_rJ2bAZ8UbYBtNhPN3vY8-CaHWBLB2fTOwCsrPOQRP8g699evUHHtGIK1EXfgv",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
+            "plus_code": {
+                "compound_code": "8GGX+2M Canton, Michigan",
+                "global_code": "86JR8GGX+2M"
+            },
+            "rating": 4,
+            "reference": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "41640 Ford Rd, Canton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.1857934,
+                    "lng": -83.1857715
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.18744292989272,
+                        "lng": -83.18442272010726
+                    },
+                    "southwest": {
+                        "lat": 42.18474327010728,
+                        "lng": -83.18712237989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJfSmaXOc5O4gRbwyr40kU_GA",
+            "plus_code": {
+                "compound_code": "5RP7+8M Southgate, Michigan",
+                "global_code": "86JR5RP7+8M"
+            },
+            "rating": 0,
+            "reference": "ChIJfSmaXOc5O4gRbwyr40kU_GA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "16705 Fort St, Southgate"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.35845,
+                    "lng": -83.44355
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.35979967989272,
+                        "lng": -83.44220367010728
+                    },
+                    "southwest": {
+                        "lat": 42.35710002010727,
+                        "lng": -83.44490332989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113111736803778350285\">Joe Tyrrell</a>"
+                    ],
+                    "photo_reference": "AWU5eFjPsH_h-RkMt1g9EpXk4AgRQjV4M4Pz1yJMo0PtVBwvi1n0fEKT_jCG-cQdqHv4EvpVUCScOuk-MvCaWfVdbs9McozSOu6fC87J8cb1UKZL7b-BlDP_qIKYO5hIWEtlLhThQSiIQIyJ8iD8iIz2dh8pzNE6ct27Z3LW1tk6SMfTwxlB",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
+            "plus_code": {
+                "compound_code": "9H54+9H Plymouth, Michigan",
+                "global_code": "86JR9H54+9H"
+            },
+            "rating": 1.5,
+            "reference": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "40777 Ann Arbor Rd, Plymouth"
         },
         {
             "business_status": "OPERATIONAL",
@@ -273,13 +453,13 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/105023521870048426833\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFh6YiFuBhqw8DgdsVXPZEr9wtOqMsdnJ5tXWND-0QdHF7C-SDLtnXMDJ0I7BiJ_wZsh72qhhkyC-S8FporD_WeQzmKxcijnBpZ_5KUPXRwKRcYzVFG9MhQEU2HuQ4nlmzKeAdiM8Olpz50jX8SszsqHV0VhzuuEkJvA96b59ABr0q9Q",
+                    "photo_reference": "AWU5eFhxe9igEds9Z8RuQMqfOb9wrC1mpMQoUDsiqCukhlb8k3quQzKSaqaf0n__lSBv2G-P5PVTzKurc-4DgDUdWPLB1GJUwfb6cPyIiKYPizmiCqvWZzrBHnDyKUn0nfxzjS8n7zLR3GKxME2SAGVJut_TmywJsp-aQoOHjDvxYHHrIcwO",
                     "width": 3096
                 }
             ],
             "place_id": "ChIJyxMZxF1PO4gRPJH3FeLmw1k",
             "plus_code": {
-                "compound_code": "6J4V+XM Romulus, Michigan",
+                "compound_code": "6J4V+XM Detroit, Michigan",
                 "global_code": "86JR6J4V+XM"
             },
             "rating": 0,
@@ -290,47 +470,7 @@
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "McNamara Terminal Parking Garage, Romulus"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.2560272,
-                    "lng": -83.2302188
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.25742087989273,
-                        "lng": -83.22885112010728
-                    },
-                    "southwest": {
-                        "lat": 42.25472122010728,
-                        "lng": -83.23155077989273
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Blink Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJAQBM3BQ2O4gRIoo8ektA9Bw",
-            "plus_code": {
-                "compound_code": "7Q49+CW Allen Park, Michigan",
-                "global_code": "86JR7Q49+CW"
-            },
-            "rating": 0,
-            "reference": "ChIJAQBM3BQ2O4gRIoo8ektA9Bw",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "19309 Ecorse Rd, Allen Park"
+            "vicinity": "McNamara Terminal Parking Garage, Detroit"
         },
         {
             "business_status": "OPERATIONAL",
@@ -376,6 +516,86 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.302408,
+                    "lng": -83.23714
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.30371727989272,
+                        "lng": -83.23574162010726
+                    },
+                    "southwest": {
+                        "lat": 42.30101762010727,
+                        "lng": -83.23844127989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJdQq1gJA1O4gRBWxN1Dz9kBA",
+            "plus_code": {
+                "compound_code": "8Q27+X4 Dearborn, Michigan",
+                "global_code": "86JR8Q27+X4"
+            },
+            "rating": 1,
+            "reference": "ChIJdQq1gJA1O4gRBWxN1Dz9kBA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "21400 Oakwood, Dearborn"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2560272,
+                    "lng": -83.2302188
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.25742087989273,
+                        "lng": -83.22885112010728
+                    },
+                    "southwest": {
+                        "lat": 42.25472122010728,
+                        "lng": -83.23155077989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJAQBM3BQ2O4gRIoo8ektA9Bw",
+            "plus_code": {
+                "compound_code": "7Q49+CW Allen Park, Michigan",
+                "global_code": "86JR7Q49+CW"
+            },
+            "rating": 0,
+            "reference": "ChIJAQBM3BQ2O4gRIoo8ektA9Bw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "19309 Ecorse Rd, Allen Park"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.270375,
                     "lng": -83.495773
                 },
@@ -411,146 +631,6 @@
             ],
             "user_ratings_total": 0,
             "vicinity": "46352 Michigan Ave, Canton"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.35845,
-                    "lng": -83.44355
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.35979967989272,
-                        "lng": -83.44220367010728
-                    },
-                    "southwest": {
-                        "lat": 42.35710002010727,
-                        "lng": -83.44490332989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1800,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113111736803778350285\">Joe Tyrrell</a>"
-                    ],
-                    "photo_reference": "AWU5eFi3sTfpYIyfDMfpXcLAyjPoEJU4usBTnLf5Lp4lufdhrOxgay6ChqIJiBlyg_v7llURWJyT3vuuR4Q46SyFUE4nxCecwoY4rPHVHvf_pzaAfSXB-VtZhuZWAqNKicJfAcdserxevhjbRAHMvmJ6xLtx9ivh-rsnOvTLCCwNXG6pgtsB",
-                    "width": 4000
-                }
-            ],
-            "place_id": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
-            "plus_code": {
-                "compound_code": "9H54+9H Plymouth, Michigan",
-                "global_code": "86JR9H54+9H"
-            },
-            "rating": 1.5,
-            "reference": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 2,
-            "vicinity": "40777 Ann Arbor Rd, Plymouth"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.325022,
-                    "lng": -83.450859
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.32631742989271,
-                        "lng": -83.44950332010728
-                    },
-                    "southwest": {
-                        "lat": 42.32361777010727,
-                        "lng": -83.45220297989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
-                    ],
-                    "photo_reference": "AWU5eFgZJOPzWklx5Ab6RJu5qjnWFZ1ixGutf4hjSZKq4OTS_oxBqxAtUt6fZZRqBTbPtamH6Z-tS_Z7N1VkUIXH7btARSh0wlppzpQQ9xNvq-4eVklLLA1HNeJ0Zn55bVUDwfU59aADyXA3cRNOeGv2XzE23eGd7cdpAMKpuNFxFVK-0ghr",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
-            "plus_code": {
-                "compound_code": "8GGX+2M Canton, Michigan",
-                "global_code": "86JR8GGX+2M"
-            },
-            "rating": 4.8,
-            "reference": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 4,
-            "vicinity": "41640 Ford Rd, Canton"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.2066982,
-                    "lng": -83.356068
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.20814602989272,
-                        "lng": -83.35496682010726
-                    },
-                    "southwest": {
-                        "lat": 42.20544637010727,
-                        "lng": -83.35766647989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJM8mp311PO4gRS-YtWPd1hrQ",
-            "plus_code": {
-                "compound_code": "6J4V+MH Romulus, Michigan",
-                "global_code": "86JR6J4V+MH"
-            },
-            "rating": 5,
-            "reference": "ChIJM8mp311PO4gRS-YtWPd1hrQ",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1,
-            "vicinity": "McNamara Terminal Parking Garage, Romulus"
         },
         {
             "business_status": "OPERATIONAL",
@@ -596,17 +676,17 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.1857934,
-                    "lng": -83.1857715
+                    "lat": 42.2066982,
+                    "lng": -83.356068
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.18744292989272,
-                        "lng": -83.18442272010726
+                        "lat": 42.20814602989272,
+                        "lng": -83.35496682010726
                     },
                     "southwest": {
-                        "lat": 42.18474327010728,
-                        "lng": -83.18712237989271
+                        "lat": 42.20544637010727,
+                        "lng": -83.35766647989271
                     }
                 }
             },
@@ -617,20 +697,20 @@
             "opening_hours": {
                 "open_now": true
             },
-            "place_id": "ChIJfSmaXOc5O4gRbwyr40kU_GA",
+            "place_id": "ChIJM8mp311PO4gRS-YtWPd1hrQ",
             "plus_code": {
-                "compound_code": "5RP7+8M Southgate, Michigan",
-                "global_code": "86JR5RP7+8M"
+                "compound_code": "6J4V+MH Detroit, Michigan",
+                "global_code": "86JR6J4V+MH"
             },
-            "rating": 0,
-            "reference": "ChIJfSmaXOc5O4gRbwyr40kU_GA",
+            "rating": 5,
+            "reference": "ChIJM8mp311PO4gRS-YtWPd1hrQ",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 0,
-            "vicinity": "16705 Fort St, Southgate"
+            "user_ratings_total": 1,
+            "vicinity": "McNamara Terminal Parking Garage, Detroit"
         },
         {
             "business_status": "OPERATIONAL",
@@ -740,7 +820,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/103637641624364656019\">ariel blanco</a>"
                     ],
-                    "photo_reference": "AWU5eFiTN_B7BU8vIeYFQDo0vv2Q_Fb3MausDH2DJwdr4Wgk6Fz4vnKpyp2bN1xvVt19cH6upEvZNfq2cYYtOcTxgTiOUTvYa-AAbdaL0-8U1P38xSoOHlTWPFEoSUDJlQNzkHPisbT4PtiULwFUEW7Ay6jsRDxQQsHQD0lzNab-HfGgfgc1",
+                    "photo_reference": "AWU5eFg_xDqGpHPwuAMBG9-WpK4C6nlOTys9kn3_ZK_WQs9x6LpfBZBAqEI5IbvzEnCJqh9ylIeUvMowNQZT-Z7awV4Y3bcjvPbOkDUz2Ju2u4DM7lZULZVWzf14Y-KobfMWFZ63N-b1YsG5IhKDSd1-yGD5D5YaY_JipcwW7IZVWbWeTCMl",
                     "width": 4032
                 }
             ],
@@ -790,7 +870,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/117978061654768860712\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFggp43ELeEPPGnAi3H39otV5WzJk1oShp-6GA3wDx1dC5IhHTLOgi0ngXWRnlc9_MGZEs_GbFfbEzMJh5VgWLCMVKX3ODhZXH6C9juFq37k9C9Z7KqIIJyb6QXxFhJbLlJ6BeW82wYJMifABZGQ957edgoS5VgeG4d2B6ws2Xy3e9AC",
+                    "photo_reference": "AWU5eFj9Js1pJj03SLYi6znjngDE8LGgp9-Wk1CTryFYrE77jCNRqcMrGZNNUwCz-3_7B-Lk1mSFZAAsrsa_Pg57ta0Yai7xXT-oPqZ0jjHNYM95jpSgZjrVKaQH8wTrpYY01Jw8dDWwIG7HPYBtcfSDVeQ2Jz2lHAyuI2CNLpo4tJuKxIg2",
                     "width": 480
                 }
             ],
@@ -808,103 +888,6 @@
             ],
             "user_ratings_total": 0,
             "vicinity": "1140 Monroe St, Dearborn"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.3201397,
-                    "lng": -83.48861339999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.32148947989273,
-                        "lng": -83.48726587010727
-                    },
-                    "southwest": {
-                        "lat": 42.31878982010728,
-                        "lng": -83.48996552989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Blink Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
-                    ],
-                    "photo_reference": "AWU5eFilhUn-rqIWyy6tGpStjbKakCLy2Iw0RuQpJW1nfR9cdVi7LNNtXEDmPRZuapBMm73adUdBx2r9Y1KsHWmlyCEGB23oF5NaOz-XEFGE2S34RWqX-bCB72z4yz3gTEO5Edd46igvJYXPxWVXO230mRtKpweGOXfgZnIVh_ogd47VZdIg",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJddSmA5lTO4gRdvcngzDLYsA",
-            "plus_code": {
-                "compound_code": "8GC6+3H Canton, Michigan",
-                "global_code": "86JR8GC6+3H"
-            },
-            "rating": 3,
-            "reference": "ChIJddSmA5lTO4gRdvcngzDLYsA",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 2,
-            "vicinity": "2017 N Canton Center Rd, Canton"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.3226082,
-                    "lng": -83.4006041
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.32396162989272,
-                        "lng": -83.39909652010726
-                    },
-                    "southwest": {
-                        "lat": 42.32126197010727,
-                        "lng": -83.40179617989271
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Greenspot Charging Station",
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/103636868835933925793\">Jason Smith</a>"
-                    ],
-                    "photo_reference": "AWU5eFg2IPv3JIft1Vri8TL_NTpH1IGWYST2jFVJlIGP584K7n0oTyM_iq1uv79HG8JjWLzbvqilzRfCtyGnH-1ZJ6K1D75_EU2iDWqjnFH8O4_syUgc2_S2O4yTnT8hjsFdAzGTqG06BwVyI_xHv09HmsEXGh4Dgz_2ai4yZTb7zMGa3jv4",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJ3VAaUnVNO4gRPYbCedtSHVg",
-            "plus_code": {
-                "compound_code": "8HFX+2Q Westland, Michigan",
-                "global_code": "86JR8HFX+2Q"
-            },
-            "rating": 5,
-            "reference": "ChIJ3VAaUnVNO4gRPYbCedtSHVg",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1,
-            "vicinity": "N Carlson St, Westland"
         }
     ],
     "status": "OK"

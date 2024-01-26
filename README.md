@@ -18,13 +18,11 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 ```
 ├── README.md
 ├── data
-│   ├── RAW_test: Folder for raw test data in json format
-│   ├── RAW_train: Folder for raw train data in json format
-│   ├── coordinates.test.txt: Coordinates of test data
-│   ├── coordinates.train.txt: Coordinates of train data
 │   ├── docid_NREL_map.csv: Map between docid and NREL id
 │   ├── NREL_processed.csv
 │   ├── NREL_raw.csv
+│   ├── relevance.train.csv
+│   ├── relevance.test.csv
 ├── src
 │   ├── document_preprocessor.py: Preprocess the documents
 │   ├── indexing.py: Indexing the documents
@@ -35,10 +33,9 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 │   ├── cf.py: Collaborative filtering
 │   ├── vector_ranker.py: Vector ranker
 │   ├── pipeline.py: Pipeline for the whole system
-│   ├── NREL_All_Stations_API.ipynb: NREL API and data processing
-│   ├── evaluation.ipynb: The notebook for evaluation and query
-│   ├── Google_Map_Find_API.ipynb: Google Map API for relevance data retrieval
-│   ├── GPT_sentiment_analysis.ipynb: GPT sentiment analysis
+├── notebook
+│   ├── NREL_processing.ipynb
+│   ├── Google_Map_Find_API.ipynb
 ```
 
 ## Methodology
@@ -54,7 +51,19 @@ This file contains descriptions of charging stations from NREL API.
 - `NREL_processed.csv`:
 This file contains preprocessed data from NREL API, which is used as the data source for the search engine.  
 
+- `relevance.train.csv`:
+This file contains the relevance data for the training of the l2r ranker.
 
+- `relevance.test.csv`:
+This file contains the relevance data for the testing of the l2r ranker.
+
+### Notebooks
+
+- `NREL_processing.ipynb`:
+This notebook contains the code for data processing from NREL API.
+
+- `Google_Map_Find_API.ipynb`:
+This notebook creates the relevance data for the training and testing of the l2r ranker.
 
 
 ## Reference

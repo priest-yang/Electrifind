@@ -1,22 +1,22 @@
 {
     "html_attributions": [],
-    "next_page_token": "AWU5eFhbpFgZKoLHM02FGZo7IzNFSqQr0iKwlUD7fqAp8pz-K8UwkIHu9OhPggIOXjth6etJWmGBmb4hC6ehwV96OQfN8cK3fhNEEqsYs_95hX5wSOXp1c2mzJXqTKR-FK83VaBoQb9Up2f-ynNUsPCug2ZhLjRWARhtT_cRA75IBMgR4sPwu8xXiaKnyugrJdIuunBoZ1UyeDe7RO6TZYqraBcSdV4VTueKHWgicuBXvr4ufoH1j_VX1yVzlmFjyO04u6Lv2stVC-q2wiiJKMe5fmwc384GNRvGcYhs18C4NpPqvzoVUGtjKiXoqudVDJBKJsgnULlFsjHhJLTBRO795aYOW0nxktk5eORlKZy_tVfgTj6KoIrQ7temLh6_wPIhGTyjlhoYaMfBsDwSqcFDvH4nDvCslgnhnC2Tp3QNBqwo0hep6D9ckoznniD72itx_-0P",
+    "next_page_token": "AWU5eFjVAsjfGWPBJ8rLn8CstOoBYVE4pa1TiJDDTNaUce6Uu0p3lNfzxr1SLUAAE8HtmjBmJOW1eLyvp9vI3ISZl9QeWzGilzQnhGzvzvQXcQupULslg8QVO4qdNKvGaplYycJuv6_s6ZrS9_DqIr24pitt4kYKAydXD2U2f6DDhMKb1vHNlc9O_4dtlnuSLEXolB8XER1kBQTZX8uc54KyuXOCX0Bs_BLmYMPq4t2-dP5VVV72FZxdWPbS14jFloFFmIuYjpJppujtLwHVgCHmvYt-JIWn6TqmNzeJztRpSSWzvIe4xMqnAOgAi1Qwe_F8uOuh9yGPcMnRMCbVouhpEV8oWDZjy-9zl-IdUvcf7IMIKjnSK2FEgoUtURX9Ca1yGNejoApmd87etjPG2fFzToHhrDfQ-8fZfxj46UrHzx3vK7F5v65ah19coOU8ErL353FL",
     "results": [
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.511483,
-                    "lng": -83.04821199999999
+                    "lat": 42.51069469999999,
+                    "lng": -83.04811509999999
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.51280032989272,
-                        "lng": -83.04683127010728
+                        "lat": 42.51241937989272,
+                        "lng": -83.04678677010726
                     },
                     "southwest": {
-                        "lat": 42.51010067010728,
-                        "lng": -83.04953092989271
+                        "lat": 42.50971972010728,
+                        "lng": -83.04948642989271
                     }
                 }
             },
@@ -33,23 +33,23 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/111461750974706070055\">Daesung Shin</a>"
                     ],
-                    "photo_reference": "AWU5eFg31er4SLQN8LRMemJqUKZSOEIZs0VXByP6pXk6ITBhWHEGha9PaN1yp9XzNNxFFLITsv2a9qtwbnNjIl_4o_1TJ8moTnFANQwAOIANXMtaj44OytURqMI0bTOlLq7LWp65jPQ3QlVex25GFZ5Mp3wkH7k3BSs049xsmKkpKdgU8Coj",
+                    "photo_reference": "AWU5eFg1RBF7w-pFI9_0M6D-grMTS_CBBcr9eyCDLJWwUuMxRvep7CULYyzCTdDatvldqOzAS7MfpKChYzGUyWdOtYfOpVQ_m_K5H_OFHvwCS6Iz4h-8goNmXBK3fYPvyJCoUcxZr24p7yuTD94vBYbjpcjgc_8I2tiLdHw4Ahjf03lSMqAa",
                     "width": 3000
                 }
             ],
             "place_id": "ChIJc64skZHaJIgRKD9ZWonEHD0",
             "plus_code": {
-                "compound_code": "GX62+HP Warren, Michigan",
-                "global_code": "86JRGX62+HP"
+                "compound_code": "GX62+7Q Warren, Michigan",
+                "global_code": "86JRGX62+7Q"
             },
-            "rating": 3.8,
+            "rating": 3.6,
             "reference": "ChIJc64skZHaJIgRKD9ZWonEHD0",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 4,
+            "user_ratings_total": 5,
             "vicinity": "29555 Mound Rd, Warren"
         },
         {
@@ -83,7 +83,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/113523377752095590770\">Kyle Hodgson</a>"
                     ],
-                    "photo_reference": "AWU5eFhmvL4T8rCqLN5LKSqtCK-U-ibkeyHEtcbzXQKICto1tMQ2z1gl89KM9sTqmw59gKnZiLv7R_JV5mLkbSUQAMWGVI914cd2eKwLmeAFhX5IwUPCYvWEYkYj_x7fc1pjyFGQI6TM_6QGSk_NPbsNQGGucX5hJzX01vMcYRnjGznP8D4G",
+                    "photo_reference": "AWU5eFhj36j5nWpCafUwzNG-3GAGZ46Dm1Z4VVD2CLkpfy6RkGnNtsW7XhrXE39yLxsdjrMCPwDaEWo4SnbSGKwxb8tQOWyvWWopgEuv4CfORZqn_XLl08FQkcvA9NQXnD6DDRxFfNJ-n0pGo6g792GvFx-BPQcrc3CxgIyBgmxd7U0AyGY_",
                     "width": 4000
                 }
             ],
@@ -92,14 +92,14 @@
                 "compound_code": "G3CV+V7 Roseville, Michigan",
                 "global_code": "86JVG3CV+V7"
             },
-            "rating": 3,
+            "rating": 3.2,
             "reference": "ChIJiQ6YtQPZJIgRZ6qNkEdV-gM",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 14,
+            "user_ratings_total": 17,
             "vicinity": "30800 Little Mack Ave, Roseville"
         },
         {
@@ -133,7 +133,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/112978449359854155089\">Rachele Bogal</a>"
                     ],
-                    "photo_reference": "AWU5eFj89H24PEzEMb_CL2AWmhP9TYcl_hjtHQzw66K89SUJAaeoYeGmoxLeyg6cLOI-Va2Jz7Y7yJU4xk_92kHoQRTMTR3R-6IPP_PJJzBbwI9b2i0-DrnphBGNlrpfgNsazmRrrc_S2k9g0ZYxYsbitN-tDNkD-Ib_TbnLXJOYHwRpaake",
+                    "photo_reference": "AWU5eFhwXcFuAIlBZ-Y5DlAARlJQGvvPTOx4lxzbWkf1rwFCNzRpf1Hq-7Lv8k3poTbDC2ibnjvsKBgub9bhVk90JUKgTrQzFbwuD0mPJc--yZOd-AAq3Im09TaRUl0yLr-zvvAVISIiQC4GcCXq11Zsxo8PVK1vmxk3IciBw9_BqHjopRWx",
                     "width": 360
                 }
             ],
@@ -142,14 +142,14 @@
                 "compound_code": "HV73+76 Troy, Michigan",
                 "global_code": "86JRHV73+76"
             },
-            "rating": 4,
+            "rating": 3.7,
             "reference": "ChIJ2wkjuxXEJIgRj5uwWDxjq7g",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 10,
+            "user_ratings_total": 11,
             "vicinity": "3150 Livernois Rd, Troy"
         },
         {
@@ -174,6 +174,9 @@
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
             "name": "Volta Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
             "place_id": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
             "plus_code": {
                 "compound_code": "J3G4+VG Clinton Twp, Michigan",
@@ -220,7 +223,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFhPXC7X5HEtK95Bo1Ar7eYImxk7EyN1RRhwbMKVcWLJGFeooEZyJeQxboxaLtqJ_feGm3-7STrprfPy2-dmbzA_YuXQk6nHKYQVZ9nioZ_PJnuVHML7Vo3NNDC9kFFgXnfWzkuPX1qIkefwZcCuomIRZ31qmtVW0narmaJ-oJDdiaKR",
+                    "photo_reference": "AWU5eFhzeK4_4PkPArlfOxqG8WKhnhQYE5_I3ZOFY16nzYWjPUJtgKgyfY4dwSaol5skAqWwPFBDtJ_MenSSshqrqYwy3BDJzD_9M-gVxI11I8s5oZ4pnlVpA-DgVNg6AGRtCWaT0yG99T-hcngzv-SjtGqXgwbc4S0JRpsRWycQkfCCMWWn",
                     "width": 900
                 }
             ],
@@ -314,47 +317,7 @@
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "14255 23 Mile Rd, Shelby Twp"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.5289282,
-                    "lng": -83.09122049999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.53031562989272,
-                        "lng": -83.08987172010727
-                    },
-                    "southwest": {
-                        "lat": 42.52761597010728,
-                        "lng": -83.09257137989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Blink Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJy6aaSiXFJIgRRTHdcSMRA3g",
-            "plus_code": {
-                "compound_code": "GWH5+HG Madison Heights, Michigan",
-                "global_code": "86JRGWH5+HG"
-            },
-            "rating": 0,
-            "reference": "ChIJy6aaSiXFJIgRRTHdcSMRA3g",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "32401 Industrial Dr, Madison Heights"
+            "vicinity": "14255 23 Mile Rd, Shelby Township"
         },
         {
             "business_status": "OPERATIONAL",
@@ -387,7 +350,7 @@
                     "html_attributions": [
                         "<a href=\"https://maps.google.com/maps/contrib/100617444904034377836\">A Google User</a>"
                     ],
-                    "photo_reference": "AWU5eFhaNo0lmiVqjxBWfBkm_14SvGa7F1sT9nTgI0zZ9JdaiM1lBdIX2oM0n9ZEBIY4OmqVMg4582Uf4SWJMpmZChrxbfQ6NOE90HXOV5So4vLJhF9jCu-DWbZ8q7w0ZGzPEQK9NR2_aKbQGrciSRE81QuL9kA1DJRYC5ODWIlVQsPYzdnc",
+                    "photo_reference": "AWU5eFjN7zeI4YgAhUQF9nowdezArbp8WZNxwhmKFBoBZr7PMsBpECWwlzoGvzYKZTp3TrGUxApEM5sZGeHcgkt_5SP8IdkeJc76DZMdsodULivAL2x_TXzUB8qbvZWPGdup70HuoMhXWs6jXye64V2yaHXkXRqRQt2OyPiJEWkaUv877ol5",
                     "width": 2448
                 }
             ],
@@ -490,176 +453,6 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.5649022,
-                    "lng": -83.1604411
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.56601327989273,
-                        "lng": -83.15946992010727
-                    },
-                    "southwest": {
-                        "lat": 42.56331362010728,
-                        "lng": -83.16216957989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "Electric Vehicle Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1500,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
-                    ],
-                    "photo_reference": "AWU5eFj5s0cowLnOSV9MGUxAdbeO-KU9Ce2HKA71a2M_Oa-tYwouI3Lk61-f-WPXmLWr20Bdm-tbbxHKl46rDyiBmUha0Hoj6jjrk-m_a-AuIR0rrnDOOgxctWrPAysQ2BFIhO4TxhrmrqvD38NMY9T5OSLS40on_5ndn9m9xl0BN2uYHEu1",
-                    "width": 1856
-                }
-            ],
-            "place_id": "ChIJKc9YzGXFJIgR0wSeIileCEY",
-            "plus_code": {
-                "compound_code": "HR7Q+XR Troy, Michigan",
-                "global_code": "86JRHR7Q+XR"
-            },
-            "rating": 0,
-            "reference": "ChIJKc9YzGXFJIgR0wSeIileCEY",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "200 Wilshire Dr, Troy"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.4801926,
-                    "lng": -82.98929319999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.48140952989272,
-                        "lng": -82.98741297010727
-                    },
-                    "southwest": {
-                        "lat": 42.47870987010727,
-                        "lng": -82.9901126298927
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJl4rYQEzXJIgRtWwyXN3vPSc",
-            "plus_code": {
-                "compound_code": "F2J6+37 Warren, Michigan",
-                "global_code": "86JVF2J6+37"
-            },
-            "rating": 0,
-            "reference": "ChIJl4rYQEzXJIgRtWwyXN3vPSc",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "25225 Schoenherr Rd, Warren"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.483004,
-                    "lng": -83.109388
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.48435992989273,
-                        "lng": -83.10798522010728
-                    },
-                    "southwest": {
-                        "lat": 42.48166027010728,
-                        "lng": -83.11068487989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJ2RQ7pZfPJIgROonZU3Du3D8",
-            "plus_code": {
-                "compound_code": "FVMR+66 Madison Heights, Michigan",
-                "global_code": "86JRFVMR+66"
-            },
-            "rating": 5,
-            "reference": "ChIJ2RQ7pZfPJIgROonZU3Du3D8",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1,
-            "vicinity": "451 W Lincoln Ave, Madison Heights"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 42.522916,
-                    "lng": -82.98625899999999
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 42.52422297989272,
-                        "lng": -82.98490657010727
-                    },
-                    "southwest": {
-                        "lat": 42.52152332010728,
-                        "lng": -82.98760622989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-            "icon_background_color": "#7B9EB0",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
-            "opening_hours": {
-                "open_now": true
-            },
-            "place_id": "ChIJl91WjIXZJIgRxdo2mcGom9A",
-            "plus_code": {
-                "compound_code": "G2F7+5F Warren, Michigan",
-                "global_code": "86JVG2F7+5F"
-            },
-            "rating": 0,
-            "reference": "ChIJl91WjIXZJIgRxdo2mcGom9A",
-            "scope": "GOOGLE",
-            "types": [
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 0,
-            "vicinity": "31200 Schoenherr Rd, Warren"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
                     "lat": 42.626448,
                     "lng": -82.99209599999999
                 },
@@ -700,41 +493,101 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.5981864,
-                    "lng": -82.87934109999999
+                    "lat": 42.551013,
+                    "lng": -83.0478339
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.59956002989271,
-                        "lng": -82.87803532010727
+                        "lat": 42.55231107989272,
+                        "lng": -83.04649177010728
                     },
                     "southwest": {
-                        "lat": 42.59686037010727,
-                        "lng": -82.88073497989271
+                        "lat": 42.54961142010728,
+                        "lng": -83.04919142989272
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
             "icon_background_color": "#7B9EB0",
             "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-            "name": "ChargePoint Charging Station",
+            "name": "Electric Vehicle Charging Station",
             "opening_hours": {
                 "open_now": true
             },
-            "place_id": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "photos": [
+                {
+                    "height": 757,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFi549Ujn5ltiniAWExrc7YLt46J-RrEfg-gdPSkZpa4njQw_kZizCiJcf98QEnIpw9wlUXSwvBZMuE_4dpFBVh8Gu5gymJ8o-pVCxkKfkXOR93C44XL7Pax-ghgDSMy-k32lqKZz3cE-5PSwEUB46TCje7dIyBnRodtOUzXET9l8Syd",
+                    "width": 1600
+                }
+            ],
+            "place_id": "ChIJr7gh27bbJIgRv4-k2wj1YhQ",
             "plus_code": {
-                "compound_code": "H4XC+77 Mt Clemens, Michigan",
-                "global_code": "86JVH4XC+77"
+                "compound_code": "HX22+CV Sterling Heights, Michigan",
+                "global_code": "86JRHX22+CV"
+            },
+            "rating": 5,
+            "reference": "ChIJr7gh27bbJIgRv4-k2wj1YhQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "35030 Mound Rd, Sterling Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5649022,
+                    "lng": -83.1604411
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.56601327989273,
+                        "lng": -83.15946992010727
+                    },
+                    "southwest": {
+                        "lat": 42.56331362010728,
+                        "lng": -83.16216957989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1500,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFj9J3sFt3x6cNIstj4lL735XtUkUyNr8HSAYhmvbG90R4GKYCSqlzebiezuotiZgYFAbvK6cIqYKSDeCtqegKilNbANDrf0m5LtPAZi6LTKbnRZt0gIzuRQ15AwwIpAwpeHJWQ0fobWdg0GlkRnXAe6I0mi4pHTC-ANmckSJI0StZ3s",
+                    "width": 1856
+                }
+            ],
+            "place_id": "ChIJKc9YzGXFJIgR0wSeIileCEY",
+            "plus_code": {
+                "compound_code": "HR7Q+XR Troy, Michigan",
+                "global_code": "86JRHR7Q+XR"
             },
             "rating": 0,
-            "reference": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "reference": "ChIJKc9YzGXFJIgR0wSeIileCEY",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "27 N Walnut St, Mt Clemens"
+            "vicinity": "200 Wilshire Dr, Troy"
         },
         {
             "business_status": "OPERATIONAL",
@@ -780,6 +633,86 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
+                    "lat": 42.522916,
+                    "lng": -82.98625899999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.52422297989272,
+                        "lng": -82.98490657010727
+                    },
+                    "southwest": {
+                        "lat": 42.52152332010728,
+                        "lng": -82.98760622989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJl91WjIXZJIgRxdo2mcGom9A",
+            "plus_code": {
+                "compound_code": "G2F7+5F Warren, Michigan",
+                "global_code": "86JVG2F7+5F"
+            },
+            "rating": 0,
+            "reference": "ChIJl91WjIXZJIgRxdo2mcGom9A",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "31200 Schoenherr Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.47984049999999,
+                    "lng": -82.9897009
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48119047989271,
+                        "lng": -82.98832427010727
+                    },
+                    "southwest": {
+                        "lat": 42.47849082010727,
+                        "lng": -82.99102392989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ4ZVcaEzXJIgRNFPlC4D7y5c",
+            "plus_code": {
+                "compound_code": "F2H6+W4 Warren, Michigan",
+                "global_code": "86JVF2H6+W4"
+            },
+            "rating": 0,
+            "reference": "ChIJ4ZVcaEzXJIgRNFPlC4D7y5c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "13355 E 10 Mile Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
                     "lat": 42.5567218,
                     "lng": -83.17288169999999
                 },
@@ -820,17 +753,117 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 42.625172,
-                    "lng": -83.0315619
+                    "lat": 42.5491223,
+                    "lng": -83.13167589999999
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 42.62654732989272,
-                        "lng": -83.03017602010728
+                        "lat": 42.55049772989272,
+                        "lng": -83.13032237010728
                     },
                     "southwest": {
-                        "lat": 42.62384767010728,
-                        "lng": -83.03287567989271
+                        "lat": 42.54779807010728,
+                        "lng": -83.13302202989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1500,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFj0qn29I6iQElq2P9RyRsnG8HzgVo8TlVSmecl2wNEq5jlCDH4E1mfpoJQR4hyGEK8sXMF8qlt4Jyh6DvUlp6AKV0yHAtjNxTR_wqMl4CqVNlP-1lnamWC2UgDRFf8XO2OH6_ZIoGjgp9oAtmc09zU0aWU8_A7-4hL7LZXKFnm-uFpo",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJibqbliHFJIgRSKjo56tFU3I",
+            "plus_code": {
+                "compound_code": "GVX9+J8 Troy, Michigan",
+                "global_code": "86JRGVX9+J8"
+            },
+            "rating": 0,
+            "reference": "ChIJibqbliHFJIgRSKjo56tFU3I",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1600 Rochester Rd, Troy"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.59057929999999,
+                    "lng": -83.1282308
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.59192612989272,
+                        "lng": -83.12684142010728
+                    },
+                    "southwest": {
+                        "lat": 42.58922647010728,
+                        "lng": -83.12954107989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 540,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102970333202733991972\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjVhjKy4VOhvtmxRYECmU8AwAwc6sIczh_shYedoK3h-dkp-PBJyv2FrS6ul-v3w9Wn1db4TkL6-iofeF-ZYiB9Euaa9FtWYOSmlG1upL-8XcRJ8hbwaLOPb7o_E8hZNeRdTeo9IFlsEHs2GbLrTqbpnhcCXuncB05mZ1FaBJLsNe5t",
+                    "width": 720
+                }
+            ],
+            "place_id": "ChIJl-0NSUTDJIgR76K_8Nbyz34",
+            "plus_code": {
+                "compound_code": "HVRC+6P Troy, Michigan",
+                "global_code": "86JRHVRC+6P"
+            },
+            "rating": 5,
+            "reference": "ChIJl-0NSUTDJIgR76K_8Nbyz34",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "4924 Rochester Rd, Troy"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5981864,
+                    "lng": -82.87934109999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.59956002989271,
+                        "lng": -82.87803532010727
+                    },
+                    "southwest": {
+                        "lat": 42.59686037010727,
+                        "lng": -82.88073497989271
                     }
                 }
             },
@@ -841,20 +874,20 @@
             "opening_hours": {
                 "open_now": true
             },
-            "place_id": "ChIJtZqSYqbdJIgRhdNXUkBoxtQ",
+            "place_id": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
             "plus_code": {
-                "compound_code": "JXG9+39 Utica, Michigan",
-                "global_code": "86JRJXG9+39"
+                "compound_code": "H4XC+77 Mt Clemens, Michigan",
+                "global_code": "86JVH4XC+77"
             },
             "rating": 0,
-            "reference": "ChIJtZqSYqbdJIgRhdNXUkBoxtQ",
+            "reference": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
             "scope": "GOOGLE",
             "types": [
                 "point_of_interest",
                 "establishment"
             ],
             "user_ratings_total": 0,
-            "vicinity": "8100 Hall Rd, Utica"
+            "vicinity": "27 N Walnut St, Mt Clemens"
         }
     ],
     "status": "OK"

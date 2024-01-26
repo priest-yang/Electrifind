@@ -342,11 +342,11 @@ class L2RFeatureExtractor:
                 and values with the scores for those features
             ce_scorer: The CrossEncoderScorer object
         """
-        # TODO: Set the initial state using the arguments
+        # Set the initial state using the arguments
         self.data_source = data_source
         self.ranker = ranker
 
-    # TODO: Add at least one new feature to be used with your L2R model
+    # Add at least one new feature to be used with your L2R model
 
     def generate_features(self, docid: int, query_parts: list[float]) -> list:
         """
