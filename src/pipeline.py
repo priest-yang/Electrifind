@@ -6,10 +6,9 @@ from IPython.display import display as Display
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-import pickle
 from models import BaseSearchEngine, SearchResponse
-from document_preprocessor import Tokenizer, RegexTokenizer
-from indexing import InvertedIndex, BasicInvertedIndex, IndexType, Indexer
+from document_preprocessor import RegexTokenizer
+from indexing import IndexType, Indexer
 # your library imports go here
 from ranker import *
 from cf import CFRanker
@@ -29,10 +28,7 @@ DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 
 
 class SearchEngine(BaseSearchEngine):
-    def __init__(self, ranker: str = 'dist',
-                 reranker: str = None) -> None:
-
-        self.reranker = None
+    def __init__(self, ranker: str = 'dist', reranker: str = None) -> None:
 
         self.document_preprocessor = RegexTokenizer("\\w+")
         print('Loading stopwords...')

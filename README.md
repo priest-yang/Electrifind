@@ -3,7 +3,7 @@
 ## Introduction
 Our project aims to build a **search engine** for electric vehicle charging stations with personalized recommendations. The system consists of a naive ranker by distance, an ``DL-based l2r ranker``, a ``collaborative filtering`` recommender system, and a ``LLM-based personalization`` system. The performance of each ranker combination is evaluated with query results from Google Maps API processed with a customized relevance function. 
 
-## Key features
+## Key Features
 
 - **Data scraping** using GoogleMap/Serp/NREL API
 - **NLP** comments using ChatGPT API & **prompt engineering**
@@ -24,7 +24,7 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 │   ├── coordinates.train.txt: Coordinates of train data
 │   ├── docid_NREL_map.csv: Map between docid and NREL id
 │   ├── NREL_All_Stations_data.csv: NREL data
-│   ├── processed_nrel.csv: Processed NREL data
+│   ├── NREL_processed.csv
 ├── src
 │   ├── document_preprocessor.py: Preprocess the documents
 │   ├── indexing.py: Indexing the documents
@@ -45,6 +45,8 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 
 ### Data Collection
 
+- `NREL_processed.csv`:
+This file contains preprocessed data from NREL API, which is used as the data source for the search engine.  
 
 
 

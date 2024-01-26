@@ -112,7 +112,7 @@ class CFRanker:
         for x in X_pred:
             scores.append(self.get_prediction(user_id, x))
 
-    def query(self, query: str, user_id: int = None, threshold: int = 100):
+    def query(self, query: str, user_id: int = None, threshold: int = 100) -> list[tuple[int, float]]:
         query_parts = [float(x) for x in query.split(',')]
         if len(query_parts) == 0:
             return []

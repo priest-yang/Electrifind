@@ -319,9 +319,9 @@ class Indexer:
         Returns:
             An inverted index
         """
-        # TODO: Argument doc_augment_dict.
-        #       This is responsible for going through the documents
-        #       one by one and inserting them into the index after tokenizing the document
+        # Argument doc_augment_dict.
+        # This is responsible for going through the documents
+        # one by one and inserting them into the index after tokenizing the document
         if index_type == IndexType.InvertedIndex:
             index = BasicInvertedIndex()
         elif index_type == IndexType.PositionalIndex:

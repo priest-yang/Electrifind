@@ -68,7 +68,8 @@ class VectorRanker(Ranker):
         doc_vecs = []
         for docid in pre_ranker_result:
             if docid in self.row_to_docid:
-                doc_vecs.append(self.encoded_docs[self.row_to_docid.index(docid)])
+                doc_vecs.append(
+                    self.encoded_docs[self.row_to_docid.index(docid)])
             else:
                 doc_vecs.append(np.zeros(encoded_len))
 
@@ -82,8 +83,7 @@ class VectorRanker(Ranker):
             return_list[i] = pre_ranker_result[sorted_idx[i]]
         return return_list
 
-    def query(self, query: str, pseudofeedback_num_docs=0,
-              pseudofeedback_alpha=0.8, pseudofeedback_beta=0.2, user_id=None) -> list[tuple[int, float]]:
+    def query(self, query: str, user_id=None) -> list[tuple[int, float]]:
         """
         Encodes the query and then scores the relevance of the query with all the documents.
         Performs query expansion using pseudo-relevance feedback if needed.
@@ -129,7 +129,7 @@ class VectorRanker(Ranker):
             by=['score'], ascending=False)
         relevant_docs['id'] = relevant_docs.index
         results = relevant_docs[['id', 'score']].values.tolist()
-        
+
         # Filter to just the top 100 documents for the L2R part for re-ranking
         # This is only able to run if we use l2r as the ranker, so use try except here
         if self.ranker.__class__.__name__ == 'L2RRanker':
@@ -160,7 +160,7 @@ class VectorRanker(Ranker):
 
         # re-rank based on user-id
         results = self.personalized_re_rank(results, user_id)
-        
+
         return results
 
     def rank_docs(self, embedding: ndarray) -> list[tuple[int, float]]:

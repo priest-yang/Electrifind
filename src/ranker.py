@@ -7,6 +7,7 @@ from geopy import distance
 from sentence_transformers import CrossEncoder
 from indexing import InvertedIndex
 
+
 class Ranker:
     """
     The ranker class is responsible for generating a list of documents for a given query, ordered by their scores
@@ -15,8 +16,8 @@ class Ranker:
     """
     # TODO: Return a list of sorted relevant documents.
 
-    def __init__(self, index: InvertedIndex=None, document_preprocessor=None, stopwords: set[str]=None,
-                 scorer: 'RelevanceScorer'=None, raw_text_dict: dict[int, str]=None) -> None:
+    def __init__(self, index: InvertedIndex = None, document_preprocessor=None, stopwords: set[str] = None,
+                 scorer: 'RelevanceScorer' = None, raw_text_dict: dict[int, str] = None) -> None:
         """
         Initializes the state of the Ranker object.
 
@@ -35,8 +36,7 @@ class Ranker:
         self.raw_text_dict = raw_text_dict
         self.name = 'Ranker'
 
-    def query(self, query: str, pseudofeedback_num_docs=0, pseudofeedback_alpha=0.8,
-              pseudofeedback_beta=0.2) -> list[tuple[int, float]]:
+    def query(self, query: str) -> list[tuple[int, float]]:
         """
         Searches the collection for relevant documents to the query and
         returns a list of documents ordered by their relevance (most relevant first).
@@ -83,37 +83,11 @@ class Ranker:
 
             results = self.rank_docs(query_parts, query, query_word_count)
 
-            # TODO: If the user has indicated we should use feedback,
-            #  create the pseudo-document from the specified number of pseudo-relevant results.
-            #  This document is the cumulative count of how many times all non-filtered words show up
-            #  in the pseudo-relevant documents. See the equation in the write-up. Be sure to apply the same
-            #  token filtering and normalization here to the pseudo-relevant documents.
-            if pseudofeedback_num_docs > 0:
-                pseudo_docs_word_count = Counter()
-                for docid, score in results[:pseudofeedback_num_docs]:
-                    if docid not in self.raw_text_dict:
-                        continue
-                    pseudo_doc = self.tokenize(self.raw_text_dict[docid])
-                    pseudo_docs_word_count.update(pseudo_doc)
-
-            # TODO: Combine the document word count for the pseudo-feedback with the query to create a new query
-            # NOTE: When using alpha and beta to weight the query and pseudofeedback doc, the counts
-            #  will likely be *fractional* counts (not integers).
-                new_query_word_count = Counter()
-                for word, count in query_word_count.items():
-                    new_query_word_count[word] += pseudofeedback_alpha * count
-                for word, count in pseudo_docs_word_count.items():
-                    new_query_word_count[word] += pseudofeedback_beta * \
-                        count / pseudofeedback_num_docs
-                new_query_parts = list(new_query_word_count.keys())
-                results = self.rank_docs(
-                    new_query_parts, None, new_query_word_count)
-
             return results
 
     def rank_docs(self, query_parts: list[str], query: str,
                   query_word_count: dict[str, int]) -> list[tuple[int, float]]:
-        # TODO: Fetch a list of possible documents from the index and create a mapping from
+        #  Fetch a list of possible documents from the index and create a mapping from
         #  a document ID to a dictionary of the counts of the query terms in that document.
         #  You will pass the dictionary to the RelevanceScorer as input.
         relevant_docs = set()
@@ -171,6 +145,7 @@ class Ranker:
 
         return doc_term_count
 
+
 class RelevanceScorer:
     """
     This is the base interface for all the relevance scoring algorithm.
@@ -191,9 +166,13 @@ class DistScorer(RelevanceScorer):
 
     def score(self, doc, query_parts) -> float:
         try:
-            score = 1 / (1 + distance.distance((query_parts[0], query_parts[1]), (doc.Latitude, doc.Longitude)).km)
+            score = 1 / \
+                (1 + distance.distance(
+                    (query_parts[0], query_parts[1]), (doc.Latitude, doc.Longitude)).km)
         except:
-            score = 1 / (1 + distance.distance((query_parts[0], query_parts[1]), (doc[0], doc[1])).km)
+            score = 1 / \
+                (1 + distance.distance((query_parts[0],
+                 query_parts[1]), (doc[0], doc[1])).km)
         return score
 
 
