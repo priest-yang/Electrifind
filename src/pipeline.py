@@ -16,8 +16,8 @@ from l2r import L2RRanker, L2RFeatureExtractor
 from vector_ranker import VectorRanker
 from utils import DATA_PATH, CACHE_PATH
 
-DATASET_PATH = DATA_PATH + 'processed_nrel.csv'
-INDEX_PATH = DATA_PATH + 'google_map_charging_station_all.jsonl.gz'
+NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
+NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
 
 STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
 
@@ -39,25 +39,25 @@ class SearchEngine(BaseSearchEngine):
                 self.stopwords.add(cleaned_line)
 
         print('Loading indexes...')
-        self.frame = pd.read_csv(DATASET_PATH)
+        self.frame = pd.read_csv(NREL_NUMERICAL_PATH)
         self.document_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
-                                                   dataset_path=INDEX_PATH,
+                                                   dataset_path=NREL_CORPUS_PATH,
                                                    document_preprocessor=RegexTokenizer(
                                                        "\\w+"),
                                                    stopwords=self.stopwords,
-                                                   minimum_word_frequency=1,
+                                                   minimum_word_frequency=2,
                                                    text_key='text',
                                                    max_docs=-1,
                                                    doc_augment_dict=None,
                                                    rel_ids=None)
 
         self.title_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
-                                                dataset_path=INDEX_PATH,
+                                                dataset_path=NREL_CORPUS_PATH,
                                                 document_preprocessor=RegexTokenizer(
                                                     "\\w+"),
                                                 stopwords=self.stopwords,
                                                 minimum_word_frequency=1,
-                                                text_key='address_name',
+                                                text_key='name',
                                                 max_docs=-1,
                                                 doc_augment_dict=None,
                                                 rel_ids=None)

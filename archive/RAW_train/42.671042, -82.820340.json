@@ -1,0 +1,467 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.802503,
+                    "lng": -83.004357
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.80385697989272,
+                        "lng": -83.00285987010729
+                    },
+                    "southwest": {
+                        "lat": 42.80115732010728,
+                        "lng": -83.00555952989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113692456203559195779\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhMHT1PORlC40Nk_yzNxDrPaxRfeMD4nAUM9bwHoU8-UQohPP8rA8Z4oJvwFsCuW-kGDaThHg6kB4SYVpBJ8U2tJl2peDcOO18GHsiVDxZMHA7sVnoi13oFyniOtqtkj-7tYAmEbwqbLDH7hLBFblpKRmlbJ1AURBDBQRE3hYu62TeP",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJF3Onc7LkJIgRpWkhf6Chu_U",
+            "plus_code": {
+                "compound_code": "RX3W+27 Romeo, Michigan",
+                "global_code": "86JRRX3W+27"
+            },
+            "rating": 4.8,
+            "reference": "ChIJF3Onc7LkJIgRpWkhf6Chu_U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "13200 32 Mile Rd, Romeo"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6272246,
+                    "lng": -82.9436936
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62858382989271,
+                        "lng": -82.94241292010727
+                    },
+                    "southwest": {
+                        "lat": 42.62588417010727,
+                        "lng": -82.94511257989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "place_id": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
+            "plus_code": {
+                "compound_code": "J3G4+VG Clinton Twp, Michigan",
+                "global_code": "86JVJ3G4+VG"
+            },
+            "rating": 0,
+            "reference": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.58788879999999,
+                    "lng": -82.900207
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.58923352989272,
+                        "lng": -82.89844667010728
+                    },
+                    "southwest": {
+                        "lat": 42.58653387010728,
+                        "lng": -82.90114632989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJv4X1qIchJYgRDPt4LqN3XqA",
+            "plus_code": {
+                "compound_code": "H4Q2+37 Clinton Twp, Michigan",
+                "global_code": "86JVH4Q2+37"
+            },
+            "rating": 0,
+            "reference": "ChIJv4X1qIchJYgRDPt4LqN3XqA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1030 Harrington St, Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6714,
+                    "lng": -82.987073
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.67272242989272,
+                        "lng": -82.98591447010728
+                    },
+                    "southwest": {
+                        "lat": 42.67002277010728,
+                        "lng": -82.98861412989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJTQd6d8ngJIgRMMx8wnmTvE8",
+            "plus_code": {
+                "compound_code": "M2C7+H5 Shelby Twp, Michigan",
+                "global_code": "86JVM2C7+H5"
+            },
+            "rating": 0,
+            "reference": "ChIJTQd6d8ngJIgRMMx8wnmTvE8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "14255 23 Mile Rd, Shelby Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.626448,
+                    "lng": -82.99209599999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62779672989272,
+                        "lng": -82.99077162010727
+                    },
+                    "southwest": {
+                        "lat": 42.62509707010728,
+                        "lng": -82.99347127989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJ2FP63XeJIgRmseCWytsxvc",
+            "plus_code": {
+                "compound_code": "J2G5+H5 Sterling Heights, Michigan",
+                "global_code": "86JVJ2G5+H5"
+            },
+            "rating": 0,
+            "reference": "ChIJJ2FP63XeJIgRmseCWytsxvc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "13630 Hall Rd, Sterling Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5981864,
+                    "lng": -82.87934109999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.59956002989271,
+                        "lng": -82.87803532010727
+                    },
+                    "southwest": {
+                        "lat": 42.59686037010727,
+                        "lng": -82.88073497989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "plus_code": {
+                "compound_code": "H4XC+77 Mt Clemens, Michigan",
+                "global_code": "86JVH4XC+77"
+            },
+            "rating": 0,
+            "reference": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "27 N Walnut St, Mt Clemens"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.55625999999999,
+                    "lng": -82.929474
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55760912989272,
+                        "lng": -82.92817047010728
+                    },
+                    "southwest": {
+                        "lat": 42.55490947010728,
+                        "lng": -82.93087012989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2ytikMfYJIgR_4__I4PXooU",
+            "plus_code": {
+                "compound_code": "H34C+G6 Clinton Twp, Michigan",
+                "global_code": "86JVH34C+G6"
+            },
+            "rating": 4,
+            "reference": "ChIJ2ytikMfYJIgR_4__I4PXooU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "35350 Kelly Rd, Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6140852,
+                    "lng": -82.99070139999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.61545157989271,
+                        "lng": -82.98942282010728
+                    },
+                    "southwest": {
+                        "lat": 42.61275192010727,
+                        "lng": -82.99212247989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJg45jiErfJIgRj8OyQbpO3sk",
+            "plus_code": {
+                "compound_code": "J275+JP Sterling Heights, Michigan",
+                "global_code": "86JVJ275+JP"
+            },
+            "rating": 0,
+            "reference": "ChIJg45jiErfJIgRj8OyQbpO3sk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "13800 Canal Rd, Sterling Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.559724,
+                    "lng": -82.8990357
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.56107367989272,
+                        "lng": -82.89768597010728
+                    },
+                    "southwest": {
+                        "lat": 42.55837402010728,
+                        "lng": -82.90038562989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "place_id": "ChIJIe10oFEnJYgR264TMf-61sU",
+            "plus_code": {
+                "compound_code": "H452+V9 Clinton Twp, Michigan",
+                "global_code": "86JVH452+V9"
+            },
+            "rating": 5,
+            "reference": "ChIJIe10oFEnJYgR264TMf-61sU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6269004,
+                    "lng": -82.9454892
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62826022989272,
+                        "lng": -82.94414832010727
+                    },
+                    "southwest": {
+                        "lat": 42.62556057010728,
+                        "lng": -82.94684797989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109896671493767190100\">Russell DuRoss</a>"
+                    ],
+                    "photo_reference": "AWU5eFjSJBxPUz623LuaPqEIDqyBm5K-bUx7wZeQaLJsl8OJYCJW-5QNkl-rc5IpNbcEBd67vpjS7iPLVjdZWSBzhWrcPDgaYxZkSBch3YKoiey7MpqfGIFPgRpiyCukYGmR0sCYqhVToQ4PdztJLANeO4gx9tLzFWkxI0O2Sqj15GZJza8n",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ3xB51kLfJIgRogUWQnipo14",
+            "plus_code": {
+                "compound_code": "J3G3+QR Clinton Twp, Michigan",
+                "global_code": "86JVJ3G3+QR"
+            },
+            "rating": 4,
+            "reference": "ChIJ3xB51kLfJIgRogUWQnipo14",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "Mall at Partridge Creek 17420, Hall Rd, Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.66991429999999,
+                    "lng": -82.8344187
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.67138577989272,
+                        "lng": -82.83329892010727
+                    },
+                    "southwest": {
+                        "lat": 42.66868612010728,
+                        "lng": -82.83599857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 2448,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107318845486255136686\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjMUlCpHyteV47R2buR4OfdxOTn2rDmMuEMw61WCNVpIy_fpa6wkfji-oD_lI2OimYblerXpXrcy1ShOGreVf0UKvVllJJVbtxoczkyXicU86iCW-IzJ3qipsZ9u8zBs3PtQy7M01zb0SBruvjM60FFx5IOVPwpJrIzZt_frVAoeJr4",
+                    "width": 3264
+                }
+            ],
+            "place_id": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
+            "plus_code": {
+                "compound_code": "M598+X6 New Baltimore, Michigan",
+                "global_code": "86JVM598+X6"
+            },
+            "rating": 0,
+            "reference": "ChIJ64h_3iQfJYgRR0qSfABjhAk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "50500 Gratiot Ave, New Baltimore"
+        }
+    ],
+    "status": "OK"
+}

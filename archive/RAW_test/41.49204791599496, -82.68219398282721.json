@@ -1,0 +1,327 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.410055,
+                    "lng": -82.663055
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.41143492989273,
+                        "lng": -82.66173657010727
+                    },
+                    "southwest": {
+                        "lat": 41.40873527010728,
+                        "lng": -82.66443622989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117602445819971845839\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhnFePQ9eNKxzWjEdfMx7PWkFIH8bDXNWHC08J00ik4Ik1hIE0E0jDb7wZbytLxvFAXymhp7zKEcyCH2x_klJ3YNuoZd3jTGQX6zhNxAR8PQk18QFiIVZNTytPDaUtu1msV24W7Ec34Ae9ZTgXPoJGoks6hoxe3aa8W6ea32M62y_M_",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJbTkZQrlHOogRO5nGgsEgmjc",
+            "plus_code": {
+                "compound_code": "C86P+2Q Sandusky, Ohio",
+                "global_code": "86HVC86P+2Q"
+            },
+            "rating": 4.5,
+            "reference": "ChIJbTkZQrlHOogRO5nGgsEgmjc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 62,
+            "vicinity": "4702 Milan Rd, Sandusky"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4096783,
+                    "lng": -82.7246874
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.41106852989272,
+                        "lng": -82.72376657010727
+                    },
+                    "southwest": {
+                        "lat": 41.40836887010727,
+                        "lng": -82.72646622989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107679360187923126794\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFiD1AfB1ghu8eWWNkHCGG5KbT6rXwPtZvefoFIBJXv3oS9FTkeTWHrxropOH8aeVc4NSkUQ3UXMVvBESnDmYeSiv8KK9m-Yyky3WPqY2EhDqM7rzaRIh23YnO24HUfkifKir7cnjf-GIrE8OHUPrTxlxyQME10TEI6avHYTUtlloUpj",
+                    "width": 2250
+                }
+            ],
+            "place_id": "ChIJ8SEx79JHOogRXipIh2ebDmQ",
+            "plus_code": {
+                "compound_code": "C75G+V4 Sandusky, Ohio",
+                "global_code": "86HVC75G+V4"
+            },
+            "rating": 1.4,
+            "reference": "ChIJ8SEx79JHOogRXipIh2ebDmQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "4024 Hayes Ave, Sandusky"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4349825,
+                    "lng": -82.66339599999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.43637432989271,
+                        "lng": -82.66205182010728
+                    },
+                    "southwest": {
+                        "lat": 41.43367467010727,
+                        "lng": -82.66475147989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "photos": [
+                {
+                    "height": 2992,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115599660523285422142\">Jesse V</a>"
+                    ],
+                    "photo_reference": "AWU5eFhiMhNYK59R7rgnMgFfkoRddnxpEX5QRm4EAMjOt-3uf4RZlfRc09OCEY0QkqyiRR5e67K8pbmWOzg_rJ8TRjhfjfKtfsvmrjiXzZfgZI98-hzlHnewz7-nu52uzVbp8Ra-xfATE0fc59kDO7OSrJaV5HRZzuEveEQeGE8vZavd1qjs",
+                    "width": 2992
+                }
+            ],
+            "place_id": "ChIJTVWVc7tGOogRcWm9dIcHcz0",
+            "plus_code": {
+                "compound_code": "C8PP+2J Sandusky, Ohio",
+                "global_code": "86HVC8PP+2J"
+            },
+            "rating": 0,
+            "reference": "ChIJTVWVc7tGOogRcWm9dIcHcz0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2401 Cleveland Rd W, Sandusky"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.5079506,
+                    "lng": -82.8589933
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.50929647989273,
+                        "lng": -82.85772242010727
+                    },
+                    "southwest": {
+                        "lat": 41.50659682010728,
+                        "lng": -82.86042207989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114133077771074778444\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhwZ-WyB-LkH8baAr5XBgH5hcPSwjTO1PJJGNvVIEkYPVOeo5n5alFI-DKwnOrc8LgBQWwUbrmUZYBxP7Wjfi0DcvrITX8ObqYXBfCYq1PBEIFP9X7x6jn5Tty1AEEi7bbxrTUJsub7aiF1D1YCiuH6hzrx_Z8ZyzR85OhSiQA3EBVQ",
+                    "width": 2250
+                }
+            ],
+            "place_id": "ChIJU1UZyqhNOogRz842bStXaRI",
+            "plus_code": {
+                "compound_code": "G45R+5C Port Clinton, Ohio",
+                "global_code": "86HVG45R+5C"
+            },
+            "rating": 2.3,
+            "reference": "ChIJU1UZyqhNOogRz842bStXaRI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "3800 E State Rd, Port Clinton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.4427602,
+                    "lng": -82.6809361
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.44410002989272,
+                        "lng": -82.67950352010727
+                    },
+                    "southwest": {
+                        "lat": 41.44140037010728,
+                        "lng": -82.68220317989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJrfI3rIRGOogRE6Bpf7G9Daw",
+            "plus_code": {
+                "compound_code": "C8V9+4J Sandusky, Ohio",
+                "global_code": "86HVC8V9+4J"
+            },
+            "rating": 3.3,
+            "reference": "ChIJrfI3rIRGOogRE6Bpf7G9Daw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "1515 Cedar Point Dr, Sandusky"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.40983809999999,
+                    "lng": -82.7257812
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.41106912989272,
+                        "lng": -82.72431902010727
+                    },
+                    "southwest": {
+                        "lat": 41.40836947010728,
+                        "lng": -82.72701867989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shell Recharge Charging Station",
+            "place_id": "ChIJWyMx79JHOogRpRuzlXPD9p8",
+            "plus_code": {
+                "compound_code": "C75F+VM Sandusky, Ohio",
+                "global_code": "86HVC75F+VM"
+            },
+            "rating": 0,
+            "reference": "ChIJWyMx79JHOogRpRuzlXPD9p8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4024 Hayes Ave, Sandusky"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.402089,
+                    "lng": -82.5916447
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.40340192989272,
+                        "lng": -82.59029682010727
+                    },
+                    "southwest": {
+                        "lat": 41.40070227010727,
+                        "lng": -82.59299647989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116747428357294515250\">Joe Daniel</a>"
+                    ],
+                    "photo_reference": "AWU5eFjcYX2mPGKKb-hk_zwt4Qrt0Wx9H_2cnIhqj2_JYN7WjNNIruhRV0AEYZfJxdmz4Gj9KM3jt_vW0ePwf2TEZw1Fe0AAWIcG0ipcKo_GxBwauZM5lXdCOVUEHxbXSHg7Ti70Z9v3erakqfgV79-NBaCnN1A5HF8Ed0u6JMbLC51xMJ5W",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJn_jgK01AOogRrTIDjtHJs2U",
+            "plus_code": {
+                "compound_code": "CC25+R8 Huron, Ohio",
+                "global_code": "86HVCC25+R8"
+            },
+            "rating": 2.5,
+            "reference": "ChIJn_jgK01AOogRrTIDjtHJs2U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "601 Rye Beach Rd, Huron"
+        }
+    ],
+    "status": "OK"
+}

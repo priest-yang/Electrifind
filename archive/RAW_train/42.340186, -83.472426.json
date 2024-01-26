@@ -1,0 +1,977 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFilYsvRxdO70A-vE8t_0Jh48b58cuDxIEkg9gq2oxo6C1ZHZkBvkn79vQF_YRWdutDwNIHso7ARZbWBSAZuo4wfA7pOme0xxMCDVVv2tpJktxeO-HEbbBfjtw4DxXNQOa0QHKlQdKNXWCF4Ms1umzWMDJcwzmbRzGGWGSUqCVSnJKU3pXPJovKlgODOPt66v-5YczXD5CxYvdYHqv_b9wCCdx6qflqCq426FRAyNgkXKIqj8qbR4nxsJc0l1nZCJ65ROE13wQ3DI-XcPKfpE7B7AebUHE4YCc96Q0uFpdiMZmfFgQfO1fJRnUMu7ILNShpDK0Qt0u8XCqR12MaiGqVLTCU-i4r8iW1frEEquSdxNrfN7Y1sF4wJ_cgBpV79o9-rpiAGwSQaYGd8-aKgLT8rBK86OKvpuSPmsc11kL39knR0-dVKemBtCnAfYLs6618t",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3809656,
+                    "lng": -83.3342232
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.38231462989273,
+                        "lng": -83.33287352010727
+                    },
+                    "southwest": {
+                        "lat": 42.37961497010728,
+                        "lng": -83.33557317989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115537830941991525806\">Bobby Ratekin</a>"
+                    ],
+                    "photo_reference": "AWU5eFhTe0_opKkCpnlPHA3ST8KJruA31CCDgsROAxJfWnZJ1yBSo0d-ReTaHBiZZMSIHBWJEWsjhpI4uHtesspW6JNK4XnfWF0KPriyeDX_xsrq46H0OVp02FzDkBNQc7teen1uH90P_poiffe2-017SlmgumqXBMr185IVqb6gl34rfzXV",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJh4A0Zp60JIgRFfB7fa5UwAs",
+            "plus_code": {
+                "compound_code": "9MJ8+98 Livonia, Michigan",
+                "global_code": "86JR9MJ8+98"
+            },
+            "rating": 2.8,
+            "reference": "ChIJh4A0Zp60JIgRFfB7fa5UwAs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "13409 Middlebelt Rd, Livonia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.45534199999999,
+                    "lng": -83.376177
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.45669457989272,
+                        "lng": -83.37472782010728
+                    },
+                    "southwest": {
+                        "lat": 42.45399492010727,
+                        "lng": -83.37742747989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109565349253685824724\">Daniel Schroeder</a>"
+                    ],
+                    "photo_reference": "AWU5eFi0ug_expC2qQ9YqZmBIQFb2GePJlxI5CvBwgHYrKYlj1SCD3Yp5iQCD_MKZV5aO3IwVNzIgFx_JFsHfTy0QfsFu-1hmzO9e097uOr5BCVzJGwlhPA1C2m-ounaFuHr150IRXU12k0nLqY8JJklUUM_zX5X6OfxMuRcCtpuKJzLal5K",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJxW2N_3SxJIgRHrmaFlKZ1p8",
+            "plus_code": {
+                "compound_code": "FJ4F+4G Farmington, Michigan",
+                "global_code": "86JRFJ4F+4G"
+            },
+            "rating": 4.3,
+            "reference": "ChIJxW2N_3SxJIgRHrmaFlKZ1p8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "22145 Farmington Rd, Farmington"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.229493,
+                    "lng": -83.6492643
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.23084127989272,
+                        "lng": -83.64786482010727
+                    },
+                    "southwest": {
+                        "lat": 42.22814162010728,
+                        "lng": -83.65056447989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109346785337871686045\">ehsan</a>"
+                    ],
+                    "photo_reference": "AWU5eFjcRhH84XyRLbbDNXAhT7wgbxyqbkKsml2Erf80uKkH8sPurt_3qf9GC4Z-ce2ZO5OOa3YWXDBsqVL-NAdtXmHJbSoMBqWDTNxWds7sWEH85YNGcARMR_Li8SqAS8KaNv9bBdsMIf5knAVL-msQDmfrUpi6VVJK8A9XGzt_-JcvNFi9",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
+            "plus_code": {
+                "compound_code": "69H2+Q7 Ypsilanti, Michigan",
+                "global_code": "86JR69H2+Q7"
+            },
+            "rating": 3.9,
+            "reference": "ChIJxRal65CoPIgR4ke6WJkQ6N8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 35,
+            "vicinity": "2539 Ellsworth Rd, Ypsilanti"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.379388,
+                    "lng": -83.32953499999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.38073702989272,
+                        "lng": -83.32822417010726
+                    },
+                    "southwest": {
+                        "lat": 42.37803737010728,
+                        "lng": -83.33092382989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104417311969877256989\">Ren P</a>"
+                    ],
+                    "photo_reference": "AWU5eFg20DveLHMKJqTwfu_jDuUJjA_kFXt5ETDZJS49Aub_iBEA_5AetCoWY1zwYul_EoVmRjC4YbTT0PKLo2MVNZ2CqI1PP6aWnvKPnU5s22ZPABWCVxnnFyX3bX3rOtmhuMKgTqFI45FD9AeH-S77HInHIlJ-w5V4o10bw8Ps1fyTdDpu",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJn6I0TZ-0JIgRW0E1pZh37w4",
+            "plus_code": {
+                "compound_code": "9MHC+Q5 Livonia, Michigan",
+                "global_code": "86JR9MHC+Q5"
+            },
+            "rating": 4.3,
+            "reference": "ChIJn6I0TZ-0JIgRW0E1pZh37w4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 111,
+            "vicinity": "13070 Middlebelt Rd, Livonia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4371579,
+                    "lng": -83.4380844
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.43851902989272,
+                        "lng": -83.43671837010729
+                    },
+                    "southwest": {
+                        "lat": 42.43581937010728,
+                        "lng": -83.43941802989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112776460913053047342\">Sreekanth R Vempati</a>"
+                    ],
+                    "photo_reference": "AWU5eFjmHQbBsVpejJQrv4fKaqfdxZPG2nPMa0Mw2O_kMnaOBcTWaGxjxfUU2bE7g18HaSeCznww0aAH_mDk_k-WHCCSeFTxUUBbA7mv9jgY0kxoQjEcl2WtxJVS1DrmMoEm8u_1C0jAEnDUF7kUAMoCfkjzEbW5osyrFC9u96S_x36vcd7H",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJrU0pIROtJIgR3uPyIq0-HOs",
+            "plus_code": {
+                "compound_code": "CHP6+VQ Township of Northville, Michigan",
+                "global_code": "86JRCHP6+VQ"
+            },
+            "rating": 4.9,
+            "reference": "ChIJrU0pIROtJIgR3uPyIq0-HOs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 40,
+            "vicinity": "Haggerty Rd #20401, Township of Northville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2234015,
+                    "lng": -83.3867058
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.22472097989273,
+                        "lng": -83.38534142010727
+                    },
+                    "southwest": {
+                        "lat": 42.22202132010729,
+                        "lng": -83.38804107989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1669,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117004852117317628628\">Rowan Hawkins</a>"
+                    ],
+                    "photo_reference": "AWU5eFggK5-YEYe7TrCJQcyyeulCK4YAs2W_qS821-H331bAvx1aOSyj93BjP75ackeFjDMjvY8P1OKTGz4BCqs2kexImhA4rSZ_b3kOCv4nYpv-i1Ni3N67cqMlB6L83BVnH74qBKV-pWSLSgZOcexGzJPvNEndgJ3l_5MF_TBronu0NeRB",
+                    "width": 2226
+                }
+            ],
+            "place_id": "ChIJ_Sch6w5PO4gRe4oph-49hNk",
+            "plus_code": {
+                "compound_code": "6JF7+98 Romulus, Michigan",
+                "global_code": "86JR6JF7+98"
+            },
+            "rating": 3.5,
+            "reference": "ChIJ_Sch6w5PO4gRe4oph-49hNk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "35426 Goddard Rd, Romulus"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4350989,
+                    "lng": -83.4356217
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.43649422989272,
+                        "lng": -83.43431477010728
+                    },
+                    "southwest": {
+                        "lat": 42.43379457010728,
+                        "lng": -83.43701442989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Greenlots Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105479563355527726637\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFgzCKAbTyHDBI3n54Cs034XmdxFPyQ3qntW5H3HsUI2UfjxXPrtOZssv-eyskMWzLLxhWog6Ck3dRvoxwxw1pKDvQr-cFBc-qn6pCK3ZSSk1epgQLo478R9SXhSgu5R152R_kejfUTerVcdBA4uGqSAYdeyQz3VzUu34RA2fuXTlihg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJEyoekc2tJIgRBiNxyA-HXhk",
+            "plus_code": {
+                "compound_code": "CHP7+2Q Township of Northville, Michigan",
+                "global_code": "86JRCHP7+2Q"
+            },
+            "rating": 3.3,
+            "reference": "ChIJEyoekc2tJIgRBiNxyA-HXhk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "Township of Northville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2230009,
+                    "lng": -83.4855084
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.22431742989272,
+                        "lng": -83.48416357010727
+                    },
+                    "southwest": {
+                        "lat": 42.22161777010727,
+                        "lng": -83.48686322989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
+                    ],
+                    "photo_reference": "AWU5eFhAX7t4EL7B5H2H6SzcxcrvC0lhLBYI3K5-bff0b7PvmS2OUPU131q7GVNXcSkmmqHndhh706WDPTGSlBovxRLJtUvrclfsJ0JvN-nkWtxB2IOqsUdvGqD8KhiKd_v34jkiu9nwPu_OP_FpRuY7_XUa2LjcAJ-3Wl9dKmQ2tdmjpc7M",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJpzMkHpZQO4gRgnJuDxYNxZU",
+            "plus_code": {
+                "compound_code": "6GF7+6Q Belleville, Michigan",
+                "global_code": "86JR6GF7+6Q"
+            },
+            "rating": 4.5,
+            "reference": "ChIJpzMkHpZQO4gRgnJuDxYNxZU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "10950 Belleville Rd, Belleville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2263103,
+                    "lng": -83.62309309999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.22766982989272,
+                        "lng": -83.62169427010728
+                    },
+                    "southwest": {
+                        "lat": 42.22497017010728,
+                        "lng": -83.62439392989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ZEF Energy Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 860,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108437303671521194831\">Dan Schroeder</a>"
+                    ],
+                    "photo_reference": "AWU5eFjNVQ-OCy0Uu1kjCtYURbIyf18DfbSvSDlyTNK9Ul1IxWQ0o9ykkhDPPhLRLXgoRRGHnapHP0sYBGeKCTGWXfzhj15YfbrDBj74FWcaaIvjP3S2siRX5C_2CYArosRA0Kl9SlppBkSPYoYjBAQwrJcLO0TOi980HWkPMQ43XoTf_zfF",
+                    "width": 1528
+                }
+            ],
+            "place_id": "ChIJ4cytJnCoPIgR0gJrxhuDzq4",
+            "plus_code": {
+                "compound_code": "69GG+GQ Ypsilanti, Michigan",
+                "global_code": "86JR69GG+GQ"
+            },
+            "rating": 0,
+            "reference": "ChIJ4cytJnCoPIgR0gJrxhuDzq4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "660 James L Hart Pkwy, Ypsilanti"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3698623,
+                    "lng": -83.3725039
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.37120647989272,
+                        "lng": -83.37121822010727
+                    },
+                    "southwest": {
+                        "lat": 42.36850682010728,
+                        "lng": -83.37391787989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
+                    ],
+                    "photo_reference": "AWU5eFhOQq-a8TA-vn7r8lEiGl1Wl603VSaCJdcIhesiE3tLIRpd2cRgwddxt8KNwT1R94dKX9KMUo3VkdQlAbWI2zwp7UdGMbwkgMs6GfehCHtXixr362vW-9R2RoI0GiuEwOw8yayaJLyqGflzi9LI9EvU2fAGej-URYZ70POd-Z8FiBTQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJj1rL8yWzJIgRELkcaBm4ueM",
+            "plus_code": {
+                "compound_code": "9J9G+WX Livonia, Michigan",
+                "global_code": "86JR9J9G+WX"
+            },
+            "rating": 3.3,
+            "reference": "ChIJj1rL8yWzJIgRELkcaBm4ueM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "11801 Farmington Rd, Livonia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4313499,
+                    "lng": -83.4839471
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.43272407989271,
+                        "lng": -83.48264922010728
+                    },
+                    "southwest": {
+                        "lat": 42.43002442010727,
+                        "lng": -83.48534887989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103500841900497807400\">Zachary Wickliffe</a>"
+                    ],
+                    "photo_reference": "AWU5eFiILdyjPObxk1or8FI50htq3wOYAcvs-0tsWmwS8AWt9CdcU378ohaRDBDTzJRpsptk1h8WErIyI9qWQX636jEbBy0eKJOpeYZ3aYCGeCGK4TQIOf9PegGsvNyQE9F489TobnqBa-hpf2igkAsdhqh3IU20wm2j3YP1hylfES4W_RYt",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJDRVjvj2sJIgRibhKCGayN9c",
+            "plus_code": {
+                "compound_code": "CGJ8+GC Northville, Michigan",
+                "global_code": "86JRCGJ8+GC"
+            },
+            "rating": 3.5,
+            "reference": "ChIJDRVjvj2sJIgRibhKCGayN9c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "120 W Main St #205, Northville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2074535,
+                    "lng": -83.35582819999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.20885482989272,
+                        "lng": -83.35460997010728
+                    },
+                    "southwest": {
+                        "lat": 42.20615517010727,
+                        "lng": -83.35730962989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4128,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105023521870048426833\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFiHsoEvS5iKzt79D-0RGg6BdZJ9_mBshoE5_bikophJbNmjEO11_AX73-9LN4x1OEQfaRse8_xdZgkLYD-OMx1pNNEzj_piOuqzEHHVTuOS3-ipf5857PLJAHvdFoaZlFcOFxVNOlCoe3Rxgo2tYd3AsKrqgzhYBi4L-c7q7GbDrp2H",
+                    "width": 3096
+                }
+            ],
+            "place_id": "ChIJyxMZxF1PO4gRPJH3FeLmw1k",
+            "plus_code": {
+                "compound_code": "6J4V+XM Romulus, Michigan",
+                "global_code": "86JR6J4V+XM"
+            },
+            "rating": 0,
+            "reference": "ChIJyxMZxF1PO4gRPJH3FeLmw1k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "McNamara Terminal Parking Garage, Romulus"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.42668800000001,
+                    "lng": -83.4201439
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.42804472989273,
+                        "lng": -83.41876692010727
+                    },
+                    "southwest": {
+                        "lat": 42.42534507010728,
+                        "lng": -83.42146657989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJYbh8kgmyJIgRlrlJE6YVBRs",
+            "plus_code": {
+                "compound_code": "CHGH+MW Livonia, Michigan",
+                "global_code": "86JRCHGH+MW"
+            },
+            "rating": 1,
+            "reference": "ChIJYbh8kgmyJIgRlrlJE6YVBRs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "19233-19763 Victor Pkwy, Livonia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2250883,
+                    "lng": -83.3458961
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.22648297989272,
+                        "lng": -83.34465747010728
+                    },
+                    "southwest": {
+                        "lat": 42.22378332010728,
+                        "lng": -83.34735712989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "PlugShare Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112888308938691563264\">Ayush</a>"
+                    ],
+                    "photo_reference": "AWU5eFgN5_0TB5h2pOU9ZSYNKg23OoTwYj1dvz4j0lYTEFVBUVYk4EOa7oyEenknx5l1hSFHkDRjH85AjwgE68AS4CX41GF5ZLEJZoRnMbtwtXDOfqIces1bqz4M2SAMOOS_DDTYjzUNC7ivWbtWhJ1TuvNaQW_f2GjykAUw0DdVQo6i4AKA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ1wKa9TlPO4gRQDtbixrJVmA",
+            "plus_code": {
+                "compound_code": "6MG3+2J Detroit, Michigan",
+                "global_code": "86JR6MG3+2J"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ1wKa9TlPO4gRQDtbixrJVmA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "1 Detroit Metro Airport, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.470329,
+                    "lng": -83.4259886
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47168527989272,
+                        "lng": -83.42466932010727
+                    },
+                    "southwest": {
+                        "lat": 42.46898562010728,
+                        "lng": -83.42736897989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108627368492037023715\">Tomi</a>"
+                    ],
+                    "photo_reference": "AWU5eFjQ7sxPWpX-OVNre6-DI57bIypVwn2a0gL4LIJzsF6h9ZvKV4OyWgoEE85_rvpDU3FpefSBTSvmIY5bypzSujqlZFzwT_UQXZmm1CfyH-rq8eaJQk7UqXuwPvFfRR-jY6cJJXANgTXZGrZ-15_0MLoxiFZN95uicfAW6SoreDkHZAC2",
+                    "width": 3840
+                }
+            ],
+            "place_id": "ChIJx9cKHiauJIgRSOWtDh6vKV0",
+            "plus_code": {
+                "compound_code": "FHCF+4J Farmington Hills, Michigan",
+                "global_code": "86JRFHCF+4J"
+            },
+            "rating": 1,
+            "reference": "ChIJx9cKHiauJIgRSOWtDh6vKV0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "38700 Grand River Ave, Farmington Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.47302029999999,
+                    "lng": -83.43631049999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47436782989272,
+                        "lng": -83.43491147010728
+                    },
+                    "southwest": {
+                        "lat": 42.47166817010728,
+                        "lng": -83.43761112989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJwct85zCuJIgReTA5pc4PiZU",
+            "plus_code": {
+                "compound_code": "FHF7+6F Novi, Michigan",
+                "global_code": "86JRFHF7+6F"
+            },
+            "rating": 0,
+            "reference": "ChIJwct85zCuJIgReTA5pc4PiZU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "39550 Grand River Ave, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4131829,
+                    "lng": -83.3356816
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.41455037989272,
+                        "lng": -83.33424837010728
+                    },
+                    "southwest": {
+                        "lat": 42.41185072010727,
+                        "lng": -83.33694802989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1500,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjWpZqybVm46PoJsHSH_klcw8NBTOLcRS_pAaFVoFeBB4fUDrTD9SNqEMsKbWd6SL7xUWsdoD8bmvYDCEzG8yW0y7UFS22yT4urqodlzdupmD3UZAQea5Euu6FeGiB2KG22MXqbNUUUgdaC4jAy_rrnax1z2ss2CQRExk4ELv9si2PI",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJ26WiSdG1JIgRivw-xXu9KtE",
+            "plus_code": {
+                "compound_code": "CM77+7P Livonia, Michigan",
+                "global_code": "86JRCM77+7P"
+            },
+            "rating": 0,
+            "reference": "ChIJ26WiSdG1JIgRivw-xXu9KtE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "17151 Middlebelt Rd, Livonia"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.270375,
+                    "lng": -83.495773
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.27170717989272,
+                        "lng": -83.49430882010728
+                    },
+                    "southwest": {
+                        "lat": 42.26900752010728,
+                        "lng": -83.49700847989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJl_-_2kdRO4gRfEHwtYW0xnE",
+            "plus_code": {
+                "compound_code": "7GC3+5M Canton, Michigan",
+                "global_code": "86JR7GC3+5M"
+            },
+            "rating": 0,
+            "reference": "ChIJl_-_2kdRO4gRfEHwtYW0xnE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "46352 Michigan Ave, Canton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.35845,
+                    "lng": -83.44355
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.35979967989272,
+                        "lng": -83.44220367010728
+                    },
+                    "southwest": {
+                        "lat": 42.35710002010727,
+                        "lng": -83.44490332989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113111736803778350285\">Joe Tyrrell</a>"
+                    ],
+                    "photo_reference": "AWU5eFjMpChNzrS6OKt3er2XSzFbj0RKP34ANQS18UU5B-bKDCLboQXq2ETLCOEBLrDkea2UhkQd_08nzYbH5SV7rYspf1OMVUJSMiOIVpuaFQHaDNB8octVy0gTuMx7oQFtqUYR76_bFsYhbJTrK502IN0aBfycI35DAAnb9AgrjssuKH_G",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
+            "plus_code": {
+                "compound_code": "9H54+9H Plymouth, Michigan",
+                "global_code": "86JR9H54+9H"
+            },
+            "rating": 1.5,
+            "reference": "ChIJ-Z03-slSO4gRf2C7MJSSrak",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "40777 Ann Arbor Rd, Plymouth"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.325022,
+                    "lng": -83.450859
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.32631742989271,
+                        "lng": -83.44950332010728
+                    },
+                    "southwest": {
+                        "lat": 42.32361777010727,
+                        "lng": -83.45220297989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
+                    ],
+                    "photo_reference": "AWU5eFjW5RaG0zLyqkbU2BiWMlqhslIt5TD_l3QiBYLtPCi65RlJu3jyVF9KrArWSnrdERyW5jiUxXrg5H1GMkzRD6o7esCnPGq7r-xwrz3vvlOcrUbcps0Rt32U8l3DjobP89qihfeHJBkd2IjI9kTeKwvZtWEQU6fdT1pvfXVN4ZQR8FMc",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
+            "plus_code": {
+                "compound_code": "8GGX+2M Canton, Michigan",
+                "global_code": "86JR8GGX+2M"
+            },
+            "rating": 4.8,
+            "reference": "ChIJz9P1KvZSO4gRJtSFNUCXv9s",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "41640 Ford Rd, Canton"
+        }
+    ],
+    "status": "OK"
+}

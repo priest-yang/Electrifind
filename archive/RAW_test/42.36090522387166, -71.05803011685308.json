@@ -1,0 +1,827 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFh_6lHwDBNEffPAZsSTzVlQq6aEADwk50k7S13cDl4K0lKgR94NdDVU_8mld6q4pKs7KJFFC9giSRcAN4otsU5P_9lAzBlw0bEagj63Q_Ff0H-ebUi7LfP48e2mn0MFeosarTX-SkRFSSJCfjdFU8Ov_4KWjiUI9QfbWzE2Uzjxp3grHoIOpPElopwhon3HmMrz-M73n5mH9x6Irz998jMqxBbA7Hc2B5eSiZDl7GHCaRvo2nuIQSE4KXQpp_6CTtIu5RG0opZVRZVPZuHXLRZJPherQ9gVg2AmjQvJTe_jixp86mntOCnUsU_xP7X7VJyxCXH5d83Hi2RMlBwG7BCZTu23R2-lFkSBDur59TQQva6NEaNchmkWnWroGuvbMDwNSM2i83UpxP8oTwBXjasZtvzGgm_PmoAV8HTH8PFMeUakuLkwOVt91unLO9zl110y",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3685,
+                    "lng": -71.0762
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36937427989272,
+                        "lng": -71.07374539999999
+                    },
+                    "southwest": {
+                        "lat": 42.36667462010727,
+                        "lng": -71.07873899999998
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102914139964519748963\">begmansoor</a>"
+                    ],
+                    "photo_reference": "AWU5eFjf6WyohvIOcPGq_JxBZ5PwnwFV0uKLYGn5Ht5_XZRT17-GRMQBlsX6K699Cq4teMRHLKwkN1DMP7TYb6oru2P6SKsGH0USxbLP8PMAnEvKd4EFDaD5de9QC8c9IH21ATA-3wUy7s5h-cSy4HVv9uKVgqLes5oB2lQgrYvtCWWSunbQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJyTIjSbxw44kR42noLPbO8NE",
+            "plus_code": {
+                "compound_code": "9W9F+9G Cambridge, Massachusetts",
+                "global_code": "87JC9W9F+9G"
+            },
+            "rating": 3.6,
+            "reference": "ChIJyTIjSbxw44kR42noLPbO8NE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 37,
+            "vicinity": "100 Cambridgeside Pl, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.36813770000001,
+                    "lng": -71.0770739
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36894427989272,
+                        "lng": -71.07533562010728
+                    },
+                    "southwest": {
+                        "lat": 42.36624462010727,
+                        "lng": -71.07803527989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJr1FTTrxw44kRObNgzo6WZLc",
+            "plus_code": {
+                "compound_code": "9W9F+75 Cambridge, Massachusetts",
+                "global_code": "87JC9W9F+75"
+            },
+            "rating": 0,
+            "reference": "ChIJr1FTTrxw44kRObNgzo6WZLc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.357081,
+                    "lng": -71.0502209
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.35840222989273,
+                        "lng": -71.04915197010727
+                    },
+                    "southwest": {
+                        "lat": 42.35570257010728,
+                        "lng": -71.05185162989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "AmpUp Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJBWjDZodw44kRMY8y1qn6L1Q",
+            "plus_code": {
+                "compound_code": "9W4X+RW Boston, Massachusetts",
+                "global_code": "87JC9W4X+RW"
+            },
+            "rating": 0,
+            "reference": "ChIJBWjDZodw44kRMY8y1qn6L1Q",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "30 Rowes Wharf, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3466352,
+                    "lng": -71.0658115
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.34803557989272,
+                        "lng": -71.06451392010729
+                    },
+                    "southwest": {
+                        "lat": 42.34533592010727,
+                        "lng": -71.06721357989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJ7I0CnF644kR3npj6q73GYU",
+            "plus_code": {
+                "compound_code": "8WWM+MM Boston, Massachusetts",
+                "global_code": "87JC8WWM+MM"
+            },
+            "rating": 0,
+            "reference": "ChIJJ7I0CnF644kR3npj6q73GYU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "100 Shawmut Ave, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.366762,
+                    "lng": -71.051174
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36805507989272,
+                        "lng": -71.04978797010727
+                    },
+                    "southwest": {
+                        "lat": 42.36535542010728,
+                        "lng": -71.05248762989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJqxZqaopw44kRIOOuSppwq5Y",
+            "plus_code": {
+                "compound_code": "9W8X+PG Boston, Massachusetts",
+                "global_code": "87JC9W8X+PG"
+            },
+            "rating": 1,
+            "reference": "ChIJqxZqaopw44kRIOOuSppwq5Y",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "2 Battery Wharf, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3647688,
+                    "lng": -71.0806135
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36613457989272,
+                        "lng": -71.07926007010727
+                    },
+                    "southwest": {
+                        "lat": 42.36343492010728,
+                        "lng": -71.08195972989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJo1bhu6Rw44kR3nnpPDqHNqU",
+            "plus_code": {
+                "compound_code": "9W79+WQ Cambridge, Massachusetts",
+                "global_code": "87JC9W79+WQ"
+            },
+            "rating": 0,
+            "reference": "ChIJo1bhu6Rw44kR3nnpPDqHNqU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Linskey Way, 650 W Kendall St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.361837,
+                    "lng": -71.08487099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36320067989272,
+                        "lng": -71.08371917010727
+                    },
+                    "southwest": {
+                        "lat": 42.36050102010728,
+                        "lng": -71.08641882989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJH2z1_KVw44kRHjqlw5ACcbQ",
+            "plus_code": {
+                "compound_code": "9W68+P3 Cambridge, Massachusetts",
+                "global_code": "87JC9W68+P3"
+            },
+            "rating": 0,
+            "reference": "ChIJH2z1_KVw44kRHjqlw5ACcbQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "226-254 Main St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.362423,
+                    "lng": -71.05902
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36350777989272,
+                        "lng": -71.05798697010728
+                    },
+                    "southwest": {
+                        "lat": 42.36080812010728,
+                        "lng": -71.06068662989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJyRt6g49w44kRXkRwVjGqqGQ",
+            "plus_code": {
+                "compound_code": "9W6R+X9 Boston, Massachusetts",
+                "global_code": "87JC9W6R+X9"
+            },
+            "rating": 1,
+            "reference": "ChIJyRt6g49w44kRXkRwVjGqqGQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "50 Sudbury St, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3658922,
+                    "lng": -71.0634254
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36712077989272,
+                        "lng": -71.06217722010727
+                    },
+                    "southwest": {
+                        "lat": 42.36442112010728,
+                        "lng": -71.06487687989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100799574035878549056\">Rebecca Shyu</a>"
+                    ],
+                    "photo_reference": "AWU5eFh7d0unMTyXCIHGzC2FhOnSEtXuYJ7zv6Zwzh7MaFSY7Cj-mkg1ew-xOO2nIroVNTHxRF6vt4cnEh05EaohdCEQhmxOLM4J8TCbDi_Bb6uy3IMrpJmx07gTxtsrj4Kpl6Dma7LbfCSz_Dw7jxjD7QtvBBFpXJ2yPTwEFqOCvplMR-XS",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJZ7-duJFw44kR2gAjqOlOn34",
+            "plus_code": {
+                "compound_code": "9W8P+9J Boston, Massachusetts",
+                "global_code": "87JC9W8P+9J"
+            },
+            "rating": 4,
+            "reference": "ChIJZ7-duJFw44kR2gAjqOlOn34",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "1 Nashua St, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.36172,
+                    "lng": -71.08466
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36305602989272,
+                        "lng": -71.08312577010727
+                    },
+                    "southwest": {
+                        "lat": 42.36035637010728,
+                        "lng": -71.08582542989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJf-vW4qVw44kRpsT3hjczThI",
+            "plus_code": {
+                "compound_code": "9W68+M4 Cambridge, Massachusetts",
+                "global_code": "87JC9W68+M4"
+            },
+            "rating": 0,
+            "reference": "ChIJf-vW4qVw44kRpsT3hjczThI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "65 Wadsworth St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.34738410000001,
+                    "lng": -71.0412592
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.34862112989272,
+                        "lng": -71.04007632010729
+                    },
+                    "southwest": {
+                        "lat": 42.34592147010728,
+                        "lng": -71.04277597989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJUw63VoJ644kR9OXV6TYhKk0",
+            "plus_code": {
+                "compound_code": "8XW5+XF Boston, Massachusetts",
+                "global_code": "87JC8XW5+XF"
+            },
+            "rating": 0,
+            "reference": "ChIJUw63VoJ644kR9OXV6TYhKk0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "500 D St, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.350852,
+                    "lng": -71.045492
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.35215837989271,
+                        "lng": -71.04416317010728
+                    },
+                    "southwest": {
+                        "lat": 42.34945872010727,
+                        "lng": -71.04686282989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJWXFXaH9w44kRu2Oh-VGnJKw",
+            "plus_code": {
+                "compound_code": "9X23+8R Boston, Massachusetts",
+                "global_code": "87JC9X23+8R"
+            },
+            "rating": 0,
+            "reference": "ChIJWXFXaH9w44kRu2Oh-VGnJKw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "101 Autumn Ln, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3452156,
+                    "lng": -71.064448
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.34631567989273,
+                        "lng": -71.06320177010727
+                    },
+                    "southwest": {
+                        "lat": 42.34361602010728,
+                        "lng": -71.0659014298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ____SnB644kRRsDdg9rln6Y",
+            "plus_code": {
+                "compound_code": "8WWP+36 Boston, Massachusetts",
+                "global_code": "87JC8WWP+36"
+            },
+            "rating": 0,
+            "reference": "ChIJ____SnB644kRRsDdg9rln6Y",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "345 Harrison Ave, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3631838,
+                    "lng": -71.0835614
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36453937989272,
+                        "lng": -71.08220907010727
+                    },
+                    "southwest": {
+                        "lat": 42.36183972010727,
+                        "lng": -71.08490872989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ50qZvKVw44kRq6aLm5aWfHk",
+            "plus_code": {
+                "compound_code": "9W78+6H Cambridge, Massachusetts",
+                "global_code": "87JC9W78+6H"
+            },
+            "rating": 0,
+            "reference": "ChIJ50qZvKVw44kRq6aLm5aWfHk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1 Broadway, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3715757,
+                    "lng": -71.07144319999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.37284492989272,
+                        "lng": -71.07014912010727
+                    },
+                    "southwest": {
+                        "lat": 42.37014527010727,
+                        "lng": -71.07284877989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJQ__hDpVw44kR2JcALhzmqD8",
+            "plus_code": {
+                "compound_code": "9WCH+J9 Cambridge, Massachusetts",
+                "global_code": "87JC9WCH+J9"
+            },
+            "rating": 0,
+            "reference": "ChIJQ__hDpVw44kR2JcALhzmqD8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "20 Child St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3727272,
+                    "lng": -71.0781236
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.37400712989272,
+                        "lng": -71.07665422010727
+                    },
+                    "southwest": {
+                        "lat": 42.37130747010728,
+                        "lng": -71.07935387989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ482CIr9w44kRfWO-tIAkKXA",
+            "plus_code": {
+                "compound_code": "9WFC+3Q Cambridge, Massachusetts",
+                "global_code": "87JC9WFC+3Q"
+            },
+            "rating": 0,
+            "reference": "ChIJ482CIr9w44kRfWO-tIAkKXA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "22 Water St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3559119,
+                    "lng": -71.0526683
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.35719342989272,
+                        "lng": -71.05140877010727
+                    },
+                    "southwest": {
+                        "lat": 42.35449377010727,
+                        "lng": -71.05410842989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ4Q4v1IBw44kR-zhi818gSXI",
+            "plus_code": {
+                "compound_code": "9W4W+9W Boston, Massachusetts",
+                "global_code": "87JC9W4W+9W"
+            },
+            "rating": 0,
+            "reference": "ChIJ4Q4v1IBw44kR-zhi818gSXI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1 International Pl, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.344205,
+                    "lng": -71.0638097
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.34555177989272,
+                        "lng": -71.06244592010728
+                    },
+                    "southwest": {
+                        "lat": 42.34285212010727,
+                        "lng": -71.06514557989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJNSpcJHB644kR64q5c96-LA8",
+            "plus_code": {
+                "compound_code": "8WVP+MG Boston, Massachusetts",
+                "global_code": "87JC8WVP+MG"
+            },
+            "rating": 0,
+            "reference": "ChIJNSpcJHB644kR64q5c96-LA8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "370 Harrison Ave, Boston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.362125,
+                    "lng": -71.0846
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36338657989272,
+                        "lng": -71.08357602010729
+                    },
+                    "southwest": {
+                        "lat": 42.36068692010728,
+                        "lng": -71.08627567989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJtZBC5aVw44kR9W-QsvOqlYY",
+            "plus_code": {
+                "compound_code": "9W68+R5 Cambridge, Massachusetts",
+                "global_code": "87JC9W68+R5"
+            },
+            "rating": 0,
+            "reference": "ChIJtZBC5aVw44kR9W-QsvOqlYY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "238 Main St, Cambridge"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.368226,
+                    "lng": -71.071966
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.36933377989272,
+                        "lng": -71.07008657010729
+                    },
+                    "southwest": {
+                        "lat": 42.36663412010728,
+                        "lng": -71.07278622989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2zoWbZZw44kR2VcZa3y-yf4",
+            "plus_code": {
+                "compound_code": "9W9H+76 Boston, Massachusetts",
+                "global_code": "87JC9W9H+76"
+            },
+            "rating": 0,
+            "reference": "ChIJ2zoWbZZw44kR2VcZa3y-yf4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1 Museum Of Science Driveway, Boston"
+        }
+    ],
+    "status": "OK"
+}

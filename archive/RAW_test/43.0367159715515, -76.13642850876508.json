@@ -1,0 +1,894 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFgDq9u1nl6kGmtGpRGOSPjPBydxyIi1Hf8EE58dPGAW36rg1dcYxYCh3rSDB3lnVX3riBA0gJ-Wz4VQKcfM5RhMi3UrwU53J85tm9ycDAU3ni6HykxK3rlNj5aL0UDBgRPjesUrYbCidFX2HBi1qOjt1XDZYQJ3UIAAUCt2uQ04Ht-ETx1sPzIRIrjBC33XARx5EebakfDeu4dYHvh0cgqWgm93gZosKDo9af7CWmSg2PvFkcBvh1QRiejVS0dQJSJLzqGu9umXjYsvZhSJcFHauiQoHOqpGYQAWeS_5UBhu3hYQ88fIiOUKFBFmDMpQrusfa3mADAzlu5MX-EZK-ungUlDsFHMKtI5QGqPeieJo1UsobULFqXhONmdSqE6cAjuY1pUfx7m3DZic1SCy1cEoEADp4X1Hfi3gFwcoNwOFzbwpuuoKXEDQlgn3ZdMLrPn",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.092247,
+                    "lng": -76.1696709
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.09330057989272,
+                        "lng": -76.16852027010728
+                    },
+                    "southwest": {
+                        "lat": 43.09060092010728,
+                        "lng": -76.17121992989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118323261431377592101\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFi9C_sMSh7eGgKW1iqDtHfNtTEfRrGgUpz_zjPjYzBq2pT8Nt5mm_R6UiC-8u6_xmVylJzVEorYFoDhsjDnaYymQztl2jVlv61m4pCtx-yOk050t0cVH_xZS1zzp3vnl6z6j_CKZhZQQP24JhVchrcycDzT0BeSB_i-i61Jfvy3_Yvx",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJY-iK1Rry2YkRvA3OiyhxILw",
+            "plus_code": {
+                "compound_code": "3RRJ+V4 Syracuse, New York",
+                "global_code": "87M53RRJ+V4"
+            },
+            "rating": 3.7,
+            "reference": "ChIJY-iK1Rry2YkRvA3OiyhxILw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "414 7th N St, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.102424,
+                    "lng": -76.187446
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.10377707989272,
+                        "lng": -76.18615767010728
+                    },
+                    "southwest": {
+                        "lat": 43.10107742010727,
+                        "lng": -76.18885732989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102630903994122804134\">Alex Deel</a>"
+                    ],
+                    "photo_reference": "AWU5eFgKtKTaLLuznfx7cjYftmOifSlecc27xmh5WvGNS9MPBfaG0cG0SBMe9aeWyImmHBXHCNHdpTe3d7S2zmYvwp35WcdDhRkyUE-8pII8K2KS2Guv8qfyAGOYSWkEYzzXWdP5WG1qDPXVR8I0X9z8zotW4rv0Ie0snhKGMC_k49md6FJG",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJvzRFrDPx2YkRWOYnWSXz35E",
+            "plus_code": {
+                "compound_code": "4R27+X2 Liverpool, Salina, NY",
+                "global_code": "87M54R27+X2"
+            },
+            "rating": 4.2,
+            "reference": "ChIJvzRFrDPx2YkRWOYnWSXz35E",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 105,
+            "vicinity": "441 Electronics Pkwy, Liverpool"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.091002,
+                    "lng": -76.1014366
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.09239097989272,
+                        "lng": -76.10008597010727
+                    },
+                    "southwest": {
+                        "lat": 43.08969132010728,
+                        "lng": -76.10278562989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105077880467927045704\">Ted Kidd</a>"
+                    ],
+                    "photo_reference": "AWU5eFjiTxCxX-iI0TfCy2RO3FGKfJBbuR_Yeu2YfiRrpKzSyvKpgnCxIHXRaTmL1ULWe0EIA8QMIaiyiZMPcRRX8RtaCSeq1-cNwH-6frUAjCNIKxLLK5nxlDqLPjlD9QAKhKoAzfEuWqDHoIhS2PbhUtw72jIM1j50T4n-hgTpqdQeLNAP",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ_S_p4Kby2YkRqmxJ7Y5gHPg",
+            "plus_code": {
+                "compound_code": "3VRX+CC Syracuse, New York",
+                "global_code": "87M53VRX+CC"
+            },
+            "rating": 2.8,
+            "reference": "ChIJ_S_p4Kby2YkRqmxJ7Y5gHPg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 10,
+            "vicinity": "DeWitt Travel Plaza, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0172738,
+                    "lng": -76.1370566
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.01861417989272,
+                        "lng": -76.13574232010727
+                    },
+                    "southwest": {
+                        "lat": 43.01591452010727,
+                        "lng": -76.13844197989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVolve NY Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112302958298496400106\">Jennifer Munt</a>"
+                    ],
+                    "photo_reference": "AWU5eFidzxeaf_TiFjkFginAUuiEr-CVD_bN9xwpKqupu2gkjjV8GRPyW8RfEjB-hkLa4v1MgsZC0laAbaTFAyDZLuylaafdebEHDdVGaAX-IYI76wS7zjcwluPWDj53p5UNOVzsVAek8xuCbZ-2VN5W7w4S5SrspOYY4haqDEDk4nJmxtpX",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ4U7jHnz02YkRdulvfkyZA3M",
+            "plus_code": {
+                "compound_code": "2V87+W4 Syracuse, New York",
+                "global_code": "87M52V87+W4"
+            },
+            "rating": 3.8,
+            "reference": "ChIJ4U7jHnz02YkRdulvfkyZA3M",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "415 E Brighton Ave, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.046667,
+                    "lng": -76.2276869
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.04797417989272,
+                        "lng": -76.22632757010727
+                    },
+                    "southwest": {
+                        "lat": 43.04527452010728,
+                        "lng": -76.22902722989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "place_id": "ChIJZxA7KNnw2YkROtaxFYco7Rw",
+            "plus_code": {
+                "compound_code": "2QWC+MW Syracuse, New York",
+                "global_code": "87M52QWC+MW"
+            },
+            "rating": 1.7,
+            "reference": "ChIJZxA7KNnw2YkROtaxFYco7Rw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.05485,
+                    "lng": -76.080168
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05635477989272,
+                        "lng": -76.07888967010729
+                    },
+                    "southwest": {
+                        "lat": 43.05365512010728,
+                        "lng": -76.08158932989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJf0HLLiqN2YkR0P5VLT0mVwU",
+            "plus_code": {
+                "compound_code": "3W39+WW Syracuse, New York",
+                "global_code": "87M53W39+WW"
+            },
+            "rating": 0,
+            "reference": "ChIJf0HLLiqN2YkR0P5VLT0mVwU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3120 Erie Blvd E, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.048887,
+                    "lng": -76.15699
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05016242989272,
+                        "lng": -76.15564242010727
+                    },
+                    "southwest": {
+                        "lat": 43.04746277010727,
+                        "lng": -76.15834207989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJQ2qzPsfz2YkR931Td8U8Pcs",
+            "plus_code": {
+                "compound_code": "2RXV+H6 Syracuse, New York",
+                "global_code": "87M52RXV+H6"
+            },
+            "rating": 5,
+            "reference": "ChIJQ2qzPsfz2YkR931Td8U8Pcs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "300 W Fayette St, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0881701,
+                    "lng": -76.0864
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.08947742989272,
+                        "lng": -76.08506177010729
+                    },
+                    "southwest": {
+                        "lat": 43.08677777010728,
+                        "lng": -76.08776142989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Sun Country Highway Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ22t5Oqvy2YkRC4ETEAd9BuQ",
+            "plus_code": {
+                "compound_code": "3WQ7+7C East Syracuse, New York",
+                "global_code": "87M53WQ7+7C"
+            },
+            "rating": 0,
+            "reference": "ChIJ22t5Oqvy2YkRC4ETEAd9BuQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Old Collamer Rd #6555, East Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0673778,
+                    "lng": -76.1752644
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.06873707989273,
+                        "lng": -76.17387892010728
+                    },
+                    "southwest": {
+                        "lat": 43.06603742010729,
+                        "lng": -76.17657857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104015256615951532766\">Richard</a>"
+                    ],
+                    "photo_reference": "AWU5eFiXBujlqX5pMwhGaojDiC5vcK2nzCjAvh2hhh1b307k9NhMtDeDcTlIMPdG2oDE5nkdC0jEha-JObNo049REY2RrT5zmF84_O9KTcbdLFJYu1xKq8lMnu70GbVbY4ynLnYhryrpV2sM6N2klM5V46RL7_QfTRkGCsrggF4IO2SPZEQh",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJpW9sqVnz2YkRIlsXKHf6VeE",
+            "plus_code": {
+                "compound_code": "3R8F+XV Syracuse, New York",
+                "global_code": "87M53R8F+XV"
+            },
+            "rating": 4.7,
+            "reference": "ChIJpW9sqVnz2YkRIlsXKHf6VeE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 20,
+            "vicinity": "9090 Destiny USA Dr, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0451159,
+                    "lng": -76.0671429
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.04649722989272,
+                        "lng": -76.06580892010727
+                    },
+                    "southwest": {
+                        "lat": 43.04379757010728,
+                        "lng": -76.06850857989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station Erie Canal Centre",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103110487769797051223\">Justin Baca</a>"
+                    ],
+                    "photo_reference": "AWU5eFgk8izqFeOO7YB93lxnMdh854dqA1cqYsmXWo3wv8pGkFDCCyHtYFys3ZKoTkTeq0ON-M_K4x7JYm_0P-rPZUx6kYIrgj0DkR6_4BfyKXNv2BA85RGFCKG21MbU11hBeKT7YJq-Zy2ANOQJbx_kKUik57RY8OSSXoyAxxLOcgo_sDI4",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJYzhnMjmN2YkRPj9SWsg0oMM",
+            "plus_code": {
+                "compound_code": "2WWM+24 Syracuse, New York",
+                "global_code": "87M52WWM+24"
+            },
+            "rating": 3.8,
+            "reference": "ChIJYzhnMjmN2YkRPj9SWsg0oMM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "3469 Erie Blvd E, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0948646,
+                    "lng": -76.1721467
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.09638527989272,
+                        "lng": -76.17058507010728
+                    },
+                    "southwest": {
+                        "lat": 43.09368562010728,
+                        "lng": -76.17328472989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ-zKhhgTy2YkR69iMsMqzyig",
+            "plus_code": {
+                "compound_code": "3RVH+W4 Syracuse, New York",
+                "global_code": "87M53RVH+W4"
+            },
+            "rating": 3.3,
+            "reference": "ChIJ-zKhhgTy2YkR69iMsMqzyig",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "1305 Buckley Rd, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0310043,
+                    "lng": -76.0124701
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.03235182989273,
+                        "lng": -76.01113967010728
+                    },
+                    "southwest": {
+                        "lat": 43.02965217010728,
+                        "lng": -76.01383932989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106256989965915975488\">Michael Manfredi</a>"
+                    ],
+                    "photo_reference": "AWU5eFjB3dygfVm3C8Huj3D0Hw-W8p2h9gWVM1HuxPNFdBswI_JUpfnZfpbAIvG7jmldt_S9MR7PUcaZmSB8lYYnUeWwNYIz4PLbwXCIz3cugdsYKi42d95znUjYnaUOZmKaS-wpU7uV-D69hTWaxfqb7Lu7ModJALN-BjlUeBDY0gi1ITPd",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJR-STJDmM2YkR0iooNFRSyok",
+            "plus_code": {
+                "compound_code": "2XJQ+C2 Fayetteville, New York",
+                "global_code": "87M52XJQ+C2"
+            },
+            "rating": 4,
+            "reference": "ChIJR-STJDmM2YkR0iooNFRSyok",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "205 Brooklea Dr, Fayetteville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.049766,
+                    "lng": -76.152817
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05108407989272,
+                        "lng": -76.15167327010728
+                    },
+                    "southwest": {
+                        "lat": 43.04838442010727,
+                        "lng": -76.15437292989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJcX--Ljz2YkRMpZvCgoydnQ",
+            "plus_code": {
+                "compound_code": "2RXW+WV Syracuse, New York",
+                "global_code": "87M52RXW+WV"
+            },
+            "rating": 1,
+            "reference": "ChIJJcX--Ljz2YkRMpZvCgoydnQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "141 W Washington St, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0475126,
+                    "lng": -76.1768008
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.04882107989272,
+                        "lng": -76.17548602010727
+                    },
+                    "southwest": {
+                        "lat": 43.04612142010728,
+                        "lng": -76.17818567989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJsQLPot_z2YkRfhFOI2Xi_X4",
+            "plus_code": {
+                "compound_code": "2RXF+27 Syracuse, New York",
+                "global_code": "87M52RXF+27"
+            },
+            "rating": 0,
+            "reference": "ChIJsQLPot_z2YkRfhFOI2Xi_X4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1224 W Fayette St, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.035231,
+                    "lng": -76.13968799999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.03658867989272,
+                        "lng": -76.13814382010727
+                    },
+                    "southwest": {
+                        "lat": 43.03388902010727,
+                        "lng": -76.14084347989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJQyZCx5vz2YkR-E5NjMPGjP4",
+            "plus_code": {
+                "compound_code": "2VP6+34 Syracuse, New York",
+                "global_code": "87M52VP6+34"
+            },
+            "rating": 4,
+            "reference": "ChIJQyZCx5vz2YkR-E5NjMPGjP4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Stadium Pl, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.100482,
+                    "lng": -76.20661
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.10182517989272,
+                        "lng": -76.20523582010728
+                    },
+                    "southwest": {
+                        "lat": 43.09912552010728,
+                        "lng": -76.20793547989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2304,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113314637297679928972\">Hugh McCurdy</a>"
+                    ],
+                    "photo_reference": "AWU5eFgWjcxR4ZXCbOQpgZ1hlT7vgz-O-XQZLeRF-FjR9gPWkFswtBs553rt-fqNgHLRX0thOTYMr5GrNPPxh7TkkPWFy0KvXfeOcl9Kg9eOSJFKzE5-snIwA7w_hizw3B0bUOPxSY3nkuS4hoZQkUrm84GtnCZjSdpnQ9xgcqFkY5eRCU-7",
+                    "width": 4096
+                }
+            ],
+            "place_id": "ChIJlSNhbdzx2YkR5oiOo_hnU-g",
+            "plus_code": {
+                "compound_code": "4Q2V+59 Liverpool, Salina, NY",
+                "global_code": "87M54Q2V+59"
+            },
+            "rating": 4.3,
+            "reference": "ChIJlSNhbdzx2YkR5oiOo_hnU-g",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "104-106 Lake Dr, Liverpool"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.1352793,
+                    "lng": -76.13064709999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.13661582989273,
+                        "lng": -76.12923827010727
+                    },
+                    "southwest": {
+                        "lat": 43.13391617010728,
+                        "lng": -76.13193792989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJe54h4P_s2YkRZ8iES-A0raE",
+            "plus_code": {
+                "compound_code": "4VP9+4P Syracuse, New York",
+                "global_code": "87M54VP9+4P"
+            },
+            "rating": 5,
+            "reference": "ChIJe54h4P_s2YkRZ8iES-A0raE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "106 Fergerson Ave, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0522701,
+                    "lng": -76.1800717
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.05348962989272,
+                        "lng": -76.17869032010728
+                    },
+                    "southwest": {
+                        "lat": 43.05078997010727,
+                        "lng": -76.18138997989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJRSjfPmLx2YkRbVnUUatZNo0",
+            "plus_code": {
+                "compound_code": "3R29+QX Syracuse, New York",
+                "global_code": "87M53R29+QX"
+            },
+            "rating": 0,
+            "reference": "ChIJRSjfPmLx2YkRbVnUUatZNo0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1001 Park Ave, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0462038,
+                    "lng": -76.13523219999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.04755067989272,
+                        "lng": -76.13394042010727
+                    },
+                    "southwest": {
+                        "lat": 43.04485102010727,
+                        "lng": -76.13664007989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ81FF2abz2YkRCR53SQiH3cI",
+            "plus_code": {
+                "compound_code": "2VW7+FW Syracuse, New York",
+                "global_code": "87M52VW7+FW"
+            },
+            "rating": 0,
+            "reference": "ChIJ81FF2abz2YkRCR53SQiH3cI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1030 E Genesee St, Syracuse"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 43.0472096,
+                    "lng": -76.1581611
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 43.04858832989272,
+                        "lng": -76.15696362010728
+                    },
+                    "southwest": {
+                        "lat": 43.04588867010727,
+                        "lng": -76.15966327989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117905735086317630017\">Stan Hunter</a>"
+                    ],
+                    "photo_reference": "AWU5eFiZVSY8EE7A03HxUK4jggDaygxWthzcHW3cihMyQk36cj21DBJndtroDxmLu7N1u_xFMTOCQcGukxdjTuGPiEssAZm1Mj4jL0g9_034PT31F4u52SDfHe8vEbKVy__DgC4-a_4uNuurdBxkYj_uP7KvGKGppUC_u4TOV45wEy7ETWPn",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ40NuJ8Hz2YkRhcQygbdxdec",
+            "plus_code": {
+                "compound_code": "2RWR+WP Syracuse, New York",
+                "global_code": "87M52RWR+WP"
+            },
+            "rating": 5,
+            "reference": "ChIJ40NuJ8Hz2YkRhcQygbdxdec",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "358 W Jefferson St, Syracuse"
+        }
+    ],
+    "status": "OK"
+}

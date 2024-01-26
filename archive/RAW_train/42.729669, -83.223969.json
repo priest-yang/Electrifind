@@ -1,0 +1,841 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFjV2YJBtr-2HQHW3SEW7JXFCn7QjfOfQ21r1w65g0NbF1qcyWZJ0Ngn1o73DcoHirBKKeg_CZz_jMVdudTfn33dvFvEjQtruhRPa3ujTizmevNiPfEi3lrv3qEGBIj5D28w0qWkzmfsBMG1FkchO4DrUa-tAeYm0uQoznpTUhvwwMQg-AZwN_COlHJoo67x31rsPIwCPrQHqi1YlOxpr5QgUv89eklHdYw6cQpnXTV1_xA3q8YnPic2bLMp8yWHWQYsl-NHLUAooCORMXhmq0N_hp3Lhk87h95oizNKeyI7LvEXs19IuU5uXaQ_WtEXZkvG69_ypzGoUVaGz2jfyHvRdFXRyK4pZXsX1KRmkZUgWE2L-IhQtx_Yzzuh1dYGb5Pg0La71lWfV0FZC4-fF04jEnZ7mkw9gFunF5wAM8X0hgOJ1YDUZ8n13TW_d4TVXZ4b",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.643408,
+                    "lng": -83.204495
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.64475062989272,
+                        "lng": -83.20317427010728
+                    },
+                    "southwest": {
+                        "lat": 42.64205097010728,
+                        "lng": -83.20587392989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2252,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFjPujnYWl5SecjNzeCBja8UoiHMMwAwLYQLYZf30y1wb_0r-K_OnQaIfA_IofZP8uFjZPSJgqZ_UBmxrma7yJg2eNacaux50KMrfyJqtIgRtHRW8OCCP3gOSSQQq6fTCqiPiRAlWH3Lveo_6_0OYCoQliRdonpE0PZ6iGliJExBclIc",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJQZ-KesrBJIgRSQde8wVPr28",
+            "plus_code": {
+                "compound_code": "JQVW+96 Rochester Hills, Michigan",
+                "global_code": "86JRJQVW+96"
+            },
+            "rating": 3.8,
+            "reference": "ChIJQZ-KesrBJIgRSQde8wVPr28",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "3608 Marketplace Cir, Rochester Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7068721,
+                    "lng": -83.2893411
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70817767989272,
+                        "lng": -83.28800117010728
+                    },
+                    "southwest": {
+                        "lat": 42.70547802010728,
+                        "lng": -83.29070082989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106129825803855599004\">Bob Bross</a>"
+                    ],
+                    "photo_reference": "AWU5eFjvSr47FAAgCugCJ6XU-2AdtNhsd1rtqBvqOI-9ql0R5DY-zvE82pGhRn0DQo2z3ZCEPq_yao3oS0v9nY7ZzpLb4Le_dQUglVfUv0b6sL77ryfgpV6Czf_TiN2YxRfdBFHevdxrD8BmZ5y_qY8V2yhIkuwr5WQDlqP3XXTlUKfHokM",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJM8ynEP6UJIgREZL7dTkBCMI",
+            "plus_code": {
+                "compound_code": "PP46+P7 Auburn Hills, Michigan",
+                "global_code": "86JRPP46+P7"
+            },
+            "rating": 4.3,
+            "reference": "ChIJM8ynEP6UJIgREZL7dTkBCMI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 85,
+            "vicinity": "800 Brown Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6898431,
+                    "lng": -83.3859344
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.69121232989271,
+                        "lng": -83.38462302010728
+                    },
+                    "southwest": {
+                        "lat": 42.68851267010727,
+                        "lng": -83.38732267989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJyZAor-yXJIgRolxDR53oxis",
+            "plus_code": {
+                "compound_code": "MJQ7+WJ Waterford Twp, Michigan",
+                "global_code": "86JRMJQ7+WJ"
+            },
+            "rating": 0,
+            "reference": "ChIJyZAor-yXJIgRolxDR53oxis",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4805 Dixie Hwy, Waterford Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7013211,
+                    "lng": -83.296803
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70266492989272,
+                        "lng": -83.29550292010728
+                    },
+                    "southwest": {
+                        "lat": 42.69996527010728,
+                        "lng": -83.29820257989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJXwca77GVJIgRgpG_iOYbzZY",
+            "plus_code": {
+                "compound_code": "PP23+G7 Auburn Hills, Michigan",
+                "global_code": "86JRPP23+G7"
+            },
+            "rating": 3.3,
+            "reference": "ChIJXwca77GVJIgRgpG_iOYbzZY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "4000 Baldwin Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7260467,
+                    "lng": -83.2413819
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72741807989271,
+                        "lng": -83.24036162010728
+                    },
+                    "southwest": {
+                        "lat": 42.72471842010727,
+                        "lng": -83.24306127989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "InCharge Energy Charging Station",
+            "place_id": "ChIJ_cNU7EjrJIgREnp-CdcsKOM",
+            "plus_code": {
+                "compound_code": "PQG5+FC Orion Twp, Michigan",
+                "global_code": "86JRPQG5+FC"
+            },
+            "rating": 0,
+            "reference": "ChIJ_cNU7EjrJIgREnp-CdcsKOM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3805 S Lapeer Rd, Orion Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7070032,
+                    "lng": -83.28900259999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70831477989272,
+                        "lng": -83.28766347010728
+                    },
+                    "southwest": {
+                        "lat": 42.70561512010728,
+                        "lng": -83.29036312989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "photos": [
+                {
+                    "height": 2000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118240320886202784473\">Adam Reznik</a>"
+                    ],
+                    "photo_reference": "AWU5eFiP6k-dDfawhopDrVUurQQOf7GNNb08h-aHx9nolQmqisLgsCfJqtxxw52eauJ-CehCIeQ5Ma9fsFOkXV0CUF6Iv4OhQ9TvQB6ylv0S77uV3Qtr2FVixCAT86HvL2QzjNRhrSA3H8u0tMEmF9PiJ1DDWM73BPh4gfH0E65qIlyUoK3N",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJ9XvokhuVJIgRhztStjNMXHo",
+            "plus_code": {
+                "compound_code": "PP46+R9 Auburn Hills, Michigan",
+                "global_code": "86JRPP46+R9"
+            },
+            "rating": 2.1,
+            "reference": "ChIJ9XvokhuVJIgRhztStjNMXHo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "800 Brown Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6730025,
+                    "lng": -83.24551459999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.67452407989271,
+                        "lng": -83.24416117010728
+                    },
+                    "southwest": {
+                        "lat": 42.67182442010726,
+                        "lng": -83.24686082989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJuRRq2a3qJIgRfxmrZNJLImk",
+            "plus_code": {
+                "compound_code": "MQF3+6Q Auburn Hills, Michigan",
+                "global_code": "86JRMQF3+6Q"
+            },
+            "rating": 0,
+            "reference": "ChIJuRRq2a3qJIgRfxmrZNJLImk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2100 N Opdyke Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6335364,
+                    "lng": -83.2211512
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.63489122989272,
+                        "lng": -83.21980157010728
+                    },
+                    "southwest": {
+                        "lat": 42.63219157010727,
+                        "lng": -83.22250122989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJq6qD2FrAJIgRJjhiysfmZvA",
+            "plus_code": {
+                "compound_code": "JQMH+9G Auburn Hills, Michigan",
+                "global_code": "86JRJQMH+9G"
+            },
+            "rating": 4,
+            "reference": "ChIJq6qD2FrAJIgRJjhiysfmZvA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "3380 Auburn Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6844217,
+                    "lng": -83.19216879999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.68577332989273,
+                        "lng": -83.19076397010727
+                    },
+                    "southwest": {
+                        "lat": 42.68307367010728,
+                        "lng": -83.19346362989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJh4_J20PqJIgRx7QalPUpmpQ",
+            "plus_code": {
+                "compound_code": "MRM5+Q4 Rochester Hills, Michigan",
+                "global_code": "86JRMRM5+Q4"
+            },
+            "rating": 0,
+            "reference": "ChIJh4_J20PqJIgRx7QalPUpmpQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "104 Adams Rd, Rochester Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6705482,
+                    "lng": -83.22163499999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.67183017989272,
+                        "lng": -83.22060132010728
+                    },
+                    "southwest": {
+                        "lat": 42.66913052010727,
+                        "lng": -83.22330097989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJq6pOrJvqJIgRrD9qJCcvi-k",
+            "plus_code": {
+                "compound_code": "MQCH+68 Auburn Hills, Michigan",
+                "global_code": "86JRMQCH+68"
+            },
+            "rating": 0,
+            "reference": "ChIJq6pOrJvqJIgRrD9qJCcvi-k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Squirrel Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.653719,
+                    "lng": -83.3730303
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.65504592989273,
+                        "lng": -83.37171742010727
+                    },
+                    "southwest": {
+                        "lat": 42.65234627010729,
+                        "lng": -83.37441707989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJG1UFsZi9JIgRSXhSpzUXnfI",
+            "plus_code": {
+                "compound_code": "MJ3G+FP Waterford Twp, Michigan",
+                "global_code": "86JRMJ3G+FP"
+            },
+            "rating": 0,
+            "reference": "ChIJG1UFsZi9JIgRSXhSpzUXnfI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4363 Highland Rd, Waterford Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6137964,
+                    "lng": -83.30547729999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.61513237989272,
+                        "lng": -83.30414067010727
+                    },
+                    "southwest": {
+                        "lat": 42.61243272010727,
+                        "lng": -83.30684032989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJl_8_5ui-JIgR_N9MQdDfeEY",
+            "plus_code": {
+                "compound_code": "JM7V+GR Bloomfield Twp, Michigan",
+                "global_code": "86JRJM7V+GR"
+            },
+            "rating": 0,
+            "reference": "ChIJl_8_5ui-JIgR_N9MQdDfeEY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1845 S Telegraph Rd, Bloomfield Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6516387,
+                    "lng": -83.36767499999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.65299432989272,
+                        "lng": -83.36633852010728
+                    },
+                    "southwest": {
+                        "lat": 42.65029467010728,
+                        "lng": -83.36903817989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJy8wcRr29JIgRG13JPgZZCus",
+            "plus_code": {
+                "compound_code": "MJ2J+JX Waterford Twp, Michigan",
+                "global_code": "86JRMJ2J+JX"
+            },
+            "rating": 0,
+            "reference": "ChIJy8wcRr29JIgRG13JPgZZCus",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4178 Highland Rd, Waterford Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.665993,
+                    "lng": -83.269392
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.66738322989273,
+                        "lng": -83.26804317010726
+                    },
+                    "southwest": {
+                        "lat": 42.66468357010728,
+                        "lng": -83.27074282989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJZ5pbK-C_JIgRVzIkpG5w7YQ",
+            "plus_code": {
+                "compound_code": "MP8J+96 Pontiac, Michigan",
+                "global_code": "86JRMP8J+96"
+            },
+            "rating": 0,
+            "reference": "ChIJZ5pbK-C_JIgRVzIkpG5w7YQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1051 Arlene Ave, Pontiac"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.634792,
+                    "lng": -83.288153
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.63611952989272,
+                        "lng": -83.28679502010728
+                    },
+                    "southwest": {
+                        "lat": 42.63341987010728,
+                        "lng": -83.28949467989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJESo1J6y_JIgRjWjI3AlCoCM",
+            "plus_code": {
+                "compound_code": "JPM6+WP Pontiac, Michigan",
+                "global_code": "86JRJPM6+WP"
+            },
+            "rating": 0,
+            "reference": "ChIJESo1J6y_JIgRjWjI3AlCoCM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "47200 Woodward Ave, Pontiac"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6115123,
+                    "lng": -83.300517
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.61290507989272,
+                        "lng": -83.29917217010728
+                    },
+                    "southwest": {
+                        "lat": 42.61020542010728,
+                        "lng": -83.30187182989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJI9q3G-e-JIgRPKVUbHl7l-0",
+            "plus_code": {
+                "compound_code": "JM6X+MQ Bloomfield Hills, Michigan",
+                "global_code": "86JRJM6X+MQ"
+            },
+            "rating": 0,
+            "reference": "ChIJI9q3G-e-JIgRPKVUbHl7l-0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1961 S Telegraph Rd, Bloomfield Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7068921,
+                    "lng": -83.277754
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70824047989272,
+                        "lng": -83.27645412010727
+                    },
+                    "southwest": {
+                        "lat": 42.70554082010728,
+                        "lng": -83.27915377989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ0wwMGOKUJIgRMNwtqmnQ0nk",
+            "plus_code": {
+                "compound_code": "PP4C+QV Auburn Hills, Michigan",
+                "global_code": "86JRPP4C+QV"
+            },
+            "rating": 0,
+            "reference": "ChIJ0wwMGOKUJIgRMNwtqmnQ0nk",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1100 Brown Rd, Auburn Hills"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.737948,
+                    "lng": -83.3791169
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73933762989272,
+                        "lng": -83.37779417010726
+                    },
+                    "southwest": {
+                        "lat": 42.73663797010728,
+                        "lng": -83.38049382989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJAZ1TfCeXJIgRqd1kpBHHmz0",
+            "plus_code": {
+                "compound_code": "PJQC+59 Independence Charter Township, Michigan",
+                "global_code": "86JRPJQC+59"
+            },
+            "rating": 0,
+            "reference": "ChIJAZ1TfCeXJIgRqd1kpBHHmz0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "6874 Sashabaw Rd, Independence Charter Township"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6995429,
+                    "lng": -83.4076214
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70085732989272,
+                        "lng": -83.40626927010727
+                    },
+                    "southwest": {
+                        "lat": 42.69815767010727,
+                        "lng": -83.40896892989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103643038628069896211\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhfWe3CfNFQql44u6qRewETgR3Ju44qAMRQe7hYv1mSCK9SQTVW7HAYxu3E8i6AGm25rAS2pEf5QZLIlF_ukfGbS9Qw5unX2Ue2WYri8Y7MJQE-dF-ubZkAeMpUoGeZiPcazLquYWrAWALK9Bmm98pZ80dnLnWGWA7OtaXoXsbb0JvA",
+                    "width": 1200
+                }
+            ],
+            "place_id": "ChIJG2hFIviXJIgRrLb6JdbnMeg",
+            "plus_code": {
+                "compound_code": "MHXR+RX Waterford Twp, Michigan",
+                "global_code": "86JRMHXR+RX"
+            },
+            "rating": 5,
+            "reference": "ChIJG2hFIviXJIgRrLb6JdbnMeg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "4194 Airport Rd, Waterford Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7068721,
+                    "lng": -83.28934149999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.70817772989272,
+                        "lng": -83.28800157010727
+                    },
+                    "southwest": {
+                        "lat": 42.70547807010728,
+                        "lng": -83.29070122989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Sun Country Highway Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJoxSjEP6UJIgRbrwSK2fvK2U",
+            "plus_code": {
+                "compound_code": "PP46+P7 Auburn Hills, Michigan",
+                "global_code": "86JRPP46+P7"
+            },
+            "rating": 0,
+            "reference": "ChIJoxSjEP6UJIgRbrwSK2fvK2U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "850 Brown Rd, Auburn Hills"
+        }
+    ],
+    "status": "OK"
+}

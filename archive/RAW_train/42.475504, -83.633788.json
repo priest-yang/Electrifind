@@ -1,0 +1,861 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFghidinAdkXzv4wuERpq7PBTq4DiWB6_ccepowYVLktSn4Cxypzi8ZgVNW6qlDlEim4iAJCQls8U-ETkhGete7MpE26uHI0Ka4ATY9GMv-NrN1OHPt77TBfQEE7kDny0BImUmrgV7vMYTLtuFpyjbALtIn3rSZzZY5sRt3gqiHRBqprJsWJD23cRF81bnoXW-UrVCxoF3A46KgntZWu1Wod1SBAfQwLkPMKz9Z55r60Ca6zmGZwxDyp2GuFIZ7AEQWvhKw2LcUBE9ol0UJW0FnJKVv9hJ234fGtjPquSJfiGW36P7myOOrPqtRp1Y10bzOAx50G33s57H2bN5To6gspH27KdO391FYdS349ymGnI8CuBWJ1kxlXXwQA5kVkHSq2ebwe68khN9ejBdRRQaUnkoFoGb6WSqInhTAWvC0PqRDB80uwcNRkCdw5WkKF9z_c",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4820552,
+                    "lng": -83.47230259999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48336647989272,
+                        "lng": -83.47095092010727
+                    },
+                    "southwest": {
+                        "lat": 42.48066682010727,
+                        "lng": -83.47365057989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115537830941991525806\">Bobby Ratekin</a>"
+                    ],
+                    "photo_reference": "AWU5eFiJ6HgIyDnUsG5oiUxbLW4eREPuPvnd1SQnd55jpHV1Miv3aW8XDAxpoKP_nXRarWn1SghTTUtDeXPK24kyICqynZMdwxHo2ZLI-v1Yf64wwgy_-eA5bHWrTBhZwUtb3-m3njBYy0S-JACUyl_b10VBN7Hefl5TVgU48ZO2koTbTePh",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJ_cZ0qDGvJIgRfvRbH7kT8fg",
+            "plus_code": {
+                "compound_code": "FGJH+R3 Novi, Michigan",
+                "global_code": "86JRFGJH+R3"
+            },
+            "rating": 4.1,
+            "reference": "ChIJ_cZ0qDGvJIgRfvRbH7kT8fg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 43,
+            "vicinity": "26090 Ingersol Dr, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5071567,
+                    "lng": -83.5363004
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.50827752989272,
+                        "lng": -83.53453232010729
+                    },
+                    "southwest": {
+                        "lat": 42.50557787010727,
+                        "lng": -83.53723197989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "RED E Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2252,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFi9Y5laQqqaWMM5jFUF1Wm2yRSjgdMKk9Hn2PaStwXk1kKJe2rsoQvHF5qMN49CbJenouNE3326ybyHf8lbHPLpl_SL2bgTTjMFNK99hLn1QFNO8lT92rQVWytxImMgysSyphdS1ezkln8hT7_yx1gJxMX-zR7tISyMPzd2vortOoL0",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJae0DyEqpJIgRg7oTvFY20vQ",
+            "plus_code": {
+                "compound_code": "GF47+VF Wixom, Michigan",
+                "global_code": "86JRGF47+VF"
+            },
+            "rating": 3.9,
+            "reference": "ChIJae0DyEqpJIgRg7oTvFY20vQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 9,
+            "vicinity": "29330 Wixom Rd, Wixom"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.549968,
+                    "lng": -83.788865
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55135032989273,
+                        "lng": -83.78751122010728
+                    },
+                    "southwest": {
+                        "lat": 42.54865067010729,
+                        "lng": -83.79021087989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116877039415224797508\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFgiBfeYefFSQdpyV5EDPCfQFNeeme80VYszO82W6QXRnk6LLmQu-A0LyvUKRZTjgFVfwXqtkZLaS4IHGzr5qHk0YecKtxY0YUthmCNdGi7YIUBqxzorZomeYXk0J68rY1Y_PSdk4SkJfQFI6Us3yOIa7Q3ZMIPd7JxDWzj3HS2AuKuV",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJWf-9smhFI4gR0_kwskM6P9g",
+            "plus_code": {
+                "compound_code": "G6X6+XF Brighton, Michigan",
+                "global_code": "86JRG6X6+XF"
+            },
+            "rating": 1.8,
+            "reference": "ChIJWf-9smhFI4gR0_kwskM6P9g",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "8281 Grand River Ave, Brighton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.491241,
+                    "lng": -83.51436939999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.49255942989272,
+                        "lng": -83.51303882010727
+                    },
+                    "southwest": {
+                        "lat": 42.48985977010727,
+                        "lng": -83.51573847989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107961936270218890978\">Bob L</a>"
+                    ],
+                    "photo_reference": "AWU5eFiyL5YWxcmoaysm09wdbqTGsnsX-_wMPD6-oVDMAjDY-2Cwd1Ewuqm8-Eo2gVyWvSrON0ieypzlkBhMdFiQf6t44zlb34BO1RwhmK8EES3XBspqlTFkn7ITXvGucVU1pgbn22UTLt7moPew-SpmqY8sgNmNaw0vEhnEIz6ql5tTMQXN",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJB9bDItGoJIgRVqldsJjVgOo",
+            "plus_code": {
+                "compound_code": "FFRP+F7 Novi, Michigan",
+                "global_code": "86JRFFRP+F7"
+            },
+            "rating": 2.3,
+            "reference": "ChIJB9bDItGoJIgRVqldsJjVgOo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "47300 Citygate Dr, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5156418,
+                    "lng": -83.6082638
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51700427989272,
+                        "lng": -83.60686737010728
+                    },
+                    "southwest": {
+                        "lat": 42.51430462010728,
+                        "lng": -83.60956702989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Chevrolet Charging Station",
+            "place_id": "ChIJNSdAHexXI4gRPIcuN1_otCo",
+            "plus_code": {
+                "compound_code": "G98R+7M New Hudson, Michigan",
+                "global_code": "86JRG98R+7M"
+            },
+            "rating": 0,
+            "reference": "ChIJNSdAHexXI4gRPIcuN1_otCo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "30400 Lyon Center Dr, New Hudson"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4777938,
+                    "lng": -83.4650851
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47917737989272,
+                        "lng": -83.46371672010729
+                    },
+                    "southwest": {
+                        "lat": 42.47647772010727,
+                        "lng": -83.46641637989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Chevrolet Charging Station",
+            "place_id": "ChIJ9bToTf-uJIgRSODpShCP0K4",
+            "plus_code": {
+                "compound_code": "FGHM+4X Novi, Michigan",
+                "global_code": "86JRFGHM+4X"
+            },
+            "rating": 0,
+            "reference": "ChIJ9bToTf-uJIgRSODpShCP0K4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "42355 Grand River Ave, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5501893,
+                    "lng": -83.78969219999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55153602989272,
+                        "lng": -83.78840727010727
+                    },
+                    "southwest": {
+                        "lat": 42.54883637010727,
+                        "lng": -83.79110692989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJS0o4T29FI4gRgJMA_FmYK6k",
+            "plus_code": {
+                "compound_code": "H626+34 Brighton, Michigan",
+                "global_code": "86JRH626+34"
+            },
+            "rating": 0,
+            "reference": "ChIJS0o4T29FI4gRgJMA_FmYK6k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "8294 Grand River Ave, Brighton"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.379033,
+                    "lng": -83.75906599999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.38043257989272,
+                        "lng": -83.75777997010726
+                    },
+                    "southwest": {
+                        "lat": 42.37773292010728,
+                        "lng": -83.76047962989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106332594550192066083\">Ryan Ma</a>"
+                    ],
+                    "photo_reference": "AWU5eFhEzxSjzRKi0i-IYkvfaYXmM7AD1g0tbJbbsWyAjxg9qVSCilhLw_ffQ2pdFbI4yK5u4DgAm7EbIJHJvYWRRcbda2EpbYO6842tIeFmS-xG-vp1Cjh5-RaDoaLdlGXxIwdiAWUCcS9FYEFrGmqvZ9LPMEo39vQX-hROrRq5wb4kyFiy",
+                    "width": 1960
+                }
+            ],
+            "place_id": "ChIJ_32B91StPIgRgIFlgaR-x_I",
+            "plus_code": {
+                "compound_code": "96HR+J9 Whitmore Lake, Michigan",
+                "global_code": "86JR96HR+J9"
+            },
+            "rating": 4.5,
+            "reference": "ChIJ_32B91StPIgRgIFlgaR-x_I",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "50 N Territorial Rd W, Whitmore Lake"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4313499,
+                    "lng": -83.4839471
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.43272407989271,
+                        "lng": -83.48264922010728
+                    },
+                    "southwest": {
+                        "lat": 42.43002442010727,
+                        "lng": -83.48534887989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Destination Charger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103500841900497807400\">Zachary Wickliffe</a>"
+                    ],
+                    "photo_reference": "AWU5eFgi-USBFBMkzXJxiipm8COA4oXZuzhiU4ddUvm2AtPq---rjKccEGNARorhttnnqUpHk-3gT7x_fgkaiGkQLv98BzOQa4MzH-GK_QV1T1Wf-ECW_PKtAkZ8pTr81r44AlKbe2oQd2Iv0fXUrCqWK8gKQpRQBqflndjG7FOGK_R5NnU_",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJDRVjvj2sJIgRibhKCGayN9c",
+            "plus_code": {
+                "compound_code": "CGJ8+GC Northville, Michigan",
+                "global_code": "86JRCGJ8+GC"
+            },
+            "rating": 3.5,
+            "reference": "ChIJDRVjvj2sJIgRibhKCGayN9c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "120 W Main St #205, Northville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.532159,
+                    "lng": -83.49287
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.53350762989272,
+                        "lng": -83.49157672010728
+                    },
+                    "southwest": {
+                        "lat": 42.53080797010728,
+                        "lng": -83.49427637989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJkzAcxfGlJIgR7N1ddy5WbB4",
+            "plus_code": {
+                "compound_code": "GGJ4+VV Walled Lake, Michigan",
+                "global_code": "86JRGGJ4+VV"
+            },
+            "rating": 3.3,
+            "reference": "ChIJkzAcxfGlJIgR7N1ddy5WbB4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "1055 W Maple Rd, Walled Lake"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.509491,
+                    "lng": -83.466377
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51087977989272,
+                        "lng": -83.46502602010729
+                    },
+                    "southwest": {
+                        "lat": 42.50818012010728,
+                        "lng": -83.46772567989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJxVV7rXevJIgRhB4DnMzWHps",
+            "plus_code": {
+                "compound_code": "GG5M+QC Novi, Michigan",
+                "global_code": "86JRGG5M+QC"
+            },
+            "rating": 1,
+            "reference": "ChIJxVV7rXevJIgRhB4DnMzWHps",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "42355 W 13 Mile Rd, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.510047,
+                    "lng": -83.452788
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51153852989273,
+                        "lng": -83.45143442010728
+                    },
+                    "southwest": {
+                        "lat": 42.50883887010728,
+                        "lng": -83.45413407989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ10y_E5CvJIgRubRAo8WXCxA",
+            "plus_code": {
+                "compound_code": "GG6W+2V Novi, Michigan",
+                "global_code": "86JRGG6W+2V"
+            },
+            "rating": 0,
+            "reference": "ChIJ10y_E5CvJIgRubRAo8WXCxA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "40839 W 13 Mile Rd, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.542601,
+                    "lng": -83.514612
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.54395222989272,
+                        "lng": -83.51318142010729
+                    },
+                    "southwest": {
+                        "lat": 42.54125257010728,
+                        "lng": -83.51588107989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJtQBD5wymJIgRfUe5E2AhVJw",
+            "plus_code": {
+                "compound_code": "GFVP+25 Wixom, Michigan",
+                "global_code": "86JRGFVP+25"
+            },
+            "rating": 0,
+            "reference": "ChIJtQBD5wymJIgRfUe5E2AhVJw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2157 Loon Lake Rd, Wixom"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.475853,
+                    "lng": -83.45591000000002
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.47702777989272,
+                        "lng": -83.45460177010727
+                    },
+                    "southwest": {
+                        "lat": 42.47432812010728,
+                        "lng": -83.45730142989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJX3KTmFGuJIgREWRmbTp8k9Q",
+            "plus_code": {
+                "compound_code": "FGGV+8J Novi, Michigan",
+                "global_code": "86JRFGGV+8J"
+            },
+            "rating": 0,
+            "reference": "ChIJX3KTmFGuJIgREWRmbTp8k9Q",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "25245 Meadowbrook Rd, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5277052,
+                    "lng": -83.5364476
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.52905072989272,
+                        "lng": -83.53516412010728
+                    },
+                    "southwest": {
+                        "lat": 42.52635107010728,
+                        "lng": -83.53786377989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJuyEgqiemJIgRzamU69lba1Q",
+            "plus_code": {
+                "compound_code": "GFH7+3C Wixom, Michigan",
+                "global_code": "86JRGFH7+3C"
+            },
+            "rating": 5,
+            "reference": "ChIJuyEgqiemJIgRzamU69lba1Q",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "344 N Wixom Rd, Wixom"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.548742,
+                    "lng": -83.4685911
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55009367989272,
+                        "lng": -83.46717362010727
+                    },
+                    "southwest": {
+                        "lat": 42.54739402010728,
+                        "lng": -83.46987327989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ1R8OZ6alJIgRO0FC8fYdSCQ",
+            "plus_code": {
+                "compound_code": "GGXJ+FH Walled Lake, Michigan",
+                "global_code": "86JRGGXJ+FH"
+            },
+            "rating": 0,
+            "reference": "ChIJ1R8OZ6alJIgRO0FC8fYdSCQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1655 Decker Rd, Walled Lake"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4804257,
+                    "lng": -83.4537398
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48177647989272,
+                        "lng": -83.45234457010729
+                    },
+                    "southwest": {
+                        "lat": 42.47907682010728,
+                        "lng": -83.45504422989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ71KNwXivJIgRzkmWaBpjeCw",
+            "plus_code": {
+                "compound_code": "FGJW+5G Novi, Michigan",
+                "global_code": "86JRFGJW+5G"
+            },
+            "rating": 0,
+            "reference": "ChIJ71KNwXivJIgRzkmWaBpjeCw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "25500 Meadowbrook Rd, Novi"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.570371,
+                    "lng": -83.46290499999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.57172292989272,
+                        "lng": -83.46148807010728
+                    },
+                    "southwest": {
+                        "lat": 42.56902327010728,
+                        "lng": -83.46418772989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJm47iivekJIgRWhC5cpfgj2s",
+            "plus_code": {
+                "compound_code": "HGCP+4R Commerce Charter Twp, Michigan",
+                "global_code": "86JRHGCP+4R"
+            },
+            "rating": 0,
+            "reference": "ChIJm47iivekJIgRWhC5cpfgj2s",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3255 Gateway Ledge, Commerce Charter Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.546527,
+                    "lng": -83.54224099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.54792367989272,
+                        "lng": -83.54089652010728
+                    },
+                    "southwest": {
+                        "lat": 42.54522402010728,
+                        "lng": -83.54359617989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ26BdyEmmJIgRBTrBzf3x6gU",
+            "plus_code": {
+                "compound_code": "GFW5+J4 Wixom, Michigan",
+                "global_code": "86JRGFW5+J4"
+            },
+            "rating": 5,
+            "reference": "ChIJ26BdyEmmJIgRBTrBzf3x6gU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "1760 Charms Rd, Wixom"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.565621,
+                    "lng": -83.50115
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.56699517989272,
+                        "lng": -83.49980312010727
+                    },
+                    "southwest": {
+                        "lat": 42.56429552010727,
+                        "lng": -83.50250277989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJOZ2NeiykJIgRtbO1uVvyzTA",
+            "plus_code": {
+                "compound_code": "HF8X+6G Commerce Charter Twp, Michigan",
+                "global_code": "86JRHF8X+6G"
+            },
+            "rating": 0,
+            "reference": "ChIJOZ2NeiykJIgRtbO1uVvyzTA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "3770 Woodbury St, Commerce Charter Twp"
+        }
+    ],
+    "status": "OK"
+}

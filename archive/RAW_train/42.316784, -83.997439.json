@@ -1,0 +1,417 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.2863464,
+                    "lng": -83.842995
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.28760547989272,
+                        "lng": -83.84114692010728
+                    },
+                    "southwest": {
+                        "lat": 42.28490582010728,
+                        "lng": -83.84384657989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shell Recharge Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "plus_code": {
+                "compound_code": "75P4+GR Ann Arbor, Michigan",
+                "global_code": "86JR75P4+GR"
+            },
+            "rating": 2,
+            "reference": "ChIJYwJiwTWxPIgRF1pZfzDcb68",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "5645 Jackson Rd, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3280837,
+                    "lng": -83.8706442
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.32939962989272,
+                        "lng": -83.86924497010727
+                    },
+                    "southwest": {
+                        "lat": 42.32669997010728,
+                        "lng": -83.87194462989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "place_id": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
+            "plus_code": {
+                "compound_code": "84HH+6P Dexter, Michigan",
+                "global_code": "86JR84HH+6P"
+            },
+            "rating": 0,
+            "reference": "ChIJ6e-rhT-0PIgRb6GWgTkZMu0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "7120 Dexter Ann Arbor Rd, Dexter"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.315864,
+                    "lng": -84.02152799999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31721242989271,
+                        "lng": -84.02011577010727
+                    },
+                    "southwest": {
+                        "lat": 42.31451277010727,
+                        "lng": -84.02281542989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJaz-gGarOPIgRMqUZkf5gen4",
+            "plus_code": {
+                "compound_code": "8X8H+89 Chelsea, Michigan",
+                "global_code": "86JQ8X8H+89"
+            },
+            "rating": 0,
+            "reference": "ChIJaz-gGarOPIgRMqUZkf5gen4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "308 S Main St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3140574,
+                    "lng": -84.0175962
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31540732989271,
+                        "lng": -84.01628627010727
+                    },
+                    "southwest": {
+                        "lat": 42.31270767010727,
+                        "lng": -84.01898592989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109760098803864601080\">John Evert</a>"
+                    ],
+                    "photo_reference": "AWU5eFiL1P9_gq-ksZjf5u1uqbcKd8_RA658X-JU2BkYf6YWKhj_PFlFMf3Aq2V1XyP8VHaSyDCo2yQsWIrKsAQBzTB0rFYj_NSARvsiF5GrKnnQSKhpXWiOT4gbk0lcoKECvNcCVm57sIpFhqNxEvptMUF2_FuU-FI-CYuDviFVB7Mgrssi",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJ3f9PKKvOPIgRGXmV1Zqn69c",
+            "plus_code": {
+                "compound_code": "8X7J+JX Chelsea, Michigan",
+                "global_code": "86JQ8X7J+JX"
+            },
+            "rating": 1,
+            "reference": "ChIJ3f9PKKvOPIgRGXmV1Zqn69c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "148 Van Buren St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3107556,
+                    "lng": -84.0181354
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31184502989272,
+                        "lng": -84.01655757010727
+                    },
+                    "southwest": {
+                        "lat": 42.30914537010728,
+                        "lng": -84.01925722989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ76qqzazOPIgRT4KOVTYRGJw",
+            "plus_code": {
+                "compound_code": "8X6J+8P Chelsea, Michigan",
+                "global_code": "86JQ8X6J+8P"
+            },
+            "rating": 0,
+            "reference": "ChIJ76qqzazOPIgRT4KOVTYRGJw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "775 S Main St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3309816,
+                    "lng": -83.88588490000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.33233122989272,
+                        "lng": -83.88459502010727
+                    },
+                    "southwest": {
+                        "lat": 42.32963157010727,
+                        "lng": -83.88729467989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJM-QcR0q0PIgRPAvP33o5xSs",
+            "plus_code": {
+                "compound_code": "84J7+9J Dexter, Michigan",
+                "global_code": "86JR84J7+9J"
+            },
+            "rating": 0,
+            "reference": "ChIJM-QcR0q0PIgRPAvP33o5xSs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2810 Baker Rd, Dexter"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3177617,
+                    "lng": -84.01927099999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31908767989272,
+                        "lng": -84.01800242010727
+                    },
+                    "southwest": {
+                        "lat": 42.31638802010728,
+                        "lng": -84.02070207989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109760098803864601080\">John Evert</a>"
+                    ],
+                    "photo_reference": "AWU5eFjBt0aPXe_TC9uOFQmtpxg5FFVS2xLpHweaawbXT-7CT6TgbciWMeT5HNsLIAT6F1r4fr0yK6erlwHyY8CzwcYyeOIsAOFhXw6Hl0EV0sr5dVpudDnjy8xLj4TsbieusgS_3v7YQF-4IEyoD7X_mFFb5HwSEDQeWeoAHYdbyI2Ok5yF",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
+            "plus_code": {
+                "compound_code": "8X9J+47 Chelsea, Michigan",
+                "global_code": "86JQ8X9J+47"
+            },
+            "rating": 2,
+            "reference": "ChIJqf9jywHMPIgRADLvGf7XhVQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "115 Park St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.28634599999999,
+                    "lng": -83.842995
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.28769412989272,
+                        "lng": -83.84160777010726
+                    },
+                    "southwest": {
+                        "lat": 42.28499447010728,
+                        "lng": -83.84430742989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Circuit Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
+            "plus_code": {
+                "compound_code": "75P4+GR Ann Arbor, Michigan",
+                "global_code": "86JR75P4+GR"
+            },
+            "rating": 0,
+            "reference": "ChIJifhhwTWxPIgRKpwfIVJn5IU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "5645 Jackson Rd, Ann Arbor"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3146638,
+                    "lng": -84.03611000000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.31604422989272,
+                        "lng": -84.03477602010729
+                    },
+                    "southwest": {
+                        "lat": 42.31334457010728,
+                        "lng": -84.03747567989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "place_id": "ChIJ9YtLsKHOPIgR9I6arDiPcSE",
+            "plus_code": {
+                "compound_code": "8X77+VH Chelsea, Michigan",
+                "global_code": "86JQ8X77+VH"
+            },
+            "rating": 0,
+            "reference": "ChIJ9YtLsKHOPIgR9I6arDiPcSE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "805 W Middle St, Chelsea"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.340836,
+                    "lng": -83.8993796
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.34217972989272,
+                        "lng": -83.89807512010728
+                    },
+                    "southwest": {
+                        "lat": 42.33948007010727,
+                        "lng": -83.90077477989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "place_id": "ChIJb0dgYK-1PIgRaLyAVTGYxIQ",
+            "plus_code": {
+                "compound_code": "84R2+86 Dexter, Michigan",
+                "global_code": "86JR84R2+86"
+            },
+            "rating": 0,
+            "reference": "ChIJb0dgYK-1PIgRaLyAVTGYxIQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "201 Katherine Way, Dexter"
+        }
+    ],
+    "status": "OK"
+}

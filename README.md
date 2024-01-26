@@ -23,8 +23,8 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 │   ├── coordinates.test.txt: Coordinates of test data
 │   ├── coordinates.train.txt: Coordinates of train data
 │   ├── docid_NREL_map.csv: Map between docid and NREL id
-│   ├── NREL_All_Stations_data.csv: NREL data
 │   ├── NREL_processed.csv
+│   ├── NREL_raw.csv
 ├── src
 │   ├── document_preprocessor.py: Preprocess the documents
 │   ├── indexing.py: Indexing the documents
@@ -44,6 +44,12 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 ## Methodology
 
 ### Data Collection
+
+- `NREL_raw.csv`:
+This file contains raw data from NREL API.  
+
+- `NREL_corpus.jsonl`:
+This file contains descriptions of charging stations from NREL API. 
 
 - `NREL_processed.csv`:
 This file contains preprocessed data from NREL API, which is used as the data source for the search engine.  

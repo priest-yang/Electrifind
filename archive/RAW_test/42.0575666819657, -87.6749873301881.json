@@ -1,0 +1,912 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFgYPGbYnWa6IstNt6uIKBf9MIxsRWsuedq11gQ6sIq4HT37BNha7YapbQ9usdFQSNcQO2joX5wS57ZINvijD9yN43a1M7QOC6uHAR0TDSkBaBLj7IdvVym9JIHA9HyZ912pUggsEb-HW9NM1llpQx6L6wN2ZocFHnxA1V1Hl-2A85z0WrM2eHP_QRYmZPwpCIk6yaJOlXV6p8ROAAGXxVa3yNzOldbR0vY-eKhbL3EhGjuh8BTS8s7eOqj_tZ0OiylS6Vzvd42xZYiFZ017oQQlHh6rF0d-yyKL4OrR26uXH-Adcu_1VMqfs_pwDXF7WSLHmQ5bkGkDff6fCWy__kMHM81Mdb3mrJ_dyDrt818eNUrTcQSmmocspKVMjqSD9ox5DCwnT7ZN6BijVKmWzSPxHQ7ukg1KJafPDwQaKOTZMwsDtV6OHXSeCS1kIpoAVYLG",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0097629,
+                    "lng": -87.7117459
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.01111637989273,
+                        "lng": -87.71047727010728
+                    },
+                    "southwest": {
+                        "lat": 42.00841672010728,
+                        "lng": -87.71317692989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106332594550192066083\">Ryan Ma</a>"
+                    ],
+                    "photo_reference": "AWU5eFiq1ePSn8sV8XGn2r0dCMqqG_AeENF9AmljlMasETufBbuj9sVf6uD_whwd_UExepKRhSMZU6G6bZ-LCsz5K7b-QhDSKhQx8YPd_q2aE4vaBmj5O_sD__PI1c5VdeuFQVe-qNEXvPJ5Nt5NccSq0AH0nig-YzDJ7njjWlcqCvJJtdI0",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJSYxASDHOD4gRFqYtdkBnRk4",
+            "plus_code": {
+                "compound_code": "275Q+W8 Lincolnwood, Illinois",
+                "global_code": "86JJ275Q+W8"
+            },
+            "rating": 4,
+            "reference": "ChIJSYxASDHOD4gRFqYtdkBnRk4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "3333 W Touhy Ave, Lincolnwood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0090592,
+                    "lng": -87.7633975
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.01036977989272,
+                        "lng": -87.76204577010728
+                    },
+                    "southwest": {
+                        "lat": 42.00767012010728,
+                        "lng": -87.76474542989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114845938564463246173\">Nigel Jordan</a>"
+                    ],
+                    "photo_reference": "AWU5eFiw-F_hgq90SLMTLA7MbLMBZkFYRHm7Zq3bumj7_b0N-193JJtZKhc5jzIS7d87x7OeeiENfM0jrXiDFmncOkDTY2oizDCXTaV575bLErm6JO6NszEA7KnS6B39cUqfWH8N1Q-oRNwZTAQVi2gMsKDJC6zBeaO3itam-CQyf4oSUJ2e",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJ4YY6EtvOD4gRi_U-NLJ1acE",
+            "plus_code": {
+                "compound_code": "265P+JJ Skokie, Illinois",
+                "global_code": "86JJ265P+JJ"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ4YY6EtvOD4gRi_U-NLJ1acE",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 94,
+            "vicinity": "5507 Touhy Ave, Skokie"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.9402809,
+                    "lng": -87.66855079999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.94134357989272,
+                        "lng": -87.66669042010727
+                    },
+                    "southwest": {
+                        "lat": 41.93864392010727,
+                        "lng": -87.66939007989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103061894861801615357\">Dig</a>"
+                    ],
+                    "photo_reference": "AWU5eFituySDMMph0rwv_OIaNDU8KX4vhy5tBQ0LOXAmw16AvGPNCJZQoDDm8FhyjA674rNW2RED3XQFLCuqwZzrHQ9Uf9PFPKLqtDdrOQgigI77SEue6bwf6lR5j0wc0FeirQvVQqDkLfuZtL-inbO4GlrP-HiIoSIu5soiy5Ia86EpR8zm",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJWWuY4lnSD4gRTY_pnmdWeNQ",
+            "plus_code": {
+                "compound_code": "W8RJ+4H Chicago, Illinois",
+                "global_code": "86HJW8RJ+4H"
+            },
+            "rating": 3,
+            "reference": "ChIJWWuY4lnSD4gRTY_pnmdWeNQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "3201 N Ashland Ave, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.1070603,
+                    "lng": -87.80080939999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.10840572989272,
+                        "lng": -87.79946692010728
+                    },
+                    "southwest": {
+                        "lat": 42.10570607010727,
+                        "lng": -87.80216657989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101983588638768416843\">EVgo Car Charging Station</a>"
+                    ],
+                    "photo_reference": "AWU5eFiJNJH3fTh2HSHYaH3ZCrS9UprH56ySyl8fJ0HauUMghxxOyL-qqNro65WNo_CzNw8yzfL-T5WlSlyOmdw7UmKGVYbRPOqL3kYMJCFy0c5ei5SG27XluyywrBZ30vMuGDNsU1NMZIyz2EZQI_lsOlnH7pihcWDay9GgiDUhr4Xd9tN_",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJA2qz_e3GD4gRQdDqba0lJRY",
+            "plus_code": {
+                "compound_code": "454X+RM Northbrook, Illinois",
+                "global_code": "86JJ454X+RM"
+            },
+            "rating": 0,
+            "reference": "ChIJA2qz_e3GD4gRQdDqba0lJRY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "840 Willow Rd, Northbrook"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.1032546,
+                    "lng": -87.81461
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.10460202989272,
+                        "lng": -87.81319767010727
+                    },
+                    "southwest": {
+                        "lat": 42.10190237010728,
+                        "lng": -87.81589732989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109099813649080789634\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFizbu6N-nxGmOIAyv-yOwWitV-8ug8mNUOsxR3CM_9KwH-IiqScFmoJFAv9M0vtKKD4JFFUZCFL2_f2MaKz4v20ZPwV3PA_L10zosJF4O_snvufMEcjzEq1Hf9pqyNNsfsi5Vn4wLCRT8U8d_OE5tPkBDM851lzaD1nioeRatUyMDGj",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJd34Vlf3GD4gRNCjjpQU1C0c",
+            "plus_code": {
+                "compound_code": "453P+85 Glenview, Illinois",
+                "global_code": "86JJ453P+85"
+            },
+            "rating": 2.8,
+            "reference": "ChIJd34Vlf3GD4gRNCjjpQU1C0c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 9,
+            "vicinity": "2241 Willow Rd, Glenview"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.9915034,
+                    "lng": -87.74915299999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.99280057989273,
+                        "lng": -87.74779812010726
+                    },
+                    "southwest": {
+                        "lat": 41.99010092010729,
+                        "lng": -87.75049777989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJo3MGmJHOD4gRYkp6hy1psTU",
+            "plus_code": {
+                "compound_code": "X7R2+J8 Chicago, Illinois",
+                "global_code": "86HJX7R2+J8"
+            },
+            "rating": 3.7,
+            "reference": "ChIJo3MGmJHOD4gRYkp6hy1psTU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "6020 N Cicero Ave, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0617789,
+                    "lng": -87.7469236
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.06312772989272,
+                        "lng": -87.74561067010728
+                    },
+                    "southwest": {
+                        "lat": 42.06042807010727,
+                        "lng": -87.74831032989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111164493616974230720\">Steve Reeves</a>"
+                    ],
+                    "photo_reference": "AWU5eFg2AaVxZxSFs3LJ_X3G3GWxIROTDO817Nt6BCjfE79DYvZjEnNTJACyfeY6xCh9DSDaN5XtpjBBNFgwZaOSUEkUkNUYxGbJ-9DXzhg1bXMNdv7P-DXizYbn9m447u99JrOZbJgYY-e_ezLlYjE89apvzzcOPlPJvLp8CFGTG7BL7p4O",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJuYk6NdTFD4gRjAAN-4eEtZw",
+            "plus_code": {
+                "compound_code": "3763+P6 Skokie, Illinois",
+                "global_code": "86JJ3763+P6"
+            },
+            "rating": 4.4,
+            "reference": "ChIJuYk6NdTFD4gRjAAN-4eEtZw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 16,
+            "vicinity": "4905 Old Orchard Shopping Center, Skokie"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.974948,
+                    "lng": -87.69291190000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.97633122989272,
+                        "lng": -87.6915634701073
+                    },
+                    "southwest": {
+                        "lat": 41.97363157010728,
+                        "lng": -87.69426312989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104382831242548536848\">EVgo Car Charging Station</a>"
+                    ],
+                    "photo_reference": "AWU5eFg2c_HU2W8OxtC7Bjk7xXzNlR9N57S7rr8Ik04NC6tjzRIc52x2ZGDZY54onRAE8ftJETKr33KeuFv-bbYO8OCu1gzd-hzynBpmwYFg13_WaJTkIPIug49OQrTukwgJShCxP0FDJeTmvPo668-rom_WEBJU3pJ1WY2_9oxHQmw09o9q",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJ58QB9AHSD4gR4cIPIczQTik",
+            "plus_code": {
+                "compound_code": "X8F4+XR Chicago, Illinois",
+                "global_code": "86HJX8F4+XR"
+            },
+            "rating": 2.8,
+            "reference": "ChIJ58QB9AHSD4gR4cIPIczQTik",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 9,
+            "vicinity": "5158 N Lincoln Ave, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.943236,
+                    "lng": -87.68927110000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.94458422989272,
+                        "lng": -87.68792127010727
+                    },
+                    "southwest": {
+                        "lat": 41.94188457010728,
+                        "lng": -87.69062092989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1500,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114398596629712228218\">EVgo Car Charging Station</a>"
+                    ],
+                    "photo_reference": "AWU5eFgklBQRcEVOKeubdhLcvgkIK4Dnq7wFIOWX3ecVpEgTeAOakL5JVfWVFPl0Ni9rvsJYdt4fkxcTBbNBgBQiFN-7vDDhSfKwz-iMuXelhi4UmF5RrZIYb9JqNyh0PTg_E67kLUg2E8MoO6x93EdIKKPNsmF_UhW17BMMCyts-e3pnhsb",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJYw6TG3vSD4gRmy3PzKFQbQI",
+            "plus_code": {
+                "compound_code": "W8V6+77 Chicago, Illinois",
+                "global_code": "86HJW8V6+77"
+            },
+            "rating": 2.6,
+            "reference": "ChIJYw6TG3vSD4gRmy3PzKFQbQI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "3400 N Western Ave, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.9846966,
+                    "lng": -87.6609259
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.98601847989272,
+                        "lng": -87.65960257010727
+                    },
+                    "southwest": {
+                        "lat": 41.98331882010728,
+                        "lng": -87.66230222989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 8000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115090276411936715629\">Luke Haruki</a>"
+                    ],
+                    "photo_reference": "AWU5eFgeFiQ9AesAft8xzDoyrVHsydovFIM4A-yP-gxFcqLdvK6s1x2kiEgIBO_bDGqXAigBDETfsa8MfBdUuIDqXEdyjyD_vJmW30l4lpJgK3IS4620n3zMkbkezziRIpX1uqqCC92R5m6Wc7joDeMWJX-P_ZZDF65N60zE1ia0F2LMYgH7",
+                    "width": 12000
+                }
+            ],
+            "place_id": "ChIJieHrLoPRD4gRYKI93hWG8lU",
+            "plus_code": {
+                "compound_code": "X8MQ+VJ Chicago, Illinois",
+                "global_code": "86HJX8MQ+VJ"
+            },
+            "rating": 1,
+            "reference": "ChIJieHrLoPRD4gRYKI93hWG8lU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "5625 N Ridge Ave, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.9490352,
+                    "lng": -87.6500508
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.95041782989272,
+                        "lng": -87.64870402010727
+                    },
+                    "southwest": {
+                        "lat": 41.94771817010727,
+                        "lng": -87.65140367989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103114615050343764954\">Brad Cleveland</a>"
+                    ],
+                    "photo_reference": "AWU5eFhIefnauYQBxkt1lBuXq0RP9vggds8HZk6paEKZ78rznHMt3mBON-ETVRh5ay547zf_TlLFzWBoWvTZ1SZsaPp672oXMwvmC5m-2coMcZ9WhlYkZFrOM8G3i-z5QczEEHGiX6Hhbpy5qz6Krbaqf_bMjudXRuPpiDIghbmYCCwGGGw",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ1-TJ77DTD4gROIpCaKPRzOQ",
+            "plus_code": {
+                "compound_code": "W8XX+JX Chicago, Illinois",
+                "global_code": "86HJW8XX+JX"
+            },
+            "rating": 2.4,
+            "reference": "ChIJ1-TJ77DTD4gROIpCaKPRzOQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "3640 N Halsted St, Chicago"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.107547,
+                    "lng": -87.802407
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.10887027989272,
+                        "lng": -87.80102262010728
+                    },
+                    "southwest": {
+                        "lat": 42.10617062010728,
+                        "lng": -87.80372227989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103183570053193175186\">Craig Froehle</a>"
+                    ],
+                    "photo_reference": "AWU5eFgmTHMrj-qpQQ53BRN2VBHT9PflVvWwfsZdSh3m2-LFNgPlqhaGFyJuPp_GSYiMo3e0itS7Vj-QydZ5oqg74hwqNHgNN_I04S6OJXxSs19ewdsqjbujGPsOiggRiriZEPND43aau7cGh2WBRprbrD0xxuVk0WEpCfQgjRZ8pmNWcFBQ",
+                    "width": 4080
+                }
+            ],
+            "place_id": "ChIJYRUaPO7GD4gRK_cRb1M_uOw",
+            "plus_code": {
+                "compound_code": "455X+22 Northbrook, Illinois",
+                "global_code": "86JJ455X+22"
+            },
+            "rating": 4.5,
+            "reference": "ChIJYRUaPO7GD4gRK_cRb1M_uOw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 17,
+            "vicinity": "840-109 Willow Rd, Northbrook"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0502985,
+                    "lng": -87.6858857
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.05173232989272,
+                        "lng": -87.68451882010727
+                    },
+                    "southwest": {
+                        "lat": 42.04903267010727,
+                        "lng": -87.68721847989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108967407759994537665\">akusick</a>"
+                    ],
+                    "photo_reference": "AWU5eFi9EYYOR3U-Y0LXd1qiFz2slGqnrehIZ2CCbuWD0v7Sl9Sanxw1jJrN8txIHNoy6vKhjFbZ5lUJUnRTyW7ut03D4EUPhyRzSsnssvyU8jOFpg3W721O34F1OzOB1aD0GSpjswGTANFLbL9DUoUki42t90ruRmCtd_69ckXl3gg6bc0C",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJUdp4qfDRD4gRg8Q4ZHFDt3U",
+            "plus_code": {
+                "compound_code": "3827+4J Evanston, Illinois",
+                "global_code": "86JJ3827+4J"
+            },
+            "rating": 4,
+            "reference": "ChIJUdp4qfDRD4gRg8Q4ZHFDt3U",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "1800 Maple Ave, Evanston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0148537,
+                    "lng": -87.74692449999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.01622762989272,
+                        "lng": -87.74557012010729
+                    },
+                    "southwest": {
+                        "lat": 42.01352797010727,
+                        "lng": -87.74826977989274
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "place_id": "ChIJiQHyzOLOD4gRRaJKvKeHXGc",
+            "plus_code": {
+                "compound_code": "2773+X6 Lincolnwood, Illinois",
+                "global_code": "86JJ2773+X6"
+            },
+            "rating": 0,
+            "reference": "ChIJiQHyzOLOD4gRRaJKvKeHXGc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "7373 N Cicero Ave, Lincolnwood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0556536,
+                    "lng": -87.75804780000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.05702432989271,
+                        "lng": -87.75669767010727
+                    },
+                    "southwest": {
+                        "lat": 42.05432467010727,
+                        "lng": -87.7593973298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "place_id": "ChIJ9c1lkl_PD4gR7sElbQA-M2k",
+            "plus_code": {
+                "compound_code": "364R+8Q Skokie, Illinois",
+                "global_code": "86JJ364R+8Q"
+            },
+            "rating": 2,
+            "reference": "ChIJ9c1lkl_PD4gR7sElbQA-M2k",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "5240 Golf Rd, Skokie"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0364846,
+                    "lng": -87.68003709999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.03782452989272,
+                        "lng": -87.67868702010728
+                    },
+                    "southwest": {
+                        "lat": 42.03512487010727,
+                        "lng": -87.68138667989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Nissan Charging Station",
+            "place_id": "ChIJxYoddRXQD4gRTz2cFcKLrKY",
+            "plus_code": {
+                "compound_code": "28P9+HX Evanston, Illinois",
+                "global_code": "86JJ28P9+HX"
+            },
+            "rating": 0,
+            "reference": "ChIJxYoddRXQD4gRTz2cFcKLrKY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1012 Chicago Ave, Evanston"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0115816,
+                    "lng": -87.7711295
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.01279467989272,
+                        "lng": -87.76978822010727
+                    },
+                    "southwest": {
+                        "lat": 42.01009502010728,
+                        "lng": -87.77248787989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "place_id": "ChIJQ_nQXtHOD4gRUDAEW1aeJnI",
+            "plus_code": {
+                "compound_code": "266H+FG Niles, Illinois",
+                "global_code": "86JJ266H+FG"
+            },
+            "rating": 0,
+            "reference": "ChIJQ_nQXtHOD4gRUDAEW1aeJnI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "5757 W Touhy Ave, Niles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.012312,
+                    "lng": -87.74182789999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.01366317989272,
+                        "lng": -87.74052462010728
+                    },
+                    "southwest": {
+                        "lat": 42.01096352010728,
+                        "lng": -87.74322427989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2SEFp_7OD4gRdc6aSJVahJ4",
+            "plus_code": {
+                "compound_code": "2765+W7 Lincolnwood, Illinois",
+                "global_code": "86JJ2765+W7"
+            },
+            "rating": 0,
+            "reference": "ChIJ2SEFp_7OD4gRdc6aSJVahJ4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "4520 W Touhy Ave, Lincolnwood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.0072673,
+                    "lng": -87.7124559
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.00857262989272,
+                        "lng": -87.71115862010727
+                    },
+                    "southwest": {
+                        "lat": 42.00587297010728,
+                        "lng": -87.71385827989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "place_id": "ChIJAQAASzfOD4gR6_K-eJaY3tw",
+            "plus_code": {
+                "compound_code": "274Q+R2 Lincolnwood, Illinois",
+                "global_code": "86JJ274Q+R2"
+            },
+            "rating": 0,
+            "reference": "ChIJAQAASzfOD4gR6_K-eJaY3tw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "6900 N McCormick Blvd, Lincolnwood"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 41.9834264,
+                    "lng": -87.6556465
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 41.98473312989272,
+                        "lng": -87.65431262010728
+                    },
+                    "southwest": {
+                        "lat": 41.98203347010728,
+                        "lng": -87.65701227989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJUQ67tHnRD4gRHxJ_X40EUOg",
+            "plus_code": {
+                "compound_code": "X8MV+CQ Chicago, Illinois",
+                "global_code": "86HJX8MV+CQ"
+            },
+            "rating": 0,
+            "reference": "ChIJUQ67tHnRD4gRHxJ_X40EUOg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "5556 N Sheridan Rd, Chicago"
+        }
+    ],
+    "status": "OK"
+}

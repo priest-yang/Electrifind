@@ -1,0 +1,907 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFg1My9YeD0yBgRCojgzf02hZi1sAt_CtMIjbZnasjxzoLf7AeMlejdKpgVvLPunnzk71G6VzxclkA0W9hF0ZFdbUNDkoJUS1mLUogibcDbkGRPe0De_3W3WwfvZnALg_yN-IzaPiqRkKCN5ksGnTK0HzKG7Z7Y-GFnBelIyfEqkdna1girgajAtcPhbBAQHCAw2PQEGvFEfbFvReN8B-G-MBCD_cR_vyHJLVhqMgyv3eSdwHZ0Feh13QNvxyvSc42tuvn6l-1H0sx8V5fMVhYdIxgy48wkNnDnOHChav4WtwBJh5wsUela35VmFbcYU1fhJ5jc2jIqrJhjWW-J-cAU21ZZDryWE25Sw399KeObjSQX-rWAqDTiTffGwoIpxdX8Sw4ro9mBCQW3D0gQFyomGelys7fbYS4lHAiiMc8_FLFU7d6X6hRVDRWl8n9sn2gm1",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7665124,
+                    "lng": -84.5146632
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.76790112989272,
+                        "lng": -84.51331442010726
+                    },
+                    "southwest": {
+                        "lat": 42.76520147010728,
+                        "lng": -84.51601407989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100770781807700466055\">Robert Barto</a>"
+                    ],
+                    "photo_reference": "AWU5eFiVlwMMHz5EiUHj1dkJ9uAbJYUnIsAq2EvFgJeQWlRHWkoeGDsLvHBTZglTWp07DphTgjBzR3Hi0HFK9d0dgt8p3irkESKDdGxhEBkPOSsI3hEhwsbvLJUC2cVxsnlO-ssaFa8VlykHTcLk9AKjdp3M3DfvwhSluhWQxgmjBZzuil1c",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJA77ufoTpIogRwKZ2JLObj18",
+            "plus_code": {
+                "compound_code": "QF8P+J4 Lansing, Michigan",
+                "global_code": "86JQQF8P+J4"
+            },
+            "rating": 4.5,
+            "reference": "ChIJA77ufoTpIogRwKZ2JLObj18",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 80,
+            "vicinity": "2025 Showtime Dr, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7625564,
+                    "lng": -84.49874330000002
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.76390857989272,
+                        "lng": -84.49746667010727
+                    },
+                    "southwest": {
+                        "lat": 42.76120892010728,
+                        "lng": -84.50016632989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108698012779873172533\">Jeff Myrom</a>"
+                    ],
+                    "photo_reference": "AWU5eFhvCaetxt77rXDatUMNS1286K3QMi6rvsrESoLXb6NaNkeEPOE1MLkRqldH1bpWIZdHeiX0mOprpa7VYibpwBGMdFYYvHJ626xz2K3i4EDgNsGtDrEDu8Ed1Ib-Xtbv-vQcPAKxNUSgueMygWzmO6gFkRoVUoJ1DlQSzkhN7vZ_AJZ0",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJsZ969BLpIogRAvNC6VhLUWI",
+            "plus_code": {
+                "compound_code": "QG72+2G East Lansing, Michigan",
+                "global_code": "86JQQG72+2G"
+            },
+            "rating": 4.2,
+            "reference": "ChIJsZ969BLpIogRAvNC6VhLUWI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "1350 W Lake Lansing Rd, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.66733199999999,
+                    "lng": -84.5401706
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.66868997989272,
+                        "lng": -84.53881497010728
+                    },
+                    "southwest": {
+                        "lat": 42.66599032010728,
+                        "lng": -84.54151462989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3120,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102815397780229006466\">Tim Culp</a>"
+                    ],
+                    "photo_reference": "AWU5eFhitNkzFKQM4GksZnuJ5Pa0Z8p057mNbBXmF5jaTMTd-umYyj1DxxDpv3w0osXQ9i5qmBKCcBthO1Y0rHSr8tpBhASgwSom7cXpym9S88NIHODPyairV9yV7MJyXd3dcuAaJ4j5f6joAd0CqoG84kpdZSzD4RoL_PRv23dAoT70EwS7",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJ45RWXRTBIogRMtc7MZsbBL4",
+            "plus_code": {
+                "compound_code": "MF85+WW Lansing, Michigan",
+                "global_code": "86JQMF85+WW"
+            },
+            "rating": 4,
+            "reference": "ChIJ45RWXRTBIogRMtc7MZsbBL4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 20,
+            "vicinity": "S Pennsylvania Ave #6200, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7303064,
+                    "lng": -84.5674449
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73165727989272,
+                        "lng": -84.56614062010728
+                    },
+                    "southwest": {
+                        "lat": 42.72895762010728,
+                        "lng": -84.56884027989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJyZ8udizAIogRxJWauKLX9lg",
+            "plus_code": {
+                "compound_code": "PCJM+42 Lansing, Michigan",
+                "global_code": "86JQPCJM+42"
+            },
+            "rating": 5,
+            "reference": "ChIJyZ8udizAIogRxJWauKLX9lg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "330 S Martin Luther King Jr Blvd, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.642233,
+                    "lng": -84.521328
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.64358207989271,
+                        "lng": -84.52005007010727
+                    },
+                    "southwest": {
+                        "lat": 42.64088242010727,
+                        "lng": -84.52274972989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108257482266237135669\">Karl Bloss</a>"
+                    ],
+                    "photo_reference": "AWU5eFgBjQ0SjM6OQMMD4-ya4E6Os1TvzTm6Bo6ULDG2Ux7oqGPW5bBeUaF3rXGTuLCJ16GnXTpqvf4uT4iyLXm8zsoMOayL6qYbjEui9rJ8JjfYDZ_hkXhKvQB4-fkvwkapQjocj2KuwDNjl0Egh0Tn2ahYNP5EFqJqBr_GMHSMweGYpb5P",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ9X1ymh3EIogR845v7oS2iNY",
+            "plus_code": {
+                "compound_code": "JFRH+VF Holt, Michigan",
+                "global_code": "86JQJFRH+VF"
+            },
+            "rating": 5,
+            "reference": "ChIJ9X1ymh3EIogR845v7oS2iNY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "2074 N Aurelius Rd, Holt"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6833639,
+                    "lng": -84.43014869999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.68471317989272,
+                        "lng": -84.42875402010728
+                    },
+                    "southwest": {
+                        "lat": 42.68201352010728,
+                        "lng": -84.43145367989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ12jn39DcIogRspFlctE-r6Y",
+            "plus_code": {
+                "compound_code": "MHM9+8W Okemos, Meridian Charter Township, MI",
+                "global_code": "86JQMHM9+8W"
+            },
+            "rating": 0,
+            "reference": "ChIJ12jn39DcIogRspFlctE-r6Y",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2186 Jolly Rd, Okemos"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.739739,
+                    "lng": -84.529246
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.74108472989272,
+                        "lng": -84.52793162010727
+                    },
+                    "southwest": {
+                        "lat": 42.73838507010728,
+                        "lng": -84.53063127989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJx6eIRgTqIogR4caiirmRg90",
+            "plus_code": {
+                "compound_code": "PFQC+V8 Lansing, Michigan",
+                "global_code": "86JQPFQC+V8"
+            },
+            "rating": 5,
+            "reference": "ChIJx6eIRgTqIogR4caiirmRg90",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "618 Nantucket Dr, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7777847,
+                    "lng": -84.398175
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.77913432989272,
+                        "lng": -84.39683637010728
+                    },
+                    "southwest": {
+                        "lat": 42.77643467010728,
+                        "lng": -84.39953602989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJG2JsWljmIogRPoF63104nOY",
+            "plus_code": {
+                "compound_code": "QJH2+4P East Lansing, Michigan",
+                "global_code": "86JQQJH2+4P"
+            },
+            "rating": 5,
+            "reference": "ChIJG2JsWljmIogRPoF63104nOY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "16429 Suite 1, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7325299,
+                    "lng": -84.555533
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73391662989272,
+                        "lng": -84.5541833701073
+                    },
+                    "southwest": {
+                        "lat": 42.73121697010728,
+                        "lng": -84.55688302989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ4XHcpdfBIogREemnyLJH-kU",
+            "plus_code": {
+                "compound_code": "PCMV+2Q Lansing, Michigan",
+                "global_code": "86JQPCMV+2Q"
+            },
+            "rating": 3,
+            "reference": "ChIJ4XHcpdfBIogREemnyLJH-kU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "303 W Allegan St, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7210251,
+                    "lng": -84.4814674
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72241042989273,
+                        "lng": -84.48042832010728
+                    },
+                    "southwest": {
+                        "lat": 42.71971077010728,
+                        "lng": -84.48312797989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFh79tRR4CIrBqkkU6t7S9vrl1Mj3BrquzlyBok5zUBNxmniUSvjj1KIWnpkxptUaWhCuBVIowMGkiEf6ASJUoHjz1CocPFN-PJAhJAmjDWJsDH59i6I-vvnd0wFAUo3szXxcAeklw-_ymNpsF0yqktC9L6yexwoszgRewUJcEk7oqJ3",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJqw_EtWLCIogRainSYs00OPA",
+            "plus_code": {
+                "compound_code": "PGC9+CC East Lansing, Michigan",
+                "global_code": "86JQPGC9+CC"
+            },
+            "rating": 4.5,
+            "reference": "ChIJqw_EtWLCIogRainSYs00OPA",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "1149 Red Cedar Rd, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7353163,
+                    "lng": -84.4675225
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73673472989272,
+                        "lng": -84.46645047010728
+                    },
+                    "southwest": {
+                        "lat": 42.73403507010728,
+                        "lng": -84.46915012989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVmatch Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJpaEb1iXoIogRlauLXy1CBwU",
+            "plus_code": {
+                "compound_code": "PGPJ+4X East Lansing, Michigan",
+                "global_code": "86JQPGPJ+4X"
+            },
+            "rating": 0,
+            "reference": "ChIJpaEb1iXoIogRlauLXy1CBwU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Ann St, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.750248,
+                    "lng": -84.56008
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.75159782989272,
+                        "lng": -84.55867542010728
+                    },
+                    "southwest": {
+                        "lat": 42.74889817010728,
+                        "lng": -84.56137507989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 9000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100273792307990018191\">Ethan Oberlee</a>"
+                    ],
+                    "photo_reference": "AWU5eFiHyGR2DBl9uaxXGVNI23LnWB3t9pgmUC6KOroflwSfoyL-Ltrw94PHMQrpsY_E1omyOXFSwvPHHDo8WQCJoK24G0le7rq89DihpDB4WUzHYhJXTzFKMvn76Fr5d-2VF9mEGyIZYos9WocS5DkBU57D09aJLKwHHs4H2AXCAII4oswR",
+                    "width": 12000
+                }
+            ],
+            "place_id": "ChIJHT9RQmHqIogREIL9Vvb6fP0",
+            "plus_code": {
+                "compound_code": "QC2Q+3X Lansing, Michigan",
+                "global_code": "86JQQC2Q+3X"
+            },
+            "rating": 5,
+            "reference": "ChIJHT9RQmHqIogREIL9Vvb6fP0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "530 W Willow St, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.726551,
+                    "lng": -84.4839935
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72790082989273,
+                        "lng": -84.48269567010728
+                    },
+                    "southwest": {
+                        "lat": 42.72520117010728,
+                        "lng": -84.48539532989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFhR5GsyOk2qsthN0Tw5IvcV7OvL2mF8wUxNba0EgO-ScwAG-5C-t52p4zUy2iRjI_buTqQ9wx0nc-lTdQxlJ1cIKhcmWOOj_FChv5tTIPswubD7BaB-bd5PFu2MO43Pm1SNsbfsDQoKuIws-cmNfCpzguIFNWvzb4upgdV9qPKxNdlt",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ5eTlnn7CIogRe-bxY5McuGs",
+            "plus_code": {
+                "compound_code": "PGG8+JC Okemos, Meridian Charter Township, MI",
+                "global_code": "86JQPGG8+JC"
+            },
+            "rating": 3.7,
+            "reference": "ChIJ5eTlnn7CIogRe-bxY5McuGs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "W Stadium Rd, Okemos"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7332633,
+                    "lng": -84.54428229999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73443277989272,
+                        "lng": -84.54267802010727
+                    },
+                    "southwest": {
+                        "lat": 42.73173312010728,
+                        "lng": -84.54537767989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Shell Recharge Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJwSpo7N_BIogRdsDYaomApBo",
+            "plus_code": {
+                "compound_code": "PFM4+87 Lansing, Michigan",
+                "global_code": "86JQPFM4+87"
+            },
+            "rating": 0,
+            "reference": "ChIJwSpo7N_BIogRdsDYaomApBo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "600 E Michigan Ave, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6824,
+                    "lng": -84.44881
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.68376027989272,
+                        "lng": -84.44714282010729
+                    },
+                    "southwest": {
+                        "lat": 42.68106062010728,
+                        "lng": -84.44984247989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ7_BxYiXDIogResO3SBsBtYQ",
+            "plus_code": {
+                "compound_code": "MHJ2+XF Okemos, Meridian Charter Township, MI",
+                "global_code": "86JQMHJ2+XF"
+            },
+            "rating": 0,
+            "reference": "ChIJ7_BxYiXDIogResO3SBsBtYQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "2743 Jolly Rd, Okemos"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.740336,
+                    "lng": -84.6531531
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.74151477989272,
+                        "lng": -84.65188427010727
+                    },
+                    "southwest": {
+                        "lat": 42.73881512010728,
+                        "lng": -84.65458392989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1023,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118337257389998240911\">bob smith</a>"
+                    ],
+                    "photo_reference": "AWU5eFiOyFZ17H8bFL-SRPmzxoNQ04PJbTnpcKs_lHpvlldzpIyM3HwLCBEZ1A31KFJHCcKZvSRszsSosNO28uIZTk0Xh9QIhD87yn4ocyWfhBhzaLOXXA6CDfMsHP0DTJkby6zhjsvUwB81HhO1bWWDUWUc2wteOosOorh8-kAj-zvfAzre",
+                    "width": 1233
+                }
+            ],
+            "place_id": "ChIJMdxTTIeVIogRtA9p8sy1vjU",
+            "plus_code": {
+                "compound_code": "P8RW+4P Lansing, Michigan",
+                "global_code": "86JQP8RW+4P"
+            },
+            "rating": 4.5,
+            "reference": "ChIJMdxTTIeVIogRtA9p8sy1vjU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "7109 W Saginaw Hwy, Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7294892,
+                    "lng": -84.4863562
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.73088167989272,
+                        "lng": -84.48499302010727
+                    },
+                    "southwest": {
+                        "lat": 42.72818202010728,
+                        "lng": -84.48769267989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFhKLddccYQal4mCEWPF7rGnUJgIi48R2d7OIPYgpc2V-4E6cgM3RjsFtYSOHP1IuePcHymmUxDfASggme_m8dVGif18CPLw_C13X8MyomluLIymWx0ZmosFj1mEYu5VJD73o0WuP_-eSsNXTU26Rj2CAwkAptwN9FIQ10iEQhfRQJyW",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJKUws23jCIogRmkI5Ye2YrEI",
+            "plus_code": {
+                "compound_code": "PGH7+QF Okemos, Meridian Charter Township, MI",
+                "global_code": "86JQPGH7+QF"
+            },
+            "rating": 0,
+            "reference": "ChIJKUws23jCIogRmkI5Ye2YrEI",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "393 Chestnut Rd, Okemos"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.7229446,
+                    "lng": -84.4667238
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72429152989272,
+                        "lng": -84.46535632010728
+                    },
+                    "southwest": {
+                        "lat": 42.72159187010728,
+                        "lng": -84.46805597989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106566543449171139096\">Matt Stehouwer</a>"
+                    ],
+                    "photo_reference": "AWU5eFjTQf7kE0L4AfsgOSZWkSrRcwKCs3PDftZ2MUa_1AidbVxu6VDA0gHxsWM85bNgXlGjboKDslKEcBuDCRZg2nTpEiLo41jAzekDhuHQ2E0G2zLFmeIeNyp6e-FosTGkaa375c9um6OoAwlRYPHO9jLaPqtwSFCGMpk68pZKhOCTBnah",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ544MU5rCIogRA4DH10MnnY4",
+            "plus_code": {
+                "compound_code": "PGFM+58 East Lansing, Michigan",
+                "global_code": "86JQPGFM+58"
+            },
+            "rating": 5,
+            "reference": "ChIJ544MU5rCIogRA4DH10MnnY4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "909 Conrad Rd, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.72403329999999,
+                    "lng": -84.4699558
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72538232989272,
+                        "lng": -84.46850822010728
+                    },
+                    "southwest": {
+                        "lat": 42.72268267010728,
+                        "lng": -84.47120787989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJaW-4V5vCIogRfANC8ovBsaw",
+            "plus_code": {
+                "compound_code": "PGFJ+J4 East Lansing, Michigan",
+                "global_code": "86JQPGFJ+J4"
+            },
+            "rating": 0,
+            "reference": "ChIJaW-4V5vCIogRfANC8ovBsaw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "766 E Shaw Ln, East Lansing"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.71916119999999,
+                    "lng": -84.41220820000001
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.72050952989272,
+                        "lng": -84.41081637010727
+                    },
+                    "southwest": {
+                        "lat": 42.71780987010728,
+                        "lng": -84.4135160298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Chevrolet Charging Station",
+            "opening_hours": {
+                "open_now": false
+            },
+            "place_id": "ChIJyVkkC2bdIogRURpOe9jmt4c",
+            "plus_code": {
+                "compound_code": "PH9Q+M4 Okemos, Meridian Charter Township, MI",
+                "global_code": "86JQPH9Q+M4"
+            },
+            "rating": 0,
+            "reference": "ChIJyVkkC2bdIogRURpOe9jmt4c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "1748 W Grand River Ave, Okemos"
+        }
+    ],
+    "status": "OK"
+}

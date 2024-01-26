@@ -1,0 +1,851 @@
+{
+    "html_attributions": [],
+    "next_page_token": "AWU5eFiumKxZFT5e1Z9b8TWLfDVfZU0Dr4ghFfBghVGjsd3nJ6r3-8zcHdCCAdeXuUXuFo57L3fPIUDaZLvQ43VTvNoCVpLoPV-fAfHH_5qoJnEW8nfg4y_UCMC5wk-P7FTpwooCVg3M-cG41ofQDAF3LSY5zlbSqVlpeAe4CmYqA-E04YWdCT99DnL3K1D5eBLz517-qQvpH6q64HYhI9CGfTEoiekCPagJ6NOeg9JmS-pzs4nolEpff3xei5rWwan7w04PpVS6zfoO9J_dDZeAPgaJoB7vdtYmOCwJe4vJiMk-QWVJZLxaRg09K75VAcOZu-ZQ9duqblhPiytVhroUpmOO_CFPnowCVfH_kJhVnWm1iQW-h6IZJbGaqTu0h2tXO1XvHQxHA5nLQrzcNYpBMnE_2xPZOlCzYgQ0CUIelmEZ1_YhNpycPaNrhvge5AifMaof",
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5115229,
+                    "lng": -83.0481408
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51282027989272,
+                        "lng": -83.04679962010727
+                    },
+                    "southwest": {
+                        "lat": 42.51012062010727,
+                        "lng": -83.04949927989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111461750974706070055\">Daesung Shin</a>"
+                    ],
+                    "photo_reference": "AWU5eFj5rKn_ahZ7vdSJp24DBBY88jzAq-AVqmdGa2EtYu8SvnljiDqR8-y5XAzVDxWF-U2A9c6iy8W4ymSXw-8wU2doQuCFhHvWpy8or1BtdFwzXEUyIXDKyin1M4X1ouDt42T2XZfaaNivwtM3BnxU9CfYkY2qIfIFpCQsDsIMs8Ot6n0c",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJc64skZHaJIgRKD9ZWonEHD0",
+            "plus_code": {
+                "compound_code": "GX62+JP Warren, Michigan",
+                "global_code": "86JRGX62+JP"
+            },
+            "rating": 3.8,
+            "reference": "ChIJc64skZHaJIgRKD9ZWonEHD0",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "29555 Mound Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5222097,
+                    "lng": -82.90676119999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.52359967989273,
+                        "lng": -82.90540962010728
+                    },
+                    "southwest": {
+                        "lat": 42.52090002010728,
+                        "lng": -82.90810927989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electrify America Charging Station Meijer",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113523377752095590770\">Kyle Hodgson</a>"
+                    ],
+                    "photo_reference": "AWU5eFhE4ryPmqFeytVzpVWgujVoLSnDIr5mHQX-f87UEwWUrPePI1_cRE5UtK61D9R4ljQXVJFaim8ccnrP4X_at5yONGWBJd-M47cCEBNp8PxbXOXDX42IC5t-cWfCxhJF_J-IeXCafCRA9D9AyKBppjBdf1DK1N-N3T4UqxZRmFOX1-PT",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJiQ6YtQPZJIgRZ6qNkEdV-gM",
+            "plus_code": {
+                "compound_code": "G3CV+V7 Roseville, Michigan",
+                "global_code": "86JVG3CV+V7"
+            },
+            "rating": 3,
+            "reference": "ChIJiQ6YtQPZJIgRZ6qNkEdV-gM",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 14,
+            "vicinity": "30800 Little Mack Ave, Roseville"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4453518,
+                    "lng": -83.117921
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44669822989272,
+                        "lng": -83.11656942010728
+                    },
+                    "southwest": {
+                        "lat": 42.44399857010728,
+                        "lng": -83.11926907989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Tesla Supercharger",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108767070157005947360\">jeremyforr</a>"
+                    ],
+                    "photo_reference": "AWU5eFiD8MpCIzOM5ea9lo7fYIsxC5jxSl8eZ_nGtAjJc3RN8BVH9HWgfAjKsgJpxP9Q0pGC4oNUnEYPPp-Sg-E8No-CqiVC_qIuw1O44wIaQNumZFlgJJIIHCk5U4ZaHclwzuvu58qtrnYfjhOMHyLKzMFTFvv6QsZyKVOYxLvtqyIfl-U-",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJry_0DZDPJIgR3TbOJatR3hg",
+            "plus_code": {
+                "compound_code": "CVWJ+4R Detroit, Michigan",
+                "global_code": "86JRCVWJ+4R"
+            },
+            "rating": 4.6,
+            "reference": "ChIJry_0DZDPJIgR3TbOJatR3hg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "1301 Eight Mile Rd, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4648659,
+                    "lng": -82.88512109999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.46618562989273,
+                        "lng": -82.88386532010728
+                    },
+                    "southwest": {
+                        "lat": 42.46348597010728,
+                        "lng": -82.88656497989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "place_id": "ChIJJ0kMh0AoJYgR776qGZ0jomc",
+            "plus_code": {
+                "compound_code": "F477+WX St Clair Shores, Michigan",
+                "global_code": "86JVF477+WX"
+            },
+            "rating": 0,
+            "reference": "ChIJJ0kMh0AoJYgR776qGZ0jomc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "23722 Jefferson Ave, St Clair Shores"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.44542999999999,
+                    "lng": -83.11789
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.44677622989272,
+                        "lng": -83.11661807010726
+                    },
+                    "southwest": {
+                        "lat": 42.44407657010728,
+                        "lng": -83.11931772989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EVgo Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJnUoejV7OJIgRh4KRbsMAP1o",
+            "plus_code": {
+                "compound_code": "CVWJ+5R Detroit, Michigan",
+                "global_code": "86JRCVWJ+5R"
+            },
+            "rating": 2,
+            "reference": "ChIJnUoejV7OJIgRh4KRbsMAP1o",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "1205 Eight Mile Rd, Detroit"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.6272246,
+                    "lng": -82.9436936
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62858382989271,
+                        "lng": -82.94241292010727
+                    },
+                    "southwest": {
+                        "lat": 42.62588417010727,
+                        "lng": -82.94511257989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Volta Charging Station",
+            "place_id": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
+            "plus_code": {
+                "compound_code": "J3G4+VG Clinton Twp, Michigan",
+                "global_code": "86JVJ3G4+VG"
+            },
+            "rating": 0,
+            "reference": "ChIJDTrq4cnfJIgRbutP6DQvNe4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5289282,
+                    "lng": -83.09122049999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.53031562989272,
+                        "lng": -83.08987172010727
+                    },
+                    "southwest": {
+                        "lat": 42.52761597010728,
+                        "lng": -83.09257137989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Blink Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJy6aaSiXFJIgRRTHdcSMRA3g",
+            "plus_code": {
+                "compound_code": "GWH5+HG Madison Heights, Michigan",
+                "global_code": "86JRGWH5+HG"
+            },
+            "rating": 0,
+            "reference": "ChIJy6aaSiXFJIgRRTHdcSMRA3g",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "32401 Industrial Dr, Madison Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5090319,
+                    "lng": -83.0487965
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.51032522989272,
+                        "lng": -83.04743442010728
+                    },
+                    "southwest": {
+                        "lat": 42.50762557010728,
+                        "lng": -83.05013407989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100617444904034377836\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFhuLsfGy_n2exCJyLbkyUTKHkGCpaHCXpm1IRPFWENuOnGtEO3yi0ALJaVI-QFA9sfeDO4rvEa8oYu0etj2Cu8idJLtiGtDuKRtDC1Nv7_WqyVFOuwGxfjVNUUCScDmb6iJO8HN_TIEsvgpWnbNWtFvE9bYXyerYhBtGGEbgttiBzKW",
+                    "width": 2448
+                }
+            ],
+            "place_id": "ChIJK3Lc14_aJIgRdYbEfSOG6Rw",
+            "plus_code": {
+                "compound_code": "GX52+JF Warren, Michigan",
+                "global_code": "86JRGX52+JF"
+            },
+            "rating": 4.3,
+            "reference": "ChIJK3Lc14_aJIgRdYbEfSOG6Rw",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 8,
+            "vicinity": "29377 Mound Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.507497,
+                    "lng": -82.976273
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.50884492989272,
+                        "lng": -82.97495517010728
+                    },
+                    "southwest": {
+                        "lat": 42.50614527010728,
+                        "lng": -82.97765482989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJDbdn4-vZJIgR0mF7jSnCMuo",
+            "plus_code": {
+                "compound_code": "G24F+XF Warren, Michigan",
+                "global_code": "86JVG24F+XF"
+            },
+            "rating": 5,
+            "reference": "ChIJDbdn4-vZJIgR0mF7jSnCMuo",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "14500 Twelve Mile Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4801926,
+                    "lng": -82.98929319999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48140952989272,
+                        "lng": -82.98741297010727
+                    },
+                    "southwest": {
+                        "lat": 42.47870987010727,
+                        "lng": -82.9901126298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJl4rYQEzXJIgRtWwyXN3vPSc",
+            "plus_code": {
+                "compound_code": "F2J6+37 Warren, Michigan",
+                "global_code": "86JVF2J6+37"
+            },
+            "rating": 0,
+            "reference": "ChIJl4rYQEzXJIgRtWwyXN3vPSc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "25225 Schoenherr Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.483004,
+                    "lng": -83.109388
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.48435992989273,
+                        "lng": -83.10798522010728
+                    },
+                    "southwest": {
+                        "lat": 42.48166027010728,
+                        "lng": -83.11068487989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2RQ7pZfPJIgROonZU3Du3D8",
+            "plus_code": {
+                "compound_code": "FVMR+66 Madison Heights, Michigan",
+                "global_code": "86JRFVMR+66"
+            },
+            "rating": 5,
+            "reference": "ChIJ2RQ7pZfPJIgROonZU3Du3D8",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "451 W Lincoln Ave, Madison Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.522916,
+                    "lng": -82.98625899999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.52422297989272,
+                        "lng": -82.98490657010727
+                    },
+                    "southwest": {
+                        "lat": 42.52152332010728,
+                        "lng": -82.98760622989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJl91WjIXZJIgRxdo2mcGom9A",
+            "plus_code": {
+                "compound_code": "G2F7+5F Warren, Michigan",
+                "global_code": "86JVG2F7+5F"
+            },
+            "rating": 0,
+            "reference": "ChIJl91WjIXZJIgRxdo2mcGom9A",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "31200 Schoenherr Rd, Warren"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.626448,
+                    "lng": -82.99209599999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62779672989272,
+                        "lng": -82.99077162010727
+                    },
+                    "southwest": {
+                        "lat": 42.62509707010728,
+                        "lng": -82.99347127989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJ2FP63XeJIgRmseCWytsxvc",
+            "plus_code": {
+                "compound_code": "J2G5+H5 Sterling Heights, Michigan",
+                "global_code": "86JVJ2G5+H5"
+            },
+            "rating": 0,
+            "reference": "ChIJJ2FP63XeJIgRmseCWytsxvc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "13630 Hall Rd, Sterling Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5981864,
+                    "lng": -82.87934109999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.59956002989271,
+                        "lng": -82.87803532010727
+                    },
+                    "southwest": {
+                        "lat": 42.59686037010727,
+                        "lng": -82.88073497989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "plus_code": {
+                "compound_code": "H4XC+77 Mt Clemens, Michigan",
+                "global_code": "86JVH4XC+77"
+            },
+            "rating": 0,
+            "reference": "ChIJJYqGRfEgJYgRYuyUqu22-P4",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "27 N Walnut St, Mt Clemens"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.625172,
+                    "lng": -83.0315619
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.62654732989272,
+                        "lng": -83.03017602010728
+                    },
+                    "southwest": {
+                        "lat": 42.62384767010728,
+                        "lng": -83.03287567989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJtZqSYqbdJIgRhdNXUkBoxtQ",
+            "plus_code": {
+                "compound_code": "JXG9+39 Utica, Michigan",
+                "global_code": "86JRJXG9+39"
+            },
+            "rating": 0,
+            "reference": "ChIJtZqSYqbdJIgRhdNXUkBoxtQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "8100 Hall Rd, Utica"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.3966193,
+                    "lng": -82.9036206
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.39798217989272,
+                        "lng": -82.90228267010728
+                    },
+                    "southwest": {
+                        "lat": 42.39528252010727,
+                        "lng": -82.90498232989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJXyJ2EwkqJYgRb5iSIV3_EPY",
+            "plus_code": {
+                "compound_code": "93WW+JJ Grosse Pointe Farms, Michigan",
+                "global_code": "86JV93WW+JJ"
+            },
+            "rating": 5,
+            "reference": "ChIJXyJ2EwkqJYgRb5iSIV3_EPY",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "159 Kercheval Ave, Grosse Pointe Farms"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.55625999999999,
+                    "lng": -82.929474
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55760912989272,
+                        "lng": -82.92817047010728
+                    },
+                    "southwest": {
+                        "lat": 42.55490947010728,
+                        "lng": -82.93087012989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2ytikMfYJIgR_4__I4PXooU",
+            "plus_code": {
+                "compound_code": "H34C+G6 Clinton Twp, Michigan",
+                "global_code": "86JVH34C+G6"
+            },
+            "rating": 4,
+            "reference": "ChIJ2ytikMfYJIgR_4__I4PXooU",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "35350 Kelly Rd, Clinton Twp"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.5981102,
+                    "lng": -82.8774578
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.59943872989272,
+                        "lng": -82.87604667010727
+                    },
+                    "southwest": {
+                        "lat": 42.59673907010728,
+                        "lng": -82.87874632989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "ChargePoint Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJQRPx1_AgJYgRQ718VLyq6tg",
+            "plus_code": {
+                "compound_code": "H4XF+62 Mt Clemens, Michigan",
+                "global_code": "86JVH4XF+62"
+            },
+            "rating": 3,
+            "reference": "ChIJQRPx1_AgJYgRQ718VLyq6tg",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "39 N Main St, Mt Clemens"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.551013,
+                    "lng": -83.0478339
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.55231107989272,
+                        "lng": -83.04649177010728
+                    },
+                    "southwest": {
+                        "lat": 42.54961142010728,
+                        "lng": -83.04919142989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Electric Vehicle Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 757,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108493705205085197092\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjBV-6ZmEj1NUbKBtDvGt8tC_Uii0KIk0YwKdb4rUFfl8d1Kumn3QxfjwFi65iLmj-vdEH2hOK1xSS3lHuw4jI3-81AZlQlsR5NJmIKrdonBj-aRrWqcjCWQMc3GHBuIshvDgOm8_KTRIP2uFsJEKfHu9jNb3pOw4RigF5qpAmEUsjT",
+                    "width": 1600
+                }
+            ],
+            "place_id": "ChIJr7gh27bbJIgRv4-k2wj1YhQ",
+            "plus_code": {
+                "compound_code": "HX22+CV Sterling Heights, Michigan",
+                "global_code": "86JRHX22+CV"
+            },
+            "rating": 5,
+            "reference": "ChIJr7gh27bbJIgRv4-k2wj1YhQ",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "35030 Mound Rd, Sterling Heights"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 42.4956374,
+                    "lng": -82.8880877
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 42.49681067989273,
+                        "lng": -82.88657922010728
+                    },
+                    "southwest": {
+                        "lat": 42.49411102010728,
+                        "lng": -82.88927887989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "EV Connect Charging Station",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ_f-PtecnJYgRnoh5E3dLhec",
+            "plus_code": {
+                "compound_code": "F4W6+7Q St Clair Shores, Michigan",
+                "global_code": "86JVF4W6+7Q"
+            },
+            "rating": 5,
+            "reference": "ChIJ_f-PtecnJYgRnoh5E3dLhec",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "27600 Jefferson Ave, St Clair Shores"
+        }
+    ],
+    "status": "OK"
+}
