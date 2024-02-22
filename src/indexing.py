@@ -355,7 +355,7 @@ class Indexer:
                             for query in queries:
                                 tokens.extend(
                                     document_preprocessor.tokenize(query))
-                        index.add_doc(document['docid'], tokens)
+                        index.add_doc(int(document['docid']), tokens)
                     except EOFError:
                         break
             else:
@@ -369,7 +369,7 @@ class Indexer:
                             for query in queries:
                                 tokens.extend(
                                     document_preprocessor.tokenize(query))
-                        index.add_doc(document['docid'], tokens)
+                        index.add_doc(int(document['docid']), tokens)
                     except EOFError:
                         break
 

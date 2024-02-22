@@ -19,7 +19,7 @@ from utils import DATA_PATH, CACHE_PATH
 NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
 NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
 STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
-STATIONS_INFO_PATH = DATA_PATH + 'NREL_All_Stations_data_s.csv'
+STATIONS_INFO_PATH = DATA_PATH + 'NREL_raw.csv'
 RELEVANCE_TRAIN_PATH = DATA_PATH + 'relevance.train.csv'
 DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 
@@ -79,8 +79,9 @@ class SearchEngine(BaseSearchEngine):
             self.reranker = 'cf'
         elif reranker == 'l2r':
             print('Loading l2r ranker...')
-            self.feature_extractor = L2RFeatureExtractor(
-                self.frame, self.ranker)
+            self.feature_extractor = L2RFeatureExtractor(self.document_index, self.title_index,
+                                                         self.document_preprocessor, self.stopwords, 
+                                                         self.frame, self.ranker)
             self.pipeline = L2RRanker(
                 frame=self.frame,
                 document_index=self.document_index,
@@ -176,8 +177,8 @@ class SearchEngine(BaseSearchEngine):
             return [SearchResponse(id=idx+1, docid=result, score=0) for idx, result in enumerate(results)]
 
     def get_station_info(self, docid_list):
-        detailed_data = pd.read_csv(STATIONS_INFO_PATH, delimiter='\t')
-        return detailed_data.iloc[docid_list][['Station Name', 'Street Address', 'Latitude', 'Longitude']]
+        self.detailed_data = pd.read_csv(STATIONS_INFO_PATH, delimiter='\t')
+        return self.detailed_data[self.detailed_data['ID'].isin(docid_list)][['Station Name', 'Street Address', 'Latitude', 'Longitude']]
 
 
 def initialize():

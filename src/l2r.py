@@ -29,18 +29,15 @@ class L2RRanker:
             ranker: The Ranker object
             feature_extractor: The L2RFeatureExtractor object
         """
-        # TODO: Save any new arguments that are needed as fields of this class
         self.frame = frame
         self.document_index = document_index
         self.title_index = title_index
         self.document_preprocessor = document_preprocessor
         self.stopwords = stopwords
-        self.bm25_scorer = BM25(self.document_index)
         self.ranker = ranker
         self.feature_extractor = feature_extractor
         self.name = 'L2RRanker'
 
-        # TODO: Initialize the LambdaMART model (but don't train it yet)
         self.model = LambdaMART()
         self.trained = False
 
@@ -65,19 +62,23 @@ class L2RRanker:
         y = []
         qgroups = []
 
-        # TODO: For each query and the documents that have been rated for relevance to that query,
-        #       process these query-document pairs into features
+        # For each query and the documents that have been rated for relevance to that query,
+        # process these query-document pairs into features
         for query, doc_scores in tqdm(query_to_document_relevance_scores.items()):
 
-            query_parts = [float(x) for x in query.split(',')]
+            query_parts = self.document_preprocessor.tokenize(query)
+            doc_term_counts = self.accumulate_doc_term_counts(
+                self.document_index, query_parts)
+            title_term_counts = self.accumulate_doc_term_counts(
+                self.title_index, query_parts)
 
-            # TODO: For each of the documents, generate its features, then append
-            #       the features and relevance score to the lists to be returned
+            # For each of the documents, generate its features, then append
+            # the features and relevance score to the lists to be returned
             for doc in doc_scores:
                 docid = doc[0]
                 score = doc[1]
                 features = self.feature_extractor.generate_features(
-                    docid, query_parts)
+                    docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query)
                 X.append(features)
                 y.append(score)
 
@@ -101,8 +102,8 @@ class L2RRanker:
             A dictionary mapping each document containing at least one of the query tokens to
             a dictionary with how many times each of the query words appears in that document
         """
-        # TODO: Retrieve the set of documents that have each query word (i.e., the postings) and
-        #       create a dictionary that keeps track of their counts for the query word
+        # Retrieve the set of documents that have each query word (i.e., the postings) and
+        # create a dictionary that keeps track of their counts for the query word
         doc_term_count = defaultdict(Counter)
 
         relevant_docs = set()
@@ -196,7 +197,7 @@ class L2RRanker:
             raise ValueError("Model has not been trained yet.")
         return self.model.predict(X)
 
-    def query(self, query: str, user_id=None, mmr_lambda: int = 1, mmr_threshold: int = 100) -> list[tuple[int, float]]:
+    def query(self, query: str, user_id=None) -> list[tuple[int, float]]:
         """
         Retrieves potentially-relevant documents, constructs feature vectors for each query-document pair,
         uses the L2R model to rank these documents, and returns the ranked documents.
@@ -243,8 +244,7 @@ class L2RRanker:
                 lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
             relevant_docs = relevant_docs.sort_values(
                 by=['score'], ascending=False)
-            relevant_docs['id'] = relevant_docs.index
-            results = relevant_docs[['id', 'score']].values.tolist()
+            results = relevant_docs[['ID', 'score']].values.tolist()
 
         # Filter to just the top 100 documents for the L2R part for re-ranking
         results_top_100 = results[:100]
@@ -255,8 +255,12 @@ class L2RRanker:
         for item in results_top_100:
             docid = int(item[0])
             if self.ranker.scorer.__class__.__name__ == 'DistScorer':
+                doc_term_counts = self.accumulate_doc_term_counts(
+                    self.document_index, query_parts)
+                title_term_counts = self.accumulate_doc_term_counts(
+                    self.title_index, query_parts)
                 X_pred.append(self.feature_extractor.generate_features(
-                    docid, query_parts))
+                    docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
             # else:
             #     X_pred.append(self.feature_extractor.generate_features(
             #         docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
@@ -297,24 +301,6 @@ class L2RRanker:
         # Return the ranked documents
         return results
 
-    # BM25
-    def get_BM25_score(self, docid: int, doc_word_counts: dict[str, int],
-                       query_parts: list[str]) -> float:
-        """
-        Calculates the BM25 score.
-
-        Args:
-            docid: The id of the document
-            doc_word_counts: The words in the document's main text mapped to their frequencies
-            query_parts: A list of tokenized query tokens
-
-        Returns:
-            The BM25 score
-        """
-        # TODO: Calculate the BM25 score and return it
-        query_word_count = Counter(query_parts)
-        return self.bm25_scorer.score(docid, doc_word_counts, query_word_count)
-
     def save_model(self) -> None:
         pickle.dump(self.model.ranker, open('../cache/l2r_model_' +
                     self.ranker.__class__.__name__ + '.pkl', 'wb'))
@@ -325,7 +311,9 @@ class L2RRanker:
 
 
 class L2RFeatureExtractor:
-    def __init__(self, data_source, ranker) -> None:
+    def __init__(self, document_index, title_index,
+                 document_preprocessor, stopwords,
+                 frame, ranker) -> None:
         """
         Initializes a L2RFeatureExtractor object.
 
@@ -343,12 +331,113 @@ class L2RFeatureExtractor:
             ce_scorer: The CrossEncoderScorer object
         """
         # Set the initial state using the arguments
-        self.data_source = data_source
+        self.frame = frame
         self.ranker = ranker
+        self.document_index = document_index
+        self.title_index = title_index
+        self.document_preprocessor = document_preprocessor
+        self.stopwords = stopwords
+        self.tf_idf_scorer = TF_IDF(document_index)
+        self.bm25_scorer = BM25(document_index)
+        self.pivoted_norm_scorer = PivotedNormalization(document_index)
 
-    # Add at least one new feature to be used with your L2R model
+    def get_article_length(self, docid: int) -> int:
+        """
+        Gets the length of a document (including stopwords).
 
-    def generate_features(self, docid: int, query_parts: list[float]) -> list:
+        Args:
+            docid: The id of the document
+
+        Returns:
+            The length of a document
+        """
+        return self.document_index.get_doc_metadata(docid)['length']
+
+    def get_title_length(self, docid: int) -> int:
+        """
+        Gets the length of a document's title (including stopwords).
+
+        Args:
+            docid: The id of the document
+
+        Returns:
+            The length of a document's title
+        """
+        return self.title_index.get_doc_metadata(docid)['length']
+
+    def get_tf(self, index: InvertedIndex, docid: int, word_counts: dict[str, int], query_parts: list[str]) -> float:
+        """
+        Calculates the TF score.
+
+        Args:
+            index: An inverted index to use for calculating the statistics
+            docid: The id of the document
+            word_counts: The words in some part of a document mapped to their frequencies
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            The TF score
+        """
+        score = 0
+        query_index = Counter(query_parts)
+        for item in query_index:
+            if item not in word_counts:
+                continue
+            score += math.log(word_counts[item] + 1)
+        return score
+
+    def get_tf_idf(self, index: InvertedIndex, docid: int,
+                   word_counts: dict[str, int], query_parts: list[str]) -> float:
+        """
+        Calculates the TF-IDF score.
+
+        Args:
+            index: An inverted index to use for calculating the statistics
+            docid: The id of the document
+            word_counts: The words in some part of a document mapped to their frequencies
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            The TF-IDF score
+        """
+        query_word_count = Counter(query_parts)
+        return self.tf_idf_scorer.score(docid, word_counts, query_word_count)
+
+    def get_BM25_score(self, docid: int, doc_word_counts: dict[str, int],
+                       query_parts: list[str]) -> float:
+        """
+        Calculates the BM25 score.
+
+        Args:
+            docid: The id of the document
+            doc_word_counts: The words in the document's main text mapped to their frequencies
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            The BM25 score
+        """
+        query_word_count = Counter(query_parts)
+        return self.bm25_scorer.score(docid, doc_word_counts, query_word_count)
+
+    def get_pivoted_normalization_score(self, docid: int, doc_word_counts: dict[str, int],
+                                        query_parts: list[str]) -> float:
+        """
+        Calculates the pivoted normalization score.
+
+        Args:
+            docid: The id of the document
+            doc_word_counts: The words in the document's main text mapped to their frequencies
+            query_parts: A list of tokenized query tokens
+
+        Returns:
+            The pivoted normalization score
+        """
+        query_word_count = Counter(query_parts)
+        return self.pivoted_norm_scorer.score(docid, doc_word_counts, query_word_count)
+
+    def generate_features(self, docid: int, doc_word_counts: dict[str, int],
+                          title_word_counts: dict[str, int], query_parts: list[str],
+                          query: str) -> list:
         """
         Generates a dictionary of features for a given document and query.
 
@@ -364,15 +453,28 @@ class L2RFeatureExtractor:
                 Feature order should be stable between calls to the function
                 (the order of features in the vector should not change).
         """
-        # NOTE: We can use this to get a stable ordering of features based on consistent insertion
-        #       but it's probably faster to use a list to start
 
         feature_vector = []
 
+        feature_vector.append(self.get_article_length(docid))
+        feature_vector.append(self.get_title_length(docid))
+        feature_vector.append(len(query_parts))
+        feature_vector.append(self.get_tf(self.document_index, docid,
+                                          doc_word_counts, query_parts))
+        feature_vector.append(self.get_tf_idf(self.document_index, docid,
+                                              doc_word_counts, query_parts))
+        feature_vector.append(self.get_tf(self.title_index, docid,
+                                          title_word_counts, query_parts))
+        feature_vector.append(self.get_tf_idf(self.title_index, docid,
+                                              title_word_counts, query_parts))
+        feature_vector.append(self.get_BM25_score(docid, doc_word_counts,
+                                                  query_parts))
+        feature_vector.append(self.get_pivoted_normalization_score(docid, doc_word_counts,
+                                                                   query_parts))
         dist = self.ranker.scorer.score(
-            query_parts, self.data_source.iloc[docid])
+            self.frame[self.frame['ID'] == docid].iloc[0], query.split(', '))
         feature_vector.append(dist)
-        feature_vector.extend(self.data_source.iloc[docid].tolist())
+        feature_vector.extend(self.frame[self.frame['ID'] == docid].iloc[0].to_list())
 
         return feature_vector
 
