@@ -60,11 +60,16 @@ This file contains the relevance data for the testing of the l2r ranker.
 ### Notebooks
 
 - `NREL_processing.ipynb`:
-This notebook contains the code for data processing from NREL API.
+This notebook contains the code for data processing from NREL API into the corpus for the search engine. 
+
+- `NREL_processing_numerical.ipynb`:
+This notebook contains the code for data processing from NREL API into the numerical dataframe for the search engine.
 
 - `Google_Map_Find_API.ipynb`:
 This notebook creates the relevance data for the training and testing of the l2r ranker.
 
+- `evaluation.ipynb`:  
+This notebook contains the code for calling a search engine object and evaluating the perforance by setting all the parameters. 
 
 ## Reference
 

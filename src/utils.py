@@ -79,17 +79,16 @@ def merge_lat_lng_tester():
 
 def get_NREL_map(filepath) -> pd.DataFrame:
     df = pd.read_csv(filepath, delimiter='\t')
-    df['index'] = df.index
-    df = df [['index', 'Latitude', 'Longitude']]
+    df = df [['ID', 'Latitude', 'Longitude']]
     df.rename(columns = {
-        'index' : 'docid', 
+        'ID' : 'docid', 
         'Latitude' : 'lat',
         'Longitude' : 'lng'
     }, inplace=True)
 
-    df.to_csv('data/docid_NREL_map.csv', index=False)
+    df.to_csv(DATA_PATH + 'NREL_map.csv', index=False)
     return df
 
 
 if __name__ == '__main__':
-    get_NREL_map('data/NREL_All_Stations_data.csv')
+    get_NREL_map(DATA_PATH + 'NREL_raw.csv')
