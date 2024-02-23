@@ -127,8 +127,7 @@ class VectorRanker(Ranker):
                 lambda x: self.ranker.ranker.scorer.score(x, query_parts), axis=1)
         relevant_docs = relevant_docs.sort_values(
             by=['score'], ascending=False)
-        relevant_docs['id'] = relevant_docs.index
-        results = relevant_docs[['id', 'score']].values.tolist()
+        results = relevant_docs[['ID', 'score']].values.tolist()
 
         # Filter to just the top 100 documents for the L2R part for re-ranking
         # This is only able to run if we use l2r as the ranker, so use try except here
