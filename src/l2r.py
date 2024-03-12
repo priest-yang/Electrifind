@@ -231,8 +231,6 @@ class L2RRanker:
             except:
                 prompt = None
 
-            print('prompt:', prompt)
-
             if len(query_parts) == 0:
                 return []
             mask = (abs(lat - self.frame.Latitude) <

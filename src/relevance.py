@@ -158,14 +158,7 @@ def run_relevance_tests(relevance_data_filename: str, ranker,
         ideal = relevance_df[relevance_df['query'] == query]
         ideal = ideal.sort_values(by=['rel'], ascending=False)
         if ranker.name == 'L2RRanker':
-            response = ranker.query(
-                query,
-                pseudofeedback_num_docs,
-                pseudofeedback_alpha,
-                pseudofeedback_beta,
-                mmr_lambda=mmr_lambda,
-                mmr_threshold=mmr_threshold
-            )
+            response = ranker.query(query)
         elif ranker.name == 'CFRanker':
             response = ranker.query(query, user_id, threshold)
         else:

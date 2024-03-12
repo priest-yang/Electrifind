@@ -115,7 +115,7 @@ class VectorRanker(Ranker):
         if len(query_parts) == 0:
             return []
         mask = (abs(lat - self.index.Latitude) <
-                0.01) & (abs(lng - self.index.Longitude) < 0.01)
+                0.03) & (abs(lng - self.index.Longitude) < 0.03)
         relevant_docs = self.index[mask]
         if len(relevant_docs) == 0:
             return []
@@ -136,13 +136,15 @@ class VectorRanker(Ranker):
             results_tails = results[100:]
             X_pred = []
 
+        if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
             for item in results_top_100:
-                docid = int(item[0])
-                if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
-                    X_pred.append(self.ranker.feature_extractor.generate_features(
-                        docid, query_parts))
-                else:
-                    return None
+                docid = int(item[0])        
+                doc_term_counts = self.ranker.accumulate_doc_term_counts(
+                    self.ranker.document_index, query_parts)
+                title_term_counts = self.ranker.accumulate_doc_term_counts(
+                    self.ranker.title_index, query_parts)
+                X_pred.append(self.ranker.feature_extractor.generate_features(
+                    docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
 
             # TODO: Use your L2R model to rank these top 100 documents
             scores = self.ranker.predict(X_pred)

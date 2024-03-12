@@ -22,6 +22,7 @@ STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
 STATIONS_INFO_PATH = DATA_PATH + 'NREL_raw.csv'
 RELEVANCE_TRAIN_PATH = DATA_PATH + 'relevance.train.csv'
 DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
+SEARCH_RADIUS = 5
 
 
 class SearchEngine(BaseSearchEngine):
@@ -80,7 +81,7 @@ class SearchEngine(BaseSearchEngine):
         elif reranker == 'l2r':
             print('Loading l2r ranker...')
             self.feature_extractor = L2RFeatureExtractor(self.document_index, self.title_index,
-                                                         self.document_preprocessor, self.stopwords, 
+                                                         self.document_preprocessor, self.stopwords,
                                                          self.frame, self.ranker)
             self.pipeline = L2RRanker(
                 frame=self.frame,
@@ -129,8 +130,9 @@ class SearchEngine(BaseSearchEngine):
             self.reranker = 'vector'
         elif reranker == 'l2r+vector':
             print('Loading l2r ranker...')
-            self.feature_extractor = L2RFeatureExtractor(
-                self.frame, self.ranker)
+            self.feature_extractor = L2RFeatureExtractor(self.document_index, self.title_index,
+                                                         self.document_preprocessor, self.stopwords,
+                                                         self.frame, self.ranker)
             self.l2r = L2RRanker(
                 frame=self.frame,
                 document_index=self.document_index,
@@ -178,7 +180,24 @@ class SearchEngine(BaseSearchEngine):
 
     def get_station_info(self, docid_list):
         self.detailed_data = pd.read_csv(STATIONS_INFO_PATH, delimiter='\t')
-        return self.detailed_data[self.detailed_data['ID'].isin(docid_list)][['Station Name', 'Street Address', 'Latitude', 'Longitude']]
+        return self.detailed_data[self.detailed_data['ID'].isin(docid_list)][[
+            'Station Name', 'Street Address', 'Intersection Directions',
+            'City', 'State', 'ZIP', 'Plus4', 'Station Phone',
+            'Access Days Time', 'Cards Accepted',
+            'EV Level1 EVSE Num', 'EV Level2 EVSE Num', 'EV DC Fast Count',
+            'EV Other Info', 'EV Network', 'EV Network Web',
+            'Geocode Status', 'Latitude', 'Longitude',
+            'Date Last Confirmed', 'ID', 'Updated At', 'Owner Type Code',
+            'Federal Agency ID', 'Federal Agency Name', 'Open Date',
+            'EV Connector Types', 'Country', 'Access Code', 'Access Detail Code',
+            'Federal Agency Code', 'Facility Type',
+            'EV Pricing', 'EV On-Site Renewable Source', 'Restricted Access',
+            'NPS Unit Name', 'Maximum Vehicle Class', 'EV Workplace Charging'
+        ]]
+    
+    def get_gpt_info(self, docid_list):
+        self.detailed_data = pd.read_csv('../data/station_personalized_features.csv')
+        return self.detailed_data[self.detailed_data['docid'].isin(docid_list)]
 
 
 def initialize():
