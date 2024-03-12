@@ -1,9 +1,10 @@
 html {
     background-color: #fbfbfb;
 }
+
 body {
     background-color: #fbfbfb;
-    font-family: "SF Pro Display", "SF Pro Icons","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
     line-height: 1.1;
     /* position: relative; */
@@ -22,34 +23,35 @@ nav {
     border-bottom: rgb(222, 222, 222) 1px solid;
 }
 
-main{
+main {
     padding: 1% 5%;
     background-color: #fbfbfb;
 }
 
-#nav-title{
+#nav-title {
     font-size: 21px;
     margin-left: 50px;
-    font-family: Silkscreen, "Special Elite", "SF Pro Display", "SF Pro Icons","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Silkscreen, "Special Elite", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#nav-title a{
+#nav-title a {
     text-decoration: none;
     color: inherit;
 }
 
-#nav-title a:hover{
+#nav-title a:hover {
     color: #565564;
 }
 
 
-h1{
+h1 {
     text-align: center;
     font-weight: 600;
-    font-family: "DM Serif Display", Silkscreen, "Special Elite", "SF Pro Display", "SF Pro Icons","Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-family: "DM Serif Display", Silkscreen, "Special Elite", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
 }
 
-#search-header{
+#search-header {
     text-align: center;
     width: 100%;
     /* margin-top: 5%; */
@@ -60,7 +62,7 @@ h1{
     animation-duration: 1s;
 }
 
-#search-bar{
+#search-bar {
     width: 100%;
     /* display: flex; */
     /* box-shadow: 2px 4px 12px rgba(0 0 0/0.08); */
@@ -74,7 +76,7 @@ h1{
     box-shadow: 8px 8px 16px rgba(0 0 0/0.1);
 } */
 
-#input-wrapper{
+#input-wrapper {
     display: flex;
     align-items: center;
     background-color: white;
@@ -83,35 +85,35 @@ h1{
     width: 50vw;
 }
 
-#input-wrapper:hover{
+#input-wrapper:hover {
     box-shadow: 8px 8px 16px rgba(0 0 0/0.1);
 }
 
-#icon-magnifying-glass{
+#icon-magnifying-glass {
     margin-left: 3%;
 }
 
-#input-wrapper-filter{
+#input-wrapper-filter {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5% 0;
 }
 
-#icon-filter:hover{
+#icon-filter:hover {
     opacity: 0.6;
 }
 
-#search-header{
+#search-header {
     display: flex;
 }
 
-#search-header form{
+#search-header form {
     width: 100%;
     /* border-radius: 30px; */
 }
 
-#search-header input{
+#search-header input {
     width: 100%;
     height: 50px;
     border: none;
@@ -121,16 +123,16 @@ h1{
     background-color: white;
 }
 
-#search-header input:focus{
+#search-header input:focus {
     outline: none;
 }
 
-#icon-filter{
+#icon-filter {
     margin-left: 3%;
     cursor: pointer;
 }
 
-.multiselect-single-wrapper{
+.multiselect-single-wrapper {
     display: flex;
     align-items: center;
     width: 95%;
@@ -139,36 +141,36 @@ h1{
     /* z-index: 0; */
 }
 
-.multiselect-single-wrapper:nth-child(1){
+.multiselect-single-wrapper:nth-child(1) {
     grid-column: 1 / span 3;
 }
 
-.multiselect-single-wrapper:nth-child(2){
+.multiselect-single-wrapper:nth-child(2) {
     grid-column: 4 / span 3;
 
 }
 
-.multiselect-single-wrapper:nth-child(3){
+.multiselect-single-wrapper:nth-child(3) {
     grid-column: 1 / span 3;
 }
 
-.multiselect-single-wrapper:nth-child(4){
+.multiselect-single-wrapper:nth-child(4) {
     grid-column: 4 / span 3;
 }
 
-.multiselect-single-wrapper:nth-child(5){
+.multiselect-single-wrapper:nth-child(5) {
     grid-column: 2 / -2;
 }
 
-.multiselect-single-wrapper label{
+.multiselect-single-wrapper label {
     margin: 0 5%;
 }
 
-.multiselect-single-wrapper>div:first-of-type{
+.multiselect-single-wrapper>div:first-of-type {
     width: 100%;
 }
 
-.ui.multiple.selection.dropdown{
+.ui.multiple.selection.dropdown {
     border-radius: 20px;
     border: none;
     background-color: white;
@@ -177,23 +179,24 @@ h1{
     width: 100%;
 }
 
-.ui.multiple.selection.dropdown:hover{
-    box-shadow: 8px 8px 16px rgba(0 0 0/0.1);;
+.ui.multiple.selection.dropdown:hover {
+    box-shadow: 8px 8px 16px rgba(0 0 0/0.1);
+    ;
 }
 
-.ui.selection.active.dropdown .menu{
+.ui.selection.active.dropdown .menu {
     border: none;
 }
 
-.ui.label.transition.visible{
+.ui.label.transition.visible {
     border: none;
-    background-color: rgba(0,0,0,.87);
+    background-color: rgba(0, 0, 0, .87);
     color: whitesmoke;
     border-radius: 30px;
     box-shadow: 2px 4px 12px rgba(0 0 0/0.08);
 }
 
-#multiselect-wrapper{
+#multiselect-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     row-gap: 25px;
@@ -207,9 +210,9 @@ h1{
     transition: max-height 0.3s linear, padding 0.3s linear;
     /* animation: fadeOutUp; */
     /* animation-duration: 0.7s; */
-  }
+}
 
-#search-bar.open  #multiselect-wrapper{
+#search-bar.open #multiselect-wrapper {
     /* display: grid;
     grid-template-columns: repeat(6, 1fr);
     row-gap: 25px;
@@ -253,11 +256,11 @@ h1{
     height: 30vw;
 }
 
-.single-result-card:hover{
+.single-result-card:hover {
     transform: translateY(-10px);
 }
 
-.single-result-card img{
+.single-result-card img {
     grid-row: 1 / span 2;
     grid-column: 1 / span 1;
     width: 100%;
@@ -267,7 +270,7 @@ h1{
     object-fit: cover;
 }
 
-.prompt-text-wrapper{
+.prompt-text-wrapper {
     grid-row: 1 / span 2;
     grid-column: 1 / span 1;
     /* z-index: 1; */
@@ -282,7 +285,7 @@ h1{
     text-overflow: clip;
     /* color: #75757d; */
     font-weight: 400;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue",Helvetica, Arial, sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: whitesmoke;
     /* background-color: rgba(50, 50, 50, 0.7); */
     /* border-radius: 30px 30px 0 0; */
@@ -303,7 +306,7 @@ h1{
     margin: 0;
 }
 
-.prompt-text-wrapper p:hover{
+.prompt-text-wrapper p:hover {
     height: 60%;
 }
 
@@ -311,14 +314,14 @@ h1{
 https://colorhunt.co/palette/ff90bcffc0d9f9f9e08acdd7 
 */
 
-.single-result-card form{
-    width: 100%;    
+.single-result-card form {
+    width: 100%;
     display: flex;
     grid-row: 4 / span 1;
     text-align: center;
 }
 
-.single-result-card input[type="submit"]{
+.single-result-card input[type="submit"] {
     border-radius: 0 0 0 30px;
     background-color: #FF90BC;
     color: white;
@@ -332,11 +335,11 @@ https://colorhunt.co/palette/ff90bcffc0d9f9f9e08acdd7
     flex-direction: row;
 }
 
-.single-result-card input[type="submit"]:hover{
+.single-result-card input[type="submit"]:hover {
     opacity: 0.8;
 }
 
-.pick-this{
+.pick-this {
     /* display: inline-block; */
     display: flex;
     flex-direction: row;
@@ -354,15 +357,15 @@ https://colorhunt.co/palette/ff90bcffc0d9f9f9e08acdd7
     transition: background-color 0.1s ease;
 }
 
-.pick-this:hover{
+.pick-this:hover {
     background-color: rgba(138, 205, 215, 0.8);
 }
 
-.pick-this.copied{
+.pick-this.copied {
     background-color: rgb(30, 48, 80);
     transition: background-color 0.1s ease;
 }
 
-#no-results{
+#no-results {
     grid-column: 1 / -1;
 }

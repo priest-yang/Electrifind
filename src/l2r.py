@@ -1,16 +1,16 @@
-from tqdm import tqdm
-import pandas as pd
-import lightgbm
-from indexing import InvertedIndex
-import multiprocessing
-from collections import defaultdict, Counter
-import numpy as np
-from document_preprocessor import Tokenizer
-from ranker import Ranker, TF_IDF, BM25, PivotedNormalization, CrossEncoderScorer
 import csv
 import math
-import os
 import pickle
+import lightgbm
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
+import multiprocessing
+from collections import defaultdict, Counter
+
+from .document_preprocessor import Tokenizer
+from .indexing import InvertedIndex
+from .ranker import Ranker, TF_IDF, BM25, PivotedNormalization
 
 
 class L2RRanker:
@@ -472,7 +472,8 @@ class L2RFeatureExtractor:
         dist = self.ranker.scorer.score(
             self.frame[self.frame['ID'] == docid].iloc[0], query.split(', '))
         feature_vector.append(dist)
-        feature_vector.extend(self.frame[self.frame['ID'] == docid].iloc[0].to_list())
+        feature_vector.extend(
+            self.frame[self.frame['ID'] == docid].iloc[0].to_list())
 
         return feature_vector
 

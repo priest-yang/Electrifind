@@ -1,11 +1,11 @@
 import pandas as pd
 from tqdm import tqdm
 
-DATA_PATH = '../data/'
-CACHE_PATH = '../cache/'
+DATA_PATH = './data/'
+CACHE_PATH = './__cache__/'
 
 
-def merge_lat_lng(df1 : pd.DataFrame, df2 : pd.DataFrame, on : str = None) -> pd.DataFrame :
+def merge_lat_lng(df1: pd.DataFrame, df2: pd.DataFrame, on: str = None) -> pd.DataFrame:
     '''
     merge dataframes based on lat/lng, in order to align with the 'docid' column
 
@@ -37,7 +37,8 @@ def merge_lat_lng(df1 : pd.DataFrame, df2 : pd.DataFrame, on : str = None) -> pd
         raise Exception('docid column is required in at least one dataframe')
 
     if on is None and 'docid' in df1.columns and 'docid' in df2.columns:
-        raise Exception('docid column is required in only one dataframe, or specify on="first" or on="second"')
+        raise Exception(
+            'docid column is required in only one dataframe, or specify on="first" or on="second"')
 
     if (on == 'first' and 'docid' in df1.columns) or (on is None and 'docid' in df1.columns):
         first_df = df1
@@ -52,7 +53,8 @@ def merge_lat_lng(df1 : pd.DataFrame, df2 : pd.DataFrame, on : str = None) -> pd
     aligned_list = []
     del_list = []
     for i in tqdm(range(len(first_df))):
-        mask = (abs(second_df.lat - first_df.lat[i]) < 0.001) & (abs(second_df.lng - first_df.lng[i]) < 0.001)
+        mask = (abs(second_df.lat - first_df.lat[i]) < 0.001) & (
+            abs(second_df.lng - first_df.lng[i]) < 0.001)
         masked_second = second_df[mask]
         if len(masked_second) > 0:
             aligned_list.append(masked_second.index[0])
@@ -75,20 +77,43 @@ def merge_lat_lng_tester():
     merged = merge_lat_lng(df1, df2, on='first')
     df1.dropna()
     print(merged.head())
-    
+
 
 def get_NREL_map(filepath) -> pd.DataFrame:
     df = pd.read_csv(filepath, delimiter='\t')
-    df = df [['ID', 'Latitude', 'Longitude']]
-    df.rename(columns = {
-        'ID' : 'docid', 
-        'Latitude' : 'lat',
-        'Longitude' : 'lng'
+    df = df[['ID', 'Latitude', 'Longitude']]
+    df.rename(columns={
+        'ID': 'docid',
+        'Latitude': 'lat',
+        'Longitude': 'lng'
     }, inplace=True)
 
     df.to_csv(DATA_PATH + 'NREL_map.csv', index=False)
     return df
 
+def csv2sql_schema(filepath, table_name):
+    df = pd.read_csv(filepath)
+    df_inferred = df.infer_objects()
+    type_map = df_inferred.dtypes.to_dict()
+
+    for column, dtype in type_map.items():
+        if 'int' in str(dtype):
+            type_map[column] = 'INTEGER'
+        elif 'float' in str(dtype):
+            type_map[column] = 'REAL'
+        else:
+            type_map[column] = 'TEXT'
+
+    schema = f'CREATE TABLE {table_name} (\n'
+    for column, dtype in type_map.items():
+        schema += f'{column} {dtype},\n'
+    schema = schema[:-2] + ');'
+    
+
+def main():
+    # get_NREL_map(DATA_PATH + 'NREL_raw.csv')
+    pass
+
 
 if __name__ == '__main__':
-    get_NREL_map(DATA_PATH + 'NREL_raw.csv')
+    main()

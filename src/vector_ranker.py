@@ -1,13 +1,14 @@
-from sentence_transformers import SentenceTransformer, util
-from numpy import ndarray
-from ranker import Ranker
-import numpy as np
 import csv
 import gzip
-import jsonlines
 import pickle
+import jsonlines
+import numpy as np
+from numpy import ndarray
 from tqdm import tqdm
 from collections import Counter
+from sentence_transformers import SentenceTransformer, util
+
+from .ranker import Ranker
 
 
 class VectorRanker(Ranker):

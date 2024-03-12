@@ -3,6 +3,13 @@
 ## Introduction
 Our project aims to build a **search engine** for electric vehicle charging stations with personalized recommendations. The system consists of a naive ranker by distance, an ``DL-based l2r ranker``, a ``collaborative filtering`` recommender system, and a ``LLM-based personalization`` system. The performance of each ranker combination is evaluated with query results from Google Maps API processed with a customized relevance function. 
 
+## Start the Server
+First, initialize the database by running the following command in the terminal:  
+```flask --app electrifind init-db```
+
+To start the server, run the following command in the terminal:  
+```waitress-serve --call 'electricind:create_app'```
+
 ## Key Features
 
 - **Data scraping** using GoogleMap/Serp/NREL API
@@ -14,16 +21,22 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 - **MEM-efficient** data structure based on inverted index
 - **User Interface** based on Flask, GoogleMAP API
 
-## Repository Structure
+## Project Layout
 ```
-├── README.md
-├── data
+/electrifind
+├── .venv/
+├── archive/
+├── data/
 │   ├── docid_NREL_map.csv: Map between docid and NREL id
 │   ├── NREL_processed.csv
 │   ├── NREL_raw.csv
 │   ├── relevance.train.csv
 │   ├── relevance.test.csv
-├── src
+├── electrifind/
+├── notebook/
+│   ├── NREL_processing.ipynb
+│   ├── Google_Map_Find_API.ipynb
+├── src/
 │   ├── document_preprocessor.py: Preprocess the documents
 │   ├── indexing.py: Indexing the documents
 │   ├── ranker.py: Rank the documents
@@ -33,9 +46,10 @@ Our project aims to build a **search engine** for electric vehicle charging stat
 │   ├── cf.py: Collaborative filtering
 │   ├── vector_ranker.py: Vector ranker
 │   ├── pipeline.py: Pipeline for the whole system
-├── notebook
-│   ├── NREL_processing.ipynb
-│   ├── Google_Map_Find_API.ipynb
+├── tests/
+├── .gitignore
+├── pyproject.toml
+├── README.md
 ```
 
 ## Methodology

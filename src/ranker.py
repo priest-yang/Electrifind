@@ -1,11 +1,11 @@
 import math
 import numpy as np
-from collections import Counter, defaultdict
 from tqdm import tqdm
 from geopy import distance
-
+from collections import Counter, defaultdict
 from sentence_transformers import CrossEncoder
-from indexing import InvertedIndex
+
+from .indexing import InvertedIndex
 
 
 class Ranker:

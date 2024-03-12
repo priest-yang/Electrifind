@@ -2,19 +2,17 @@
 Author: Zim Gong
 This file is a template code file for the Search Engine. 
 '''
-from IPython.display import display as Display
 import numpy as np
 import pandas as pd
-from tqdm import tqdm
-from models import BaseSearchEngine, SearchResponse
-from document_preprocessor import RegexTokenizer
-from indexing import IndexType, Indexer
-# your library imports go here
-from ranker import *
-from cf import CFRanker
-from l2r import L2RRanker, L2RFeatureExtractor
-from vector_ranker import VectorRanker
-from utils import DATA_PATH, CACHE_PATH
+
+from .utils import CACHE_PATH, DATA_PATH
+from .models import BaseSearchEngine, SearchResponse
+from .document_preprocessor import *
+from .indexing import IndexType, Indexer
+from .ranker import *
+from .cf import CFRanker
+from .l2r import L2RRanker, L2RFeatureExtractor
+from .vector_ranker import VectorRanker
 
 NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
 NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
@@ -23,6 +21,10 @@ STATIONS_INFO_PATH = DATA_PATH + 'NREL_raw.csv'
 RELEVANCE_TRAIN_PATH = DATA_PATH + 'relevance.train.csv'
 DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
 SEARCH_RADIUS = 5
+DEFAULT_PROMPT = "1401"
+DEFAULT_LNG = "-83.0703"
+DEFAULT_LAT = "42.3317"
+DEFAULT_USER = 1
 
 
 class SearchEngine(BaseSearchEngine):
@@ -194,22 +196,16 @@ class SearchEngine(BaseSearchEngine):
             'EV Pricing', 'EV On-Site Renewable Source', 'Restricted Access',
             'NPS Unit Name', 'Maximum Vehicle Class', 'EV Workplace Charging'
         ]]
-    
+
     def get_gpt_info(self, docid_list):
-        self.detailed_data = pd.read_csv('../data/station_personalized_features.csv')
+        self.detailed_data = pd.read_csv(
+            '../data/station_personalized_features.csv')
         return self.detailed_data[self.detailed_data['docid'].isin(docid_list)]
 
 
 def initialize():
     search_obj = SearchEngine(cf=False, l2r=False)
     return search_obj
-
-
-# DATA_PATH = 'data/'
-DEFAULT_PROMPT = "1401"
-DEFAULT_LNG = "-83.0703"
-DEFAULT_LAT = "42.3317"
-DEFAULT_USER = 1
 
 
 def get_results_all(engine: SearchEngine, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, top_n=10, user_id=DEFAULT_USER):
@@ -224,9 +220,13 @@ def get_results_all(engine: SearchEngine, lat=DEFAULT_LAT, lng=DEFAULT_LNG, prom
     return results
 
 
-if __name__ == "__main__":
-    search_obj = SearchEngine(reranker="l2r")
+def main():
+    search_obj = SearchEngine()
     res = get_results_all(search_obj, lat=DEFAULT_LAT,
                           lng=DEFAULT_LNG, prompt=DEFAULT_PROMPT, user_id=1)
     result_df = search_obj.get_station_info([i.docid for i in res])
-    Display(result_df)
+    print(result_df)
+
+
+if __name__ == "__main__":
+    main()

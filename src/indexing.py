@@ -1,14 +1,16 @@
+import os
 import gzip
 import json
-import jsonlines
-import os
 import pickle
 import shelve
-from collections import Counter, defaultdict
-from document_preprocessor import Tokenizer, RegexTokenizer
+import jsonlines
 from enum import Enum
 from tqdm import tqdm
-from utils import merge_lat_lng
+from collections import Counter, defaultdict
+
+from .document_preprocessor import Tokenizer, RegexTokenizer
+from .utils import merge_lat_lng
+
 
 class IndexType(Enum):
     # The three types of index currently supported are InvertedIndex, PositionalIndex and OnDiskInvertedIndex
@@ -384,6 +386,7 @@ class Indexer:
 
 # %%
 
+
 if __name__ == '__main__':
     # read stop words
     stopwords_file_path = 'data/stopwords.txt'
@@ -393,39 +396,39 @@ if __name__ == '__main__':
             cleaned_line = line.strip()
             stopwords.add(cleaned_line)
 
-    main_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
-                                 dataset_path='data/google_map_charging_station_all.jsonl.gz', 
-                                 document_preprocessor=RegexTokenizer("\\w+"),
-                                 stopwords=stopwords, 
-                                minimum_word_frequency=2,
-                                text_key='comments', 
-                                max_docs=-1, 
-                                doc_augment_dict=None, 
-                                rel_ids=None)
-    
-    
-    
+    main_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
+                                      dataset_path='data/google_map_charging_station_all.jsonl.gz',
+                                      document_preprocessor=RegexTokenizer(
+                                          "\\w+"),
+                                      stopwords=stopwords,
+                                      minimum_word_frequency=2,
+                                      text_key='comments',
+                                      max_docs=-1,
+                                      doc_augment_dict=None,
+                                      rel_ids=None)
+
     pickle.dump(main_index, open('cache/main_index.pkl', 'wb'))
 
-    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
-                                       dataset_path='data/google_map_charging_station_all.jsonl.gz', 
-                                        document_preprocessor=RegexTokenizer("\\w+"), 
-                                        stopwords=stopwords, 
-                                        minimum_word_frequency=1, 
-                                        text_key='address_name', 
-                                        max_docs=-1, 
-                                        doc_augment_dict=None, 
-                                        rel_ids=None)
+    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
+                                       dataset_path='data/google_map_charging_station_all.jsonl.gz',
+                                       document_preprocessor=RegexTokenizer(
+                                           "\\w+"),
+                                       stopwords=stopwords,
+                                       minimum_word_frequency=1,
+                                       text_key='address_name',
+                                       max_docs=-1,
+                                       doc_augment_dict=None,
+                                       rel_ids=None)
     pickle.dump(title_index, open('cache/title_index.pkl', 'wb'))
 
-
-    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex, 
-                                       dataset_path='data/google_map_charging_station_all.jsonl.gz', 
-                                        document_preprocessor=RegexTokenizer("\\w+"), 
-                                        stopwords=stopwords, 
-                                        minimum_word_frequency=1, 
-                                        text_key='text', 
-                                        max_docs=-1, 
-                                        doc_augment_dict=None, 
-                                        rel_ids=None)
+    title_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
+                                       dataset_path='data/google_map_charging_station_all.jsonl.gz',
+                                       document_preprocessor=RegexTokenizer(
+                                           "\\w+"),
+                                       stopwords=stopwords,
+                                       minimum_word_frequency=1,
+                                       text_key='text',
+                                       max_docs=-1,
+                                       doc_augment_dict=None,
+                                       rel_ids=None)
     pickle.dump(title_index, open('cache/index.pkl', 'wb'))
