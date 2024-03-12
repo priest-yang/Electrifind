@@ -8,7 +8,7 @@ First, initialize the database by running the following command in the terminal:
 ```flask --app electrifind init-db```
 
 To start the server, run the following command in the terminal:  
-```waitress-serve --call 'electricind:create_app'```
+```waitress-serve --call 'electrifind:create_app'```
 
 ## Key Features
 
