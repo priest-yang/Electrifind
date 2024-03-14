@@ -36,7 +36,7 @@ class Ranker:
         self.raw_text_dict = raw_text_dict
         self.name = 'Ranker'
 
-    def query(self, query: str) -> list[tuple[int, float]]:
+    def query(self, query: str, **kwargs) -> list[tuple[int, float]]:
         """
         Searches the collection for relevant documents to the query and
         returns a list of documents ordered by their relevance (most relevant first).
@@ -59,6 +59,7 @@ class Ranker:
         """
         # TODO: Tokenize the query and remove stopwords, if needed
         if self.scorer.__class__.__name__ == 'DistScorer':
+            print(query)
             query_parts = [float(x) for x in query.split(',')]
             if len(query_parts) == 0:
                 return []
