@@ -1,7 +1,12 @@
 import sqlite3
+import csv
 
 import click
 from flask import current_app, g
+
+from src.utils import DATA_PATH
+
+NREL_PATH = DATA_PATH + "NREL_raw.csv"
 
 
 def get_db():
@@ -27,6 +32,20 @@ def init_db():
 
     with current_app.open_resource('schema.sql') as f:
         db.executescript(f.read().decode('utf8'))
+
+    def mod_item(item):
+        if item == '':
+            return 'NULL'
+        item = item.replace('"', '\'')
+        return f'"{item}"'
+
+    with open(NREL_PATH, 'r') as f:
+        reader = csv.reader(f, delimiter='\t')
+        columns = next(reader)
+        for row in reader:
+            row = [mod_item(item) for item in row]
+            db.execute(f'INSERT INTO nrel (' + ', '.join(columns) +
+                       ') VALUES (' + ', '.join(row) + ')')
 
 
 @click.command('init-db')

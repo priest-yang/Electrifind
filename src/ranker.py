@@ -59,7 +59,6 @@ class Ranker:
         """
         # TODO: Tokenize the query and remove stopwords, if needed
         if self.scorer.__class__.__name__ == 'DistScorer':
-            print(query)
             query_parts = [float(x) for x in query.split(',')]
             if len(query_parts) == 0:
                 return []
@@ -73,8 +72,7 @@ class Ranker:
                 lambda x: self.scorer.score(x, query_parts), axis=1)
             relevant_docs = relevant_docs.sort_values(
                 by=['score'], ascending=False)
-            relevant_docs['id'] = relevant_docs.index
-            results = relevant_docs[['id', 'score']].values.tolist()
+            results = relevant_docs[['ID', 'score']].values.tolist()
             return results
         else:
             query_parts = self.tokenize(query)
