@@ -26,17 +26,6 @@
 
     <main>
         <div id="search-header">
-            <div id="introduce-header">
-                <h1>Search for charging stations</h1>
-            </div>
-
-            <!-- <iframe width="2000" height="850" style="border:0" loading="lazy" allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH3a6dX6KWYfFeDYDSVDPsuFEHFkwkrdw
-              &q=Space+Needle,Seattle+WA">
-            </iframe> -->
-
-            <!-- {{googlemap("my_map", lat=42.3013677, lng=-83.71907280, markers=[(42.3014,
-            -0.83719)])}} -->
 
             {{ gmap.html }}
 
@@ -54,6 +43,13 @@
                         <option value="med">Med</option>
                         <option value="large">Large</option>
                     </select>
+                    <fieldset>
+                        <legend>Filters:</legend>
+                        {% for network in unique_networks %}
+                        <input type="checkbox" id="{{ network }}" name="network_name" value="{{ network }}">
+                        <label for="{{ network }}">{{ network }}</label><br>
+                        {% endfor %}
+                    </fieldset>
                     <div id="input-wrapper-filter">
                         <div id="input-wrapper">
                             <img src="static/src/magnifying-glass-solid.svg" alt="search icon" width="15" height="15"
@@ -86,11 +82,16 @@
 
         <div class="container mt-4">
             <h2>Results:</h2>
-            {% if table_html %}
-            {{ table_html | safe }}
-            {% else %}
-            <p>No DataFrame to display.</p>
-            {% endif %}
+            <ul>
+                {% for result in results %}
+                <li>
+                    <div class="station_card">
+                        {{ result.station_name }} <br> {{ result.street_address }} <br> {{ result.station_phone }} <br>
+                        {{ result.ev_network }}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </main>
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>

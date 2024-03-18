@@ -95,29 +95,35 @@ class SearchEngine(BaseSearchEngine):
                 feature_extractor=self.feature_extractor)
             self.pipeline.train(DATA_PATH + 'relevance.train.csv')
             self.reranker = 'l2r'
-        elif reranker == 'l2r+cf':
-            print('Loading l2r ranker...')
-            self.feature_extractor = L2RFeatureExtractor(
-                self.frame, self.ranker)
-            self.l2r = L2RRanker(
-                frame=self.frame,
-                document_index=self.document_index,
-                title_index=self.title_index,
-                document_preprocessor=self.document_preprocessor,
-                stopwords=self.stopwords,
-                ranker=self.ranker,
-                feature_extractor=self.feature_extractor)
-            self.l2r.train(DATA_PATH + 'relevance.train.csv')
-            self.reranker = 'l2r+cf'
-            self.pipeline = CFRanker(self.frame, self.l2r)
-        elif reranker == 'vector':
+        elif reranker == 'vector+cf':
+            print('Loading vector ranker...')
             encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
             user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
 
             file_path = DATA_PATH + 'row_to_docid.txt'
             with open(file_path, 'r') as file:
                 row_to_docid = file.read().splitlines()
+            row_to_docid = [int(i) for i in row_to_docid]
+            profile_row_to_userid = [1, 2]
+            self.ranker = VectorRanker(
+                index=self.frame,
+                ranker=self.ranker,
+                bi_encoder_model_name=None,
+                encoded_docs=encoded_docs,
+                row_to_docid=row_to_docid,
+                user_profile=user_profile,
+                profile_row_to_userid=profile_row_to_userid)
+            self.reranker = 'vector+cf'
+            print('Loading cf ranker...')
+            self.pipeline = CFRanker(self.frame, self.ranker)
+        elif reranker == 'vector':
+            print('Loading vector ranker...')
+            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
+            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
 
+            file_path = DATA_PATH + 'row_to_docid.txt'
+            with open(file_path, 'r') as file:
+                row_to_docid = file.read().splitlines()
             row_to_docid = [int(i) for i in row_to_docid]
 
             profile_row_to_userid = [1, 2]
@@ -130,40 +136,6 @@ class SearchEngine(BaseSearchEngine):
                 user_profile=user_profile,
                 profile_row_to_userid=profile_row_to_userid)
             self.reranker = 'vector'
-        elif reranker == 'l2r+vector':
-            print('Loading l2r ranker...')
-            self.feature_extractor = L2RFeatureExtractor(self.document_index, self.title_index,
-                                                         self.document_preprocessor, self.stopwords,
-                                                         self.frame, self.ranker)
-            self.l2r = L2RRanker(
-                frame=self.frame,
-                document_index=self.document_index,
-                title_index=self.title_index,
-                document_preprocessor=self.document_preprocessor,
-                stopwords=self.stopwords,
-                ranker=self.ranker,
-                feature_extractor=self.feature_extractor)
-
-            self.l2r.train(DATA_PATH + 'relevance.train.csv')
-            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
-            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
-
-            file_path = DATA_PATH + 'row_to_docid.txt'
-            with open(file_path, 'r') as file:
-                row_to_docid = file.read().splitlines()
-
-            row_to_docid = [int(i) for i in row_to_docid]
-
-            profile_row_to_userid = [1, 2]
-            self.pipeline = VectorRanker(
-                index=self.frame,
-                ranker=self.l2r,
-                bi_encoder_model_name=None,
-                encoded_docs=encoded_docs,
-                row_to_docid=row_to_docid,
-                user_profile=user_profile,
-                profile_row_to_userid=profile_row_to_userid)
-            self.reranker = 'l2r+vector'
         else:
             self.reranker = None
             self.pipeline.ranker = self.ranker
@@ -175,10 +147,7 @@ class SearchEngine(BaseSearchEngine):
         if results is None or results == []:
             print('No results found')
             return []
-        try:
-            return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
-        except:
-            return [SearchResponse(id=idx+1, docid=result, score=0) for idx, result in enumerate(results)]
+        return [SearchResponse(id=idx+1, docid=result[0], score=result[1]) for idx, result in enumerate(results)]
 
     def get_results_all(self, lat, lng, prompt, user_id, radius=0.03, top_n=10):
         query = str(lat) + ", " + str(lng)
@@ -194,14 +163,22 @@ class SearchEngine(BaseSearchEngine):
     def get_station_info(self, docid_list, all=False):
         self.detailed_data = pd.read_csv(
             NREL_PATH, delimiter='\t', low_memory=False)
-        print('Searching...')
-        if docid_list[0] in self.detailed_data['id'].values:
-            print('Using NREL data')
         if not all:
-            return self.detailed_data[self.detailed_data['id'].isin(docid_list)][[
-                'station_name', 'street_address', 'station_phone',
-                'ev_network', 'latitude', 'longitude'
-            ]]
+            res = []
+            for docid in docid_list:
+                row = self.detailed_data[self.detailed_data['id'] == docid]
+                if row.empty:
+                    continue
+                res.append({
+                    'id': docid,
+                    'station_name': row['station_name'].values[0],
+                    'street_address': row['street_address'].values[0],
+                    'station_phone': row['station_phone'].values[0],
+                    'ev_network': row['ev_network'].values[0],
+                    'latitude': row['latitude'].values[0],
+                    'longitude': row['longitude'].values[0]
+                })
+            return res
         else:
             return self.detailed_data[self.detailed_data['ID'].isin(docid_list)][[
                 'id', 'station_name', 'street_address', 'intersection_directions',

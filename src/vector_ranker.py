@@ -79,7 +79,7 @@ class VectorRanker(Ranker):
 
         return_list = result.copy()
         for i in range(len(sorted_idx)):
-            return_list[i] = pre_ranker_result[sorted_idx[i]]
+            return_list[i] = [pre_ranker_result[sorted_idx[i]], 0]
         return return_list
 
     def query(self, query: str, radius: float = 0.03, user_id: int = None, threshold: int = 100) -> list[tuple[int, float]]:
@@ -121,36 +121,6 @@ class VectorRanker(Ranker):
         relevant_docs = relevant_docs.sort_values(
             by=['score'], ascending=False)
         results = relevant_docs[['ID', 'score']].values.tolist()
-
-        # Filter to just the top 100 documents for the L2R part for re-ranking
-        # This is only able to run if we use l2r as the ranker, so use try except here
-        if self.ranker.__class__.__name__ == 'L2RRanker':
-            results_top_100 = results[:threshold]
-            results_tails = results[threshold:]
-            X_pred = []
-
-            if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
-                for item in results_top_100:
-                    docid = int(item[0])
-                    doc_term_counts = self.ranker.accumulate_doc_term_counts(
-                        self.ranker.document_index, query_parts)
-                    title_term_counts = self.ranker.accumulate_doc_term_counts(
-                        self.ranker.title_index, query_parts)
-                    X_pred.append(self.ranker.feature_extractor.generate_features(
-                        docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
-
-                # Use L2R model to rank these top 100 documents
-                scores = self.ranker.predict(X_pred)
-
-                # Sort posting_lists based on scores
-                for i in range(len(results_top_100)):
-                    results_top_100[i] = (results_top_100[i][0], scores[i])
-                results_top_100.sort(key=lambda x: x[1], reverse=True)
-
-                # Add back the other non-top-100 documents that weren't re-ranked
-                results = results_top_100 + results_tails
-            else:
-                pass
 
         # re-rank based on user-id
         results = self.personalized_re_rank(results, user_id)

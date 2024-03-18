@@ -27,7 +27,7 @@ def index():
         varname="gmap",
         lat=DEFAULT_LAT,
         lng=DEFAULT_LNG,
-        style="height:50vmax;width:80vmax;margin:50px;",
+        style="height:40vmax;width:80vmax;margin:50px;",
     )
     return render_template("engine/index.html", gmap=gmap)
 
@@ -53,7 +53,7 @@ def search():
         elif sort_by == 'cf':
             if user_id == DEFAULT_USER or user_id == None: 
                 error = 'User ID is required for collaborative filtering.'
-            engine.set_reranker('cf')
+            engine.set_reranker('vector+cf')
         else:
             error = 'Invalid sort_by parameter.'
 
@@ -65,12 +65,10 @@ def search():
         if error is not None:
             flash(error)
         else:
-            result = engine.get_results_all(lat, lng, prompt, user_id, radius)
+            result = engine.get_results_all(lat, lng, prompt, int(user_id), radius)
             if result:
                 print(result)
-                result_df = engine.get_station_info(result)
-                table_html = result_df.to_html(
-                    classes="table table-striped", index=False, justify="left")
+                res_details = engine.get_station_info(result)
                 marker_t = {
                     "icon": icons.dots.blue,
                     "lat": None,
@@ -78,10 +76,10 @@ def search():
                     "infobox": None
                 }
                 markers = []
-                for i in range(len(result_df)):
-                    marker_t["lat"] = result_df.iloc[i]['latitude']
-                    marker_t["lng"] = result_df.iloc[i]['longitude']
-                    marker_t["infobox"] = f"{result_df.iloc[i]['station_name']}<br>{result_df.iloc[i]['street_address']}"
+                for i in range(len(res_details)):
+                    marker_t["lat"] = res_details[i]['latitude']
+                    marker_t["lng"] = res_details[i]['longitude']
+                    marker_t["infobox"] = f"{res_details[i]['station_name']}<br>{res_details[i]['street_address']}<br>{res_details[i]['ev_network']}"
                     markers.append(marker_t.copy())
                 gmap = Map(
                     identifier="gmap",
@@ -89,16 +87,15 @@ def search():
                     lat=float(lat),
                     lng=float(lng),
                     markers=markers,
-                    style="height:50vmax;width:80vmax;margin:50px;",
+                    style="height:40vmax;width:80vmax;margin:50px;",
                 )
                 return render_template(
                     'engine/index.html',
-                    result=result,
                     lat=lat,
                     lng=lng,
                     prompt=prompt,
                     user_id=user_id,
-                    table_html=table_html,
+                    results=res_details,
                     gmap=gmap
                 )
 
