@@ -33,7 +33,7 @@ class CFRanker:
         dataset_df = pd.read_csv(
             DATA_PATH + 'Google_Map_review_data_AA_DTW.csv', sep=',', header=0)
         sample_df = pd.read_csv(
-            DATA_PATH + 'NREL_numerical.csv', sep=',', header=0)
+            DATA_PATH + 'NREL_numerical.csv', sep=',', header=0, low_memory=False)
         authors_list = dataset_df.author_name.unique()
         stations_list = []
         coor_list = set()

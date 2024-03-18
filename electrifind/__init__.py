@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-
+from flask_googlemaps import GoogleMaps
 
 def create_app(test_config=None):
     # create and configure the app
@@ -10,6 +10,9 @@ def create_app(test_config=None):
         SECRET_KEY='dev',
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
+
+    app.config['GOOGLEMAPS_KEY'] = "AIzaSyC8rnCOYZtkIkOGKr6p9x2XiBrTGR_KJMY"
+    GoogleMaps(app)
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
