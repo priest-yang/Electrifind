@@ -14,7 +14,7 @@ class Ranker:
     using a particular relevance function (e.g., BM25).
     A Ranker can be configured with any RelevanceScorer.
     """
-    # TODO: Return a list of sorted relevant documents.
+    # Return a list of sorted relevant documents.
 
     def __init__(self, index: InvertedIndex = None, document_preprocessor=None, stopwords: set[str] = None,
                  scorer: 'RelevanceScorer' = None, raw_text_dict: dict[int, str] = None) -> None:
@@ -36,7 +36,7 @@ class Ranker:
         self.raw_text_dict = raw_text_dict
         self.name = 'Ranker'
 
-    def query(self, query: str, **kwargs) -> list[tuple[int, float]]:
+    def query(self, query: str, radius: float = 0.03, threshold: int = 100, **kwargs) -> list[tuple[int, float]]:
         """
         Searches the collection for relevant documents to the query and
         returns a list of documents ordered by their relevance (most relevant first).
@@ -57,23 +57,23 @@ class Ranker:
         The query function should return a sorted list of tuples where each tuple has the first element as the document ID
         and the second element as the score of the document after the ranking process.
         """
-        # TODO: Tokenize the query and remove stopwords, if needed
+        # Tokenize the query and remove stopwords, if needed
         if self.scorer.__class__.__name__ == 'DistScorer':
             query_parts = [float(x) for x in query.split(',')]
             if len(query_parts) == 0:
                 return []
             mask = (abs(query_parts[0] - self.index.Latitude) <
-                    0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+                    radius) & (abs(query_parts[1] - self.index.Longitude) < radius)
             relevant_docs = self.index[mask]
             if len(relevant_docs) == 0:
                 return []
 
             relevant_docs['score'] = relevant_docs.apply(
-                lambda x: self.scorer.score(x, query_parts), axis=1)
+                lambda x: self.scorer.score([x.Latitude, x.Longitude], query_parts), axis=1)
             relevant_docs = relevant_docs.sort_values(
                 by=['score'], ascending=False)
             results = relevant_docs[['ID', 'score']].values.tolist()
-            return results
+            return results[:threshold]
         else:
             query_parts = self.tokenize(query)
             if len(query_parts) == 0:
@@ -82,7 +82,7 @@ class Ranker:
 
             results = self.rank_docs(query_parts, query, query_word_count)
 
-            return results
+            return results[:threshold]
 
     def rank_docs(self, query_parts: list[str], query: str,
                   query_word_count: dict[str, int]) -> list[tuple[int, float]]:
@@ -100,7 +100,7 @@ class Ranker:
             doc_term_counts = self.accumulate_doc_term_counts(
                 self.index, query_parts, relevant_docs)
 
-        # TODO: Rank the documents using a RelevanceScorer
+        # Rank the documents using a RelevanceScorer
         results = []
         if self.scorer.__class__.__name__ == 'CrossEncoderScorer':
             for docid in relevant_docs:
@@ -112,7 +112,7 @@ class Ranker:
                     docid, doc_term_counts[docid], query_word_count)
                 results.append((docid, score))
 
-        # TODO: Return the **sorted** results as format [{docid: 100, score:0.5}, {{docid: 10, score:0.2}}]
+        # Return the **sorted** results as format [{docid: 100, score:0.5}, {{docid: 10, score:0.2}}]
         results.sort(key=lambda x: x[1], reverse=True)
         return results
 
@@ -132,7 +132,7 @@ class Ranker:
             A dictionary mapping each document containing at least one of the query tokens to
             a dictionary with how many times each of the query words appears in that document
         """
-        # TODO: Retrieve the set of documents that have each query word (i.e., the postings) and
+        # Retrieve the set of documents that have each query word (i.e., the postings) and
         # create a dictionary that keeps track of their counts for the query word
         doc_term_count = defaultdict(Counter)
 
@@ -164,18 +164,13 @@ class DistScorer(RelevanceScorer):
         super().__init__(index, parameters)
 
     def score(self, doc, query_parts) -> float:
-        try:
-            score = 1 / \
-                (1 + distance.distance(
-                    (query_parts[0], query_parts[1]), (doc.Latitude, doc.Longitude)).km)
-        except:
-            score = 1 / \
-                (1 + distance.distance((query_parts[0],
-                 query_parts[1]), (doc[0], doc[1])).km)
+        score = 1 / \
+            (1 + distance.distance((query_parts[0],
+                                    query_parts[1]), (doc[0], doc[1])).km)
         return score
 
 
-# TODO: Implement unnormalized cosine similarity on word count vectors
+# Unnormalized cosine similarity on word count vectors
 class WordCountCosineSimilarity(RelevanceScorer):
     def __init__(self, index: InvertedIndex, parameters={}) -> None:
         self.index = index

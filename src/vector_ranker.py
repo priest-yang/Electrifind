@@ -30,7 +30,7 @@ class VectorRanker(Ranker):
 
         Using zip(encoded_docs, row_to_docid) should give you the mapping between the docid and the embedding.
         """
-        # TODO: Instantiate the bi-encoder model here
+        # Instantiate the bi-encoder model here
         if bi_encoder_model_name is not None:
             self.bi_encoder_model_name = bi_encoder_model_name
             self.model = SentenceTransformer(bi_encoder_model_name)
@@ -74,8 +74,6 @@ class VectorRanker(Ranker):
             else:
                 doc_vecs.append(np.zeros(encoded_len))
 
-        # doc_vecs = self.encoded_docs[[self.row_to_docid.index(
-        #     docid) if docid in self.row_to_docid.index else np.zeros(encoded_len) for docid in pre_ranker_result]]
         scores = np.dot(doc_vecs, user_vec)
         sorted_idx = np.argsort(scores)[::-1]
 
@@ -84,7 +82,7 @@ class VectorRanker(Ranker):
             return_list[i] = pre_ranker_result[sorted_idx[i]]
         return return_list
 
-    def query(self, query: str, user_id=None) -> list[tuple[int, float]]:
+    def query(self, query: str, radius: float = 0.03, user_id: int = None, threshold: int = 100) -> list[tuple[int, float]]:
         """
         Encodes the query and then scores the relevance of the query with all the documents.
         Performs query expansion using pseudo-relevance feedback if needed.
@@ -104,10 +102,7 @@ class VectorRanker(Ranker):
             A sorted list of tuples containing the document id and its relevance to the query,
             with most relevant documents first
         """
-        # query_parts = [float(x) for x in query.split(',')]
-        query_parts = [x for x in query.split(',')]
-        lat = float(query_parts[0])
-        lng = float(query_parts[1])
+        query_parts = [float(x) for x in query.split(',')]
         try:
             prompt = query_parts[2]
         except:
@@ -115,17 +110,14 @@ class VectorRanker(Ranker):
 
         if len(query_parts) == 0:
             return []
-        mask = (abs(lat - self.index.Latitude) <
-                0.03) & (abs(lng - self.index.Longitude) < 0.03)
+        mask = (abs(query_parts[0] - self.index.Latitude) <
+                radius) & (abs(query_parts[1] - self.index.Longitude) < radius)
         relevant_docs = self.index[mask]
         if len(relevant_docs) == 0:
             return []
-        try:
-            relevant_docs['score'] = relevant_docs.apply(
-                lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
-        except:
-            relevant_docs['score'] = relevant_docs.apply(
-                lambda x: self.ranker.ranker.scorer.score(x, query_parts), axis=1)
+
+        relevant_docs['score'] = relevant_docs.apply(
+            lambda x: self.ranker.scorer.score([x.Latitude, x.Longitude], query_parts), axis=1)
         relevant_docs = relevant_docs.sort_values(
             by=['score'], ascending=False)
         results = relevant_docs[['ID', 'score']].values.tolist()
@@ -133,32 +125,32 @@ class VectorRanker(Ranker):
         # Filter to just the top 100 documents for the L2R part for re-ranking
         # This is only able to run if we use l2r as the ranker, so use try except here
         if self.ranker.__class__.__name__ == 'L2RRanker':
-            results_top_100 = results[:100]
-            results_tails = results[100:]
+            results_top_100 = results[:threshold]
+            results_tails = results[threshold:]
             X_pred = []
 
-        if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
-            for item in results_top_100:
-                docid = int(item[0])        
-                doc_term_counts = self.ranker.accumulate_doc_term_counts(
-                    self.ranker.document_index, query_parts)
-                title_term_counts = self.ranker.accumulate_doc_term_counts(
-                    self.ranker.title_index, query_parts)
-                X_pred.append(self.ranker.feature_extractor.generate_features(
-                    docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
+            if self.ranker.ranker.scorer.__class__.__name__ == 'DistScorer':
+                for item in results_top_100:
+                    docid = int(item[0])
+                    doc_term_counts = self.ranker.accumulate_doc_term_counts(
+                        self.ranker.document_index, query_parts)
+                    title_term_counts = self.ranker.accumulate_doc_term_counts(
+                        self.ranker.title_index, query_parts)
+                    X_pred.append(self.ranker.feature_extractor.generate_features(
+                        docid, doc_term_counts[docid], title_term_counts[docid], query_parts, query))
 
-            # TODO: Use your L2R model to rank these top 100 documents
-            scores = self.ranker.predict(X_pred)
+                # Use L2R model to rank these top 100 documents
+                scores = self.ranker.predict(X_pred)
 
-            # TODO: Sort posting_lists based on scores
-            for i in range(len(results_top_100)):
-                results_top_100[i] = (results_top_100[i][0], scores[i])
-            results_top_100.sort(key=lambda x: x[1], reverse=True)
+                # Sort posting_lists based on scores
+                for i in range(len(results_top_100)):
+                    results_top_100[i] = (results_top_100[i][0], scores[i])
+                results_top_100.sort(key=lambda x: x[1], reverse=True)
 
-            # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
-            results = results_top_100 + results_tails
-        else:
-            pass
+                # Add back the other non-top-100 documents that weren't re-ranked
+                results = results_top_100 + results_tails
+            else:
+                pass
 
         # re-rank based on user-id
         results = self.personalized_re_rank(results, user_id)
@@ -166,26 +158,26 @@ class VectorRanker(Ranker):
         return results
 
     def rank_docs(self, embedding: ndarray) -> list[tuple[int, float]]:
-        # TODO: If the user has indicated we should use feedback, then update the
-        #  query vector with respect to the specified number of most-relevant documents
+        # If the user has indicated we should use feedback, then update the
+        # query vector with respect to the specified number of most-relevant documents
 
-        # TODO: Get the most-relevant document vectors for the initial query
+        # Get the most-relevant document vectors for the initial query
 
-        # TODO: Compute the average vector of the specified number of most-relevant docs
-        #  according to how many are to be used for pseudofeedback
+        # Compute the average vector of the specified number of most-relevant docs
+        # according to how many are to be used for pseudofeedback
 
-        # TODO: Combine the original query doc with the feedback doc to use
-        #  as the new query embedding
+        # Combine the original query doc with the feedback doc to use
+        # as the new query embedding
 
-        # TODO: Score the similarity of the query vec and document vectors for relevance
+        # Score the similarity of the query vec and document vectors for relevance
         scores_list = []
         for row, doc_embedding in enumerate(self.encoded_docs):
             score = util.dot_score(embedding, doc_embedding).item()
 
-        # TODO: Generate the ordered list of (document id, score) tuples
+        # Generate the ordered list of (document id, score) tuples
             scores_list.append((row, score))
 
-        # TODO: Sort the list by relevance score in descending order (most relevant first)
+        # Sort the list by relevance score in descending order (most relevant first)
         scores_list.sort(key=lambda x: x[1], reverse=True)
 
         return scores_list
@@ -217,8 +209,8 @@ class VectorRanker(Ranker):
         with open('../cache/encoded_map.pkl', 'wb') as f:
             pickle.dump(encoded_map, f)
 
-    # TODO (HW5): Find the dot product (unnormalized cosine similarity) for the list of documents (pairwise)
-    # NOTE: You should return a matrix where element [i][j] would represent similarity between
+    # Find the dot product (unnormalized cosine similarity) for the list of documents (pairwise)
+    # NOTE: Return a matrix where element [i][j] would represent similarity between
     #   list_docs[i] and list_docs[j]
     def document_similarity(self, list_docs: list[int]) -> np.ndarray:
         """

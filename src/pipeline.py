@@ -38,7 +38,7 @@ class SearchEngine(BaseSearchEngine):
                 self.stopwords.add(cleaned_line)
 
         print('Loading indexes...')
-        self.frame = pd.read_csv(NREL_NUMERICAL_PATH)
+        self.frame = pd.read_csv(NREL_NUMERICAL_PATH, low_memory=False)
         self.document_index = Indexer.create_index(index_type=IndexType.InvertedIndex,
                                                    dataset_path=NREL_CORPUS_PATH,
                                                    document_preprocessor=RegexTokenizer(
@@ -166,7 +166,7 @@ class SearchEngine(BaseSearchEngine):
             self.reranker = 'l2r+vector'
         else:
             self.reranker = None
-            self.pipeline = self.ranker
+            self.pipeline.ranker = self.ranker
 
     def search(self, query: str, **kwargs) -> list[SearchResponse]:
         # 1. Use the ranker object to query the search pipeline
@@ -180,15 +180,16 @@ class SearchEngine(BaseSearchEngine):
         except:
             return [SearchResponse(id=idx+1, docid=result, score=0) for idx, result in enumerate(results)]
 
-    def get_results_all(self, lat, lng, prompt, user_id, top_n=10):
+    def get_results_all(self, lat, lng, prompt, user_id, radius=0.03, top_n=10):
         query = str(lat) + ", " + str(lng)
         if prompt:
             query = query + ", " + prompt
         param = {
             "user_id": user_id,
+            "radius": radius
         }
         results = self.search(query, **param)
-        return [r.docid for r in results][:top_n]
+        return [r.docid for r in results]
 
     def get_station_info(self, docid_list, all=False):
         self.detailed_data = pd.read_csv(

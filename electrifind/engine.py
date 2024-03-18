@@ -13,6 +13,7 @@ DEFAULT_LAT = "42.30136771768067"
 DEFAULT_LNG = "-83.71907280246434"
 DEFAULT_USER = 0
 DEFAULT_PROMPT = None
+RADIUS_DICT = {'small': 0.01, 'med': 0.03, 'large': 0.05}
 
 bp = Blueprint('engine', __name__)
 engine = SearchEngine()
@@ -30,22 +31,38 @@ def search():
         lng = request.form['lng']
         prompt = request.form['prompt'] if 'prompt' in request.form else DEFAULT_PROMPT
         user_id = request.form['user_id'] if 'user_id' in request.form else DEFAULT_USER
+        sort_by = request.form['sort']
+        radius = request.form['radius']
         error = None
 
         if not lat or not lng:
             error = 'Latitude and Longitude are required.'
 
+        if sort_by == 'distance':
+            engine.set_reranker()
+        elif sort_by == 'base':
+            engine.set_reranker('vector')
+        elif sort_by == 'cf':
+            engine.set_reranker('cf')
+        else:
+            error = 'Invalid sort_by parameter.'
+
+        if radius in RADIUS_DICT:
+            radius = RADIUS_DICT[radius]
+        else:
+            error = 'Invalid radius parameter.'
+
         if error is not None:
             flash(error)
         else:
-            result = engine.get_results_all(lat, lng, prompt, user_id)
+            result = engine.get_results_all(lat, lng, prompt, user_id, radius)
             if result:
                 print(result)
                 result_df = engine.get_station_info(result)
                 table_html = result_df.to_html(
                     classes="table table-striped", index=False, justify="left")
                 return render_template(
-                    'engine/search.html',
+                    'engine/index.html',
                     result=result,
                     lat=lat,
                     lng=lng,

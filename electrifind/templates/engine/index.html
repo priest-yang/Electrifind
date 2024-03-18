@@ -36,6 +36,18 @@
 
             <div id="search-bar">
                 <form action="/search" method="POST" id="myForm">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort" name="sort">
+                        <option value="distance">Distance</option>
+                        <option value="base">Base</option>
+                        <option value="cf">CF</option>
+                    </select>
+                    <label for="radius">Radius:</label>
+                    <select id="radius" name="radius">
+                        <option value="small">Small</option>
+                        <option value="med">Med</option>
+                        <option value="large">Large</option>
+                    </select>
                     <div id="input-wrapper-filter">
                         <div id="input-wrapper">
                             <img src="static/src/magnifying-glass-solid.svg" alt="search icon" width="15" height="15"

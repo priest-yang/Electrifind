@@ -127,7 +127,7 @@ class L2RRanker:
         Args:
             training_data_filename (str): a filename for a file containing documents and relevance scores
         """
-        # TODO: Convert the relevance data into the right format for training data preparation
+        # Convert the relevance data into the right format for training data preparation
         # if os.path.exists('../cache/' + model_name + 'X.pkl'):
         #     X = pickle.load(open('../cache/' + model_name + 'X.pkl', 'rb'))
         #     y = pickle.load(open('../cache/' + model_name + 'y.pkl', 'rb'))
@@ -166,14 +166,14 @@ class L2RRanker:
         else:
             raise ValueError("Unsupported file format.")
 
-        # TODO: Prepare the training data by featurizing the query-doc pairs and
-        #       getting the necessary datastructures
+        # Prepare the training data by featurizing the query-doc pairs and
+        # getting the necessary datastructures
         X, y, qgroups = self.prepare_training_data(query_to_doc_rel_scores)
         # pickle.dump(X, open('../cache/' + model_name + 'X.pkl', 'wb'))
         # pickle.dump(y, open('../cache/' + model_name + 'y.pkl', 'wb'))
         # pickle.dump(qgroups, open('../cache/' + model_name + 'qgroups.pkl', 'wb'))
 
-        # TODO: Train the model
+        # Train the model
         print("Training model...")
         self.model.fit(X, y, qgroups)
         self.trained = True
@@ -192,7 +192,7 @@ class L2RRanker:
         Raises:
             ValueError: If the model has not been trained yet.
         """
-        # TODO: Return a prediction made using the LambdaMART model
+        # Return a prediction made using the LambdaMART model
         if self.trained == False:
             raise ValueError("Model has not been trained yet.")
         return self.model.predict(X)

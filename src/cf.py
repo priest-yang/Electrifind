@@ -18,7 +18,7 @@ class CFRanker:
             ranker: The Ranker object
             feature_extractor: The L2RFeatureExtractor object
         """
-        # TODO: Save any new arguments that are needed as fields of this class
+        # Save any new arguments that are needed as fields of this class
         self.index = index
         self.score_index = []
         self.sim_index = []
@@ -33,8 +33,7 @@ class CFRanker:
         dataset_df = pd.read_csv(
             DATA_PATH + 'Google_Map_review_data_AA_DTW.csv', sep=',', header=0)
         sample_df = pd.read_csv(
-            DATA_PATH + 'processed_nrel.csv', sep=',', header=0)
-        sample_df['index'] = sample_df.index
+            DATA_PATH + 'NREL_numerical.csv', sep=',', header=0)
         authors_list = dataset_df.author_name.unique()
         stations_list = []
         coor_list = set()
@@ -45,7 +44,7 @@ class CFRanker:
                     abs(sample_df.Longitude - row.lng) < 0.001)
                 masked_nrel = sample_df[mask]
                 if len(masked_nrel) > 0:
-                    self.id_map.append(masked_nrel.iloc[0]['index'])
+                    self.id_map.append(masked_nrel.iloc[0]['ID'])
                     stations_list.append(row.name)
         self.score_index = pd.DataFrame(
             index=stations_list, columns=authors_list)
@@ -113,25 +112,22 @@ class CFRanker:
         for x in X_pred:
             scores.append(self.get_prediction(user_id, x))
 
-    def query(self, query: str, user_id: int = None, threshold: int = 100) -> list[tuple[int, float]]:
+    def query(self, query: str, radius: float = 0.03, user_id: int = None, threshold: int = 100) -> list[tuple[int, float]]:
         query_parts = [float(x) for x in query.split(',')]
         if len(query_parts) == 0:
             return []
         mask = (abs(query_parts[0] - self.index.Latitude) <
-                0.01) & (abs(query_parts[1] - self.index.Longitude) < 0.01)
+                radius) & (abs(query_parts[1] - self.index.Longitude) < radius)
         relevant_docs = self.index[mask]
         if len(relevant_docs) == 0:
             return []
-        try:
-            relevant_docs['score'] = relevant_docs.apply(
-                lambda x: self.ranker.scorer.score(x, query_parts), axis=1)
-        except:
-            relevant_docs['score'] = relevant_docs.apply(
-                lambda x: self.ranker.ranker.scorer.score(x, query_parts), axis=1)
+
+        relevant_docs['score'] = relevant_docs.apply(
+            lambda x: self.ranker.scorer.score([x.Latitude, x.Longitude], query_parts), axis=1)
         relevant_docs = relevant_docs.sort_values(
             by=['score'], ascending=False)
         relevant_docs['id'] = relevant_docs.index
-        results = relevant_docs[['id', 'score']].values.tolist()
+        results = relevant_docs[['ID', 'score']].values.tolist()
 
         try:
             results_top_100 = results[:100]
@@ -146,15 +142,15 @@ class CFRanker:
                 else:
                     return None
 
-            # TODO: Use your L2R model to rank these top 100 documents
+            # Use L2R model to rank these top 100 documents
             scores = self.ranker.predict(X_pred)
 
-            # TODO: Sort posting_lists based on scores
+            # Sort posting_lists based on scores
             for i in range(len(results_top_100)):
                 results_top_100[i] = (results_top_100[i][0], scores[i])
             results_top_100.sort(key=lambda x: x[1], reverse=True)
 
-            # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
+            # Add back the other non-top-100 documents that weren't re-ranked
             results = results_top_100 + results_tails
         except:
             pass
@@ -172,16 +168,16 @@ class CFRanker:
 
         scores = self.predict(X_pred, user_id)
 
-        # TODO: Sort posting_lists based on scores
+        # Sort posting_lists based on scores
         if scores is not None:
             for i in range(len(results_top_100)):
                 results_top_100[i] = (results_top_100[i][0], scores[i])
             results_top_100.sort(key=lambda x: x[1], reverse=True)
 
-        # TODO: Make sure to add back the other non-top-100 documents that weren't re-ranked
+        # Make sure to add back the other non-top-100 documents that weren't re-ranked
         results = results_top_100 + results_tails
 
-        # TODO: Return the ranked documents
+        # Return the ranked documents
         return results
 
 
