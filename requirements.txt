@@ -17,7 +17,7 @@ decorator==5.1.1
 exceptiongroup==1.2.0
 executing==2.0.1
 filelock==3.13.1
-Flask==2.3.1
+Flask==2.3.2
 flask-googlemaps==0.4.1
 fonttools==4.49.0
 fsspec==2024.2.0
