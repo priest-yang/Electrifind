@@ -11,7 +11,7 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'flaskr.sqlite'),
     )
 
-    app.config['GOOGLEMAPS_KEY'] = "AIzaSyC8rnCOYZtkIkOGKr6p9x2XiBrTGR_KJMY"
+    app.config['GOOGLEMAPS_KEY'] = "AIzaSyDbqeOfykaXvJC7X71xik8xoKSC3-kQXrg"
     GoogleMaps(app)
 
     if test_config is None:

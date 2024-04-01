@@ -369,3 +369,10 @@ https://colorhunt.co/palette/ff90bcffc0d9f9f9e08acdd7
 #no-results {
     grid-column: 1 / -1;
 }
+
+#selector-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
