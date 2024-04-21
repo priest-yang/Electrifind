@@ -44,8 +44,18 @@ The system will return the top electric vehicle charging stations based on the u
 │   ├── ranker.py: Rank the documents
 │   ├── utils.py: Utility functions
 │   ├── vector_ranker.py: Vector ranker
-├── Google_Map_Review_API.ipynb
-├── GPT_prompt.ipynb
+├── notebook/
+|   ├── Deep Learning Factorization model.ipynb
+│   ├── evaluation.ipynb
+|   ├── Google_Map_Find_API.ipynb
+│   ├── Google_Map_Review_API.ipynb
+│   ├── GPT_prompt.ipynb
+│   ├── GPT_sentiment_analysis.ipynb
+│   ├── Joint_Data_Model.ipynb
+│   ├── NREL_processing_numerical.ipynb
+│   ├── NREL_processing.ipynb
+│   ├── Review_Feature_Extractor.ipynb
+│   ├── user_profile.ipynb
 ├── .gitignore
 ├── README.md
 ├── requirements.txt

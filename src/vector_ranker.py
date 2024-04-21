@@ -1,20 +1,16 @@
-import csv
-import gzip
-import pickle
-import jsonlines
 import numpy as np
+import pandas as pd
 from numpy import ndarray
-from tqdm import tqdm
-from collections import Counter
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import util
 
-from .ranker import Ranker
+from ranker import Ranker
+
+CACHE_PATH = './__cache__/'
+DATA_PATH = './data/'
 
 
 class VectorRanker(Ranker):
-    def __init__(self, index, ranker, bi_encoder_model_name: str = None, encoded_docs: ndarray = None,
-                 row_to_docid: list[int] = None, user_profile: ndarray = None,
-                 profile_row_to_userid: list[int] = None) -> None:
+    def __init__(self, index, ranker, stations_path=str, users_path=str) -> None:
         """
         Initializes a VectorRanker object.
 
@@ -30,18 +26,27 @@ class VectorRanker(Ranker):
 
         Using zip(encoded_docs, row_to_docid) should give you the mapping between the docid and the embedding.
         """
-        # Instantiate the bi-encoder model here
-        if bi_encoder_model_name is not None:
-            self.bi_encoder_model_name = bi_encoder_model_name
-            self.model = SentenceTransformer(bi_encoder_model_name)
-
-        self.encoded_docs = encoded_docs
-        self.row_to_docid = row_to_docid
-        self.user_profile = user_profile
-        self.profile_row_to_userid = profile_row_to_userid
-        self.ranker = ranker
         self.name = 'VectorRanker'
         self.index = index
+        self.encode_docs(stations_path, users_path)
+        self.ranker = ranker
+
+    def encode_docs(self, docs_path: str, users_path: str):
+        encoded_docs = pd.read_csv(docs_path)
+        user_profile = pd.read_csv(users_path)
+        self.row_to_docid = encoded_docs['docid'].to_list()
+        self.profile_row_to_userid = (
+            user_profile.index.to_numpy() + 1).tolist()
+
+        # file_path = CACHE_PATH + 'row_to_docid.txt'
+        # with open(file_path, 'w') as file:
+        #     for element in row_to_docid:
+        #         file.write(str(element) + '\n')
+
+        self.encoded_docs = encoded_docs.to_numpy()
+        # np.save(CACHE_PATH + 'encoded_stations.npy', encoded_docs)
+        self.user_profile = user_profile.to_numpy()
+        # np.save(CACHE_PATH + 'encoded_user_profile.npy', encoded_user_profile)
 
     def personalized_re_rank(self, result: list[int] | list[tuple[int, float]], user_id: int = None) -> list[int] | list[tuple[int, float]]:
         '''
@@ -103,10 +108,6 @@ class VectorRanker(Ranker):
             with most relevant documents first
         """
         query_parts = [float(x) for x in query.split(',')]
-        try:
-            prompt = query_parts[2]
-        except:
-            prompt = None
 
         if len(query_parts) == 0:
             return []
@@ -152,55 +153,7 @@ class VectorRanker(Ranker):
 
         return scores_list
 
-    def encode_docs(self, dataset_path: str):
-        dev_docs = []
-        with open('../data/hw3_relevance.dev.csv', 'r') as file:
-            data = csv.reader(file)
-            for idx, row in tqdm(enumerate(data)):
-                if idx == 0:
-                    continue
-                dev_docs.append(row[2])
-        encoded_docs = []
-        encoded_map = []
-        dataset_file = gzip.open(dataset_path, 'rt')
-        with jsonlines.Reader(dataset_file) as reader:
-            for _ in tqdm(range(200000)):
-                try:
-                    document = reader.read()
-                    if str(document['docid']) in dev_docs:
-                        embedded_doc = self.model.encode(document['text'])
-                        encoded_docs.append(embedded_doc)
-                        encoded_map.append(document['docid'])
-                except EOFError:
-                    break
-        encoded_docs = np.stack(encoded_docs)
-        np.save('../cache/' + self.bi_encoder_model_name.replace('/',
-                '_') + '.npy', encoded_docs)
-        with open('../cache/encoded_map.pkl', 'wb') as f:
-            pickle.dump(encoded_map, f)
-
-    # Find the dot product (unnormalized cosine similarity) for the list of documents (pairwise)
-    # NOTE: Return a matrix where element [i][j] would represent similarity between
-    #   list_docs[i] and list_docs[j]
-    def document_similarity(self, list_docs: list[int]) -> np.ndarray:
-        """
-        Calculates the pairwise similarities for a given list of documents
-
-        Args:
-            list_docs: A list of document IDs
-
-        Returns:
-            A matrix where element [i][j] is a similarity score between list_docs[i] and list_docs[j]
-        """
-        sim_mat = np.zeros((len(list_docs), len(list_docs)))
-        for i in range(len(list_docs)):
-            for j in range(i, len(list_docs)):
-                sim_mat[i][j] = util.cos_sim(
-                    self.encoded_docs[self.row_to_docid.index(list_docs[i])],
-                    self.encoded_docs[self.row_to_docid.index(list_docs[j])])
-                sim_mat[j][i] = sim_mat[i][j]
-        return sim_mat
-
 
 if __name__ == '__main__':
-    pass
+    vector_ranker = VectorRanker(index=None, ranker=None, stations_path=DATA_PATH + 'station_personalized_features.csv',
+                                 users_path=DATA_PATH + 'user_profile.csv')

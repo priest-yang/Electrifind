@@ -91,6 +91,7 @@ def get_NREL_map(filepath) -> pd.DataFrame:
     df.to_csv(DATA_PATH + 'NREL_map.csv', index=False)
     return df
 
+
 def csv2sql_schema(filepath, table_name):
     df = pd.read_csv(filepath)
     df_inferred = df.infer_objects()
@@ -108,7 +109,7 @@ def csv2sql_schema(filepath, table_name):
     for column, dtype in type_map.items():
         schema += f'{column} {dtype},\n'
     schema = schema[:-2] + ');'
-    
+
 
 def main():
     # get_NREL_map(DATA_PATH + 'NREL_raw.csv')

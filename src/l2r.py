@@ -8,9 +8,9 @@ from tqdm import tqdm
 import multiprocessing
 from collections import defaultdict, Counter
 
-from .document_preprocessor import Tokenizer
-from .indexing import InvertedIndex
-from .ranker import Ranker, TF_IDF, BM25, PivotedNormalization
+from document_preprocessor import Tokenizer
+from indexing import InvertedIndex
+from ranker import Ranker, TF_IDF, BM25, PivotedNormalization
 
 
 class L2RRanker:

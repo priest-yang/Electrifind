@@ -5,25 +5,24 @@ This file is a template code file for the Search Engine.
 import numpy as np
 import pandas as pd
 
-from .utils import CACHE_PATH, DATA_PATH
-from .models import BaseSearchEngine, SearchResponse
-from .document_preprocessor import *
-from .indexing import IndexType, Indexer
-from .ranker import *
-from .cf import CFRanker
-from .l2r import L2RRanker, L2RFeatureExtractor
-from .vector_ranker import VectorRanker
+from utils import CACHE_PATH, DATA_PATH
+from models import BaseSearchEngine, SearchResponse
+from document_preprocessor import *
+from indexing import IndexType, Indexer
+from ranker import *
+from cf import CFRanker
+from l2r import L2RRanker, L2RFeatureExtractor
+from vector_ranker import VectorRanker
 
 NREL_PATH = DATA_PATH + 'NREL_raw.csv'
 NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
 NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
 STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
-RELEVANCE_TRAIN_PATH = DATA_PATH + 'relevance.train.csv'
 DOC_IDS_PATH = DATA_PATH + 'document-ids.txt'
-SEARCH_RADIUS = 5
+SEARCH_RADIUS = 0.03
 DEFAULT_LAT = "42.30136771768067"
 DEFAULT_LNG = "-83.71907280246434"
-DEFAULT_USER = 0
+DEFAULT_USER = 2
 DEFAULT_PROMPT = None
 
 
@@ -97,44 +96,23 @@ class SearchEngine(BaseSearchEngine):
             self.reranker = 'l2r'
         elif reranker == 'vector+cf':
             print('Loading vector ranker...')
-            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
-            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
-
-            file_path = DATA_PATH + 'row_to_docid.txt'
-            with open(file_path, 'r') as file:
-                row_to_docid = file.read().splitlines()
-            row_to_docid = [int(i) for i in row_to_docid]
-            profile_row_to_userid = [1, 2]
             self.ranker = VectorRanker(
                 index=self.frame,
                 ranker=self.ranker,
-                bi_encoder_model_name=None,
-                encoded_docs=encoded_docs,
-                row_to_docid=row_to_docid,
-                user_profile=user_profile,
-                profile_row_to_userid=profile_row_to_userid)
+                stations_path = DATA_PATH + 'station_personalized_features.csv',
+                users_path = DATA_PATH + 'user_profile.csv'
+            )
             self.reranker = 'vector+cf'
             print('Loading cf ranker...')
             self.pipeline = CFRanker(self.frame, self.ranker)
         elif reranker == 'vector':
             print('Loading vector ranker...')
-            encoded_docs = np.load(DATA_PATH + 'encoded_station.npy')
-            user_profile = np.load(DATA_PATH + 'encoded_user_profile.npy')
-
-            file_path = DATA_PATH + 'row_to_docid.txt'
-            with open(file_path, 'r') as file:
-                row_to_docid = file.read().splitlines()
-            row_to_docid = [int(i) for i in row_to_docid]
-
-            profile_row_to_userid = [1, 2]
             self.pipeline = VectorRanker(
                 index=self.frame,
                 ranker=self.ranker,
-                bi_encoder_model_name=None,
-                encoded_docs=encoded_docs,
-                row_to_docid=row_to_docid,
-                user_profile=user_profile,
-                profile_row_to_userid=profile_row_to_userid)
+                stations_path = DATA_PATH + 'station_personalized_features.csv',
+                users_path = DATA_PATH + 'user_profile.csv'
+            )
             self.reranker = 'vector'
         else:
             self.reranker = None
@@ -200,14 +178,16 @@ class SearchEngine(BaseSearchEngine):
         return self.detailed_data[self.detailed_data['docid'].isin(docid_list)]
 
 
-def initialize():
-    search_obj = SearchEngine(cf=False, l2r=False)
+def initialize(ranker='dist', reranker=None):
+    search_obj = SearchEngine(ranker='dist', reranker='vector')
     return search_obj
 
 
 def main():
-    pass
-
+    search_obj = initialize()
+    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG, DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
+    search_obj.set_reranker('vector')
+    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG, DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
 
 if __name__ == "__main__":
     main()

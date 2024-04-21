@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from .ranker import *
-from .utils import DATA_PATH, CACHE_PATH
+from ranker import *
+from utils import DATA_PATH, CACHE_PATH
 
 
 class CFRanker:

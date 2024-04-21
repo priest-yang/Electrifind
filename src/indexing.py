@@ -8,8 +8,8 @@ from enum import Enum
 from tqdm import tqdm
 from collections import Counter, defaultdict
 
-from .document_preprocessor import Tokenizer, RegexTokenizer
-from .utils import merge_lat_lng
+from document_preprocessor import Tokenizer, RegexTokenizer
+from utils import merge_lat_lng
 
 
 class IndexType(Enum):
