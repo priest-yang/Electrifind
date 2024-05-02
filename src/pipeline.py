@@ -154,7 +154,8 @@ class SearchEngine(BaseSearchEngine):
                 mask = (abs(row['latitude'].values[0] - self.review_data.lat) <
                     0.001) & (abs(row['longitude'].values[0] - self.review_data.lng) < 0.001)
                 reviews_data = self.review_data[mask]
-                print(reviews_data)
+                if reviews_data.empty:
+                    continue
                 reviews = []
                 for index, line in reviews_data.iterrows():
                     reviews.append({

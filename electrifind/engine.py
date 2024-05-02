@@ -12,7 +12,7 @@ DATA_PATH = "./data/"
 NREL_PATH = DATA_PATH + "NREL_raw.csv"
 DEFAULT_LAT = 42.30136771768067
 DEFAULT_LNG = -83.71907280246434
-DEFAULT_USER = 0
+DEFAULT_USER = -1
 DEFAULT_PROMPT = None
 RADIUS_DICT = {'small': 0.01, 'med': 0.03, 'large': 0.05}
 
@@ -38,7 +38,10 @@ def search():
         lat = request.form['lat']
         lng = request.form['lng']
         prompt = request.form['prompt'] if 'prompt' in request.form else DEFAULT_PROMPT
-        user_id = request.form['user_id'] if 'user_id' in request.form else DEFAULT_USER
+        try: 
+            user_id = int(request.form['user_id'])
+        except:
+            user_id = DEFAULT_USER
         sort_by = request.form['sort']
         radius = request.form['radius']
         error = None
@@ -67,7 +70,7 @@ def search():
         else:
             result = engine.get_results_all(lat, lng, prompt, int(user_id), radius)
             if result:
-                print(result)
+                # print(result)
                 res_details = engine.get_station_info(result)
                 marker_t = {
                     "icon": icons.dots.blue,

@@ -45,7 +45,8 @@ class VectorRanker(Ranker):
 
         self.encoded_docs = encoded_docs.to_numpy()
         # np.save(CACHE_PATH + 'encoded_stations.npy', encoded_docs)
-        self.user_profile = user_profile.to_numpy()
+        user_profile = user_profile.to_numpy()
+        self.user_profile = np.concatenate((user_profile, -1 * user_profile), axis=1)
         # np.save(CACHE_PATH + 'encoded_user_profile.npy', encoded_user_profile)
 
     def personalized_re_rank(self, result: list[int] | list[tuple[int, float]], user_id: int = None) -> list[int] | list[tuple[int, float]]:
