@@ -1,9 +1,12 @@
+annotated-types==0.6.0
+aspy.yaml==1.3.0
 asttokens==2.4.1
 attrs==23.2.0
 blinker==1.7.0
 blis==0.7.11
 catalogue==2.0.10
 certifi==2024.2.2
+cfgv==3.4.0
 charset-normalizer==3.3.2
 click==8.1.7
 cloudpathlib==0.16.0
@@ -14,11 +17,12 @@ cycler==0.12.1
 cymem==2.0.8
 debugpy==1.8.1
 decorator==5.1.1
+distlib==0.3.8
 exceptiongroup==1.2.0
 executing==2.0.1
 filelock==3.13.1
-Flask==2.3.2
-flask-googlemaps==0.4.1
+Flask==2.3.1
+flask_googlemaps @ git+https://github.com/flask-extensions/Flask-GoogleMaps@6d891695e8272416880180b1c048d3be38ad4742
 fonttools==4.49.0
 fsspec==2024.2.0
 geographiclib==2.0
@@ -27,11 +31,13 @@ ghp-import==2.1.0
 greenlet==3.0.3
 htmlmin==0.1.12
 huggingface-hub==0.21.4
+identify==2.5.35
 idna==3.6
 ipykernel==6.29.3
 ipython==8.22.2
 itsdangerous==2.1.2
 jedi==0.19.1
+Jinja2==3.1.3
 joblib==1.3.2
 jsmin==3.0.1
 jsonlines==4.0.0
@@ -54,6 +60,7 @@ murmurhash==1.0.10
 nest-asyncio==1.6.0
 networkx==3.2.1
 nltk==3.8.1
+nodeenv==1.8.0
 numpy==1.26.4
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu12==12.1.105
@@ -74,6 +81,7 @@ pathspec==0.12.1
 pexpect==4.9.0
 pillow==10.2.0
 platformdirs==4.2.0
+pre-commit==1.21.0
 preshed==3.0.9
 prompt-toolkit==3.0.43
 psutil==5.9.8
@@ -108,6 +116,7 @@ sympy==1.12
 thinc==8.2.3
 threadpoolctl==3.3.0
 tokenizers==0.15.2
+toml==0.10.2
 torch==2.2.1
 torchaudio==2.2.1
 torchvision==0.17.1
@@ -120,8 +129,10 @@ typer==0.9.0
 typing_extensions==4.10.0
 tzdata==2024.1
 urllib3==2.2.1
+virtualenv==20.25.1
 waitress==3.0.0
 wasabi==1.1.2
 watchdog==4.0.0
 wcwidth==0.2.13
 weasel==0.3.4
+Werkzeug==3.0.1
