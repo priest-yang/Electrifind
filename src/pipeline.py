@@ -4,6 +4,8 @@ This file is a template code file for the Search Engine.
 '''
 import numpy as np
 import pandas as pd
+import sys
+sys.path.append('/home/zim/UMSI/Electrifind/src')
 
 from utils import CACHE_PATH, DATA_PATH
 from models import BaseSearchEngine, SearchResponse
@@ -15,6 +17,7 @@ from l2r import L2RRanker, L2RFeatureExtractor
 from vector_ranker import VectorRanker
 
 NREL_PATH = DATA_PATH + 'NREL_raw.csv'
+REVIEW_PATH = DATA_PATH + 'Google_Map_review_data_AA_DTW.csv'
 NREL_CORPUS_PATH = DATA_PATH + 'NREL_corpus.jsonl'
 NREL_NUMERICAL_PATH = DATA_PATH + 'NREL_numerical.csv'
 STOPWORDS_PATH = DATA_PATH + 'stopwords.txt'
@@ -141,12 +144,23 @@ class SearchEngine(BaseSearchEngine):
     def get_station_info(self, docid_list, all=False):
         self.detailed_data = pd.read_csv(
             NREL_PATH, delimiter='\t', low_memory=False)
+        self.review_data = pd.read_csv(REVIEW_PATH, low_memory=False)
         if not all:
             res = []
             for docid in docid_list:
                 row = self.detailed_data[self.detailed_data['id'] == docid]
                 if row.empty:
                     continue
+                mask = (abs(row['latitude'].values[0] - self.review_data.lat) <
+                    0.001) & (abs(row['longitude'].values[0] - self.review_data.lng) < 0.001)
+                reviews_data = self.review_data[mask]
+                print(reviews_data)
+                reviews = []
+                for index, line in reviews_data.iterrows():
+                    reviews.append({
+                        'rating': line['rating'],
+                        'text': line['text']
+                    })
                 res.append({
                     'id': docid,
                     'station_name': row['station_name'].values[0],
@@ -154,7 +168,12 @@ class SearchEngine(BaseSearchEngine):
                     'station_phone': row['station_phone'].values[0],
                     'ev_network': row['ev_network'].values[0],
                     'latitude': row['latitude'].values[0],
-                    'longitude': row['longitude'].values[0]
+                    'longitude': row['longitude'].values[0],
+                    'ev_connector_types': row['ev_connector_types'].values[0],
+                    'ev_pricing': row['ev_pricing'].values[0],
+                    'access_days_time': row['access_days_time'].values[0],
+                    'cards_accepted': row['cards_accepted'].values[0],
+                    'reviews': reviews
                 })
             return res
         else:

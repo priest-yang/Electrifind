@@ -88,8 +88,23 @@
                 {% for result in results %}
                 <li>
                     <div class="station_card">
-                        {{ result.station_name }} <br> {{ result.street_address }} <br> {{ result.station_phone }} <br>
-                        {{ result.ev_network }}
+                        Station name: {{ result.station_name }} <br> 
+                        Street address: {{ result.street_address }} <br> 
+                        Station phone: {{ result.station_phone }} <br>
+                        EV network: {{ result.ev_network }} <br>
+                        Connector types: {{ result.ev_connector_types }} <br>
+                        Pricing: {{ result.ev_pricing }} <br>
+                        Access days time: {{ result.access_days_time }} <br>
+                        Cards accepted: {{ result.cards_accepted }} <br>
+                        <div class="review_card">
+                            <p>Reviews:</p>
+                            {% for review in result.reviews %}
+                            <div class="review">
+                                <p>Rating: {{ review.rating }}</p>
+                                <p>Review: {{ review.text }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
                     </div>
                 </li>
                 {% endfor %}
