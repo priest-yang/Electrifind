@@ -1,5 +1,5 @@
 from flask import (
-    Blueprint, flash, g, redirect, render_template, request, url_for
+    Blueprint, flash, g, redirect, render_template, request, url_for, session
 )
 from flask_googlemaps import Map, icons
 from werkzeug.exceptions import abort
@@ -38,12 +38,18 @@ def search():
         lat = request.form['lat']
         lng = request.form['lng']
         prompt = request.form['prompt'] if 'prompt' in request.form else DEFAULT_PROMPT
-        try: 
+        try:
             user_id = int(request.form['user_id'])
         except:
             user_id = DEFAULT_USER
         sort_by = request.form['sort']
         radius = request.form['radius']
+        session['sort_by'] = sort_by
+        session['radius'] = radius
+        session['user_id'] = user_id
+        session['lat'] = lat
+        session['lng'] = lng
+        session['prompt'] = prompt
         error = None
 
         if not lat or not lng:
@@ -54,7 +60,7 @@ def search():
         elif sort_by == 'base':
             engine.set_reranker('vector')
         elif sort_by == 'cf':
-            if user_id == DEFAULT_USER or user_id == None: 
+            if user_id == DEFAULT_USER or user_id == None:
                 error = 'User ID is required for collaborative filtering.'
             engine.set_reranker('vector+cf')
         else:
@@ -68,7 +74,8 @@ def search():
         if error is not None:
             flash(error)
         else:
-            result = engine.get_results_all(lat, lng, prompt, int(user_id), radius)
+            result = engine.get_results_all(
+                lat, lng, prompt, int(user_id), radius)
             if result:
                 # print(result)
                 res_details = engine.get_station_info(result)
@@ -92,14 +99,39 @@ def search():
                     markers=markers,
                     style="height:40vmax;width:80vmax;margin:50px;",
                 )
-                return render_template(
-                    'engine/index.html',
-                    lat=lat,
-                    lng=lng,
-                    prompt=prompt,
-                    user_id=user_id,
-                    results=res_details,
-                    gmap=gmap
+            else:
+                res_details = []
+                gmap = Map(
+                    identifier="gmap",
+                    varname="gmap",
+                    lat=float(lat),
+                    lng=float(lng),
+                    style="height:40vmax;width:80vmax;margin:50px;",
                 )
 
-    return redirect(url_for('engine.index'))
+    else:
+        sort_by = session.get('sort_by', 'distance')
+        radius = session.get('radius', 'small')
+        user_id = session.get('user_id', DEFAULT_USER)
+        lat = session.get('lat', DEFAULT_LAT)
+        lng = session.get('lng', DEFAULT_LNG)
+        prompt = session.get('prompt', '')
+        res_details = []
+        gmap = Map(
+            identifier="gmap",
+            varname="gmap",
+            lat=lat,
+            lng=lng,
+            style="height:40vmax;width:80vmax;margin:50px;",
+        )
+    return render_template(
+        'engine/index.html',
+        lat=lat,
+        lng=lng,
+        prompt=prompt,
+        user_id=user_id,
+        results=res_details,
+        gmap=gmap,
+        sort_by=sort_by,
+        radius=radius
+    )
