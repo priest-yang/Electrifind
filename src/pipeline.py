@@ -2,19 +2,20 @@
 Author: Zim Gong
 This file is a template code file for the Search Engine. 
 '''
-import numpy as np
-import pandas as pd
 import sys
-sys.path.append('/home/zim/UMSI/Electrifind/src')
+import os
+import pandas as pd
 
-from utils import CACHE_PATH, DATA_PATH
-from models import BaseSearchEngine, SearchResponse
-from document_preprocessor import *
-from indexing import IndexType, Indexer
-from ranker import *
-from cf import CFRanker
-from l2r import L2RRanker, L2RFeatureExtractor
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from vector_ranker import VectorRanker
+from l2r import L2RRanker, L2RFeatureExtractor
+from cf import CFRanker
+from ranker import *
+from indexing import IndexType, Indexer
+from document_preprocessor import *
+from models import BaseSearchEngine, SearchResponse
+from utils import CACHE_PATH, DATA_PATH
 
 NREL_PATH = DATA_PATH + 'NREL_raw.csv'
 REVIEW_PATH = DATA_PATH + 'Google_Map_review_data_AA_DTW.csv'
@@ -102,8 +103,8 @@ class SearchEngine(BaseSearchEngine):
             self.ranker = VectorRanker(
                 index=self.frame,
                 ranker=self.ranker,
-                stations_path = DATA_PATH + 'station_personalized_features.csv',
-                users_path = DATA_PATH + 'user_profile.csv'
+                stations_path=DATA_PATH + 'station_personalized_features.csv',
+                users_path=DATA_PATH + 'user_profile.csv'
             )
             self.reranker = 'vector+cf'
             print('Loading cf ranker...')
@@ -113,8 +114,8 @@ class SearchEngine(BaseSearchEngine):
             self.pipeline = VectorRanker(
                 index=self.frame,
                 ranker=self.ranker,
-                stations_path = DATA_PATH + 'station_personalized_features.csv',
-                users_path = DATA_PATH + 'user_profile.csv'
+                stations_path=DATA_PATH + 'station_personalized_features.csv',
+                users_path=DATA_PATH + 'user_profile.csv'
             )
             self.reranker = 'vector'
         else:
@@ -152,7 +153,7 @@ class SearchEngine(BaseSearchEngine):
                 if row.empty:
                     continue
                 mask = (abs(row['latitude'].values[0] - self.review_data.lat) <
-                    0.001) & (abs(row['longitude'].values[0] - self.review_data.lng) < 0.001)
+                        0.001) & (abs(row['longitude'].values[0] - self.review_data.lng) < 0.001)
                 reviews_data = self.review_data[mask]
                 if reviews_data.empty:
                     continue
@@ -205,9 +206,12 @@ def initialize(ranker='dist', reranker=None):
 
 def main():
     search_obj = initialize()
-    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG, DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
+    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG,
+          DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
     search_obj.set_reranker('vector')
-    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG, DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
+    print(search_obj.get_results_all(DEFAULT_LAT, DEFAULT_LNG,
+          DEFAULT_PROMPT, DEFAULT_USER, SEARCH_RADIUS))
+
 
 if __name__ == "__main__":
     main()

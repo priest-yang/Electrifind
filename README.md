@@ -20,6 +20,16 @@ The query contains the following fields:
 
 The system will return the top electric vehicle charging stations based on the user's preferences.
 
+## Environment
+To use the syste, you need to first create a Python virtual environment:  
+```python3 -m venv .venv```  
+
+Switch to the virtual environment:  
+```source .venv/bin/activate```  
+
+Install the required packages:  
+```pip install -r requirements.txt```
+
 ## Key Features
 - **Data scraping** using GoogleMap/Serp/NREL API
 - **NLP** comments using ChatGPT API & **prompt engineering**
