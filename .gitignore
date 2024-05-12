@@ -163,4 +163,5 @@ cython_debug/
 __cache__/
 data/RAW_train/
 data/RAW_test/
+pilot_test/
 .DS_Store
